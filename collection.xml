@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<collection xmlns="http://cudl.lib.cam.ac.uk/1.0/collection" xmlns:i="http://cudl.lib.cam.ac.uk/1.0/item" xmlns:r="http://cudl.lib.cam.ac.uk/1.0/resource">
+    <id>hebrew</id>
+    <title>Hebrew Manuscripts</title>
+    <type>organisation</type>
+    <parentCollectionId></parentCollectionId>
+    <metaDescription>A collection of Manuscripts provided by Manchester University</metaDescription>
+    <resources>
+        <r:resource>
+            <r:type>webcontent</r:type>
+            <r:representation>html</r:representation>
+            <r:target>summary</r:target>
+            <r:location>/html/summary.html</r:location>
+        </r:resource>
+        <r:resource>
+            <r:type>webcontent</r:type>
+            <r:representation>html</r:representation>
+            <r:target>sponsors</r:target>
+            <r:location>/html/sponsors.html</r:location>
+        </r:resource>
+    </resources>
+    <items>
+        <i:item>
+            <i:id>MS-HEBREW-GASTER-00086</i:id>
+        </i:item>
+        <i:item>
+            <i:id>MS-HEBREW-GASTER-00274</i:id>
+        </i:item>
+        <i:item>
+            <i:id>MS-HEBREW-MSS-00008</i:id>
+        </i:item>
+    </items>
+</collection>
+

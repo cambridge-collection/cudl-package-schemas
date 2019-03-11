@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" targetNamespace="http://cudl.lib.cam.ac.uk/1.0/collection" xmlns:collection="http://cudl.lib.cam.ac.uk/1.0/collection" xmlns:r="http://cudl.lib.cam.ac.uk/1.0/resource" xmlns:i="http://cudl.lib.cam.ac.uk/1.0/item">
+  <xs:import namespace="http://cudl.lib.cam.ac.uk/1.0/item" schemaLocation="item.xsd"/>
+  <xs:import namespace="http://cudl.lib.cam.ac.uk/1.0/resource" schemaLocation="resource.xsd"/>
+  <xs:element name="collection" type="collection:CollectionType"/>
+  <xs:complexType name="CollectionType">
+    <xs:sequence>
+      <xs:element ref="collection:id"/>
+      <xs:element ref="collection:title" minOccurs="0"/>
+      <xs:element ref="collection:type" minOccurs="0"/>
+      <xs:element ref="collection:parentCollectionId" minOccurs="0"/>
+      <xs:element ref="collection:metaDescription" minOccurs="0"/>
+      <xs:element ref="collection:resources" minOccurs="0"/>
+      <xs:element ref="collection:items" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="id" type="xs:NCName"/>
+  <xs:element name="title" type="xs:string"/>
+  <xs:element name="type" type="xs:NCName"/>
+  <xs:element name="parentCollectionId" type="xs:NCName"/>
+  <xs:element name="metaDescription" type="xs:string"/>
+  <xs:element name="resources">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="r:resource"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="items">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="i:item"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
