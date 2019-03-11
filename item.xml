@@ -1,47 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<item xmlns="http://cudl.lib.cam.ac.uk/1.0/item" xmlns:r="http://cudl.lib.cam.ac.uk/1.0/resource">
+<item xmlns="http://cudl.lib.cam.ac.uk/1.0/item" 
+    xmlns:r="http://cudl.lib.cam.ac.uk/1.0/resource">
     <id>MS-HEBREW-GASTER-00086</id>
     <flags>
         <iiifenabled>true</iiifenabled>
         <taggingstatus>false</taggingstatus>
     </flags>
     <resources>
-        <r:resource>
+        <resource>
             <r:type>metadata</r:type>
             <r:representation>tei</r:representation>
             <r:location>/tei/MS-HEBREW-GASTER-00086.xml</r:location>
-        </r:resource>
-        <r:resource>
+        </resource>
+        <resource>
             <r:type>image</r:type>
             <r:representation>tif</r:representation>
             <r:location>/img/MS-HEBREW-GASTER-00086/MS-HEBREW-GASTER-00086-000-00268.tiff</r:location>
-        </r:resource>
-        <r:resource>
+        </resource>
+        <resource>
             <r:type>image</r:type>
             <r:representation>tif</r:representation>
             <r:location>/img/MS-HEBREW-GASTER-00086/MS-HEBREW-GASTER-00086-000-00269.tiff</r:location>
-        </r:resource>
-        <r:resource>
+        </resource>
+        <resource>
             <r:type>image</r:type>
             <r:representation>tif</r:representation>
             <r:location>/img/MS-HEBREW-GASTER-00086/MS-HEBREW-GASTER-00086-000-00270.tiff</r:location>
-        </r:resource>
-        <r:resource>
+        </resource>
+        <resource>
             <r:type>image</r:type>
             <r:representation>tif</r:representation>
             <r:location>/img/MS-HEBREW-GASTER-00086/MS-HEBREW-GASTER-00086-000-00271.tiff</r:location>
-        </r:resource>
-        <r:resource>
+        </resource>
+        <resource>
             <r:type>image</r:type>
             <r:representation>tif</r:representation>
             <r:location>/img/MS-HEBREW-GASTER-00086/MS-HEBREW-GASTER-00086-000-00272.tiff</r:location>
-        </r:resource>
+        </resource>
     </resources>
 </item>
-
-
-<!-- EXAMPLE OF POSSIBLE RESOURCE WITH ATTRS -->
-<r:resource type="image" repr="tif">
-    <r:location>/img/MS-HEBREW-GASTER-00086/MS-HEBREW-GASTER-00086-000-00272.tiff</r:location>
-    <r:target>viewer</r:target>
-</r:resource>

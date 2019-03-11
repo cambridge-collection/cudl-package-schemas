@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" targetNamespace="http://cudl.lib.cam.ac.uk/1.0/collection" xmlns:collection="http://cudl.lib.cam.ac.uk/1.0/collection" xmlns:r="http://cudl.lib.cam.ac.uk/1.0/resource" xmlns:i="http://cudl.lib.cam.ac.uk/1.0/item">
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+  elementFormDefault="qualified" 
+  targetNamespace="http://cudl.lib.cam.ac.uk/1.0/collection" 
+  xmlns:collection="http://cudl.lib.cam.ac.uk/1.0/collection" 
+  xmlns:r="http://cudl.lib.cam.ac.uk/1.0/resource" 
+  xmlns:i="http://cudl.lib.cam.ac.uk/1.0/item">
   <xs:import namespace="http://cudl.lib.cam.ac.uk/1.0/item" schemaLocation="item.xsd"/>
   <xs:import namespace="http://cudl.lib.cam.ac.uk/1.0/resource" schemaLocation="resource.xsd"/>
   <xs:element name="collection" type="collection:CollectionType"/>
@@ -22,15 +27,38 @@
   <xs:element name="resources">
     <xs:complexType>
       <xs:sequence>
-        <xs:element maxOccurs="unbounded" ref="r:resource"/>
+        <xs:element ref="collection:resource" maxOccurs="unbounded"/>
       </xs:sequence>
     </xs:complexType>
   </xs:element>
+  <xs:element name="resource" type="collection:CollectionResourceType"/>
+  <xs:complexType name="CollectionResourceType">
+    <xs:complexContent>
+      <xs:restriction base="r:ResourceType">
+        <xs:sequence>
+          <xs:element ref="r:type"/>
+          <xs:element ref="r:representation"/>
+          <xs:element ref="r:target"/>
+          <xs:element ref="r:location"/>
+        </xs:sequence>
+      </xs:restriction>
+    </xs:complexContent>
+  </xs:complexType>
   <xs:element name="items">
     <xs:complexType>
       <xs:sequence>
-        <xs:element maxOccurs="unbounded" ref="i:item"/>
+        <xs:element ref="collection:item" maxOccurs="unbounded"/>
       </xs:sequence>
     </xs:complexType>
   </xs:element>
+  <xs:element name="item" type="collection:CollectionItemType"/>
+  <xs:complexType name="CollectionItemType">
+    <xs:complexContent>
+      <xs:restriction base="i:ItemType">
+        <xs:sequence>
+          <xs:element ref="i:id"/>
+        </xs:sequence>
+      </xs:restriction>
+    </xs:complexContent>
+  </xs:complexType>
 </xs:schema>

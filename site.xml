@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<site xmlns="http://cudl.lib.cam.ac.uk/1.0/site" xmlns:c="http://cudl.lib.cam.ac.uk/1.0/collection">
+<site xmlns="http://cudl.lib.cam.ac.uk/1.0/site" 
+    xmlns:c="http://cudl.lib.cam.ac.uk/1.0/collection">
     <collections>
         <collection>
             <c:id>hebrew</c:id>
@@ -28,15 +29,5 @@
         <collection>
             <c:id>tennyson</c:id>
         </collection>
-    </collections>
-</site>
-
-
-
-<!-- EXAMPLE OF POSSIBLE SITE WITH COLLECTION ATTRS (not sure if you need a namespace for collection if you are using attrs)-->
-<site xmlns="http://cudl.lib.cam.ac.uk/1.0/site" xmlns:c="http://cudl.lib.cam.ac.uk/1.0/collection">
-    <collections>
-        <collection c:id="hebrew"/>
-        <collection c:id="petrarch"/>
     </collections>
 </site>
