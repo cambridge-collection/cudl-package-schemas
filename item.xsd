@@ -3,42 +3,16 @@
   elementFormDefault="qualified" 
   targetNamespace="http://cudl.lib.cam.ac.uk/1.0/item" 
   xmlns:item="http://cudl.lib.cam.ac.uk/1.0/item" 
-  xmlns:r="http://cudl.lib.cam.ac.uk/1.0/resource">
-  <xs:import namespace="http://cudl.lib.cam.ac.uk/1.0/resource" schemaLocation="resource.xsd"/>
+  xmlns:itemType="http://cudl.lib.cam.ac.uk/1.0/ItemType">
+  <xs:import namespace="http://cudl.lib.cam.ac.uk/1.0/ItemType" schemaLocation="ItemType.xsd"/>
   <xs:element name="item" type="item:ItemType"/>
   <xs:complexType name="ItemType">
-    <xs:sequence>
-      <xs:element ref="item:id"/>
-      <xs:element ref="item:flags" minOccurs="0"/>
-      <xs:element ref="item:resources" minOccurs="0"/>
-    </xs:sequence>
-  </xs:complexType>
-  <xs:element name="id" type="xs:NCName"/>
-  <xs:element name="flags">
-    <xs:complexType>
-      <xs:sequence>
-        <xs:element ref="item:iiifenabled"/>
-        <xs:element ref="item:taggingstatus" minOccurs="0"/>
-      </xs:sequence>
-    </xs:complexType>
-  </xs:element>
-  <xs:element name="iiifenabled" type="xs:boolean"/>
-  <xs:element name="taggingstatus" type="xs:boolean" default="false"/>
-  <xs:element name="resources">
-    <xs:complexType>
-      <xs:sequence>
-        <xs:element ref="item:resource" maxOccurs="unbounded"/>
-      </xs:sequence>
-    </xs:complexType>
-  </xs:element>
-  <xs:element name="resource" type="item:ItemResourceType"/>
-  <xs:complexType name="ItemResourceType">
     <xs:complexContent>
-      <xs:restriction base="r:ResourceType">
+      <xs:restriction base="itemType:ItemType">
         <xs:sequence>
-          <xs:element ref="r:type"/>
-          <xs:element ref="r:representation"/>
-          <xs:element ref="r:location"/>
+          <xs:element ref="itemType:id"/>
+          <xs:element ref="itemType:flags"/>
+          <xs:element ref="itemType:resources"/>
         </xs:sequence>
       </xs:restriction>
     </xs:complexContent>

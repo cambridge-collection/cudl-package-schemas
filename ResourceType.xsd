@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+  elementFormDefault="qualified" 
+  targetNamespace="http://cudl.lib.cam.ac.uk/1.0/ResourceType" 
+  xmlns:resourceType="http://cudl.lib.cam.ac.uk/1.0/ResourceType">
+  <xs:element name="resource" type="resourceType:ResourceType" abstract="true"/>
+  <xs:complexType name="ResourceType">
+    <xs:sequence>
+      <xs:element ref="resourceType:type" minOccurs="0"/>
+      <xs:element ref="resourceType:representation" minOccurs="0"/>
+      <xs:element ref="resourceType:target" minOccurs="0"/>
+      <xs:element ref="resourceType:location"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="type" type="xs:NCName"/>
+  <xs:element name="representation" type="xs:NCName"/>
+  <xs:element name="target" type="xs:NCName"/>
+  <xs:element name="location" type="xs:string"/>
+</xs:schema>

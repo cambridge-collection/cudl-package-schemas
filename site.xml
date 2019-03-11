@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site xmlns="http://cudl.lib.cam.ac.uk/1.0/site" 
-    xmlns:c="http://cudl.lib.cam.ac.uk/1.0/collection">
+    xmlns:coll="http://cudl.lib.cam.ac.uk/1.0/CollectionType">
     <collections>
         <collection>
-            <c:id>hebrew</c:id>
+            <coll:id>hebrew</coll:id>
         </collection>
         <collection>
-            <c:id>petrarch</c:id>
+            <coll:id>petrarch</coll:id>
         </collection>
         <collection>
-            <c:id>landscapehistories</c:id>
+            <coll:id>landscapehistories</coll:id>
         </collection>
         <collection>
-            <c:id>treasures</c:id>
+            <coll:id>treasures</coll:id>
         </collection>
         <collection>
-            <c:id>sassoon</c:id>
+            <coll:id>sassoon</coll:id>
         </collection>
         <collection>
-            <c:id>lewisgibson</c:id>
+            <coll:id>lewisgibson</coll:id>
         </collection>
         <collection>
-            <c:id>darwinhooker</c:id>
+            <coll:id>darwinhooker</coll:id>
         </collection>
         <collection>
-            <c:id>japanese</c:id>
+            <coll:id>japanese</coll:id>
         </collection>
         <collection>
-            <c:id>tennyson</c:id>
+            <coll:id>tennyson</coll:id>
         </collection>
     </collections>
 </site>

@@ -1,35 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<collection xmlns="http://cudl.lib.cam.ac.uk/1.0/collection" 
-    xmlns:i="http://cudl.lib.cam.ac.uk/1.0/item" 
-    xmlns:r="http://cudl.lib.cam.ac.uk/1.0/resource">
+<c:collection xmlns:c="http://cudl.lib.cam.ac.uk/1.0/collection" 
+    xmlns="http://cudl.lib.cam.ac.uk/1.0/CollectionType"
+    xmlns:res="http://cudl.lib.cam.ac.uk/1.0/ResourceType"
+    xmlns:it="http://cudl.lib.cam.ac.uk/1.0/ItemType">
     <id>hebrew</id>
     <title>Hebrew Manuscripts</title>
     <type>organisation</type>
     <metaDescription>A collection of Manuscripts provided by Manchester University</metaDescription>
     <resources>
         <resource>
-            <r:type>webcontent</r:type>
-            <r:representation>html</r:representation>
-            <r:target>summary</r:target>
-            <r:location>/html/summary.html</r:location>
+            <res:type>webcontent</res:type>
+            <res:representation>html</res:representation>
+            <res:target>summary</res:target>
+            <res:location>/html/summary.html</res:location>
         </resource>
         <resource>
-            <r:type>webcontent</r:type>
-            <r:representation>html</r:representation>
-            <r:target>sponsors</r:target>
-            <r:location>/html/sponsors.html</r:location>
+            <res:type>webcontent</res:type>
+            <res:representation>html</res:representation>
+            <res:target>sponsors</res:target>
+            <res:location>/html/sponsors.html</res:location>
         </resource>
     </resources>
     <items>
         <item>
-            <i:id>MS-HEBREW-GASTER-00086</i:id>
+            <it:id>MS-HEBREW-GASTER-00086</it:id>
         </item>
         <item>
-            <i:id>MS-HEBREW-GASTER-00274</i:id>
+            <it:id>MS-HEBREW-GASTER-00274</it:id>
         </item>
         <item>
-            <i:id>MS-HEBREW-MSS-00008</i:id>
+            <it:id>MS-HEBREW-MSS-00008</it:id>
         </item>
     </items>
-</collection>
+</c:collection>
 
