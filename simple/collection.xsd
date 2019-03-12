@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+  elementFormDefault="qualified" 
+  targetNamespace="http://cudl.lib.cam.ac.uk/1.0/collection" 
+  xmlns:collection="http://cudl.lib.cam.ac.uk/1.0/collection">
+  <xs:element name="collection">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="collection:title"/>
+        <xs:element ref="collection:type"/>
+        <xs:element ref="collection:parentCollectionId" minOccurs="0"/>
+        <xs:element ref="collection:metaDescription"/>
+        <xs:element ref="collection:resources"/>
+        <xs:element ref="collection:items"/>
+      </xs:sequence>
+      <xs:attribute name="id" use="required" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="title" type="xs:string"/>
+  <xs:element name="type" type="xs:NCName"/>
+  <xs:element name="parentCollectionId" type="xs:NCName"/>
+  <xs:element name="metaDescription" type="xs:string"/>
+  <xs:element name="resources">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="collection:resource"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="resource">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="collection:type"/>
+        <xs:element ref="collection:representation"/>
+        <xs:element ref="collection:target"/>
+        <xs:element ref="collection:location"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="representation" type="xs:NCName"/>
+  <xs:element name="target" type="xs:NCName"/>
+  <xs:element name="location" type="xs:string"/>
+  <xs:element name="items">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="collection:item"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="item">
+    <xs:complexType>
+      <xs:attribute name="id" use="required" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

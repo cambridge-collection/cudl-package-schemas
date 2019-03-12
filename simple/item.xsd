@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+  elementFormDefault="qualified" 
+  targetNamespace="http://cudl.lib.cam.ac.uk/1.0/item" 
+  xmlns:item="http://cudl.lib.cam.ac.uk/1.0/item">
+  <xs:element name="item">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="item:flags"/>
+        <xs:element ref="item:resources"/>
+      </xs:sequence>
+      <xs:attribute name="id" use="required" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="flags">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="item:iiifenabled"/>
+        <xs:element ref="item:taggingstatus" minOccurs="0"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="iiifenabled" type="xs:boolean"/>
+  <xs:element name="taggingstatus" type="xs:boolean" default="false"/>
+  <xs:element name="resources">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="item:resource"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="resource">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="item:type"/>
+        <xs:element ref="item:representation"/>
+        <xs:element ref="item:location"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="type" type="xs:NCName"/>
+  <xs:element name="representation" type="xs:NCName"/>
+  <xs:element name="location" type="xs:string"/>
+</xs:schema>

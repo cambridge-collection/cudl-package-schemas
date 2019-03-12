@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site xmlns="http://cudl.lib.cam.ac.uk/1.0/site"
+    id="johnrylands">
+    <collections>
+        <collection id="hebrew"/>      
+        <collection id="petrarch"/>
+        <collection id="landscapehistories"/>
+        <collection id="treasures"/>
+        <collection id="sassoon"/>
+        <collection id="lewisgibson"/>
+        <collection id="darwinhooker"/>
+        <collection id="japanese"/>
+        <collection id="tennyson"/>
+    </collections>
+</site>

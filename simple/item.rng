@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<grammar ns="http://cudl.lib.cam.ac.uk/1.0/item" xmlns="http://relaxng.org/ns/structure/1.0" datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes">
+  <start>
+    <element name="item">
+      <attribute name="id">
+        <data type="NCName"/>
+      </attribute>
+      <element name="flags">
+        <element name="iiifenabled">
+          <data type="boolean"/>
+        </element>
+        <element name="taggingstatus">
+          <data type="boolean"/>
+        </element>
+      </element>
+      <element name="resources">
+        <oneOrMore>
+          <element name="resource">
+            <element name="type">
+              <data type="NCName"/>
+            </element>
+            <element name="representation">
+              <data type="NCName"/>
+            </element>
+            <element name="location">
+              <text/>
+            </element>
+          </element>
+        </oneOrMore>
+      </element>
+    </element>
+  </start>
+</grammar>

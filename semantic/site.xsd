@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" 
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+  elementFormDefault="qualified" 
   targetNamespace="http://cudl.lib.cam.ac.uk/1.0/site" 
   xmlns:site="http://cudl.lib.cam.ac.uk/1.0/site" 
   xmlns:collectionType="http://cudl.lib.cam.ac.uk/1.0/CollectionType">

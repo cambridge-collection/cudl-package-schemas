@@ -1,0 +1,17 @@
+default namespace = "http://cudl.lib.cam.ac.uk/1.0/item"
+
+start =
+  element item {
+    attribute id { xsd:NCName },
+    element flags {
+      element iiifenabled { xsd:boolean },
+      element taggingstatus { xsd:boolean }
+    },
+    element resources {
+      element resource {
+        element type { xsd:NCName },
+        element representation { xsd:NCName },
+        element location { text }
+      }+
+    }
+  }
