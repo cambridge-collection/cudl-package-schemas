@@ -2,7 +2,7 @@
 <collection xmlns="http://cudl.lib.cam.ac.uk/1.0/collection" 
     id="hebrew">
     <title>Hebrew Manuscripts</title>
-    <type>organisation</type>
+    <collType>organisation</collType>
     <metaDescription>A collection of Manuscripts provided by Manchester University</metaDescription>
     <resources>
         <resource>

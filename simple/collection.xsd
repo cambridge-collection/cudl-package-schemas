@@ -7,7 +7,7 @@
     <xs:complexType>
       <xs:sequence>
         <xs:element ref="collection:title"/>
-        <xs:element ref="collection:type"/>
+        <xs:element ref="collection:collType"/>
         <xs:element ref="collection:parentCollectionId" minOccurs="0"/>
         <xs:element ref="collection:metaDescription"/>
         <xs:element ref="collection:resources"/>
@@ -17,7 +17,7 @@
     </xs:complexType>
   </xs:element>
   <xs:element name="title" type="xs:string"/>
-  <xs:element name="type" type="xs:NCName"/>
+  <xs:element name="collType" type="xs:NCName"/>
   <xs:element name="parentCollectionId" type="xs:NCName"/>
   <xs:element name="metaDescription" type="xs:string"/>
   <xs:element name="resources">
@@ -37,9 +37,31 @@
       </xs:sequence>
     </xs:complexType>
   </xs:element>
-  <xs:element name="representation" type="xs:NCName"/>
+  <xs:element name="type">
+    <xs:simpleType>
+      <xs:restriction base="xs:NCName">
+        <xs:enumeration value="webcontent"/>
+        <xs:enumeration value="image"/>
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:element> 
+  <xs:element name="representation">
+    <xs:simpleType>
+      <xs:restriction base="xs:NCName">
+        <xs:enumeration value="html"/>
+        <xs:enumeration value="tif"/>
+        <xs:enumeration value="jpg"/>
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:element> 
   <xs:element name="target" type="xs:NCName"/>
-  <xs:element name="location" type="xs:string"/>
+  <xs:element name="location">
+    <xs:simpleType>
+      <xs:restriction base="xs:string">
+        <xs:pattern value="(https?:/)?(/([_0-9a-zA-Z\.\-])+)+"/>
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:element> 
   <xs:element name="items">
     <xs:complexType>
       <xs:sequence>
