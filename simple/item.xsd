@@ -3,6 +3,7 @@
   elementFormDefault="qualified" 
   targetNamespace="http://cudl.lib.cam.ac.uk/1.0/item" 
   xmlns:item="http://cudl.lib.cam.ac.uk/1.0/item">
+  
   <xs:element name="item">
     <xs:complexType>
       <xs:sequence>
@@ -12,6 +13,7 @@
       <xs:attribute name="id" use="required" type="xs:NCName"/>
     </xs:complexType>
   </xs:element>
+  
   <xs:element name="flags">
     <xs:complexType>
       <xs:sequence>
@@ -20,8 +22,10 @@
       </xs:sequence>
     </xs:complexType>
   </xs:element>
+  
   <xs:element name="iiifenabled" type="xs:boolean"/>
   <xs:element name="taggingstatus" type="xs:boolean" default="false"/>
+  
   <xs:element name="resources">
     <xs:complexType>
       <xs:sequence>
@@ -29,6 +33,7 @@
       </xs:sequence>
     </xs:complexType>
   </xs:element>
+  
   <xs:element name="resource">
     <xs:complexType>
       <xs:sequence>
@@ -38,6 +43,7 @@
       </xs:sequence>
     </xs:complexType>
   </xs:element>
+  
   <xs:element name="type">
     <xs:simpleType>
       <xs:restriction base="xs:NCName">
@@ -46,6 +52,7 @@
       </xs:restriction>
     </xs:simpleType>
   </xs:element> 
+  
   <xs:element name="representation">
     <xs:simpleType>
       <xs:restriction base="xs:NCName">
@@ -59,6 +66,7 @@
       </xs:restriction>
     </xs:simpleType>
   </xs:element> 
+  
   <xs:element name="location">
     <xs:simpleType>
       <xs:restriction base="xs:string">
@@ -66,4 +74,5 @@
       </xs:restriction>
     </xs:simpleType>
   </xs:element> 
+  
 </xs:schema>

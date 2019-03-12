@@ -3,6 +3,7 @@
   elementFormDefault="qualified" 
   targetNamespace="http://cudl.lib.cam.ac.uk/1.0/site" 
   xmlns:site="http://cudl.lib.cam.ac.uk/1.0/site">
+  
   <xs:element name="site">
     <xs:complexType>
       <xs:sequence>
@@ -11,6 +12,7 @@
       <xs:attribute name="id" use="required" type="xs:NCName"/>
     </xs:complexType>
   </xs:element>
+  
   <xs:element name="collections">
     <xs:complexType>
       <xs:sequence>
@@ -18,9 +20,11 @@
       </xs:sequence>
     </xs:complexType>
   </xs:element>
+  
   <xs:element name="collection">
     <xs:complexType>
       <xs:attribute name="id" use="required" type="xs:NCName"/>
     </xs:complexType>
   </xs:element>
+  
 </xs:schema>

@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <collection xmlns="http://cudl.lib.cam.ac.uk/1.0/collection" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://cudl.lib.cam.ac.uk/1.0/collection collection.xsd"
+    
     id="hebrew">
+    
     <title>Hebrew Manuscripts</title>
-    <collType>organisation</collType>
+    <type>organisation</type>
     <metaDescription>A collection of Manuscripts provided by Manchester University</metaDescription>
+    
     <resources>
         <resource>
             <type>webcontent</type>
@@ -18,10 +23,12 @@
             <location>/html/sponsors.html</location>
         </resource>
     </resources>
+    
     <items>
         <item id="MS-HEBREW-GASTER-00086"/>
         <item id="MS-HEBREW-GASTER-00274"/>
         <item id="MS-HEBREW-MSS-00008"/>
     </items>
+    
 </collection>
 

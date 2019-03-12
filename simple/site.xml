@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site xmlns="http://cudl.lib.cam.ac.uk/1.0/site"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://cudl.lib.cam.ac.uk/1.0/site site.xsd"
+    
     id="johnrylands">
+    
     <collections>
         <collection id="hebrew"/>      
         <collection id="petrarch"/>
@@ -12,4 +16,5 @@
         <collection id="japanese"/>
         <collection id="tennyson"/>
     </collections>
+    
 </site>
