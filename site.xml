@@ -1,33 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<site xmlns="http://cudl.lib.cam.ac.uk/1.0/site" 
-    xmlns:coll="http://cudl.lib.cam.ac.uk/1.0/CollectionType">
+<site xmlns="http://cudl.lib.cam.ac.uk/1.0/site"
+    id="johnrylands">
     <collections>
-        <collection>
-            <coll:id>hebrew</coll:id>
-        </collection>
-        <collection>
-            <coll:id>petrarch</coll:id>
-        </collection>
-        <collection>
-            <coll:id>landscapehistories</coll:id>
-        </collection>
-        <collection>
-            <coll:id>treasures</coll:id>
-        </collection>
-        <collection>
-            <coll:id>sassoon</coll:id>
-        </collection>
-        <collection>
-            <coll:id>lewisgibson</coll:id>
-        </collection>
-        <collection>
-            <coll:id>darwinhooker</coll:id>
-        </collection>
-        <collection>
-            <coll:id>japanese</coll:id>
-        </collection>
-        <collection>
-            <coll:id>tennyson</coll:id>
-        </collection>
+        <collection id="hebrew"/>      
+        <collection id="petrarch"/>
+        <collection id="landscapehistories"/>
+        <collection id="treasures"/>
+        <collection id="sassoon"/>
+        <collection id="lewisgibson"/>
+        <collection id="darwinhooker"/>
+        <collection id="japanese"/>
+        <collection id="tennyson"/>
     </collections>
 </site>

@@ -10,7 +10,6 @@
     <xs:complexContent>
       <xs:restriction base="collectionType:CollectionType">
         <xs:sequence>
-          <xs:element ref="collectionType:id"/>
           <xs:element ref="collectionType:title"/>
           <xs:element ref="collectionType:type"/>
           <xs:element ref="collectionType:parentCollectionId" minOccurs="0"/>

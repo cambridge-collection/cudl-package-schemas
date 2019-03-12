@@ -9,6 +9,7 @@
       <xs:sequence>
         <xs:element ref="site:collections"/>
       </xs:sequence>
+      <xs:attribute name="id" type="xs:NCName" use="required"/>
     </xs:complexType>
   </xs:element>
   <xs:element name="collections">
@@ -21,11 +22,7 @@
   <xs:element name="collection" type="site:SiteCollectionType"/>
   <xs:complexType name="SiteCollectionType">
     <xs:complexContent>
-      <xs:restriction base="collectionType:CollectionType">
-        <xs:sequence>
-          <xs:element ref="collectionType:id"/>
-        </xs:sequence>
-      </xs:restriction>
+      <xs:restriction base="collectionType:CollectionType"/>
     </xs:complexContent>
   </xs:complexType>
 </xs:schema>

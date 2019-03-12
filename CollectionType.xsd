@@ -10,7 +10,6 @@
     <xs:element name="collection" type="collectionType:CollectionType" abstract="true"/>
     <xs:complexType name="CollectionType">
         <xs:sequence>
-            <xs:element ref="collectionType:id"/>
             <xs:element ref="collectionType:title" minOccurs="0"/>
             <xs:element ref="collectionType:type" minOccurs="0"/>
             <xs:element ref="collectionType:parentCollectionId" minOccurs="0"/>
@@ -18,8 +17,8 @@
             <xs:element ref="collectionType:resources" minOccurs="0"/>
             <xs:element ref="collectionType:items" minOccurs="0"/>
         </xs:sequence>
+        <xs:attribute name="id" type="xs:NCName" use="required"/>
     </xs:complexType>
-    <xs:element name="id" type="xs:NCName"/>
     <xs:element name="title" type="xs:string"/>
     <xs:element name="type" type="xs:NCName"/>
     <xs:element name="parentCollectionId" type="xs:NCName"/>
@@ -54,11 +53,7 @@
     <xs:element name="item" type="collectionType:CollectionItemType"/>
     <xs:complexType name="CollectionItemType">
         <xs:complexContent>
-            <xs:restriction base="itemType:ItemType">
-                <xs:sequence>
-                    <xs:element ref="itemType:id"/>
-                </xs:sequence>
-            </xs:restriction>
+            <xs:restriction base="itemType:ItemType" />
         </xs:complexContent>
     </xs:complexType>
 </xs:schema>

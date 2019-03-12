@@ -10,7 +10,6 @@
     <xs:complexContent>
       <xs:restriction base="itemType:ItemType">
         <xs:sequence>
-          <xs:element ref="itemType:id"/>
           <xs:element ref="itemType:flags"/>
           <xs:element ref="itemType:resources"/>
         </xs:sequence>

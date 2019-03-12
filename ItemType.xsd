@@ -8,12 +8,11 @@
     <xs:element name="item" type="itemType:ItemType" abstract="true"/>
     <xs:complexType name="ItemType">
         <xs:sequence>
-            <xs:element ref="itemType:id"/>
             <xs:element ref="itemType:flags" minOccurs="0"/>
             <xs:element ref="itemType:resources" minOccurs="0"/>
         </xs:sequence>
+        <xs:attribute name="id" type="xs:NCName" use="required"/>
     </xs:complexType>
-    <xs:element name="id" type="xs:NCName"/>
     <xs:element name="flags">
         <xs:complexType>
             <xs:sequence>
