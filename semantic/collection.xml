@@ -2,10 +2,13 @@
 <collection xmlns="http://cudl.lib.cam.ac.uk/1.0/collection" 
     xmlns:co="http://cudl.lib.cam.ac.uk/1.0/CollectionType"
     xmlns:res="http://cudl.lib.cam.ac.uk/1.0/ResourceType"
+    
     id="hebrew">
+    
     <co:title>Hebrew Manuscripts</co:title>
     <co:type>organisation</co:type>
     <co:metaDescription>A collection of Manuscripts provided by Manchester University</co:metaDescription>
+
     <co:resources>
         <co:resource>
             <res:type>webcontent</res:type>
@@ -20,10 +23,12 @@
             <res:location>/html/sponsors.html</res:location>
         </co:resource>
     </co:resources>
+
     <co:items>
         <co:item id="MS-HEBREW-GASTER-00086"/>
         <co:item id="MS-HEBREW-GASTER-00274"/>
         <co:item id="MS-HEBREW-MSS-00008"/>
     </co:items>
+
 </collection>
 
