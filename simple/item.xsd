@@ -63,6 +63,7 @@
         <xs:enumeration value="dcp"/>
         <xs:enumeration value="tif"/>
         <xs:enumeration value="jpg"/>
+        <xs:enumeration value="jp2"/>
       </xs:restriction>
     </xs:simpleType>
   </xs:element> 
@@ -70,7 +71,7 @@
   <xs:element name="location">
     <xs:simpleType>
       <xs:restriction base="xs:string">
-        <xs:pattern value="(https?:/)?(/([_0-9a-zA-Z\.\-])+)+"/>
+        <xs:pattern value="(https?:/)?(/?([_0-9a-zA-Z\.\-])+)+/?"/>
       </xs:restriction>
     </xs:simpleType>
   </xs:element> 
