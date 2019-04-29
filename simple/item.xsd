@@ -17,15 +17,15 @@
   <xs:element name="flags">
     <xs:complexType>
       <xs:sequence>
-        <xs:element ref="item:iiifenabled"/>
+        <xs:element ref="item:iiifenabled" minOccurs="0"/>
         <xs:element ref="item:taggingstatus" minOccurs="0"/>
       </xs:sequence>
     </xs:complexType>
   </xs:element>
   
-  <xs:element name="iiifenabled" type="xs:boolean"/>
+  <xs:element name="iiifenabled" type="xs:boolean" default="true"/>
   <xs:element name="taggingstatus" type="xs:boolean" default="false"/>
-  
+
   <xs:element name="resources">
     <xs:complexType>
       <xs:sequence>

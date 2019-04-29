@@ -1,0 +1,220 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "definitions": {
+
+    "orientation": {
+      "type": "string",
+      "enum": ["portrait", "landscape"]
+    },
+
+    "html": {
+      "type": "string",
+      "contentMediaType": "text/html"
+    },
+
+    "descriptiveMetadataSection": {
+      "type": "object",
+      "allOf": [
+        { "$ref": "#/definitions/topLevelDescriptiveMetadataProperties" },
+        { "$ref": "#/definitions/metadataContainer" }
+      ]
+    },
+
+    "topLevelDescriptiveMetadataProperties": {
+      "type": "object",
+      "properties": {
+        "ID": { "type": "string" },
+
+        "thumbnailUrl": { "type": "string", "format": "uri-reference" },
+        "thumbnailOrientation": { "$ref": "#/definitions/orientation" },
+        "displayImageRights": { "$ref": "#/definitions/html" },
+        "downloadImageRights": { "$ref": "#/definitions/html" },
+        "imageReproPageURL": { "type": "string", "format": "uri-reference" },
+        "docAuthority": { "$ref": "#/definitions/html" },
+        "type": { "type": "string", "enum": ["text"] },
+        "manuscript": { "type": "boolean" },
+        "itemReferences": {
+          "$comment": "Used in itemType: essay to link to related items",
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "ID": {
+                "$comment": "IDs are item JSON filenames without the .json extension",
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    },
+
+    "metadataContainer": {
+      "title": "Metadata Container",
+      "description": "An object directly containing displayable descriptive metadata objects, or objects with value arrays containing nested Metadata Containers.",
+      "type": "object",
+      "additionalProperties": {
+        "anyOf": [
+          {
+            "title": "Nested metadata ",
+            "type": "object",
+            "not": {
+              "$comment": "Dont' allow label property",
+              "type": "object",
+              "required": ["label"]
+            },
+            "properties": {
+              "value": {
+                "type": "array",
+                "items": { "$ref": "#/definitions/metadataContainer" }
+              }
+            }
+          },
+          { "$ref": "#/definitions/metadataItem" },
+          {
+            "type": "string",
+            "format": "uri-reference"
+          },
+          {
+            "$comment": "Allow any other objects or arrays. As a result none of the above *has* to match, it basically serves to document the objects which are used.",
+            "type": ["object", "array"]
+          }
+        ]
+      }
+    },
+
+    "metadataItem": {
+      "type": "object",
+      "properties": {
+        "display": { "const": true },
+        "seq": { "type": "integer" },
+        "label": { "type": "string" }
+      },
+      "required": ["display", "seq", "label"],
+
+      "oneOf": [
+        {
+          "$comment": "Text items",
+          "type": "object",
+          "properties": {
+            "displayForm": { "type": "string", "contentMediaType": "text/html" }
+          },
+          "required": ["displayForm"]
+        },
+        {
+          "$comment": "Multi-valued items",
+          "type": "object",
+          "properties": {
+            "value": {
+              "type": "array",
+              "items": { "$ref": "#/definitions/metadataItem" }
+            }
+          },
+          "required": ["value"]
+        },
+        {
+          "$comment": "String items",
+          "type": "string",
+          "properties": {
+            "displayForm": { "type": "string", "contentMediaType": "text/html" }
+          },
+          "required": ["value"]
+        }
+      ]
+    },
+
+    "page": {
+      "type": "object",
+      "properties": {
+        "label": { "type": "string" },
+        "physID": { "type": "string" },
+        "sequence": { "type": "integer" },
+        "displayImageURL": { "type": "string", "format": "uri-reference" },
+        "downloadImageURL": { "type": "string", "format": "uri-reference" },
+        "IIIFImageURL": { "type": "string", "format": "uri-reference" },
+        "thumbnailImageURL": { "type": "string", "format": "uri-reference" },
+        "thumbnailImageOrientation": { "$ref": "#/definitions/orientation" },
+        "imageWidth": { "type": "integer" },
+        "imageHeight": { "type": "integer" },
+        "transcriptionNormalisedURL": { "type": "string", "format": "uri-reference" },
+        "transcriptionDiplomaticURL": { "type": "string", "format": "uri-reference" },
+        "content": {
+          "$comment": "Used in itemType: essay to hold the text of the essay consituting the item.",
+          "type": "string",
+          "contentMediaType": "text/html"
+        },
+        "pageType": { "type": "string" }
+      }
+    },
+
+    "listItemPage": {
+      "type": "object",
+      "properties": {
+        "fileID": { "type": "string" },
+        "dmdID": { "type": "string" },
+        "startPageLabel": { "type": "string" },
+        "startPage": { "type": "integer" },
+        "title": { "type": "string" },
+        "listItemText": { "type": "string" }
+      },
+      "additionalProperties": false
+    },
+
+    "logicalStructureNode": {
+      "type": "object",
+      "properties": {
+        "descriptiveMetadataID": { "type": "string" },
+        "label": { "type": "string" },
+        "startPageID": { "type": "string" },
+        "startPageLabel": { "type": "string" },
+        "startPagePosition": { "type": "integer" },
+        "endPageID": { "type": "string" },
+        "endPageLabel": { "type": "string" },
+        "endPagePosition": { "type": "integer" },
+        "children": {
+          "type": "array",
+          "items": { "$ref": "#/definitions/logicalStructureNode" }
+        }
+      },
+      "required": ["descriptiveMetadataID", "label", "startPagePosition",
+        "startPageLabel", "endPagePosition"]
+    }
+  },
+
+  "type": "object",
+
+  "properties": {
+    "descriptiveMetadata": {
+      "type": "array",
+      "items": { "$ref": "#/definitions/descriptiveMetadataSection" }
+    },
+    "pages": {
+      "type": "array",
+      "items": { "$ref": "#/definitions/page" }
+    },
+    "logicalStructures": {
+      "type": "array",
+      "items": { "$ref": "#/definitions/logicalStructureNode" }
+    },
+    "listItemPages": {
+      "type": "array",
+      "items": { "$ref": "#/definitions/listItemPage" }
+    },
+    "textDirection": {
+      "type": "string",
+      "enum": ["L", "R"]
+    },
+    "itemType": { "type": "string", "enum": ["essay"] },
+    "numberOfPages": { "type": "integer" },
+    "embeddable": { "type": "boolean" },
+    "sourceData": { "type": "string", "format": "uri-reference" },
+    "useTranscriptions": { "type": "boolean" },
+    "useNormalisedTranscriptions": { "type": "boolean" },
+    "useDiplomaticTranscriptions": { "type": "boolean" },
+    "allTranscriptionDiplomaticURL": { "type": "string", "format": "uri-reference" },
+    "completeness": { "type": "string" }
+  },
+
+  "required": ["descriptiveMetadata", "pages", "logicalStructures"],
+  "additionalProperties": false
+}
