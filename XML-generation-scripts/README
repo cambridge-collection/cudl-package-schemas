@@ -15,3 +15,8 @@ To run the script from a URL:
    ./ItemJSONtoXML.py -i <json-url> -o <output-filepath> --validation <[true|false]>
    ./ItemJSONtoXML.py -i https://cudl.lib.cam.ac.uk/view/PH-CAVENDISH-P-00004.json -o output.xml --validation true
 
+If you are connecting to a URL with basic auth (such as staging or dev)
+
+   ./ItemJSONtoXML.py -i <json-url> -o <output-filepath> --validation <[true|false]> --username <username> --password <password>
+   ./ItemJSONtoXML.py -i https://cudl.lib.cam.ac.uk/view/PH-CAVENDISH-P-00004.json -o output.xml --validation true --username myuser --password mypass
+
