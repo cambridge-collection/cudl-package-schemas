@@ -18,6 +18,8 @@ def main(argv):
     output_file = ""
     json_data = None
     id = ""
+    username = None
+    password = None
 
     try:
         opts, args = getopt.getopt(argv, "i:o:v:up", ["input=", "output=", "validation=", "username=", "password="])

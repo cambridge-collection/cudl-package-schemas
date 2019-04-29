@@ -76,8 +76,8 @@
             "format": "uri-reference"
           },
           {
-            "$comment": "Allow any other objects or arrays. As a result none of the above *has* to match, it basically serves to document the objects which are used.",
-            "type": ["object", "array"]
+            "$comment": "Allow any other objects, arrays or booleans (e.g. manuscript = True). As a result none of the above *has* to match, it basically serves to document the objects which are used.",
+            "type": ["object", "array", "boolean"]
           }
         ]
       }
