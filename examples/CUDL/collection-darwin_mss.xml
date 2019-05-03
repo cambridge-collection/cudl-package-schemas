@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<collection id="darwin_mss" xmlns="http://cudl.lib.cam.ac.uk/1.0/collection" xmlns:co="http://cudl.lib.cam.ac.uk/1.0/CollectionType" xmlns:res="http://cudl.lib.cam.ac.uk/1.0/ResourceType">
+   <co:title>Darwin Manuscripts</co:title>
+   <co:type>organisation</co:type>
+   <co:metaDescription>A collection of Manuscripts Charles Darwin.</co:metaDescription>
+   <co:resources>
+      <co:resource>
+         <res:type>webcontent</res:type>
+         <res:representation>html</res:representation>
+         <res:target>summary</res:target>
+         <res:location>collections/darwin_mss/summary.html</res:location>
+      </co:resource>
+      <co:resource>
+         <res:type>webcontent</res:type>
+         <res:representation>html</res:representation>
+         <res:target>sponsors</res:target>
+         <res:location>collections/darwin_mss/sponsors.html</res:location>
+      </co:resource>
+   </co:resources>
+   <co:items>
+      <co:item id="MS-DAR-00100-00001"/>
+      <co:item id="MS-DAR-00114-00001"/>
+   </co:items>
+</collection>
