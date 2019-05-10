@@ -1,0 +1,124 @@
+{
+    // We should require a format/version identifier to help make evolving the
+    // format safe.
+    "type": "https://schemas.cudl.lib.cam.ac.uk/cudl/simple-item/v1/json",
+
+    // Items have a bunch of properties at the top level which are mostly about
+    // how CUDL should handle the item, not about the object being described.
+    // i.e. things that we don't directly show the user. e.g. "embeddable",
+    // "sourceData", "itemType", "allTranscriptionDiplomaticURL"
+    //
+    // I propose "properties" be an open set of key-value pairs. e.g. values
+    // can be bool/number/string or arrays of the same, but not nested objects.
+    // We can define/document how specific properties are interpreted above the
+    // syntactic level of the schema. 
+    "properties": {
+        "embeddable": true,
+        "useTranscriptions": true,
+
+        // Items which are fully described by existing metadata (TEI, EAD etc)
+        // would point to that metadata here, and not use any of the stuff
+        // below.
+        "sourceData": "tei/foo.xml"
+    },
+
+    // Simplified form of "descriptiveMetadata" which also includes range
+    // information from "logicalStructures", avoiding the need for that.
+    // - Don't allow arbitrary nesting of objects, just one level with lists of
+    //   values.
+    // - Don't allow arbitrary objects, only "label"/"value" description objects
+    // - Identifying description sections (the first level) and descriptions
+    //   (second) with object keys (rather than say "name": "foo") is to
+    //   facilitate merging, and for a more terse syntax. It also disallows
+    //   repeated identifiers, which avoids a class of errors.
+    // - order values replace "seq" integers to specify the order to display
+    //   descriptions in. They're strings rather than integers, to allow human
+    //   editors to create a somewhat understandable ordering scheme, with named
+    //   subsections. e.g. "0.head" comes before "1.body". Also facilitates
+    //   merging, as infinite ordering space exists between each key, unlike int
+    //   values which you'd have to space apart to allow a merged desc to merge
+    //   in between two existing descs.
+    "descriptions": {
+        // I'm thinking we can have a convention that the "main" description
+        // describes the item as a whole, at least by default. We need something
+        // like this as we no longer have an explicit hierarchy to know which is
+        // the root.
+        "main": {
+            // coverage defines the range of pages the description applies to.
+            // In JSON form I'm thinking integers can refer to actual
+            // order-based page index of pages, with negative numbers counting
+            // back from the end (-1 is the final page).
+            // Strings for page references refer to page names. In the XML form
+            // we can do something like 
+            //      <coverage firstPageIndex="0" lastPageIndex="-1"/>
+            //      <coverage firstPage="3r" lastPage="4v"/>
+            "coverage": { "firstPage": 0, "lastPage": -1 },
+            
+            "attributes": {
+                "title": {
+                    // We don't need "display": true/false as the viewer knows to
+                    // handle titles/abstracts etc specially and display them out
+                    // of the normal list of attributes.
+                    "label": "Title",
+                    "value": "Book of Foo"
+                },
+                "formerOwners": {
+                    "label": "Former Owners",
+                    "value": [
+                        // Rather than "linktype": "keyword search" (which doesn't)
+                        // work well because it searches for the entire value, often
+                        // with dates, punctuation etc) I suggest we use a simple
+                        // URI scheme to represent search queries, page references,
+                        // etc (no more onclick="store.loadPage(blah)")
+                        "<a href='cudl:///search?keyword=Joe%20Bloggs'>Bloggs, Joe, ca. 1082-1153</a>"
+                    ],
+                    "order": "2.{label}"
+                }
+            }
+        },
+        "3-4": {
+            "coverage": { "firstPage": "1", "lastPage": "4" },
+
+            "attributes": {
+                "title": {
+                    "label": "Title",
+                    "value": "Excerpts from the Gospel of FooBar"
+                }
+            }
+        },
+        
+
+        "chapter1": {
+            "coverage": { "firstPage": "10", "lastPage": "35" }
+
+            // [...]
+        }
+    },
+
+    // Simplified form of "pages"
+    // As with "descriptions" keys are used to identify pages.
+    // "order" can default to key.
+    "pages": {
+        "1": {
+            "label": "cover",
+            "image": {
+                "type": "iiif",
+                "href": "images/cover.jp2"
+            },
+            "order": "a.cover"
+        },
+        // [...]
+        "4": {
+            "label": "2r",
+            "image": {
+                "type": "dzi",
+                "href": "images/2r.jp2"
+            },
+            "transcription": {
+                "diplomatic": "transcriptions/diplomatic/4.xml",
+                "normalised": "transcriptions/normalised.xml#4"
+            },
+            "order": "b.main.4",
+        }
+    }
+}
