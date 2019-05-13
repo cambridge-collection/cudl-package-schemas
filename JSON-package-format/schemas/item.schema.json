@@ -35,8 +35,7 @@
             "normalised",
             "diplomatic",
             "both"
-          ],
-          "description": "If there are transcriptions are they normalised or diplomatic or both."
+          ]
         },
         "useTranslations": {
           "type": "boolean",
