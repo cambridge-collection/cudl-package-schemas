@@ -1,0 +1,116 @@
+{
+    // As with items, we should have a format/version identifier
+    "type": "https://schemas.cudl.lib.cam.ac.uk/cudl/ui/v1/json",
+
+    // theme-name and theme-data would be standardised properties. But the
+    // contents of theme-data would be different for each theme (although it's
+    // likely that there will be a reasonable amount of commonality).
+    "theme-name": "cudl",
+
+    "theme-data": {
+        "default-page-title": "Cambridge Digital Library ― University of Cambridge",
+
+        "pages": {
+            "home": {
+                "description": "A home for the discovery of digitised material and research outputs from the University of Cambridge and beyond",
+
+                // Define the contents of the homepage carousel
+                "carousel": [
+                    { "label": "Treasures of the Library",
+                      "image": "~images/treasures-banner.jpg",
+                      "href": "cudl://intent/view?data=cudl://data/collection/treasures" },
+                    { "label": "Papers of Isaac Newton",
+                      "image": "~images/newton-banner.jpg",
+                      "href": "cudl://intent/view?data=cudl://data/collection/newton" },
+                    { "label": "Sassoon Journals",
+                      "image": "~images/sassoon-banner.jpg",
+                      "href": "cudl://intent/view?data=cudl://data/collection/sassoon" }
+                ],
+
+                // Specify which collections appear on the homepage (and their order)
+                "collections-list": [
+                    "landscapehistories", "treasures", "cavendish"  // [...]
+                ]
+            }
+        }
+
+        // Define static HTML pages. (These are references to local HTML files
+        //  which get bundled up, along with any images etc they reference.)
+        "static-pages": {
+            "help": "~pages/help",
+
+            "introduction": {
+                "href": "~pages/cudl-intro",
+                "url-slug": "about"
+            }
+
+            "news": "~pages/news",
+            "contributors": "~pages/contributors",
+            "privacy": "~pages/privacy",
+            "accessibility": "~pages/accessibility",
+            "terms-conditions": "~pages/terms-conditions"
+        },
+
+        // Define the contents of the navigation menus used by the cudl theme.
+        "navigation": {
+            // The nav menu at the top of (most) pages
+            "main": [
+                { "label": "Home", "href": "cudl:///page/home" },
+                { "label": "Browse", "href": "cudl:///page/browse" },
+                {
+                    "label": "Search",
+                    "children": [
+                        { "label": "Simple Search",
+                          "href": "cudl:///page/search" },
+                        { "label": "Advanced Search",
+                          "href": "cudl:///page/advanced-search" }
+                    ]
+                },
+                { "label": "My Library", "href": "cudl:///page/my-library" },
+                {
+                    "label": "About",
+                    "children": [
+                        { "label": "Introducing the Cambridge Digital Library",
+                           "href": "cudl:///page/static/introduction" },
+                        { "label": "News",
+                          "href": "cudl:///page/static/news" },
+                        { "label": "Contributors",
+                          "href": "cudl:///page/static/contributors" },
+                        { "label": "Terms and Conditions",
+                          "href": "cudl:///page/static/terms-conditions" }
+                    ]
+                },
+                { "label": "Help", "href": "cudl:///page/static/help" }
+
+                // Note: I've not included an Admin section as we shouldn't need it
+                // anymore!
+            ],
+            // The footer links above the black uni global links
+            "footer": [
+                {
+                    "label": "Website information",
+                    "children": [
+                        { "label": "Contributors",
+                          "href": "cudl:///page/static/contributors" },
+                        { "label": "Privacy",
+                          "href": "cudl:///page/static/privacy" },
+                        { "label": "Accessibility",
+                          "href": "cudl:///page/static/accessibility" },
+                        { "label": "Terms & Conditions",
+                          "href": "cudl:///page/static/terms-conditions" }
+                    ]
+                },
+                {
+                    "label": "Keep in touch",
+                    "children": [
+                        //
+                        { "label": "Let us know your feedback",
+                          "href": "cudl:///page/feedback" },
+                        { "label": "Keep me informed",
+                          "href": "cudl:///page/static/Keep me informed" }
+                    ]
+                }
+            ]
+        }
+    }
+}
