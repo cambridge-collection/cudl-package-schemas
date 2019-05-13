@@ -1,0 +1,228 @@
+{
+  "$id": "https://schemas.cudl.lib.cam.ac.uk/cudl/simple-item/v1/json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "definitions": {
+    "html": {
+      "type": "string",
+      "contentMediaType": "text/html"
+    },
+    "itemProperties": {
+      "type": "object",
+      "properties": {
+        "ID": {
+          "type": "string"
+        },
+        "embeddable": {
+          "type": "boolean",
+          "description": "Can this item be embedded in another website using the embeddable viewer or not.",
+          "default": false
+        },
+        "useTranscriptions": {
+          "type": "boolean",
+          "description": "Does this item contain transcription information",
+          "default": false
+        },
+        "transcriptionType": {
+          "type": "string",
+          "enum": [
+            "normalised",
+            "diplomatic",
+            "both"
+          ],
+          "description": "If there are transcriptions are they normalised or diplomatic or both."
+        },
+        "useTranslations": {
+          "type": "boolean",
+          "description": "Does this item contain translation information",
+          "default": false
+        },
+        "sourceData": {
+          "type": "string",
+          "description": "Relative local path to the source metadata, e.g. 'tei/foo.xml'"
+        },
+        "thumbnailUrl": {
+          "type": "string",
+          "format": "uri-reference",
+          "description": "URL for the thumbnail image to use, if not specified the first page is used."
+        },
+        "displayImageRights": {
+          "type": "string",
+          "description": "A description of the rights for the display images of this item. Displayed on item web page."
+        },
+        "downloadImageRights": {
+          "type": "string",
+          "description": "A description of the rights for the download images in this item. Displayed on image download. If not specified download not allowed."
+        },
+        "docAuthority": {
+          "$ref": "#/definitions/html",
+          "description": "This is a notice displayed on the item web page"
+        },
+        "imageReproPageURL": {
+          "type": "string",
+          "format": "uri-reference",
+          "description": "This is a link to request reproduction rights to these images."
+        },
+        "manuscript": {
+          "type": "boolean",
+          "default": false
+        },
+        "itemReferences": {
+          "$comment": "Used in itemType: essay to link to related items",
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "ID": {
+                "$comment": "IDs are item JSON filenames without the .json extension",
+                "type": "string"
+              }
+            }
+          }
+        }
+      },
+      "required": [
+        "ID",
+        "displayImageRights",
+        "imageReproPageURL"
+      ]
+    }
+  },
+  "title": "Simple Item JSON",
+  "description": "This contains the information to describe an item (book, manuscript, etc) in the digital library.",
+  "required": [
+    "metadata",
+    "pages",
+    "properties",
+    "$schema"
+  ],
+  "type": "object",
+  "properties": {
+    "$schema": {
+      "$ref": "#/definitions/html"
+    },
+    "properties": {
+      "$ref": "#/definitions/itemProperties"
+    },
+    "additionalProperties": false,
+    "metadata": {
+      "main": {
+        "$comment": "the main description describes the item as a whole",
+        "coverage": {
+          "type": "object",
+          "required": [
+            "firstPage",
+            "lastPage"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "firstPage": {
+              "type": "integer",
+              "$comment": "Index for the first page of this section. Negative numbers are counted from the end (e.g. last page is -1)."
+            },
+            "lastPage": {
+              "type": "integer",
+              "$comment": "Index for the first page of this section. Negative numbers are counted from the end (e.g. last page is -1)."
+            }
+          }
+        },
+        "attributes": {
+          "type": "object",
+          "required": [
+            "title"
+          ],
+          "properties": {
+            "title": {
+              "type": "object",
+              "required": [
+                "label",
+                "value"
+              ],
+              "properties": {
+                "additionalProperties": false,
+                "label": {
+                  "type": "string"
+                },
+                "value": {
+                  "type": "string"
+                }
+              }
+            },
+            "additionalProperties": {
+              "label": {
+                "type": "string"
+              },
+              "value": {
+                "anyOf": [
+                  "string",
+                  "boolean",
+                  "array"
+                ]
+              },
+              "order": {
+                "type": "string"
+              },
+              "$comment": "Allow any other objects, arrays or booleans (e.g. manuscript = True). As a result none of the above *has* to match, it basically serves to document the objects which are used.",
+              "required": [
+                "label",
+                "value",
+                "order"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "pages": {
+      "additionalProperties": {
+        "type": "object",
+        "required": [
+          "label",
+          "order",
+          "image"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "label": {
+            "type": "string"
+          },
+          "order": {
+            "type": "string"
+          },
+          "image": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "type": {
+                "enum": [
+                  "jp2",
+                  "tiff"
+                ]
+              },
+              "href": {
+                "$ref": "#/definitions/html"
+              }
+            }
+          },
+          "transcription": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "diplomatic": {
+                "type": "string"
+              },
+              "normalised": {
+                "type": "string"
+              }
+            }
+          },
+          "content": {
+            "$comment": "Used in itemType: essay to hold the text of the essay constituting the item.",
+            "type": "string",
+            "contentMediaType": "text/html"
+          }
+        }
+      }
+    }
+  },
+  "additionalProperties": false
+}
