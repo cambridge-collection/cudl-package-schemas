@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item id="PH-GEOGRAPHY-70HC-00022" xmlns="http://cudl.lib.cam.ac.uk/1.0/item" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://cudl.lib.cam.ac.uk/1.0/item item.xsd">
+   <flags/>
+   <resources>
+      <resource>
+         <type>metadata</type>
+         <representation>tei</representation>
+         <location>/v1/metadata/tei/PH-GEOGRAPHY-70HC-00022/</location>
+      </resource>
+      <resource>
+         <type>image</type>
+         <representation>jp2</representation>
+         <location>PH-GEOGRAPHY-70HC-00022-000-00001.jp2</location>
+      </resource>
+   </resources>
+</item>

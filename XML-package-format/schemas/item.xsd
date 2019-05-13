@@ -17,15 +17,15 @@
   <xs:element name="flags">
     <xs:complexType>
       <xs:sequence>
-        <xs:element ref="item:iiifenabled"/>
+        <xs:element ref="item:iiifenabled" minOccurs="0"/>
         <xs:element ref="item:taggingstatus" minOccurs="0"/>
       </xs:sequence>
     </xs:complexType>
   </xs:element>
   
-  <xs:element name="iiifenabled" type="xs:boolean"/>
+  <xs:element name="iiifenabled" type="xs:boolean" default="true"/>
   <xs:element name="taggingstatus" type="xs:boolean" default="false"/>
-  
+
   <xs:element name="resources">
     <xs:complexType>
       <xs:sequence>
@@ -63,6 +63,7 @@
         <xs:enumeration value="dcp"/>
         <xs:enumeration value="tif"/>
         <xs:enumeration value="jpg"/>
+        <xs:enumeration value="jp2"/>
       </xs:restriction>
     </xs:simpleType>
   </xs:element> 
@@ -70,7 +71,7 @@
   <xs:element name="location">
     <xs:simpleType>
       <xs:restriction base="xs:string">
-        <xs:pattern value="(https?:/)?(/([_0-9a-zA-Z\.\-])+)+"/>
+        <xs:pattern value="(https?:/)?(/?([_0-9a-zA-Z\.\-])+)+/?"/>
       </xs:restriction>
     </xs:simpleType>
   </xs:element> 

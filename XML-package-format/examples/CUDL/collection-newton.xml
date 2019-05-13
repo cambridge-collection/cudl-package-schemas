@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<collection id="newton"  xmlns="http://cudl.lib.cam.ac.uk/1.0/collection" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://cudl.lib.cam.ac.uk/1.0/collection collection.xsd">
+   <title>Newton Manuscripts</title>
+   <type>organisation</type>
+   <metaDescription>A collection of Manuscripts Isaac Newton.</metaDescription>
+   <resources>
+      <resource>
+         <type>webcontent</type>
+         <representation>html</representation>
+         <target>summary</target>
+         <location>collections/newton/summary.html</location>
+      </resource>
+      <resource>
+         <type>webcontent</type>
+         <representation>html</representation>
+         <target>sponsors</target>
+         <location>collections/newton/sponsors.html</location>
+      </resource>
+   </resources>
+   <items>
+      <item id="MS-ADD-03960"/>
+      <item id="MS-ADD-03975"/>
+   </items>
+</collection>

@@ -1,0 +1,39 @@
+
+ItemJSONtoXML
+-------------
+
+This script validates item JSON from the CUDL platforms and generates item XML for each item.
+This script can be run with a json file on the local filesystem or using a URL to the json.
+
+First install the dependencies:
+
+   pip install -r requirements.txt
+
+To run the script from a file:
+
+   ./ItemJSONtoXML.py -i <json-filepath> -o <output-filepath> --validation <[true|false]>
+   ./ItemJSONtoXML.py -i ../../examples/MUDL/MS-HEBREW-GASTER-00086/MS-HEBREW-GASTER-00086.json -o output.xml --validation true
+
+To run the script from a URL:
+
+   ./ItemJSONtoXML.py -i <json-url> -o <output-filepath> --validation <[true|false]>
+   ./ItemJSONtoXML.py -i https://cudl.lib.cam.ac.uk/view/PH-CAVENDISH-P-00004.json -o output.xml --validation true
+
+If you are connecting to a URL with basic auth (such as staging or dev)
+
+   ./ItemJSONtoXML.py -i <json-url> -o <output-filepath> --validation <[true|false]> --username <username> --password <password>
+   ./ItemJSONtoXML.py -i https://cudl.lib.cam.ac.uk/view/PH-CAVENDISH-P-00004.json -o output.xml --validation true --username myuser --password mypass
+
+CollectionDBtoXML
+------------------
+
+This script generates the collections XML from the database tables for the collection specified.
+
+First install the dependencies:
+
+   pip install -r requirements.txt
+
+To run the script:
+
+   ./CollectionDBtoXML.py --host <dbhost> --output <outputfile> --db <database> --collection <collectionid> --username <dbusername> --password <dbuserpass>
+   ./CollectionDBtoXML.py --host=mudl-postgres.ceqcrqp3xuws.eu-west-1.rds.amazonaws.com --output=../../examples/petrarch-collection.xml --db viewerdev --collection petrarch --username mudldev --password mypassword

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<collection id="longitude"  xmlns="http://cudl.lib.cam.ac.uk/1.0/collection" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://cudl.lib.cam.ac.uk/1.0/collection collection.xsd">
+   <title>Board of Longitude</title>
+   <type>organisation</type>
+   <metaDescription>A collection of Manuscripts from the Board of Longitude.</metaDescription>
+   <resources>
+      <resource>
+         <type>webcontent</type>
+         <representation>html</representation>
+         <target>summary</target>
+         <location>collections/longitude/summary.html</location>
+      </resource>
+      <resource>
+         <type>webcontent</type>
+         <representation>html</representation>
+         <target>sponsors</target>
+         <location>collections/longitude/sponsors.html</location>
+      </resource>
+   </resources>
+   <items>
+      <item id="MS-RGO-00005-00229"/>
+   </items>
+</collection>
