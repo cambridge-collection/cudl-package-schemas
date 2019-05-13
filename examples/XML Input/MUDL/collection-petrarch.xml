@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<collection id="petrarch" xmlns="http://cudl.lib.cam.ac.uk/1.0/collection" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://cudl.lib.cam.ac.uk/1.0/collection collection.xsd">
+   <title>Petrarch Printed Editions</title>
+   <type>organisation</type>
+   <metaDescription>A collection of Manuscripts provided by Manchester University</metaDescription>
+   <resources>
+      <resource>
+         <type>webcontent</type>
+         <representation>html</representation>
+         <target>summary</target>
+         <location>collections/petrarch/summary.html</location>
+      </resource>
+      <resource>
+         <type>webcontent</type>
+         <representation>html</representation>
+         <target>sponsors</target>
+         <location>collections/petrarch/sponsors.html</location>
+      </resource>
+   </resources>
+   <items>
+      <item id="MS-PETRARCH-INC-18313"/>
+      <item id="MS-PETRARCH-MSS-20957"/>
+      <item id="MS-PETRARCH-MSS-01546"/>
+   </items>
+</collection>

@@ -45,15 +45,15 @@ def main(argv):
             outputCollectionXML(collection, conn, output_file)
 
         # TODO We could extend this script to iterate through all collections.
-        #else:
-            # create a cursor
-            # cur = conn.cursor()
-            # cur.execute('SELECT collectionid from collections')
-            # row = cur.fetchone()
-            # collection = row[0]
-            # cur.close
-            # while row is not None:
-            #     outputCollectionXML(collection, conn, output_file)
+        # else:
+        # create a cursor
+        # cur = conn.cursor()
+        # cur.execute('SELECT collectionid from collections')
+        # row = cur.fetchone()
+        # collection = row[0]
+        # cur.close
+        # while row is not None:
+        #     outputCollectionXML(collection, conn, output_file)
 
     except (Exception, psycopg2.DatabaseError) as error:
         print(error)
@@ -72,10 +72,9 @@ def outputCollectionXML(collection, conn, output_file):
     cursor.execute('select collectionid, title, summaryurl, sponsorsurl, type, collectionorder, '
                    'parentcollectionid, metadescription  from collections where collectionid=%s', (collection,))
 
-    ET.register_namespace("co", "http://cudl.lib.cam.ac.uk/1.0/CollectionType")
-    ET.register_namespace("res", "http://cudl.lib.cam.ac.uk/1.0/ResourceType")
-
-    xmlcollection = ET.Element("collection", {'id': collection, 'xmlns':'http://cudl.lib.cam.ac.uk/1.0/collection'})
+    xmlcollection = ET.Element("collection", {'id': collection, 'xmlns': 'http://cudl.lib.cam.ac.uk/1.0/collection',
+                                              'xmlns:xsi': 'http://www.w3.org/2001/XMLSchema-instance',
+                                              'xsi:schemaLocation': 'http://cudl.lib.cam.ac.uk/1.0/collection collection.xsd'})
 
     collectionrow = cursor.fetchone()
 
@@ -88,37 +87,37 @@ def outputCollectionXML(collection, conn, output_file):
     parentcollectionid = collectionrow[6]
     metadescription = collectionrow[7]
 
-    xmltitle = ET.SubElement(xmlcollection, '{http://cudl.lib.cam.ac.uk/1.0/CollectionType}title')
+    xmltitle = ET.SubElement(xmlcollection, 'title')
     xmltitle.text = title
 
-    xmltype = ET.SubElement(xmlcollection, '{http://cudl.lib.cam.ac.uk/1.0/CollectionType}type')
+    xmltype = ET.SubElement(xmlcollection, 'type')
     xmltype.text = collectiontype
 
-    xmlmeta = ET.SubElement(xmlcollection, '{http://cudl.lib.cam.ac.uk/1.0/CollectionType}metaDescription')
+    xmlmeta = ET.SubElement(xmlcollection, 'metaDescription')
     xmlmeta.text = metadescription
 
-    xmlresources = ET.SubElement(xmlcollection, '{http://cudl.lib.cam.ac.uk/1.0/CollectionType}resources')
+    xmlresources = ET.SubElement(xmlcollection, 'resources')
 
     # Summary
-    xmlresource = ET.SubElement(xmlresources, '{http://cudl.lib.cam.ac.uk/1.0/CollectionType}resource')
-    xmlrestype = ET.SubElement(xmlresource, '{http://cudl.lib.cam.ac.uk/1.0/ResourceType}type')
+    xmlresource = ET.SubElement(xmlresources, 'resource')
+    xmlrestype = ET.SubElement(xmlresource, 'type')
     xmlrestype.text = "webcontent"
-    xmlresrep = ET.SubElement(xmlresource, '{http://cudl.lib.cam.ac.uk/1.0/ResourceType}representation')
+    xmlresrep = ET.SubElement(xmlresource, 'representation')
     xmlresrep.text = "html"
-    xmlrestar = ET.SubElement(xmlresource, '{http://cudl.lib.cam.ac.uk/1.0/ResourceType}target')
+    xmlrestar = ET.SubElement(xmlresource, 'target')
     xmlrestar.text = "summary"
-    xmlresloc = ET.SubElement(xmlresource, '{http://cudl.lib.cam.ac.uk/1.0/ResourceType}location')
+    xmlresloc = ET.SubElement(xmlresource, 'location')
     xmlresloc.text = summaryurl
 
     # Sponsors
-    xmlresource = ET.SubElement(xmlresources, '{http://cudl.lib.cam.ac.uk/1.0/CollectionType}resource')
-    xmlrestype = ET.SubElement(xmlresource, '{http://cudl.lib.cam.ac.uk/1.0/ResourceType}type')
+    xmlresource = ET.SubElement(xmlresources, 'resource')
+    xmlrestype = ET.SubElement(xmlresource, 'type')
     xmlrestype.text = "webcontent"
-    xmlresrep = ET.SubElement(xmlresource, '{http://cudl.lib.cam.ac.uk/1.0/ResourceType}representation')
+    xmlresrep = ET.SubElement(xmlresource, 'representation')
     xmlresrep.text = "html"
-    xmlrestar = ET.SubElement(xmlresource, '{http://cudl.lib.cam.ac.uk/1.0/ResourceType}target')
+    xmlrestar = ET.SubElement(xmlresource, 'target')
     xmlrestar.text = "sponsors"
-    xmlresloc = ET.SubElement(xmlresource, '{http://cudl.lib.cam.ac.uk/1.0/ResourceType}location')
+    xmlresloc = ET.SubElement(xmlresource, 'location')
     xmlresloc.text = sponsorsurl
 
     # Items
@@ -127,9 +126,9 @@ def outputCollectionXML(collection, conn, output_file):
     cursor.execute('select itemid from itemsincollection where collectionid=%s order by itemorder', (collection,))
     row = cursor.fetchone()
     if row is not None:
-        xmlitems = ET.SubElement(xmlcollection, '{http://cudl.lib.cam.ac.uk/1.0/CollectionType}items')
+        xmlitems = ET.SubElement(xmlcollection, 'items')
         while row is not None:
-            xmlitem = ET.SubElement(xmlitems, '{http://cudl.lib.cam.ac.uk/1.0/CollectionType}item',  {'id': row[0]})
+            xmlitem = ET.SubElement(xmlitems, 'item', {'id': row[0]})
             row = cursor.fetchone()
 
     cursor.close()

@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<resource xmlns="http://cudl.lib.cam.ac.uk/1.0/ResourceType">
-    <type>webcontent</type>
-    <representation>html</representation>
-    <target>sponsors</target>
-    <location>/html/sponsors.html</location>
-</resource>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<collection id="landscapehistories"  xmlns="http://cudl.lib.cam.ac.uk/1.0/collection" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://cudl.lib.cam.ac.uk/1.0/collection collection.xsd">
+   <title>Landscape histories from the air: unlocking a UK-wide archive</title>
+   <type>organisation</type>
+   <metaDescription>A collection of photos.</metaDescription>
+   <resources>
+      <resource>
+         <type>webcontent</type>
+         <representation>html</representation>
+         <target>summary</target>
+         <location>collections/landscapehistories/summary.html</location>
+      </resource>
+      <resource>
+         <type>webcontent</type>
+         <representation>html</representation>
+         <target>sponsors</target>
+         <location>collections/landscapehistories/sponsors.html</location>
+      </resource>
+   </resources>
+   <items>
+      <item id="PH-GEOGRAPHY-35KAB-00034"/>
+      <item id="PH-GEOGRAPHY-70HC-00022"/>
+   </items>
+</collection>
