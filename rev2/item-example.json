@@ -11,7 +11,7 @@
     // I propose "properties" be an open set of key-value pairs. e.g. values
     // can be bool/number/string or arrays of the same, but not nested objects.
     // We can define/document how specific properties are interpreted above the
-    // syntactic level of the schema. 
+    // syntactic level of the schema.
     "properties": {
         "embeddable": true,
         "useTranscriptions": true,
@@ -49,11 +49,11 @@
             // order-based page index of pages, with negative numbers counting
             // back from the end (-1 is the final page).
             // Strings for page references refer to page names. In the XML form
-            // we can do something like 
+            // we can do something like
             //      <coverage firstPageIndex="0" lastPageIndex="-1"/>
             //      <coverage firstPage="3r" lastPage="4v"/>
             "coverage": { "firstPage": 0, "lastPage": -1 },
-            
+
             "attributes": {
                 "title": {
                     // We don't need "display": true/false as the viewer knows to
@@ -86,7 +86,7 @@
                 }
             }
         },
-        
+
 
         "chapter1": {
             "coverage": { "firstPage": "10", "lastPage": "35" }
