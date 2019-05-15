@@ -1,0 +1,81 @@
+// This is an example of what UI data for the *current* CUDL Viewer would look
+// like. Most things are hardcoded, there's not much to specify.
+// ui-example.json for a hypothetical example for a more data-driven UI.
+{
+    "type": "https://schemas.cudl.lib.cam.ac.uk/cudl/ui/v1/json",
+
+    "theme-name": "cudl",
+
+    "theme-data": {
+        "pages": {
+            "home": {
+                "latest-news-html": { "href": "~ui/index-latest-news.html" },
+                "carousel-enties-html": [
+                    { "href": "~ui/index-carousel-1.html" },
+                    { "href": "~ui/index-carousel-2.html" },
+                    { "href": "~ui/index-carousel-3.html" }
+                ]
+            },
+
+            // Currently the browse page is a hardcoded HTML file. We can generate
+            // it automatically by sorting collections by title and using the
+            // appropreate size summary, but the simplest thing would be to keep the
+            // hardcoded HTML.
+            "browse": {
+                "html": { "href": "~ui/collections/collections.html" }
+            }
+        },
+
+        // Define static HTML pages. (These are references to local HTML files
+        //  which get bundled up, along with any images etc they reference.)
+        "static-pages": {
+            "help": { "href": "~pages/help" },
+
+            "introduction": {
+                "id": { "href": "~pages/cudl-intro" },
+                "url-slug": "about"
+            }
+
+            "news": { "href": "~pages/news" },
+            "contributors": { "href": "~pages/contributors" },
+            "privacy": { "href": "~pages/privacy" },
+            "accessibility": { "href": "~pages/accessibility" },
+            "terms-conditions": { "href": "~pages/terms-conditions" }
+        },
+
+        // Note: nav menu contents are currently hardcoded, so no need to define
+        // their structure here. They reference the above static pages via
+        // hardcoded URL paths.
+
+        // Provide additional presentational/display data for collections.
+        "collections": [
+            {
+                // The collection we're specifying additional display data for.
+                //
+                "id": { "href": "~data/collections/landscapehistories.json" },
+
+                // CUDL mostly displays collections with the "organisation" or
+                // "virtual" layouts. A few use "parent".
+                "layout": "organisation",
+
+                // lists of item order are going to be quite long, so it'd make
+                // sense to keep them separate and reference them.
+                "item-order": { "href": "~ui/collection-ordering/lanscapehistories.json" }
+            },
+            {
+                // The collection we're specifying additional display data for
+                "id": { "href": "~data/collections/curiousobjects.json" },
+
+                "layout": "virtual",
+
+                // Order could be specified in other ways, e.g. by listing
+                // properties to select values from to use as a sort key.
+                "item-order": [
+                    { "href": "~data/ead/MS-FOO-1" },
+                    { "href": "~data/ead/MS-BAR-2" }
+                    // [...]
+                ]
+            }
+        ]
+    }
+}
