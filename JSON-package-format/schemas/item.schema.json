@@ -7,27 +7,18 @@
             "contentMediaType": "text/html"
         },
         "itemProperties": {
+            "description": "An open set of key-value properties with string, boolean and number values, or arrays of the same.",
             "type": "object",
-            "properties": {
-                "additionalProperties": {
-                    "description": "Allow any strings, arrays or booleans for item properties. e.g. Manuscript = true. ",
-                    "label": {
-                        "description": "This can be the label for any item property.",
-                        "type": "string"
-                    },
-                    "value": {
-                        "description": "This can be the value for any item property.",
-                        "anyOf": [
-                            "string",
-                            "boolean",
-                            "array"
-                        ]
-                    },
-                    "required": [
-                        "label",
-                        "value"
-                    ]
-                }
+            "additionalProperties": {
+                "anyOf": [
+                    { "type": ["string", "boolean", "number"] },
+                    {
+                        "type": "array",
+                        "items": {
+                            "type": ["string", "boolean", "number"]
+                        }
+                    }
+                ]
             }
         },
         "metadataProperties": {
