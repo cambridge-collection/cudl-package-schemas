@@ -21,6 +21,17 @@
                 ]
             }
         },
+        "pageReference": {
+            "description": "An identifier for a specific page.",
+            "oneOf": [
+                { "type": "string",
+                   "description": "The name of a key in the \"pages\" object."
+                },
+                { "type": "integer",
+                  "description": "The 0-based index of a page after sorting by their \"order\" key. Negative indexes are counted from the end (the last page is -1, second to last is -2, etc)."
+                }
+            ]
+        },
         "metadataProperties": {
             "type": "object",
             "description": "These are properties allowed for each metadata section.",
@@ -36,14 +47,8 @@
                     ],
                     "additionalProperties": false,
                     "properties": {
-                        "firstPage": {
-                            "type": "integer",
-                            "description": "Index for the first page of this section. Negative numbers are counted from the end (e.g. last page is -1)."
-                        },
-                        "lastPage": {
-                            "type": "integer",
-                            "description": "Index for the last page of this section. Negative numbers are counted from the end (e.g. last page is -1)."
-                        }
+                        "firstPage": { "$ref": "#/definitions/pageReference" },
+                        "lastPage": { "$ref": "#/definitions/pageReference" }
                     }
                 },
                 "attributes": {
