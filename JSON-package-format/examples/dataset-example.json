@@ -10,7 +10,7 @@
     "name": "Cambridge Digital Library Data",
 
     "collections": [
-        { "href": "collections/hebrew" },
-        { "href": "collections/hebrew" },
+        { "@id": "collections/hebrew" },
+        { "@id": "collections/hebrew" }
     ]
 }

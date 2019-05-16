@@ -11,9 +11,9 @@
             "home": {
                 "latest-news-html": { "href": "~ui/index-latest-news.html" },
                 "carousel-enties-html": [
-                    { "href": "~ui/index-carousel-1.html" },
-                    { "href": "~ui/index-carousel-2.html" },
-                    { "href": "~ui/index-carousel-3.html" }
+                    { "@id": "~ui/index-carousel-1.html" },
+                    { "@id": "~ui/index-carousel-2.html" },
+                    { "@id": "~ui/index-carousel-3.html" }
                 ]
             },
 
@@ -22,25 +22,25 @@
             // appropreate size summary, but the simplest thing would be to keep the
             // hardcoded HTML.
             "browse": {
-                "html": { "href": "~ui/collections/collections.html" }
+                "html": { "@id": "~ui/collections/collections.html" }
             }
         },
 
         // Define static HTML pages. (These are references to local HTML files
         //  which get bundled up, along with any images etc they reference.)
         "static-pages": {
-            "help": { "href": "~pages/help" },
+            "help": { "@id": "~pages/help" },
 
             "introduction": {
-                "id": { "href": "~pages/cudl-intro" },
+                "html": { "@id": "~pages/cudl-intro" },
                 "url-slug": "about"
-            }
+            },
 
-            "news": { "href": "~pages/news" },
-            "contributors": { "href": "~pages/contributors" },
-            "privacy": { "href": "~pages/privacy" },
-            "accessibility": { "href": "~pages/accessibility" },
-            "terms-conditions": { "href": "~pages/terms-conditions" }
+            "news": { "@id": "~pages/news" },
+            "contributors": { "@id": "~pages/contributors" },
+            "privacy": { "@id": "~pages/privacy" },
+            "accessibility": { "@id": "~pages/accessibility" },
+            "terms-conditions": { "@id": "~pages/terms-conditions" }
         },
 
         // Note: nav menu contents are currently hardcoded, so no need to define
@@ -52,7 +52,7 @@
             {
                 // The collection we're specifying additional display data for.
                 //
-                "id": { "href": "~data/collections/landscapehistories.json" },
+                "collection": { "@id": "~data/collections/landscapehistories.json" },
 
                 // CUDL mostly displays collections with the "organisation" or
                 // "virtual" layouts. A few use "parent".
@@ -60,19 +60,19 @@
 
                 // lists of item order are going to be quite long, so it'd make
                 // sense to keep them separate and reference them.
-                "item-order": { "href": "~ui/collection-ordering/lanscapehistories.json" }
+                "item-order": { "@id": "~ui/collection-ordering/lanscapehistories.json" }
             },
             {
                 // The collection we're specifying additional display data for
-                "id": { "href": "~data/collections/curiousobjects.json" },
+                "collection": { "@id": "~data/collections/curiousobjects.json" },
 
                 "layout": "virtual",
 
                 // Order could be specified in other ways, e.g. by listing
                 // properties to select values from to use as a sort key.
                 "item-order": [
-                    { "href": "~data/ead/MS-FOO-1" },
-                    { "href": "~data/ead/MS-BAR-2" }
+                    { "@id": "~data/ead/MS-FOO-1" },
+                    { "@id": "~data/ead/MS-BAR-2" }
                     // [...]
                 ]
             }

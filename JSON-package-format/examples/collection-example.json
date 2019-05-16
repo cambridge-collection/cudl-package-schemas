@@ -43,17 +43,17 @@
     "description": {
         "short": "The great treasures from the collections of Cambridge University Library",
         "medium": "In this special collection we draw together books, manuscripts and other items of particular significance. Many of them have been displayed in Library exhibitions in the past – now they can be accessed at any time, from anywhere in the world, and browsed cover to cover.",
-        "full": {
-            "type": "html",
-            "id": { "href": "./rcs150-summary.html" }
-        }
+
+        // Note: When loading, represent HTML something like:
+        // { "type": "html", "html": "<div>This is the content</div>" }
+        "full": { "@id": "./rcs150-summary.html" }
     },
 
     "credit": {
         "parties": [
             // I'm thinking these should be basically schema.org Person or
             // Organisation instances.
-            { "href": "~funders/wellcome-trust.json" },
+            { "@id": "~funders/wellcome-trust.json" },
             { "type": "organization", "name": "Isaac Newton Trust", "url": "https://www.newtontrust.cam.ac.uk/" },
             { "type": "person", "name": "Joe Bloggs" },
         ],
@@ -61,20 +61,20 @@
         // could choose to display this to users, but use the above data for
         // more automated purposes, e.g. to allow searching for
         // items/collections funded by some organisation.
-        "prose": { "href": "./rcs150-funders.html" }
+        "prose": { "@id": "./rcs150-funders.html" }
     },
 
     // References to all the items in this collection.
     "items": [
-        { "id": { "href": "~data/tei/MS-FOO-1" },
+        { "item": { "@id": "~data/tei/MS-FOO-1" },
           "visible": false },
-        { "href": "~/items/ms-bar-baz.json" }
+        { "@id": "~/items/ms-bar-baz.json" }
         // [...]
     ],
 
     // Subcollections of this collection
     "collections": [
-        { "href": "~data/collections/example-sub-collection-1.json" },
-        { "href": "~data/collections/example-sub-collection-2.json" }
+        { "@id": "~data/collections/example-sub-collection-1.json" },
+        { "@id": "~data/collections/example-sub-collection-2.json" }
     ]
 }
