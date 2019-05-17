@@ -1,6 +1,6 @@
 // This is an example of what UI data for the *current* CUDL Viewer would look
 // like. Most things are hardcoded, there's not much to specify.
-// ui-example.json for a hypothetical example for a more data-driven UI.
+// site-ui-example.json for a hypothetical example for a more data-driven UI.
 {
     "type": "https://schemas.cudl.lib.cam.ac.uk/cudl/ui/v1/json",
 
