@@ -50,9 +50,9 @@
             // back from the end (-1 is the final page).
             // Strings for page references refer to page names. In the XML form
             // we can do something like
-            //      <coverage firstPageIndex="1" lastPageIndex="-1"/>
+            //      <coverage firstPageIndex="0" lastPageIndex="-1"/>
             //      <coverage firstPage="3r" lastPage="4v"/>
-            "coverage": { "firstPage": 1, "lastPage": -1 },
+            "coverage": { "firstPage": 0, "lastPage": -1 },
 
             "attributes": {
                 "title": {

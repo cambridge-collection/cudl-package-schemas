@@ -306,7 +306,7 @@
                                 "description": "The image format.",
                                 "type": "string",
                                 "enum": [
-                                    "jp2",
+                                    "iiif",
                                     "tiff"
                                 ]
                             },
