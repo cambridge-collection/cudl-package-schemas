@@ -1,7 +1,7 @@
 {
     // We should require a format/version identifier to help make evolving the
     // format safe.
-    "type": "https://schemas.cudl.lib.cam.ac.uk/cudl/simple-item/v1/json",
+    "type": "https://schemas.cudl.lib.cam.ac.uk/cudl/item/v1/json",
 
     // Items have a bunch of properties at the top level which are mostly about
     // how CUDL should handle the item, not about the object being described.
@@ -50,9 +50,9 @@
             // back from the end (-1 is the final page).
             // Strings for page references refer to page names. In the XML form
             // we can do something like
-            //      <coverage firstPageIndex="0" lastPageIndex="-1"/>
+            //      <coverage firstPageIndex="1" lastPageIndex="-1"/>
             //      <coverage firstPage="3r" lastPage="4v"/>
-            "coverage": { "firstPage": 0, "lastPage": -1 },
+            "coverage": { "firstPage": 1, "lastPage": -1 },
 
             "attributes": {
                 "title": {

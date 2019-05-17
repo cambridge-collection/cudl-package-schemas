@@ -63,9 +63,13 @@
                             "value": {
                                 "description": "This can be the value for any piece of metadata.",
                                 "anyOf": [
-                                    "string",
-                                    "boolean",
-                                    "array"
+                                    { "type": ["string", "boolean", "number"] },
+                                    {
+                                        "type": "array",
+                                        "items": {
+                                            "type": ["string", "boolean", "number"]
+                                        }
+                                    }
                                 ]
                             },
                             "order": {

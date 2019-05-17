@@ -6,7 +6,7 @@ import jsonschema
 
 # Validates JSON data against the Draft7 schema in item.schema.json
 def validate(json_data):
-    with open('../item.schema.json', 'r') as f:
+    with open('../../../Internal-JSON-format/schemas/item.schema.json', 'r') as f:
         schema_data = f.read()
     schema = json.loads(schema_data)
     json_obj = json.loads(json_data)
