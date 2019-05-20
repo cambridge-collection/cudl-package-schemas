@@ -21,7 +21,7 @@
     "descriptions": {
         "main": {
 
-            "coverage": { "firstPage": "1a", "lastPage": 602 },
+            "coverage": { "firstPage": "1a", "lastPage": true },
 
             "attributes": {
                 "extent": {

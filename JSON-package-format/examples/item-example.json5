@@ -52,7 +52,7 @@
             // we can do something like
             //      <coverage firstPageIndex="0" lastPageIndex="-1"/>
             //      <coverage firstPage="3r" lastPage="4v"/>
-            "coverage": { "firstPage": 0, "lastPage": -1 },
+            "coverage": { "firstPage": true, "lastPage": true },
 
             "attributes": {
                 "title": {

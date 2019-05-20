@@ -27,8 +27,8 @@
                 { "type": "string",
                    "description": "The name of a key in the \"pages\" object."
                 },
-                { "type": "integer",
-                  "description": "The 0-based index of a page after sorting by their \"order\" key. Negative indexes are counted from the end (the last page is -1, second to last is -2, etc)."
+                { "enum": [true],
+                  "description": "The very first or last page, depending on which of \"firstPage\" or \"lastPage\" it's used with."
                 }
             ]
         },
