@@ -12,3 +12,6 @@ indent_style = space
 # Don't corrupt git patch edit files
 [.git/**/*.diff]
 trim_trailing_whitespace = none
+
+[Makefile]
+indent_style = tab

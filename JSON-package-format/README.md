@@ -1,4 +1,4 @@
-# JSON Package Format
+# CUDL JSON Package Format
 
 This is currently a work in progress and subject to change.
 
@@ -24,3 +24,9 @@ These files will be used by the [`cudl-pack`](https://bitbucket.org/CUDL/cudl-pa
 There is a base item schema ([schemas/item.schema.json](schemas/item.schema.json)) which defines the structure which all digital library items will follow, and a specific schema per instance, which allows for variations in properties used for different institutions. So for Manchester data the [mudl.item.schema.json](schemas/mudl.item.schema.json) should be used and this extends the base schema with specific properties to help in data creation.
 
 The schemas are as currently as restrictive as possible to catch any potential problems with data as soon as possible in the loading process.
+
+## Publishing
+
+The schemas are published as a tarball NPM package on S3 at: `https://cudl-artefacts.s3.eu-west-1.amazonaws.com/projects/cudl-packaging/dist/cudl-schema-package-json-<version>.tgz`
+
+The `Makefile` here is used to build and publish versions. To publish a release, set the version in `package.json` (or use the `$ npm version` command), then run `$ make` to build the package. Running `$ make publish` will build and then publish the package to S3 (you'll need to have credentials set up for AWS CLI).
