@@ -173,13 +173,13 @@ def create_validation_error_validator(expected_errors):
     return validate_validation_errors
 
 
-@pytest.fixture(scope='module')
+@pytest.fixture(scope='class')
 def valid_instance(valid_instance_path):
     with open(valid_instance_path) as f:
         return json5.load(f)
 
 
-@pytest.fixture(scope='module')
+@pytest.fixture(scope='class')
 def invalid_instance_testcase(invalid_testcase_path, test_data_dir):
     with open(invalid_testcase_path) as f:
         test_case = json5.load(f)
@@ -201,7 +201,7 @@ def invalid_instance_testcase(invalid_testcase_path, test_data_dir):
         data=patched_value, validation_error_validator=err_validator)
 
 
-@pytest.fixture(scope='module')
+@pytest.fixture(scope='class')
 def ref_resolver(schema_base_uri, schema_dir):
     base_scheme = parse(schema_base_uri, 'URI')['scheme']
     handlers = {
@@ -211,7 +211,7 @@ def ref_resolver(schema_base_uri, schema_dir):
                        referrer=None, handlers=handlers)
 
 
-@pytest.fixture(scope='module',
+@pytest.fixture(scope='class',
                 ids=lambda s: s.get('$id', '<schema-without-id>'))
 def schema(ref_resolver, schema_id):
     id, schema = ref_resolver.resolve(schema_id)
@@ -335,45 +335,44 @@ f'testcases but found 0')
         invalid_count = cls.expected_invalid_count
 
         if 'data_type' in metafunc.fixturenames:
-            metafunc.parametrize('data_type', [data_type], scope='module')
+            metafunc.parametrize('data_type', [data_type], scope='class')
 
         if 'schema_id' in metafunc.fixturenames:
             metafunc.parametrize('schema_id', [f'{data_type}.json'],
-                                 scope='module')
+                                 scope='class')
 
         if 'schema_base_uri' in metafunc.fixturenames:
             metafunc.parametrize(
-                'schema_base_uri', [cls.get_schema_base_uri()], scope='module')
+                'schema_base_uri', [cls.get_schema_base_uri()], scope='class')
 
         if 'schema_dir' in metafunc.fixturenames:
             metafunc.parametrize(
-                'schema_dir', [cls.get_schema_dir()], scope='module',
+                'schema_dir', [cls.get_schema_dir()], scope='class',
                 ids=lambda x: str(x))
 
         if 'test_data_dir' in metafunc.fixturenames:
             metafunc.parametrize(
-                'test_data_dir', [cls.get_test_data_dir()], scope='module',
+                'test_data_dir', [cls.get_test_data_dir()], scope='class',
                 ids=lambda x: str(x))
 
         if 'valid_instance_path' in metafunc.fixturenames:
             paths = cls.list_testcases('valid')
             cls.validate_testcase_paths('valid', valid_count, paths)
-            metafunc.parametrize('valid_instance_path', paths, scope='module',
+            metafunc.parametrize('valid_instance_path', paths, scope='class',
                                  ids=lambda x: str(x))
 
         if 'invalid_testcase_path' in metafunc.fixturenames:
             paths = cls.list_testcases('invalid')
             cls.validate_testcase_paths('invalid', invalid_count, paths)
             metafunc.parametrize(
-                'invalid_testcase_path', paths, scope='module',
+                'invalid_testcase_path', paths, scope='class',
                 ids=lambda x: str(x))
 
-    def test_schema_matches_valid_instance(
-        self, schema, valid_instance):
+    def test_schema_matches_valid_instance(self, schema, valid_instance):
         schema.validate(valid_instance)
 
     def test_schema_rejects_invalid_instance(
-        self, schema, invalid_instance_testcase: InvalidInstanceTestCase):
+            self, schema, invalid_instance_testcase: InvalidInstanceTestCase):
 
         errors = list(schema.iter_errors(
             invalid_instance_testcase.data.value))
