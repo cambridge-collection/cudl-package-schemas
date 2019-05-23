@@ -321,8 +321,9 @@ class BaseDatatypeTest:
     @classmethod
     def validate_testcase_paths(cls, testcase_type, expected_count, paths):
         if expected_count is not None and len(paths) != expected_count:
-            msg = (f'expected {expected_count} {testcase_type} testcases but '
-                   f'found 0')
+            msg = (
+f'expected {cls.get_data_type()} to have {expected_count} {testcase_type} '
+f'testcases but found 0')
             assert len(paths) >= expected_count, msg
             import warnings
             warnings.warn(msg)
