@@ -13,7 +13,7 @@ indent_style = space
 [.git/**/*.diff]
 trim_trailing_whitespace = none
 
-[{*.json,*.json5}]
+[{*.json,*.json5,*.yml,*.yaml}]
 indent_size = 2
 
 [Makefile]

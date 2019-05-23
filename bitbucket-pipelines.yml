@@ -1,0 +1,12 @@
+image: python:3.7
+
+pipelines:
+  default:
+    - step:
+      name: Python 3.7
+      image: python:3.7
+      script:
+        - pip install --user poetry
+        - poetry run pytest
+      caches:
+        - pip
