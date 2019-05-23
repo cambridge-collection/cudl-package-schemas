@@ -1,3 +1,9 @@
+"""
+A simple pytest plugin to test schemas against valid and invalid test data.
+
+When this plugin is activated, subclasses of BaseDatatypeTest define tests for
+a JSON schema.
+"""
 import json
 import re
 from dataclasses import dataclass
@@ -239,11 +245,35 @@ def pytest_generate_tests(metafunc):
 
 
 class BaseDatatypeTest:
+    """
+    When subclassed, this tests a schema against a set of valid and invalid
+    test cases, defined as JSON files.
+
+    Subclasses must define class properties for:
+
+    - ``data_type`` — The name of the schema being tested
+
+    And optionally for:
+
+    - ``expected_valid_count``
+    - ``expected_invalid_count``
+
+    If the number of valid/invalid test cases is less than these values the
+    test setup will fail. If it's more then a warning will be triggerd.
+    """
+    data_type = None
+    expected_valid_count = None
+    expected_invalid_count = None
+
     @classmethod
     def generate_parameters(cls, metafunc):
         data_type = metafunc.cls.data_type
         valid_count = metafunc.cls.expected_valid_count
         invalid_count = metafunc.cls.expected_invalid_count
+
+        if data_type is None:
+            raise TypeError(f'No data_type specified, {cls} must have a '
+                            f'data_type property')
 
         if 'data_type' in metafunc.fixturenames:
             metafunc.parametrize('data_type', [data_type], scope='class')
