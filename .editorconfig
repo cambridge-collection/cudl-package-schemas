@@ -13,5 +13,8 @@ indent_style = space
 [.git/**/*.diff]
 trim_trailing_whitespace = none
 
+[{*.json,*.json5}]
+indent_size = 2
+
 [Makefile]
 indent_style = tab

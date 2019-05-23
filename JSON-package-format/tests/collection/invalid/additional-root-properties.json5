@@ -1,0 +1,10 @@
+{
+  base: "../valid/minimal.json",
+  patch: [
+    {op:  "add", path: "/foo", value:  "bar"}
+  ],
+  expectedErrors: [
+    "Additional properties are not allowed",
+    "'foo' was unexpected"
+  ]
+}
