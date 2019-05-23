@@ -1,5 +1,5 @@
 {
-    "$id": "https://schemas.cudl.lib.cam.ac.uk/cudl/item/v1/json",
+    "$id": "https://schemas.cudl.lib.cam.ac.uk/package/v1/item.json",
     "$schema": "http://json-schema.org/draft-07/schema#",
     "definitions": {
         "html": {

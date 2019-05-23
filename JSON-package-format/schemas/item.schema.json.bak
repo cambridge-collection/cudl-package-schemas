@@ -1,0 +1,169 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://schemas.cudl.lib.cam.ac.uk/package/v1/item.json",
+
+  "definitions": {
+    "html": {
+      "type": "string",
+      "contentMediaType": "text/html"
+    },
+
+    "itemProperties": {
+      "description": "An open set of key-value properties with string, boolean and number values, or arrays of the same.",
+      "type": "object",
+      "additionalProperties": {
+        "anyOf": [
+          { "type": ["string", "boolean", "number"] },
+          {
+            "type": "array",
+            "items": {
+              "type": ["string", "boolean", "number"]
+            }
+          }
+        ]
+      }
+    },
+
+    "pageReference": {
+      "description": "An identifier for a specific page.",
+      "oneOf": [
+        { "type": "string",
+          "description": "The name of a key in the \"pages\" object."
+        },
+        { "enum": [true],
+          "description": "The very first or last page, depending on which of \"firstPage\" or \"lastPage\" it's used with."
+        }
+      ]
+    },
+
+    "metadataProperties": {
+      "type": "object",
+      "description": "These are properties allowed for each metadata section.",
+      "required": [
+        "coverage"
+      ],
+      "properties": {
+        "coverage": {
+          "type": "object",
+          "required": [
+            "firstPage",
+            "lastPage"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "firstPage": { "$ref": "#/definitions/pageReference" },
+            "lastPage": { "$ref": "#/definitions/pageReference" }
+          }
+        },
+
+        "attributes": {
+          "type": "object",
+          "properties": {
+            "additionalProperties": {
+              "description": "Allow any strings, arrays or booleans for descriptive metadata. e.g. Year of creation, etc. ",
+              "label": {
+                "description": "This can be the label for any piece of metadata.",
+                "type": "string"
+              },
+              "value": {
+                "description": "This can be the value for any piece of metadata.",
+                "anyOf": [
+                  { "type": ["string", "boolean", "number"] },
+                  {
+                    "type": "array",
+                    "items": {
+                      "type": ["string", "boolean", "number"]
+                    }
+                  }
+                ]
+              },
+              "order": {
+                "description": "This is used to decide the order in which to display the label/value pairs. e.g. 2.{label}.",
+                "type": "string"
+              },
+              "required": [
+                "label",
+                "value"
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+
+  "title": "JSON package format",
+  "description": "This contains the information to describe an item (book, manuscript, etc) in the digital library.",
+  "required": [
+    "descriptions",
+    "pages",
+    "properties",
+    "type"
+  ],
+  "type": "object",
+  "properties": {
+    "type": {
+      "type": "string",
+      "format": "uri-reference"
+    },
+
+    "properties": {
+      "$ref": "#/definitions/itemProperties"
+    },
+    "additionalProperties": false,
+    "descriptions": {
+      "type": "object",
+      "required": [
+        "main"
+      ],
+      "properties": {
+        "main": {
+          "$ref": "#/definitions/metadataProperties"
+        },
+        "additionalProperties": {
+          "$ref": "#/definitions/metadataProperties"
+        }
+      }
+    },
+    "pages": {
+      "type": "object",
+      "description": "Pages is a list of objects that represent each page in the item.",
+      "additionalProperties": {
+        "type": "object",
+        "description": "The page object should be named after the page index e.g. 1",
+        "required": [
+          "label",
+          "order",
+          "image"
+        ],
+        "properties": {
+          "label": {
+            "description": "The label for this page, e.g. 2v",
+            "type": "string"
+          },
+          "order": {
+            "description": "This is used to determine the order for display.",
+            "type": "string"
+          },
+          "image": {
+            "type": "object",
+            "description": "An object representing the image for this page.",
+            "properties": {
+              "type": {
+                "description": "The image format.",
+                "type": "string"
+              },
+              "href": {
+                "description": "The local path to the image for this page relative to the image storage location, e.g. images/mypicture.tiff",
+                "format": "uri-reference",
+                "type": "string"
+              }
+            },
+            "additionalProperties": true
+          }
+        }
+      }
+    }
+  },
+  "additionalProperties": false
+}
