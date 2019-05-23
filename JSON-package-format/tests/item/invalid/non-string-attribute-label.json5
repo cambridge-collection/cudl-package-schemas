@@ -1,0 +1,14 @@
+{
+  base: "../valid/item-example.json5",
+  patch: [
+    {op:  "add", path: "/descriptions/foo", value: {
+      coverage: {firstPage: "foo", lastPage: "bar"},
+      attributes: {
+        foo: {
+          label: 42,  // Not allowed
+          value: "Hi"
+        }
+      }
+    }}
+  ]
+}
