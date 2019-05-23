@@ -164,8 +164,8 @@ def create_validation_error_validator(expected_errors):
     validators = [create_messages_validator(e) for e in expected_errors]
 
     def validate_validation_errors(errors):
-        assert len(errors) > 0, (
-            'instance unexpectedly passed schema validation')
+        if len(errors) == 0:
+            pytest.fail('instance unexpectedly passed schema validation')
 
         messages = [e.message for e in errors]
         for validator in validators:
