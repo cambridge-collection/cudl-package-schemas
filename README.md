@@ -16,14 +16,8 @@ via Bitbucket Pipelines.
 To run the tests locally:
 
 1. [Install poetry][poetry install]
-2. Install dependencies:
-   ```console
-   $ poetry install
-   ```
-3. Run pytest:
-   ```console
-   $ poetry run pytest
-   ```
+2. Install dependencies: `$ poetry install`
+3. Run pytest: `$ poetry run pytest`
 
 [pytest]: https://docs.pytest.org/en/latest/
 [poetry]: https://poetry.eustace.io/
