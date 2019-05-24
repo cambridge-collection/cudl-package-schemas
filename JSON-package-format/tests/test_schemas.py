@@ -12,6 +12,12 @@ class CUDLSchemaTest(BaseDatatypeTest):
     schema_base_uri = 'https://schemas.cudl.lib.cam.ac.uk/package/v1/'
 
 
+class TestDlDataset(CUDLSchemaTest):
+    data_type = 'dl-dataset'
+    expected_valid_count = 2
+    expected_invalid_count = 5
+
+
 class TestCollection(CUDLSchemaTest):
     data_type = 'collection'
     expected_valid_count = 2

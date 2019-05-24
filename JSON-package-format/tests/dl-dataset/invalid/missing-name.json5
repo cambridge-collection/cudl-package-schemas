@@ -1,0 +1,7 @@
+{
+  base: "../valid/minimal.json",
+  patch: [
+    {op:  "remove", path: "/name"}
+  ],
+  expectedErrors: "'name' is a required property"
+}

@@ -1,0 +1,7 @@
+{
+  base: "../valid/minimal.json",
+  patch: [
+    {op:  "add", path: "/@type", value: "foo"}
+  ],
+  expectedErrors: "'https://schemas.cudl.lib.cam.ac.uk/package/v1/dl-dataset.json' was expected"
+}

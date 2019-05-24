@@ -1,0 +1,7 @@
+{
+  base: "../valid/minimal.json",
+  patch: [
+    {op:  "remove", path: "/@type"}
+  ],
+  expectedErrors: "'@type' is a required property"
+}

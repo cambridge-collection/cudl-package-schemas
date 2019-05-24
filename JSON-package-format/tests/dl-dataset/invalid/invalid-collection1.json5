@@ -1,0 +1,7 @@
+{
+  base: "../valid/minimal.json",
+  patch: [
+    {op:  "add", path: "/collections/0/foo", value: "bar"}
+  ],
+  expectedErrors: "'foo' was unexpected"
+}

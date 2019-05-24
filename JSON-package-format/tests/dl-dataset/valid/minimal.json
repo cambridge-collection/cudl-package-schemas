@@ -1,0 +1,7 @@
+{
+  "@type": "https://schemas.cudl.lib.cam.ac.uk/package/v1/dl-dataset.json",
+  "name": "John Rylands",
+  "collections": [
+    { "@id": "collections/hebrew" }
+  ]
+}

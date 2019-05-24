@@ -1,0 +1,7 @@
+{
+  base: "../valid/minimal.json",
+  patch: [
+    {op:  "add", path: "/collections/0", value: 42}
+  ],
+  expectedErrors: "42 is not of type 'object'"
+}
