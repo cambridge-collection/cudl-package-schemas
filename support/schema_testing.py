@@ -4,6 +4,7 @@ A simple pytest plugin to test schemas against valid and invalid test data.
 When this plugin is activated, subclasses of BaseDatatypeTest define tests for
 a JSON schema.
 """
+import contextlib
 import importlib
 import json
 import re
@@ -15,6 +16,7 @@ from urllib.parse import quote, unquote
 import json5
 import jsonpatch
 import pytest
+from jsonpointer import JsonPointer
 from jsonschema import Draft7Validator, RefResolver, ValidationError
 from rfc3987 import parse, resolve, compose
 
@@ -369,7 +371,8 @@ f'testcases but found 0')
                 ids=lambda x: str(x))
 
     def test_schema_matches_valid_instance(self, schema, valid_instance):
-        schema.validate(valid_instance)
+        with describe_validation_error():
+            schema.validate(valid_instance)
 
     def test_schema_rejects_invalid_instance(
             self, schema, invalid_instance_testcase: InvalidInstanceTestCase):
@@ -378,3 +381,25 @@ f'testcases but found 0')
             invalid_instance_testcase.data.value))
 
         invalid_instance_testcase.validation_error_validator(errors)
+
+
+@contextlib.contextmanager
+def describe_validation_error(instance_name=None, schema_name=None, pytrace=False):
+    try:
+        yield
+    except ValidationError as e:
+        msg = format_validation_error(e, instance_name=instance_name,
+                                      schema_name=schema_name)
+        pytest.fail(msg, pytrace=pytrace)
+
+
+def format_validation_error(err: ValidationError, instance_name=None,
+                            schema_name=None):
+    instance_path = JsonPointer.from_parts(err.path).path
+    schema_path = JsonPointer.from_parts(err.schema_path).path
+
+    return f'''\
+{instance_name or 'instance'} violates \
+{f'schema {schema_name}' if schema_name else 'schema'} at path: {instance_path}
+description: {err.message}
+violated schema rule: {schema_path}'''

@@ -5,7 +5,7 @@ import pytest
 import jsonschema
 import json5
 
-from schema_testing import BaseDatatypeTest
+from schema_testing import BaseDatatypeTest, describe_validation_error
 
 
 class CUDLSchemaTest(BaseDatatypeTest):
@@ -43,12 +43,13 @@ def draft07_strict_meta_schema():
 
 
 @pytest.mark.parametrize(
-    'schema_path',
-    [str(p) for p in Path(__file__).parents[1].glob('schemas/*.json')],
+    'schema_path', Path(__file__).parents[1].glob('schemas/*.json'),
     ids=lambda p: Path(p).name)
 def test_schemas_match_strict_meta_schema(schema_path,
                                           draft07_strict_meta_schema):
     with open(schema_path) as f:
         schema = json.load(f)
 
-    jsonschema.validate(schema, draft07_strict_meta_schema)
+    with describe_validation_error(instance_name=schema_path.name,
+                                   schema_name='strict draft 07 meta schema'):
+        jsonschema.validate(schema, draft07_strict_meta_schema)
