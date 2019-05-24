@@ -143,19 +143,23 @@ def create_messages_validator(expected_error):
 
     [(method, value)] = expected_error.items()
     if method == 'exact':
+        msg = f'{value!r} to equal'
         pattern = re.compile(f'^{re.escape(value)}$')
     elif method == 'contains':
+        msg = f'the substring {value!r} to occur in'
         pattern = re.compile(re.escape(value))
     elif method == 'regex':
+        msg = f'regex search for {value} to match'
         pattern = re.compile(value)
     else:
         raise ValueError(
             f'Unsupported expectedError value: {expected_error!r}')
 
     def validate(error_messages):
-        assert any(pattern.search(msg) for msg in error_messages), (
-            f'Expected search for {pattern} to match at least one of '
-            f'{error_messages}')
+        nonlocal msg
+        if not any(pattern.search(msg) for msg in error_messages):
+            pytest.fail(f'\
+Expected {msg} at least one of {error_messages}', pytrace=False)
     return validate
 
 
