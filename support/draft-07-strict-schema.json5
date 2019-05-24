@@ -238,7 +238,6 @@
     "oneOf": { "$ref": "#/definitions/schemaArray" },
     "not": { "$ref": "#" }
   },
-  "required": ["type"],
   "additionalProperties": false,
   "dependencies": {
     "multipleOf": { "$ref": "#/definitions/requiresNumberType" },
