@@ -8,6 +8,14 @@ default: package
 
 package: export npm_config_color = always
 package: build
+# Refuse to build a package with local modifications, as the package may end up
+# containing the modifications rather than the committed state.
+	@DIRTY_FILES="$$(git status --porcelain)" ; \
+	if [ "$$DIRTY_FILES" != "" ]; then \
+		echo "Error: git repo has uncommitted changes, refusing to build package from dirty files:" ; \
+		echo "$$DIRTY_FILES" ; \
+		exit 1 ; \
+	fi
 	cd build && npm pack .. | tee npm-pkg-name
 
 publish: package
