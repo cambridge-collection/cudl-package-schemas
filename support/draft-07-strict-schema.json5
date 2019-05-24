@@ -9,7 +9,7 @@
  * From: https://github.com/jgonzalezdr/json-schema-spec/blob/41175f4114280faf23ad3f54fce4387b45fbf7f4/strict-schema.json
  */
 {
-  "$schema": "http://json-schema.org/draft-07/strict-schema#",
+  "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "http://json-schema.org/draft-07/strict-schema#",
   "title": "Core schema meta-schema",
   "definitions": {
