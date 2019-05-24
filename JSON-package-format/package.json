@@ -1,6 +1,6 @@
 {
   "name": "cudl-schema-package-json",
-  "version": "1.0.0-alpha.0",
+  "version": "1.0.0-alpha.2",
   "description": "Schemas for CUDL's package data in JSON format",
   "main": "schemas/item.schema.json",
   "directories": {
