@@ -6,3 +6,25 @@ packages.
 * [Internal JSON format](./Internal-JSON-format/)
 * [JSON Package format](./JSON-package-format/)
 * [XML Package format](./XML-package-format/)
+
+## Testing
+
+Automated tests for the schemas are included. They are written in Python with
+[pytest]. Dependencies are managed with [poetry]. Tests are run automatically
+via Bitbucket Pipelines.
+
+To run the tests locally:
+
+1. [Install poetry][poetry install]
+2. Install dependencies:
+   ```console
+   $ poetry install
+   ```
+3. Run pytest:
+   ```console
+   $ poetry run pytest
+   ```
+
+[pytest]: https://docs.pytest.org/en/latest/
+[poetry]: https://poetry.eustace.io/
+[poetry install]: https://poetry.eustace.io/docs/#installation
