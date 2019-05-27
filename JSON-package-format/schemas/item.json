@@ -7,15 +7,25 @@
       "contentMediaType": "text/html"
     },
     "itemProperties": {
-      "description": "An open set of key-value properties with string, boolean and number values, or arrays of the same.",
+      "description": "An open set of key-value properties with string, boolean and number values, or arrays of the same. ",
       "type": "object",
       "additionalProperties": {
         "anyOf": [
-          { "type": ["string", "boolean", "number"] },
+          {
+            "type": [
+              "string",
+              "boolean",
+              "number"
+            ]
+          },
           {
             "type": "array",
             "items": {
-              "type": ["string", "boolean", "number"]
+              "type": [
+                "string",
+                "boolean",
+                "number"
+              ]
             }
           }
         ]
@@ -24,11 +34,16 @@
     "pageReference": {
       "description": "An identifier for a specific page.",
       "oneOf": [
-        { "type": "string",
+        {
+          "type": "string",
           "description": "The name of a key in the \"pages\" object."
         },
-        { "enum": [true],
-          "description": "The very first or last page, depending on which of \"firstPage\" or \"lastPage\" it's used with."
+        {
+          "type": "boolean",
+          "description": "The very first or last page, depending on which of \"firstPage\" or \"lastPage\" it's used with.",
+          "enum": [
+            true
+          ]
         }
       ]
     },
@@ -45,23 +60,24 @@
           "type": "string"
         },
         "value": {
-          "description": "The value for this property .e.g. 'Elementary Mathematics'",
-          "oneOf": [{
-            "type": "string"
-          },
+          "description": "The value for this property .e.g. 'Elementary Mathematics'.  Also supports an array of strings where there are several separate values, e.g. multiple alternative titles.",
+          "oneOf": [
+            {
+              "type": "string"
+            },
             {
               "type": "array",
               "items": {
                 "type": "string"
               }
-            }]
+            }
+          ]
         },
         "order": {
           "description": "This is used to decide the order of display in the list of metadata. e.g. '1. Title.' is before '2. Classmark'. ",
           "type": "string"
         }
-      },
-      "additionalProperties": false
+      }
     },
     "metadataProperties": {
       "type": "object",
@@ -69,6 +85,7 @@
       "required": [
         "coverage"
       ],
+      "additionalProperties": false,
       "properties": {
         "coverage": {
           "type": "object",
@@ -78,8 +95,12 @@
           ],
           "additionalProperties": false,
           "properties": {
-            "firstPage": { "$ref": "#/definitions/pageReference" },
-            "lastPage": { "$ref": "#/definitions/pageReference" }
+            "firstPage": {
+              "$ref": "#/definitions/pageReference"
+            },
+            "lastPage": {
+              "$ref": "#/definitions/pageReference"
+            }
           }
         },
         "attributes": {
@@ -87,8 +108,7 @@
           "additionalProperties": {
             "$ref": "#/definitions/metadataProperty"
           }
-        },
-        "additionalProperties": false
+        }
       }
     }
   },
@@ -101,15 +121,16 @@
     "type"
   ],
   "type": "object",
+  "additionalProperties": false,
   "properties": {
     "type": {
       "type": "string",
       "format": "uri-reference"
     },
+    "additionalProperties": false,
     "properties": {
       "$ref": "#/definitions/itemProperties"
     },
-    "additionalProperties": false,
     "descriptions": {
       "type": "object",
       "required": [
@@ -123,19 +144,19 @@
       "additionalProperties": {
         "$ref": "#/definitions/metadataProperties"
       }
-
     },
     "pages": {
       "type": "object",
       "description": "Pages is a list of objects that represent each page in the item.",
       "additionalProperties": {
         "type": "object",
-        "description": "The page object should be named after the page index e.g. 1",
+        "description": "Each page has an object that contains the label, order and image attributes.",
         "required": [
           "label",
           "order",
           "image"
         ],
+        "additionalProperties": true,
         "properties": {
           "label": {
             "description": "The label for this page, e.g. 2v",
@@ -148,6 +169,7 @@
           "image": {
             "type": "object",
             "description": "An object representing the image for this page.",
+            "additionalProperties": true,
             "properties": {
               "type": {
                 "description": "The image format.",
@@ -158,12 +180,10 @@
                 "format": "uri-reference",
                 "type": "string"
               }
-            },
-            "additionalProperties": true
+            }
           }
         }
       }
     }
-  },
-  "additionalProperties": false
+  }
 }

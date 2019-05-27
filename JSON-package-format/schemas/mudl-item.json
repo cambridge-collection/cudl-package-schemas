@@ -13,8 +13,8 @@
       "contentMediaType": "text/html"
     },
     "itemProperties": {
+      "description": "An open set of key-value properties with string, boolean and number values, or arrays of the same. ",
       "type": "object",
-      "description": "These are values used by the viewer to display the item.",
       "required": [
         "displayImageRights",
         "linkToImageReproductionRequestPage"
@@ -66,6 +66,27 @@
           "format": "uri-reference",
           "description": "This is a link to request reproduction rights to these images."
         }
+      },
+      "additionalProperties": {
+        "anyOf": [
+          {
+            "type": [
+              "string",
+              "boolean",
+              "number"
+            ]
+          },
+          {
+            "type": "array",
+            "items": {
+              "type": [
+                "string",
+                "boolean",
+                "number"
+              ]
+            }
+          }
+        ]
       }
     },
     "pageReference": {
@@ -77,8 +98,10 @@
         },
         {
           "type": "boolean",
-          "description": "True is this coverage extends to the firstpage or lastpage. False is not valid.",
-          "enum": [true]
+          "description": "The very first or last page, depending on which of \"firstPage\" or \"lastPage\" it's used with.",
+          "enum": [
+            true
+          ]
         }
       ]
     },
@@ -95,10 +118,11 @@
           "type": "string"
         },
         "value": {
-          "description": "The value for this property .e.g. 'Elementary Mathematics'.  Also supports an array of strings for e.g. multiple origins.",
-          "oneOf": [{
-            "type": "string"
-          },
+          "description": "The value for this property .e.g. 'Elementary Mathematics'.  Also supports an array of strings where there are several separate values, e.g. multiple alternative titles.",
+          "oneOf": [
+            {
+              "type": "string"
+            },
             {
               "type": "array",
               "items": {
@@ -111,8 +135,7 @@
           "description": "This is used to decide the order of display in the list of metadata. e.g. '1. Title.' is before '2. Classmark'. ",
           "type": "string"
         }
-      },
-      "additionalProperties": false
+      }
     },
     "metadataProperties": {
       "type": "object",
@@ -121,6 +144,7 @@
         "coverage",
         "attributes"
       ],
+      "additionalProperties": false,
       "properties": {
         "coverage": {
           "type": "object",
@@ -143,6 +167,9 @@
           "required": [
             "title"
           ],
+          "additionalProperties": {
+            "$ref": "#/definitions/metadataProperty"
+          },
           "properties": {
             "title": {
               "description": "Title of the item",
@@ -160,13 +187,9 @@
               "description": "Text describing this item.",
               "$ref": "#/definitions/metadataProperty"
             }
-          },
-          "additionalProperties": {
-              "$ref": "#/definitions/metadataProperty"
           }
         }
-      },
-      "additionalProperties": false
+      }
     }
   },
   "title": "JSON package format",
@@ -178,15 +201,16 @@
     "type"
   ],
   "type": "object",
+  "additionalProperties": false,
   "properties": {
     "type": {
       "type": "string",
       "format": "uri-reference"
     },
+    "additionalProperties": false,
     "properties": {
       "$ref": "#/definitions/itemProperties"
     },
-    "additionalProperties": false,
     "descriptions": {
       "type": "object",
       "required": [
@@ -202,10 +226,11 @@
       }
     },
     "pages": {
+      "type": "object",
       "description": "Pages is a list of objects that represent each page in the item.",
       "additionalProperties": {
-        "description": "The page object should be named after the page index e.g. 1",
         "type": "object",
+        "description": "Each page has an object that contains the label, order and image attributes.",
         "required": [
           "label",
           "order",
@@ -273,6 +298,5 @@
         }
       }
     }
-  },
-  "additionalProperties": false
+  }
 }
