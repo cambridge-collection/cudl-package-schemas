@@ -60,7 +60,8 @@
                     // handle titles/abstracts etc specially and display them out
                     // of the normal list of attributes.
                     "label": "Title",
-                    "value": "Book of Foo"
+                    "value": "Book of Foo",
+                    "order": "1"
                 },
                 "formerOwners": {
                     "label": "Former Owners",
@@ -82,7 +83,8 @@
             "attributes": {
                 "title": {
                     "label": "Title",
-                    "value": "Excerpts from the Gospel of FooBar"
+                    "value": "Excerpts from the Gospel of FooBar",
+                    "order": "1"
                 }
             }
         },
