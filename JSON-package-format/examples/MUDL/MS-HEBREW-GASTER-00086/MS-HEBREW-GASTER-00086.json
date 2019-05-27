@@ -1,7 +1,5 @@
-
 {
     "type": "https://schemas.cudl.lib.cam.ac.uk/mudl/mudl-item/v1/json",
-
     "properties": {
         "textDirection": "R",
         "sourceData": "/v1/metadata/tei/MS-HEBREW-GASTER-00086/",
@@ -15,14 +13,17 @@
         "creation-dateEnd": "1495-07-02",
         "downloadImageRights": "Images made available for download are licensed under a Creative Commons Attribution-NonCommercial 3.0 Unported License (CC BY-NC 3.0)",
         "linkToImageReproductionRequestPage": "http://www.manchester-image-licensing-link",
-        "languageCodes": ["heb"]
+        "languageCodes": ["heb"],
+        "acquisition-dateStart": "1954",
+        "acquisition-dateEnd": "1954",
+        "people-scribe": "Ya'aqov ben 'Ovadiah ben Yosef ben 'Ezrah"
     },
-
     "descriptions": {
         "main": {
-
-            "coverage": { "firstPage": "1a", "lastPage": true },
-
+            "coverage": {
+                "firstPage": "1a",
+                "lastPage": true
+            },
             "attributes": {
                 "extent": {
                     "label": "Extent",
@@ -76,7 +77,10 @@
                 },
                 "originPlace": {
                     "label": "Origin Place",
-                    "value": ["<a href='cudl:///search?keyword=Kashan'>Kashan</a>","<a href='cudl:///search?keyword=Iran'>Iran</a>"],
+                    "value": [
+                        "<a href='cudl:///search?keyword=Kashan'>Kashan</a>",
+                        "<a href='cudl:///search?keyword=Iran'>Iran</a>"
+                    ],
                     "order": "70"
                 },
                 "dateOfCreation": {
@@ -106,7 +110,10 @@
                 },
                 "alternativeTitles": {
                     "label": "Alternative Title(s)",
-                    "value": ["כתובים", "Writings (Hebrew Bible)"],
+                    "value": [
+                        "כתובים",
+                        "Writings (Hebrew Bible)"
+                    ],
                     "order": "16"
                 },
                 "languageStrings": {
@@ -144,13 +151,11 @@
                     ],
                     "order":"23"
                 },
-
                 "abstract": {
                     "label": "Abstract",
                     "value": "<p style='text-align: justify;'>This manuscript contains the third part of the Hebrew Bible known as Writings (Ketuvim) with numerous marginal glosses in Hebrew and Judeo-Persian. It was copied by Jacob ben Obadiah ben Joseph ben Ezra in the school of Rabbi Mordechai in Kashan in Iran at the request of Rav Samuel ha-Levi. He completed his copy on Tuesday 2 July 1495. The order in which the Bible books appear is as follows: Psalms (folios <a href='cudl:///itempage/view?index=8'>1b-72b</a>), Proverbs (folios <a href='cudl:///itempage/view?index=151'>73a-101b</a>), Ruth (folios <a href='cudl:///itempage/view?index=210'>102b-105b</a>), Song of Songs (folios <a href='cudl:///itempage/view?index=216'>105b-109b</a>), Ecclesiastes (folios <a href='cudl:///itempage/view?index=224'>109b-117a</a>), Lamentations (folios <a href='cudl:///itempage/view?index=240'>117b-121b</a>), Esther (folios <a href='cudl:///itempage/view?index=250'>122b-131a</a>), Daniel (folios <a href='cudl:///itempage/view?index=268'>131b-150a</a>), Ezra (folios <a href='cudl:///itempage/view?index=306'>150b-161b</a>), Nehemiah (folios <a href='cudl:///itempage/view?index=327'>161b-179a</a>), Job (folios <a href='cudl:///itempage/view?index=363'>179a-209b</a>), 1 and 2 Chronicles (folios <a href='cudl:///itempage/view?index=224'>209b-290b</a>). The biblical text is vocalised and accompanied by masorah. According to Moses Gaster, this is a unique manuscript showing the vocalisation and accentuation tradition of Ben Naphtali.<\/p>",
                     "order": "11"
                 },
-
                 "bibliographies": {
                     "label": "Bibliography",
                     "value": "<div style='list-style-type: disc;'><div style='display: list-item; margin-left: 20px;'><a target='_blank' class='externalLink' href='http://www.worldcat.org/oclc/7907984'>Catalogue of an Exhibition of Hebrew Manuscripts and Printed Books together with Other Items of Jewish Interest, Manchester: The John Rylands Library, 1958: 10, case 2, item 6.</a><\/div><div style='display: list-item; margin-left: 20px;'><a target='_blank' class='externalLink' href='http://www.worldcat.org/oclc/18071891'>The Jewish Heritage: Catalogue of an Exhibition held in the John Rylands University Library of Manchester, January-April 1988: 5, case three, item 1.</a><\/div><div style='display: list-item; margin-left: 20px;'><a target='_blank' class='externalLink' href='http://www.worldcat.org/oclc/85069649'>M. Beit-Arié et al., Specimens of Mediaeval Hebrew Scripts, Vol. 1: Oriental and Yemenite Scripts, Jerusalem: The Israel Academy of Sciences and Humanities, 1987: no. 110.</a><\/div><div style='display: list-item; margin-left: 20px;'><a target='_blank' class='externalLink' href='http://www.worldcat.org/oclc/800855402'>M. Gaster, Studies and Texts in Folklore, Magic, Mediaeval Romance, Hebrew Apocrypha and Samaritan Archaeology with 14 Plates and 5 Illustrations, London: Maggs Bros, 1925-1928, vol. II: 1295-1329, esp. 1322-1329.</a><\/div><\/div><br />",
@@ -183,19 +188,12 @@
                 },
                 "scribes": {
                     "label": "Scribe(s)",
-                    "value": [{
-                        "role": "scr",
-                        "type": "person",
-                        "value": "<a href='cudl:///search?keyword=Ya%27aqov%20ben%20%27Ovadiah%20ben%20Yosef%20ben%20%27Ezrah'>Ya'aqov ben 'Ovadiah ben Yosef ben 'Ezrah"
-                    }],
+                    "value": "<a href='cudl:///search?keyword=Ya%27aqov%20ben%20%27Ovadiah%20ben%20Yosef%20ben%20%27Ezrah'>Ya'aqov ben 'Ovadiah ben Yosef ben 'Ezrah</a>",
                     "order": "47"
                 },
                 "acquisitions": {
                     "label": "Date of Acquisition",
                     "value": "1954",
-                    "dateStart": "1954",
-                    "dateEnd": "1954",
-                    "type": "acquisition",
                     "order": "202"
                 }
             }
@@ -203,7 +201,7 @@
         "Folio 17a: Marginal indication of parashah decorated in ink": {
             "coverage": {
                 "firstPage": "17a",
-                "lastPage": 602
+                "lastPage": true
             },
             "attributes": {
                 "title": {
@@ -216,7 +214,7 @@
         "Folios 111b, 230a, 239b, 246a, 249b, 252b, 255b, 258b, 267b, 270a, 277b, 281a: Marginal indication of sedarim decorated in ink.": {
             "coverage": {
                 "firstPage": "111b",
-                "lastPage": 602
+                "lastPage": true
             },
             "attributes": {
                 "title": {
@@ -229,7 +227,7 @@
         "Folio 41b: Red ink geometric design.": {
             "coverage": {
                 "firstPage": "41b",
-                "lastPage": 602
+                "lastPage": true
             },
             "attributes": {
                 "title": {
@@ -242,7 +240,7 @@
         "Folios 89a, 104a, 107b, 126b, 194a: Black ink decoration that indicates the middle of the book.": {
             "coverage": {
                 "firstPage": "89a",
-                "lastPage": 602
+                "lastPage": true
             },
             "attributes": {
                 "title": {
@@ -255,7 +253,7 @@
         "Folios 65b-66a: Pen trial.": {
             "coverage": {
                 "firstPage": "65b",
-                "lastPage": 602
+                "lastPage": true
             },
             "attributes": {
                 "title": {
@@ -268,7 +266,7 @@
         "Folios 124a-126b: Small additions in the margins.": {
             "coverage": {
                 "firstPage": "124a",
-                "lastPage": 602
+                "lastPage": true
             },
             "attributes": {
                 "title": {
@@ -281,7 +279,7 @@
         "Folios 290b-293a: Several texts in different hands and languages. According to Gaster they contain abstracts from Rashi\u2019s commentary to certain Psalms and folio 293a some aggadic matter referring to the kings of Judah.": {
             "coverage": {
                 "firstPage": "290b",
-                "lastPage": 602
+                "lastPage": true
             },
             "attributes": {
                 "title": {
@@ -294,7 +292,7 @@
         "Folio 293b: list of zodiacal signs and of planets in Hebrew and Judeo-Persian.": {
             "coverage": {
                 "firstPage": "293b",
-                "lastPage": 602
+                "lastPage": true
             },
             "attributes": {
                 "title": {
@@ -307,7 +305,7 @@
         "Folio 1a": {
             "coverage": {
                 "firstPage": "1a",
-                "lastPage": 602
+                "lastPage": true
             },
             "attributes": {
                 "title": {
@@ -320,7 +318,7 @@
         "Folios 1a, 290b and 291a": {
             "coverage": {
                 "firstPage": "1a",
-                "lastPage": 602
+                "lastPage": true
             },
             "attributes": {
                 "title": {
@@ -331,7 +329,6 @@
             }
         }
     },
-
     "pages": {
         "1": {
             "label": "Front board",

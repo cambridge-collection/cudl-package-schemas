@@ -8,6 +8,10 @@
   ],
   "$schema": "http://json-schema.org/draft-07/schema#",
   "definitions": {
+    "html": {
+      "type": "string",
+      "contentMediaType": "text/html"
+    },
     "itemProperties": {
       "type": "object",
       "description": "These are values used by the viewer to display the item.",
@@ -72,10 +76,6 @@
           "description": "The name of a key in the \"pages\" object."
         },
         {
-          "type": "integer",
-          "description": "The 0-based index of a page after sorting by their \"order\" key. Negative indexes are counted from the end (the last page is -1, second to last is -2, etc)."
-        },
-        {
           "type": "boolean",
           "description": "True is this coverage extends to the firstpage or lastpage. False is not valid.",
           "enum": [true]
@@ -95,8 +95,17 @@
           "type": "string"
         },
         "value": {
-          "description": "The value for this property .e.g. 'Elementary Mathematics'",
-          "type": "string"
+          "description": "The value for this property .e.g. 'Elementary Mathematics'.  Also supports an array of strings for e.g. multiple origins.",
+          "oneOf": [{
+            "type": "string"
+          },
+            {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          ]
         },
         "order": {
           "description": "This is used to decide the order of display in the list of metadata. e.g. '1. Title.' is before '2. Classmark'. ",
@@ -151,13 +160,13 @@
               "description": "Text describing this item.",
               "$ref": "#/definitions/metadataProperty"
             }
+          },
+          "additionalProperties": {
+              "$ref": "#/definitions/metadataProperty"
           }
         }
       },
-      "additionalProperties": {
-        "description": "Any additional metadata properties for display, e.g. provenances, material etc. ",
-        "$ref": "#/definitions/metadataProperty"
-      }
+      "additionalProperties": false
     }
   },
   "title": "JSON package format",
