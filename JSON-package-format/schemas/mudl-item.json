@@ -1,326 +1,269 @@
 {
-    "$comment":  "This schema is inherited from the item level schema, which defines the structure. This schema adds the values specific to the MUDL items.",
-
-    "$id": "https://schemas.cudl.lib.cam.ac.uk/package/v1/mudl-item.json",
-    "allOf": [{ "$ref": "https://schemas.cudl.lib.cam.ac.uk/package/v1/item.json" }],
-    "$schema": "http://json-schema.org/draft-07/schema#",
-    "definitions": {
-        "itemProperties": {
-            "type": "object",
-            "description": "These are values used by the viewer to display the item.",
-            "required": [
-                "displayImageRights",
-                "linkToImageReproductionRequestPage"
-            ],
-            "properties": {
-                "embeddable": {
-                    "type": "boolean",
-                    "description": "Can this item be embedded in another website using the embeddable viewer or not.",
-                    "default": false
-                },
-                "useTranscriptions": {
-                    "type": "boolean",
-                    "description": "Does this item contain transcription information",
-                    "default": false
-                },
-                "transcriptionType": {
-                    "type": "string",
-                    "description": "If transcriptions are used, are they normalised, diplomatic or both (with different urls).",
-                    "enum": [
-                        "normalised",
-                        "diplomatic",
-                        "both"
-                    ]
-                },
-                "useTranslations": {
-                    "type": "boolean",
-                    "description": "Does this item contain translation information",
-                    "default": false
-                },
-                "sourceData": {
-                    "type": "string",
-                    "description": "Relative local path to the source metadata, e.g. 'tei/foo.xml'"
-                },
-                "thumbnailUrl": {
-                    "type": "string",
-                    "format": "uri-reference",
-                    "description": "URL for the thumbnail image to use, if not specified the first page is used."
-                },
-                "displayImageRights": {
-                    "type": "string",
-                    "description": "A description of the rights for the display images of this item. Displayed on item web page."
-                },
-                "downloadImageRights": {
-                    "type": "string",
-                    "description": "A description of the rights for the download images in this item. Displayed on image download. If not specified download not allowed."
-                },
-                "linkToImageReproductionRequestPage": {
-                    "type": "string",
-                    "format": "uri-reference",
-                    "description": "This is a link to request reproduction rights to these images."
-                }
-            }
+  "$comment": "This schema is inherited from the item level schema, which defines the structure. This schema adds the values specific to the MUDL items.",
+  "$id": "https://schemas.cudl.lib.cam.ac.uk/package/v1/mudl-item.json",
+  "allOf": [
+    {
+      "$ref": "https://schemas.cudl.lib.cam.ac.uk/package/v1/item.json"
+    }
+  ],
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "definitions": {
+    "itemProperties": {
+      "type": "object",
+      "description": "These are values used by the viewer to display the item.",
+      "required": [
+        "displayImageRights",
+        "linkToImageReproductionRequestPage"
+      ],
+      "properties": {
+        "embeddable": {
+          "type": "boolean",
+          "description": "Can this item be embedded in another website using the embeddable viewer or not.",
+          "default": false
         },
-        "pageReference": {
-            "description": "An identifier for a specific page.",
-            "oneOf": [
-                { "type": "string",
-                    "description": "The name of a key in the \"pages\" object."
-                },
-                { "type": "integer",
-                    "description": "The 0-based index of a page after sorting by their \"order\" key. Negative indexes are counted from the end (the last page is -1, second to last is -2, etc)."
-                }
-            ]
+        "useTranscriptions": {
+          "type": "boolean",
+          "description": "Does this item contain transcription information",
+          "default": false
         },
-        "metadataProperties": {
-            "type": "object",
-            "description": "These are properties allowed for each metadata section.",
-            "required": [
-                "coverage",
-                "attributes"
-            ],
-            "properties": {
-                "coverage": {
-                    "type": "object",
-                    "required": [
-                        "firstPage",
-                        "lastPage"
-                    ],
-                    "additionalProperties": false,
-                    "properties": {
-                        "firstPage": { "$ref": "#/definitions/pageReference" },
-                        "lastPage": { "$ref": "#/definitions/pageReference" }
-                    }
-                },
-                "attributes": {
-                    "type": "object",
-                    "required": [
-                        "title"
-                    ],
-                    "properties": {
-                        "title": {
-                            "type": "object",
-                            "required": [
-                                "label",
-                                "value"
-                            ],
-                            "properties": {
-                                "additionalProperties": false,
-                                "label": {
-                                    "description": "Label for the title section. This should be 'Title'.",
-                                    "type": "string",
-                                    "enum": [
-                                        "Title"
-                                    ]
-                                },
-                                "value": {
-                                    "description": "The title for this item.  This is displayed in a special location on the page.",
-                                    "type": "string"
-                                }
-                            }
-                        },
-                        "author": {
-                            "type": "object",
-                            "required": [
-                                "label",
-                                "value"
-                            ],
-                            "properties": {
-                                "additionalProperties": false,
-                                "label": {
-                                    "description": "Label for the Author section. This should be 'Author(s). '",
-                                    "type": "string",
-                                    "enum": [
-                                        "Author(s)"
-                                    ]
-                                },
-                                "value": {
-                                    "description": "The author of this item. This is displayed in a special location on the page.",
-                                    "type": "string"
-                                }
-                            }
-                        },
-                        "classmark": {
-                            "type": "object",
-                            "required": [
-                                "label",
-                                "value",
-                                "order"
-                            ],
-                            "properties": {
-                                "additionalProperties": false,
-                                "label": {
-                                    "description": "Label for the classmark or human-readable id for this item.",
-                                    "type": "string"
-                                },
-                                "value": {
-                                    "description": "Human readable classmark or identification for this item.  This is added to the title of the page in brackets.",
-                                    "type": "string"
-                                },
-                                "order": {
-                                    "description": "This is used to decide the order in which to display the label/value pairs. e.g. 2.{label}.",
-                                    "type": "string"
-                                }
-                            }
-                        },
-                        "abstract": {
-                            "type": "object",
-                            "required": [
-                                "label",
-                                "value"
-                            ],
-                            "properties": {
-                                "additionalProperties": false,
-                                "label": {
-                                    "description": "Label for the abstract (or short description) for this item. Should be 'Abstract'.",
-                                    "type": "string",
-                                    "enum": [
-                                        "Abstract"
-                                    ]
-                                },
-                                "value": {
-                                    "description": "Abstract or short description of this item. This is displayed in a special location on the page.",
-                                    "type": "string"
-                                }
-                            }
-                        },
-                        "additionalProperties": {
-                            "description": "Allow any other strings, arrays or booleans for descriptive metadata. e.g. Year of creation, etc. ",
-                            "label": {
-                                "description": "This can be the label for any piece of metadata.",
-                                "type": "string"
-                            },
-                            "value": {
-                                "description": "This can be the value for any piece of metadata.",
-                                "anyOf": [
-                                    { "type": ["string", "boolean", "number"] },
-                                    {
-                                        "type": "array",
-                                        "items": {
-                                            "type": ["string", "boolean", "number"]
-                                        }
-                                    }
-                                ]
-                            },
-                            "order": {
-                                "description": "This is used to decide the order in which to display the label/value pairs. e.g. 2.{label}.",
-                                "type": "string"
-                            },
-                            "required": [
-                                "label",
-                                "value",
-                                "order"
-                            ]
-                        }
-                    }
-                }
-            }
+        "transcriptionType": {
+          "type": "string",
+          "description": "If transcriptions are used, are they normalised, diplomatic or both (with different urls).",
+          "enum": [
+            "normalised",
+            "diplomatic",
+            "both"
+          ]
+        },
+        "useTranslations": {
+          "type": "boolean",
+          "description": "Does this item contain translation information",
+          "default": false
+        },
+        "sourceData": {
+          "type": "string",
+          "description": "Relative local path to the source metadata, e.g. 'tei/foo.xml'"
+        },
+        "thumbnailUrl": {
+          "type": "string",
+          "format": "uri-reference",
+          "description": "URL for the thumbnail image to use, if not specified the first page is used."
+        },
+        "displayImageRights": {
+          "type": "string",
+          "description": "A description of the rights for the display images of this item. Displayed on item web page."
+        },
+        "downloadImageRights": {
+          "type": "string",
+          "description": "A description of the rights for the download images in this item. Displayed on image download. If not specified download not allowed."
+        },
+        "linkToImageReproductionRequestPage": {
+          "type": "string",
+          "format": "uri-reference",
+          "description": "This is a link to request reproduction rights to these images."
         }
+      }
     },
-    "title": "JSON package format",
-    "description": "This contains the information to describe an item (book, manuscript, etc) in the digital library.",
-    "required": [
-        "descriptions",
-        "pages",
-        "properties",
-        "type"
-    ],
-    "type": "object",
-    "properties": {
-        "type": {
-            "type": "string",
-            "format": "uri-reference"
+    "pageReference": {
+      "description": "An identifier for a specific page.",
+      "oneOf": [
+        {
+          "type": "string",
+          "description": "The name of a key in the \"pages\" object."
         },
-        "properties": {
-            "$ref": "#/definitions/itemProperties"
+        {
+          "type": "integer",
+          "description": "The 0-based index of a page after sorting by their \"order\" key. Negative indexes are counted from the end (the last page is -1, second to last is -2, etc)."
         },
-        "additionalProperties": false,
-        "descriptions": {
-            "type": "object",
-            "required": [
-                "main"
-            ],
-            "properties": {
-                "main": {
-                    "$ref": "#/definitions/metadataProperties"
-                }
+        {
+          "type": "boolean",
+          "description": "True is this coverage extends to the firstpage or lastpage. False is not valid.",
+          "enum": [true]
+        }
+      ]
+    },
+    "metadataProperty": {
+      "type": "object",
+      "required": [
+        "label",
+        "value",
+        "order"
+      ],
+      "properties": {
+        "label": {
+          "description": "Label for this property, e.g. 'Title'.",
+          "type": "string"
+        },
+        "value": {
+          "description": "The value for this property .e.g. 'Elementary Mathematics'",
+          "type": "string"
+        },
+        "order": {
+          "description": "This is used to decide the order of display in the list of metadata. e.g. '1. Title.' is before '2. Classmark'. ",
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "metadataProperties": {
+      "type": "object",
+      "description": "These are properties allowed for each metadata section.",
+      "required": [
+        "coverage",
+        "attributes"
+      ],
+      "properties": {
+        "coverage": {
+          "type": "object",
+          "required": [
+            "firstPage",
+            "lastPage"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "firstPage": {
+              "$ref": "#/definitions/pageReference"
             },
-            "additionalProperties": {
-                "$ref": "#/definitions/metadataProperties"
+            "lastPage": {
+              "$ref": "#/definitions/pageReference"
             }
+          }
         },
-        "pages": {
-            "description": "Pages is a list of objects that represent each page in the item.",
-            "additionalProperties": {
-                "description": "The page object should be named after the page index e.g. 1",
-                "type": "object",
-                "required": [
-                    "label",
-                    "order",
-                    "image"
-                ],
-                "additionalProperties": false,
-                "properties": {
-                    "label": {
-                        "description": "The label for this page, e.g. 2v",
-                        "type": "string"
-                    },
-                    "order": {
-                        "description": "This is used to determine the order for display.",
-                        "type": "string"
-                    },
-                    "image": {
-                        "type": "object",
-                        "description": "An object representing the image for this page.",
-                        "additionalProperties": false,
-                        "properties": {
-                            "type": {
-                                "description": "The image format.",
-                                "type": "string",
-                                "enum": [
-                                    "iiif",
-                                    "tiff"
-                                ]
-                            },
-                            "href": {
-                                "description": "The local path to the image for this page relative to the image storage location, e.g. images/mypicture.tiff",
-                                "format": "uri-reference",
-                                "type": "string"
-                            }
-                        }
-                    },
-                    "transcription": {
-                        "type": "object",
-                        "description": "An object representing the transcription data for this page.",
-                        "additionalProperties": false,
-                        "properties": {
-                            "diplomatic": {
-                                "description": "A path to the diplomatic transcription data in html for this page.",
-                                "type": "string",
-                                "format": "uri-reference"
-                            },
-                            "normalised": {
-                                "description": "A path to the normalised transcription data in html for this page.",
-                                "type": "string",
-                                "format": "uri-reference"
-                            }
-                        }
-                    },
-                    "translation": {
-                        "type": "object",
-                        "description": "An object representing the translation data for this page.",
-                        "additionalProperties": false,
-                        "properties": {
-                            "href": {
-                                "description": "A path to the translation data in html for this page.",
-                                "type": "string",
-                                "format": "uri-reference"
-                            }
-                        }
-                    }
-                }
+        "attributes": {
+          "type": "object",
+          "required": [
+            "title"
+          ],
+          "properties": {
+            "title": {
+              "description": "Title of the item",
+              "$ref": "#/definitions/metadataProperty"
+            },
+            "author": {
+              "description": "The author of this item",
+              "$ref": "#/definitions/metadataProperty"
+            },
+            "classmark": {
+              "description": "The classmark or human-readable id for this item.",
+              "$ref": "#/definitions/metadataProperty"
+            },
+            "abstract": {
+              "description": "Text describing this item.",
+              "$ref": "#/definitions/metadataProperty"
             }
+          }
         }
+      },
+      "additionalProperties": {
+        "description": "Any additional metadata properties for display, e.g. provenances, material etc. ",
+        "$ref": "#/definitions/metadataProperty"
+      }
+    }
+  },
+  "title": "JSON package format",
+  "description": "This contains the information to describe an item (book, manuscript, etc) in the digital library.",
+  "required": [
+    "descriptions",
+    "pages",
+    "properties",
+    "type"
+  ],
+  "type": "object",
+  "properties": {
+    "type": {
+      "type": "string",
+      "format": "uri-reference"
     },
-    "additionalProperties": false
+    "properties": {
+      "$ref": "#/definitions/itemProperties"
+    },
+    "additionalProperties": false,
+    "descriptions": {
+      "type": "object",
+      "required": [
+        "main"
+      ],
+      "properties": {
+        "main": {
+          "$ref": "#/definitions/metadataProperties"
+        }
+      },
+      "additionalProperties": {
+        "$ref": "#/definitions/metadataProperties"
+      }
+    },
+    "pages": {
+      "description": "Pages is a list of objects that represent each page in the item.",
+      "additionalProperties": {
+        "description": "The page object should be named after the page index e.g. 1",
+        "type": "object",
+        "required": [
+          "label",
+          "order",
+          "image"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "label": {
+            "description": "The label for this page, e.g. 2v",
+            "type": "string"
+          },
+          "order": {
+            "description": "This is used to determine the order for display.",
+            "type": "string"
+          },
+          "image": {
+            "type": "object",
+            "description": "An object representing the image for this page.",
+            "additionalProperties": false,
+            "properties": {
+              "type": {
+                "description": "The image format.",
+                "type": "string",
+                "enum": [
+                  "iiif",
+                  "tiff"
+                ]
+              },
+              "href": {
+                "description": "The local path to the image for this page relative to the image storage location, e.g. images/mypicture.tiff",
+                "format": "uri-reference",
+                "type": "string"
+              }
+            }
+          },
+          "transcription": {
+            "type": "object",
+            "description": "An object representing the transcription data for this page.",
+            "additionalProperties": false,
+            "properties": {
+              "diplomatic": {
+                "description": "A path to the diplomatic transcription data in html for this page.",
+                "type": "string",
+                "format": "uri-reference"
+              },
+              "normalised": {
+                "description": "A path to the normalised transcription data in html for this page.",
+                "type": "string",
+                "format": "uri-reference"
+              }
+            }
+          },
+          "translation": {
+            "type": "object",
+            "description": "An object representing the translation data for this page.",
+            "additionalProperties": false,
+            "properties": {
+              "href": {
+                "description": "A path to the translation data in html for this page.",
+                "type": "string",
+                "format": "uri-reference"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "additionalProperties": false
 }

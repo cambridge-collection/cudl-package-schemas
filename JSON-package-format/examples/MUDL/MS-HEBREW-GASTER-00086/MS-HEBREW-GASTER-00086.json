@@ -42,7 +42,7 @@
                 "altIdentifiers": {
                     "label": "Alternative Identifier(s)",
                     "value": "Gaster 86",
-                    "seq": "6"
+                    "order": "6"
                 },
                 "bindings": {
                     "label": "Binding",
@@ -141,7 +141,7 @@
                         "<a href='cudl:///search?keyword=Astrology'>Astrology</a>",
                         "<a href='cudl:///search?keyword=Astronomy'>Astronomy</a>",
                         "<a href='cudl:///search?keyword=Bible%20Commentaries'>Bible Commentaries</a>"
-                        ],
+                    ],
                     "order":"23"
                 },
 
@@ -208,7 +208,8 @@
             "attributes": {
                 "title": {
                     "label": "Title",
-                    "value": "Folio 17a: Marginal indication of parashah decorated in ink."
+                    "value": "Folio 17a: Marginal indication of parashah decorated in ink.",
+                    "order": "1"
                 }
             }
         },
@@ -220,7 +221,8 @@
             "attributes": {
                 "title": {
                     "label": "Title",
-                    "value": "Folios 111b, 230a, 239b, 246a, 249b, 252b, 255b, 258b, 267b, 270a, 277b, 281a: Marginal indication of sedarim decorated in ink."
+                    "value": "Folios 111b, 230a, 239b, 246a, 249b, 252b, 255b, 258b, 267b, 270a, 277b, 281a: Marginal indication of sedarim decorated in ink.",
+                    "order": "1"
                 }
             }
         },
@@ -232,7 +234,8 @@
             "attributes": {
                 "title": {
                     "label": "Title",
-                    "value": "Folio 41b: Red ink geometric design."
+                    "value": "Folio 41b: Red ink geometric design.",
+                    "order": "1"
                 }
             }
         },
@@ -244,7 +247,8 @@
             "attributes": {
                 "title": {
                     "label": "Title",
-                    "value": "Folios 89a, 104a, 107b, 126b, 194a: Black ink decoration that indicates the middle of the book."
+                    "value": "Folios 89a, 104a, 107b, 126b, 194a: Black ink decoration that indicates the middle of the book.",
+                    "order": "1"
                 }
             }
         },
@@ -256,7 +260,8 @@
             "attributes": {
                 "title": {
                     "label": "Title",
-                    "value": "Folios 65b-66a: Pen trial."
+                    "value": "Folios 65b-66a: Pen trial.",
+                    "order": "1"
                 }
             }
         },
@@ -268,7 +273,8 @@
             "attributes": {
                 "title": {
                     "label": "Title",
-                    "value": "Folios 124a-126b: Small additions in the margins."
+                    "value": "Folios 124a-126b: Small additions in the margins.",
+                    "order": "1"
                 }
             }
         },
@@ -280,7 +286,8 @@
             "attributes": {
                 "title": {
                     "label": "Title",
-                    "value": "Folios 290b-293a: Several texts in different hands and languages. According to Gaster they contain abstracts from Rashi\u2019s commentary to certain Psalms and folio 293a some aggadic matter referring to the kings of Judah."
+                    "value": "Folios 290b-293a: Several texts in different hands and languages. According to Gaster they contain abstracts from Rashi\u2019s commentary to certain Psalms and folio 293a some aggadic matter referring to the kings of Judah.",
+                    "order": "1"
                 }
             }
         },
@@ -292,7 +299,8 @@
             "attributes": {
                 "title": {
                     "label": "Title",
-                    "value": "Folio 293b: list of zodiacal signs and of planets in Hebrew and Judeo-Persian."
+                    "value": "Folio 293b: list of zodiacal signs and of planets in Hebrew and Judeo-Persian.",
+                    "order": "1"
                 }
             }
         },
@@ -304,7 +312,8 @@
             "attributes": {
                 "title": {
                     "label": "Title",
-                    "value": "Folio 1a: Several ownership marks in Hebrew, mentioning such names as Judah, Isaac, Ezra."
+                    "value": "Folio 1a: Several ownership marks in Hebrew, mentioning such names as Judah, Isaac, Ezra.",
+                    "order": "1"
                 }
             }
         },
@@ -316,7 +325,8 @@
             "attributes": {
                 "title": {
                     "label": "Title",
-                    "value": "Folios 1a, 290b and 291a: Owner's stamp in Hebrew."
+                    "value": "Folios 1a, 290b and 291a: Owner's stamp in Hebrew.",
+                    "order": "1"
                 }
             }
         }
