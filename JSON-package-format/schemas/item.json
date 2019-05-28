@@ -136,11 +136,6 @@
       "required": [
         "main"
       ],
-      "properties": {
-        "main": {
-          "$ref": "#/definitions/metadataProperties"
-        }
-      },
       "additionalProperties": {
         "$ref": "#/definitions/metadataProperties"
       }
