@@ -198,12 +198,12 @@
     "descriptions",
     "pages",
     "properties",
-    "type"
+    "@type"
   ],
   "type": "object",
   "additionalProperties": false,
   "properties": {
-    "type": {
+    "@type": {
       "type": "string",
       "format": "uri-reference"
     },
