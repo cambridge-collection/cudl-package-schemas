@@ -41,6 +41,7 @@ publish: package
 		STATUS=$$? ; \
 		if ! (echo "$$HEAD_RESP" | grep -Fq 'An error occurred (404) when calling the HeadObject operation: Not Found') ; then \
 			echo "aws s3api head-object exited with status $$STATUS: $$HEAD_RESP" ; \
+			exit 1 ; \
 		fi ; \
 	fi
 	aws s3 cp \
