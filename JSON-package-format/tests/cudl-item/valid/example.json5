@@ -1,0 +1,68 @@
+{
+  "@type": "https://schemas.cudl.lib.cam.ac.uk/package/v1/item.json",
+  "properties": {
+    "embeddable": true,
+    "useTranscriptions": true,
+    "sourceData": "tei/foo.xml",
+    "displayImageRights": "All rights reserved",
+    "linkToImageReproductionRequestPage": "https://example.com/"
+  },
+  "descriptions": {
+    "main": {
+      "coverage": { "firstPage": true, "lastPage": true },
+
+      "attributes": {
+        "title": {
+          "label": "Title",
+          "value": "Book of Foo",
+          "order": "1"
+        },
+        "formerOwners": {
+          "label": "Former Owners",
+          "value": [
+            "<a href='cudl:///search?keyword=Joe%20Bloggs'>Bloggs, Joe, ca. 1082-1153</a>"
+          ],
+          "order": "2.{label}"
+        }
+      }
+    },
+    "3-4": {
+      "coverage": { "firstPage": "1", "lastPage": "4" },
+
+      "attributes": {
+        "title": {
+          "label": "Title",
+          "value": "Excerpts from the Gospel of FooBar",
+          "order": "1"
+        }
+      }
+    },
+
+
+    "chapter1": {
+      "coverage": { "firstPage": "10", "lastPage": "35" }
+    }
+  },
+  "pages": {
+    "1": {
+      "label": "cover",
+      "image": {
+        "type": "iiif",
+        "href": "images/cover.jp2"
+      },
+      "order": "a.cover"
+    },
+    "4": {
+      "label": "2r",
+      "image": {
+        "type": "iiif",
+        "href": "images/2r.jp2"
+      },
+      "transcription": {
+        "diplomatic": {"@id": "transcriptions/diplomatic/4.xml"},
+        "normalised": {"@id": "transcriptions/normalised.xml#4"}
+      },
+      "order": "b.main.4",
+    }
+  }
+}

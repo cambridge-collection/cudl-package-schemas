@@ -1,24 +1,15 @@
 {
   "$comment": "This schema is inherited from the item level schema, which defines the structure. This schema adds the values specific to the CUDL items.",
+
   "$id": "https://schemas.cudl.lib.cam.ac.uk/package/v1/cudl-item.json",
-  "allOf": [
-    {
-      "$ref": "https://schemas.cudl.lib.cam.ac.uk/package/v1/item.json"
-    }
-  ],
   "$schema": "http://json-schema.org/draft-07/schema#",
+
   "definitions": {
-    "html": {
-      "type": "string",
-      "contentMediaType": "text/html"
-    },
-    "itemProperties": {
-      "description": "An open set of key-value properties with string, boolean and number values, or arrays of the same. ",
-      "type": "object",
-      "required": [
-        "displayImageRights",
-        "linkToImageReproductionRequestPage"
-      ],
+
+    "cudlProperties": {
+      "description": "CUDL-specific constraints on the properties section.",
+      "required": ["displayImageRights", "linkToImageReproductionRequestPage"],
+
       "properties": {
         "embeddable": {
           "type": "boolean",
@@ -38,11 +29,7 @@
         "transcriptionType": {
           "type": "string",
           "description": "If transcriptions are used, are they normalised, diplomatic or both (with different urls).",
-          "enum": [
-            "normalised",
-            "diplomatic",
-            "both"
-          ]
+          "enum": ["normalised", "diplomatic", "both"]
         },
         "useTranslations": {
           "type": "boolean",
@@ -67,12 +54,13 @@
           "description": "A description of the rights for the download images in this item. Displayed on image download. If not specified download not allowed."
         },
         "docAuthority": {
-          "$ref": "#/definitions/html",
+          "$ref": "common.json#/definitions/htmlString",
           "description": "This is a notice displayed on the item web page"
         },
         "linkToImageReproductionRequestPage": {
           "type": "string",
-          "format": "uri-reference",
+          "format": "uri",
+          "pattern": "^https?:",
           "description": "This is a link to request reproduction rights to these images."
         },
         "manuscript": {
@@ -84,251 +72,105 @@
           "description": "Used in itemType: essay to link to related items",
           "type": "array",
           "items": {
-            "type": "object",
-            "properties": {
-              "ID": {
-                "description": "IDs are item JSON filenames without the .json extension",
-                "type": "string"
-              }
-            }
+            "description": "IDs are item JSON filenames without the .json extension",
+            "type": "string",
+            "format": "uri-reference"
           }
-        }
-      },
-      "additionalProperties": {
-        "anyOf": [
-          {
-            "type": [
-              "string",
-              "boolean",
-              "number"
-            ]
-          },
-          {
-            "type": "array",
-            "items": {
-              "type": [
-                "string",
-                "boolean",
-                "number"
-              ]
-            }
-          }
-        ]
-      }
-    },
-    "pageReference": {
-      "description": "An identifier for a specific page.",
-      "oneOf": [
-        {
-          "type": "string",
-          "description": "The name of a key in the \"pages\" object."
-        },
-        {
-          "type": "boolean",
-          "description": "The very first or last page, depending on which of \"firstPage\" or \"lastPage\" it's used with.",
-          "enum": [
-            true
-          ]
-        }
-      ]
-    },
-    "metadataProperty": {
-      "type": "object",
-      "required": [
-        "label",
-        "value",
-        "order"
-      ],
-      "additionalProperties": false,
-      "properties": {
-        "label": {
-          "description": "Label for this property, e.g. 'Title'.",
-          "type": "string"
-        },
-        "value": {
-          "description": "The value for this property .e.g. 'Elementary Mathematics'.  Also supports an array of strings where there are several separate values, e.g. multiple alternative titles.",
-          "oneOf": [
-            {
-              "type": "string"
-            },
-            {
-              "type": "array",
-              "items": {
-                "type": "string"
-              }
-            }
-          ]
-        },
-        "order": {
-          "description": "This is used to decide the order of display in the list of metadata. e.g. '1. Title.' is before '2. Classmark'. ",
-          "type": "string"
         }
       }
     },
-    "metadataProperties": {
-      "type": "object",
-      "description": "These are properties allowed for each metadata section.",
-      "required": [
-        "coverage",
-        "attributes"
-      ],
-      "additionalProperties": false,
+
+    "cudlDescriptionSection": {
+      "description": "CUDL-specific constraints on description sections.",
+
       "properties": {
-        "coverage": {
-          "type": "object",
-          "required": [
-            "firstPage",
-            "lastPage"
-          ],
-          "additionalProperties": false,
-          "properties": {
-            "firstPage": {
-              "$ref": "#/definitions/pageReference"
-            },
-            "lastPage": {
-              "$ref": "#/definitions/pageReference"
-            }
-          }
-        },
         "attributes": {
           "type": "object",
-          "required": [
-            "title"
-          ],
-          "additionalProperties": {
-            "$ref": "#/definitions/metadataProperty"
-          },
+          "required": ["title"],
           "properties": {
-            "title": {
-              "description": "Title of the item",
-              "$ref": "#/definitions/metadataProperty"
+            "title": {"description": "Title of the item"},
+            "author": {"description": "The author of this item"},
+            "classmark": {"description": "The classmark or human-readable id for this item."},
+            "abstract": {"description": "Text describing this item."}
+          }
+        }
+      }
+    },
+
+    "cudlPage": {
+      "description": "Each page has an object that contains the label, order and image attributes.",
+      "required": ["label", "order", "image"],
+      "additionalProperties": false,
+
+      "properties": {
+        "label": true,
+        "order": true,
+        "image": {
+          "type": "object",
+          "description": "An object representing the image for this page.",
+          "additionalProperties": false,
+          "properties": {
+            "type": {
+              "description": "The image format.",
+              "enum": ["iiif", "tiff"]
             },
-            "author": {
-              "description": "The author of this item",
-              "$ref": "#/definitions/metadataProperty"
+            "href": true
+          }
+        },
+
+        "transcription": {
+          "type": "object",
+          "description": "An object representing the transcription data for this page.",
+          "additionalProperties": false,
+          "properties": {
+            "diplomatic": {
+              "description": "A path to the diplomatic transcription data in html for this page.",
+              "$ref": "common.json#/definitions/htmlReference"
             },
-            "classmark": {
-              "description": "The classmark or human-readable id for this item.",
-              "$ref": "#/definitions/metadataProperty"
-            },
-            "abstract": {
-              "description": "Text describing this item.",
-              "$ref": "#/definitions/metadataProperty"
+            "normalised": {
+              "description": "A path to the normalised transcription data in html for this page.",
+              "$ref": "common.json#/definitions/htmlReference"
             }
           }
+        },
+
+        "translation": {
+          "description": "The translation data in html for this page.",
+          "$ref": "common.json#/definitions/htmlReference"
+        },
+
+        "content": {
+          "description": "Used in itemType: essay to hold the text of the essay constituting the item.",
+          "$ref": "common.json#/definitions/htmlReference"
+        }
+      }
+    },
+
+    "cudlItemConstraints": {
+      "properties": {
+        "properties": {
+          "$ref": "#/definitions/cudlProperties"
+        },
+
+        "descriptions": {
+          "additionalProperties": {
+            "$ref": "#/definitions/cudlDescriptionSection"
+          }
+        },
+
+        "pages": {
+          "description": "Pages is a list of objects that represent each page in the item.",
+          "additionalProperties": {"$ref": "#/definitions/cudlPage"}
         }
       }
     }
   },
-  "title": "JSON package format",
-  "description": "This contains the information to describe an item (book, manuscript, etc) in the digital library.",
-  "required": [
-    "descriptions",
-    "pages",
-    "properties",
-    "type"
-  ],
-  "type": "object",
-  "additionalProperties": false,
-  "properties": {
-    "type": {
-      "type": "string",
-      "format": "uri-reference"
-    },
-    "additionalProperties": false,
-    "properties": {
-      "$ref": "#/definitions/itemProperties"
-    },
-    "descriptions": {
-      "type": "object",
-      "required": [
-        "main"
-      ],
-      "properties": {
-        "main": {
-          "$ref": "#/definitions/metadataProperties"
-        }
-      },
-      "additionalProperties": {
-        "$ref": "#/definitions/metadataProperties"
-      }
-    },
-    "pages": {
-      "type": "object",
-      "description": "Pages is a list of objects that represent each page in the item.",
-      "additionalProperties": {
-        "type": "object",
-        "description": "Each page has an object that contains the label, order and image attributes.",
-        "required": [
-          "label",
-          "order",
-          "image"
-        ],
-        "additionalProperties": false,
-        "properties": {
-          "label": {
-            "description": "The label for this page, e.g. 2v",
-            "type": "string"
-          },
-          "order": {
-            "description": "This is used to determine the order for display.",
-            "type": "string"
-          },
-          "image": {
-            "type": "object",
-            "description": "An object representing the image for this page.",
-            "additionalProperties": false,
-            "properties": {
-              "type": {
-                "description": "The image format.",
-                "type": "string",
-                "enum": [
-                  "iiif",
-                  "tiff"
-                ]
-              },
-              "href": {
-                "description": "The local path to the image for this page relative to the image storage location, e.g. images/mypicture.tiff",
-                "format": "uri-reference",
-                "type": "string"
-              }
-            }
-          },
-          "transcription": {
-            "type": "object",
-            "description": "An object representing the transcription data for this page.",
-            "additionalProperties": false,
-            "properties": {
-              "diplomatic": {
-                "description": "A path to the diplomatic transcription data in html for this page.",
-                "type": "string",
-                "format": "uri-reference"
-              },
-              "normalised": {
-                "description": "A path to the normalised transcription data in html for this page.",
-                "type": "string",
-                "format": "uri-reference"
-              }
-            }
-          },
-          "translation": {
-            "type": "object",
-            "description": "An object representing the translation data for this page.",
-            "additionalProperties": false,
-            "properties": {
-              "href": {
-                "description": "A path to the translation data in html for this page.",
-                "type": "string",
-                "format": "uri-reference"
-              }
-            }
-          },
-          "content": {
-            "description": "Used in itemType: essay to hold the text of the essay constituting the item.",
-            "$ref": "#/definitions/html"
-          }
-        }
-      }
-    }
-  }
+
+  "title": "Package JSON Item - Constrained for CUDL",
+  "description": "This schema constrains the general Package JSON Item to match the data expected by CUDL.",
+
+  "allOf": [
+    {"$ref": "item.json"},
+    {"$ref": "#/definitions/cudlItemConstraints"}
+  ]
 }

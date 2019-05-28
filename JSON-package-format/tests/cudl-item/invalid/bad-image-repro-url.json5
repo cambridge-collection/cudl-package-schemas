@@ -1,0 +1,7 @@
+{
+  base: "../valid/minimal.json",
+  patch: [
+    {op:  "add", path: "/properties/linkToImageReproductionRequestPage", value: "blah"}
+  ],
+  "expectedErrors": "'blah' does not match '^https?:'"
+}
