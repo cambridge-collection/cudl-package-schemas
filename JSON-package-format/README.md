@@ -25,6 +25,21 @@ There is a base item schema ([schemas/item.schema.json](schemas/item.schema.json
 
 The schemas are as currently as restrictive as possible to catch any potential problems with data as soon as possible in the loading process.
 
+There are three top level sections in the item schemas: properties, descriptions and pages. 
+
+ - Properties holds the values used by the DL application for searching, display etc.
+  such as "textDirection": "R", These values can be strings, numbers, booleans, 
+  or Arrays of strings, numbers or booleans (not objects as we want a flat list 
+  rather than a hierarchy).
+
+ - Description is for metadata for display, such as "abstract", or "classmark".
+ I have limited this to strings or arrays of strings as it's for display.
+ 
+ - Pages is used to hold the information for each page, such as "image" or "label".
+  This is limited to the information which we support for the page level. 
+  Which for the moment is label, order, image, transcription and translation.
+  
+
 ## Publishing
 
 The schemas are published as a tarball NPM package on S3 at: `https://cudl-artefacts.s3.eu-west-1.amazonaws.com/projects/cudl-packaging/dist/cudl-schema-package-json-<version>.tgz`
