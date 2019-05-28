@@ -5,3 +5,4 @@ out
 gen
 __pycache__
 build
+.python-version
