@@ -12,11 +12,16 @@
       "additionalProperties": false
     },
 
+    "htmlString": {
+      "type": "string",
+      "contentMediaType": "text/html"
+    },
+
     "html": {
       "type": "object",
       "properties": {
         "@type": {"const": "html"},
-        "value": {"type": "string"}
+        "value": {"$ref": "#/definitions/htmlString"}
       },
       "required": ["@id"],
       "additionalProperties": false
