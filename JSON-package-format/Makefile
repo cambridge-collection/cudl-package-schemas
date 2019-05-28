@@ -29,8 +29,8 @@ publish: package
 # is set to the name of the archive being published.
 	@if HEAD_RESP="$$(aws s3api head-object --bucket "$(s3bucket)" --key "$(s3keyBase)$$(cat build/npm-pkg-name)" 2>&1)"; then \
 		echo "$$HEAD_RESP" ; \
-		if [ "$$FORCE_OVERWRITE_PACKAGE" ==  "$$(cat build/npm-pkg-name)" ] ; then \
-			echo 'Package exists but overwrite requested via $$FORCE_OVERWRITE_PACKAGE' ; \
+		if [ "$$PUBLISH_FORCE_OVERWRITE_PACKAGE" ==  "$$(cat build/npm-pkg-name)" ] ; then \
+			echo 'Package exists but overwrite requested via $$PUBLISH_FORCE_OVERWRITE_PACKAGE' ; \
 		else \
 			echo "$$(cat build/npm-pkg-name) is already published - refusing to overwrite" ; \
 			exit 1 ; \
