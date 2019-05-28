@@ -23,7 +23,7 @@
         "@type": {"const": "html"},
         "value": {"$ref": "#/definitions/htmlString"}
       },
-      "required": ["@id"],
+      "required": ["@type", "value"],
       "additionalProperties": false
     },
 
