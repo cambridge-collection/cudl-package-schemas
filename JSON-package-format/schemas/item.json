@@ -2,31 +2,17 @@
   "$id": "https://schemas.cudl.lib.cam.ac.uk/package/v1/item.json",
   "$schema": "http://json-schema.org/draft-07/schema#",
   "definitions": {
-    "itemProperties": {
-      "description": "An open set of key-value properties with string, boolean and number values, or arrays of the same. ",
-      "type": "object",
-      "additionalProperties": {
-        "anyOf": [
-          {
-            "type": [
-              "string",
-              "boolean",
-              "number"
-            ]
-          },
-          {
-            "type": "array",
-            "items": {
-              "type": [
-                "string",
-                "boolean",
-                "number"
-              ]
-            }
-          }
-        ]
-      }
+    "simplePropertyValue": {
+      "type": ["string", "boolean", "number"]
     },
+
+    "propertyValue": {
+      "anyOf": [
+        {"$ref":  "#/definitions/simplePropertyValue"},
+        {"type": "array", "items": {"$ref":  "#/definitions/simplePropertyValue"}}
+      ]
+    },
+
     "pageReference": {
       "description": "An identifier for a specific page.",
       "oneOf": [
@@ -43,137 +29,123 @@
         }
       ]
     },
-    "metadataProperty": {
+
+    "descriptionAttribute": {
+      "description": "A human-readable name-value pair, describing some aspect of an item. For example, Author: Joe Bloggs.",
+
       "type": "object",
-      "required": [
-        "label",
-        "value",
-        "order"
-      ],
       "properties": {
         "label": {
           "description": "Label for this property, e.g. 'Title'.",
           "type": "string"
         },
+
         "value": {
           "description": "The value for this property .e.g. 'Elementary Mathematics'.  Also supports an array of strings where there are several separate values, e.g. multiple alternative titles.",
           "oneOf": [
-            {
-              "type": "string"
-            },
-            {
-              "type": "array",
-              "items": {
-                "type": "string"
-              }
-            }
+            {"$ref": "common.json#/definitions/htmlString"},
+            {"type": "array", "items": {"$ref": "common.json#/definitions/htmlString"}}
           ]
         },
+
         "order": {
           "description": "This is used to decide the order of display in the list of metadata. e.g. '1. Title.' is before '2. Classmark'. ",
           "type": "string"
         }
-      }
+      },
+
+      "required": ["label", "value"],
+      "additionalProperties": false
     },
-    "metadataProperties": {
+
+    "descriptionSection": {
+      "description": "A collection of name-value attributes intended for human consumption, tied to a range of an item's pages.",
       "type": "object",
-      "description": "These are properties allowed for each metadata section.",
-      "required": [
-        "coverage"
-      ],
-      "additionalProperties": false,
+
       "properties": {
         "coverage": {
+          "description": "The range of pages covered by this description section.",
           "type": "object",
-          "required": [
-            "firstPage",
-            "lastPage"
-          ],
-          "additionalProperties": false,
           "properties": {
-            "firstPage": {
-              "$ref": "#/definitions/pageReference"
-            },
-            "lastPage": {
-              "$ref": "#/definitions/pageReference"
-            }
-          }
+            "firstPage": {"$ref": "#/definitions/pageReference"},
+            "lastPage": {"$ref": "#/definitions/pageReference"}
+          },
+
+          "required": ["firstPage", "lastPage"],
+          "additionalProperties": false
         },
+
         "attributes": {
           "type": "object",
-          "additionalProperties": {
-            "$ref": "#/definitions/metadataProperty"
+          "additionalProperties": {"$ref": "#/definitions/descriptionAttribute"}
+        }
+      },
+
+      "required": ["coverage"],
+      "additionalProperties": false
+    },
+
+    "page": {
+      "description": "Each page has an object that contains the label, order and image attributes.",
+      "type": "object",
+      "required": ["label", "order", "image"],
+      "properties": {
+        "label": {
+          "description": "The label for this page, e.g. 2v",
+          "type": "string"
+        },
+
+        "order": {
+          "description": "This is used to determine the order for display.",
+          "type": "string"
+        },
+
+        "image": {
+          "type": "object",
+          "description": "An object representing the image for this page.",
+          "properties": {
+            "type": {
+              "description": "The image format.",
+              "type": "string"
+            },
+
+            "href": {
+              "description": "The local path to the image for this page relative to the image storage location, e.g. images/mypicture.tiff",
+              "format": "uri-reference",
+              "type": "string"
+            }
           }
         }
       }
     }
   },
+
   "title": "Package JSON Item",
   "description": "This contains the information to describe an item (book, manuscript, etc) in the digital library.",
-  "required": [
-    "descriptions",
-    "pages",
-    "properties",
-    "type"
-  ],
   "type": "object",
-  "additionalProperties": false,
+
   "properties": {
-    "type": {
-      "type": "string",
-      "format": "uri-reference"
-    },
+    "@type": { "const": "https://schemas.cudl.lib.cam.ac.uk/package/v1/item.json" },
+
     "properties": {
-      "$ref": "#/definitions/itemProperties"
+      "description": "An open set of key-value properties with string, boolean and number values, or arrays of the same. ",
+      "type": "object",
+      "additionalProperties": {"$ref": "#/definitions/propertyValue"}
     },
+
     "descriptions": {
       "type": "object",
-      "required": [
-        "main"
-      ],
-      "additionalProperties": {
-        "$ref": "#/definitions/metadataProperties"
-      }
+      "required": ["main"],
+      "additionalProperties": {"$ref": "#/definitions/descriptionSection"}
     },
+
     "pages": {
       "type": "object",
       "description": "Pages is a list of objects that represent each page in the item.",
-      "additionalProperties": {
-        "type": "object",
-        "description": "Each page has an object that contains the label, order and image attributes.",
-        "required": [
-          "label",
-          "order",
-          "image"
-        ],
-        "additionalProperties": true,
-        "properties": {
-          "label": {
-            "description": "The label for this page, e.g. 2v",
-            "type": "string"
-          },
-          "order": {
-            "description": "This is used to determine the order for display.",
-            "type": "string"
-          },
-          "image": {
-            "type": "object",
-            "description": "An object representing the image for this page.",
-            "additionalProperties": true,
-            "properties": {
-              "type": {
-                "description": "The image format.",
-                "type": "string"
-              },
-              "href": {
-                "description": "The local path to the image for this page relative to the image storage location, e.g. images/mypicture.tiff",
-                "format": "uri-reference",
-                "type": "string"
-              }
-            }
-          }
-        }
-      }
+      "additionalProperties": {"$ref": "#/definitions/page"}
     }
-  }
+  },
+
+  "required": ["descriptions", "pages", "properties", "@type"],
+  "additionalProperties": false
 }

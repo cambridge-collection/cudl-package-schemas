@@ -1,7 +1,7 @@
 {
     // We should require a format/version identifier to help make evolving the
     // format safe.
-    "type": "https://schemas.cudl.lib.cam.ac.uk/cudl/item/v1/json",
+    "@type": "https://schemas.cudl.lib.cam.ac.uk/package/v1/item.json",
 
     // Items have a bunch of properties at the top level which are mostly about
     // how CUDL should handle the item, not about the object being described.

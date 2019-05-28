@@ -1,0 +1,8 @@
+{
+  base: "../valid/minimal.json",
+  patch: [
+    {op:  "add", path: "/properties/foo", value: {
+      thisIsAnObject: "which is not allowed here"
+    }}
+  ]
+}

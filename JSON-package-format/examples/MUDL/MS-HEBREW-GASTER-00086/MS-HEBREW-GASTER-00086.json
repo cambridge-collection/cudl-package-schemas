@@ -1,5 +1,5 @@
 {
-    "type": "https://schemas.cudl.lib.cam.ac.uk/mudl/mudl-item/v1/json",
+    "@type": "https://schemas.cudl.lib.cam.ac.uk/package/v1/item.json",
     "properties": {
         "textDirection": "R",
         "sourceData": "/v1/metadata/tei/MS-HEBREW-GASTER-00086/",
