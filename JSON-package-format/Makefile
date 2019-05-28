@@ -12,13 +12,18 @@ package: build
 # containing the modifications rather than the committed state.
 	@DIRTY_FILES="$$(git status --porcelain)" ; \
 	if [ "$$DIRTY_FILES" != "" ]; then \
-		echo "Error: git repo has uncommitted changes, refusing to build package from dirty files:" ; \
+		echo "Warning: git repo has uncommitted changes, package may not be reproducible:" ; \
 		echo "$$DIRTY_FILES" ; \
-		exit 1 ; \
 	fi
 	cd build && npm pack .. | tee npm-pkg-name
 
 publish: package
+	@DIRTY_FILES="$$(git status --porcelain)" ; \
+	if [ "$$DIRTY_FILES" != "" ]; then \
+		echo "Error: git repo has uncommitted changes, refusing to public package built from dirty files:" ; \
+		echo "$$DIRTY_FILES" ; \
+		exit 1 ; \
+	fi
 # Refuse to publish unless we get a 404 when looking up the publish path no S3.
 # If the artefact already exists will be overwritten if FORCE_OVERWRITE_PACKAGE
 # is set to the name of the archive being published.
