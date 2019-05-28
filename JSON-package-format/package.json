@@ -3,16 +3,23 @@
   "version": "1.0.0-alpha.2",
   "description": "Schemas for CUDL's package data in JSON format",
   "main": "schemas/item.schema.json",
+  "files": [
+    "examples/**/*.json",
+    "examples/**/*.json5",
+    "schemas/*.json",
+    "tests/*/*.json",
+    "tests/*/*.json5"
+  ],
   "directories": {
-    "example": "examples"
+    "schemas": "schemas",
+    "examples": "examples",
+    "tests": "tests"
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://bitbucket.org/CUDL/cudl-package-schemas.git"
   },
   "license": "UNLICENSED",
-  "homepage": "https://bitbucket.org/CUDL/cudl-package-schemas#readme"
+  "homepage": "https://bitbucket.org/CUDL/cudl-package-schemas"
 }
