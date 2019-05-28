@@ -112,7 +112,7 @@
       }
     }
   },
-  "title": "JSON package format",
+  "title": "Package JSON Item",
   "description": "This contains the information to describe an item (book, manuscript, etc) in the digital library.",
   "required": [
     "descriptions",
