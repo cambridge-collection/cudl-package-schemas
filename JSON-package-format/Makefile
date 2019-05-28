@@ -41,7 +41,9 @@ publish: package
 			echo "aws s3api head-object exited with status $$STATUS: $$HEAD_RESP" ; \
 		fi ; \
 	fi
-	aws s3 cp "build/$$(cat build/npm-pkg-name)" s3://cudl-artefacts/projects/cudl-packaging/dist/
+	aws s3 cp \
+		$$(if [[ "$$PUBLISH_DRYRUN" != "" ]] ; then echo --dryrun; fi) \
+		"build/$$(cat build/npm-pkg-name)" s3://cudl-artefacts/projects/cudl-packaging/dist/
 
 build:
 	mkdir -p build
