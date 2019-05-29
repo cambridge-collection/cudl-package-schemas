@@ -29,12 +29,12 @@ publish: package
 # Refuse to publish unless we get a 404 when looking up the publish path no S3.
 # If the artefact already exists will be overwritten if FORCE_OVERWRITE_PACKAGE
 # is set to the name of the archive being published.
-	@if HEAD_RESP="$$(aws s3api head-object --bucket "$(s3bucket)" --key "$(s3keyBase)$packageFile" 2>&1)"; then \
+	@if HEAD_RESP="$$(aws s3api head-object --bucket "$(s3bucket)" --key "$(s3keyBase)$(packageFile)" 2>&1)"; then \
 		echo "$$HEAD_RESP" ; \
-		if [ "$$PUBLISH_FORCE_OVERWRITE_PACKAGE" ==  "$packageFile" ] ; then \
+		if [ "$$PUBLISH_FORCE_OVERWRITE_PACKAGE" ==  "$(packageFile)" ] ; then \
 			echo 'Package exists but overwrite requested via $$PUBLISH_FORCE_OVERWRITE_PACKAGE' ; \
 		else \
-			echo "$packageFile is already published - refusing to overwrite" ; \
+			echo "$(packageFile) is already published - refusing to overwrite" ; \
 			exit 1 ; \
 		fi ; \
 	else \
@@ -46,7 +46,7 @@ publish: package
 	fi
 	aws s3 cp \
 		$$(if [[ "$$PUBLISH_DRYRUN" != "" ]] ; then echo --dryrun; fi) \
-		"build/$packageFile" s3://cudl-artefacts/projects/cudl-packaging/dist/
+		"build/$(packageFile)" s3://cudl-artefacts/projects/cudl-packaging/dist/
 
 build:
 	mkdir -p build
