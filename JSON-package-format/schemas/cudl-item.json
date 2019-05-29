@@ -85,7 +85,6 @@
 
       "properties": {
         "attributes": {
-          "type": "object",
           "required": ["title"],
           "properties": {
             "title": {"description": "Title of the item"},
@@ -98,8 +97,6 @@
     },
 
     "cudlPage": {
-      "description": "Each page has an object that contains the label, order and image attributes.",
-      "required": ["label", "order", "image"],
       "additionalProperties": false,
 
       "properties": {
