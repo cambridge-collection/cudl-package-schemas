@@ -7,8 +7,8 @@
     "examples/**/*.json",
     "examples/**/*.json5",
     "schemas/*.json",
-    "tests/*/*.json",
-    "tests/*/*.json5"
+    "tests/**/*.json",
+    "tests/**/*.json5"
   ],
   "directories": {
     "schemas": "schemas",
