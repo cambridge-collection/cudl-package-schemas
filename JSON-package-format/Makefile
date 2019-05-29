@@ -1,10 +1,13 @@
 SHELL = /bin/bash
+.SHELLFLAGS=-o errexit -c
 
 s3bucket = cudl-artefacts
 s3keyBase = projects/cudl-packaging/dist/
 s3UrlBase = "s3://$(s3bucket)/$(s3keyBase)"
 
-packageFile = $(shell jq '"\(.name)-\(.version).tgz"' package.json)
+packageName = $(shell jq -r '.name' package.json)
+packageVersion = $(shell jq -r '.version' package.json)
+packageFile = $(packageName)-$(packageVersion).tgz
 
 default: package
 
@@ -19,13 +22,7 @@ package: build
 	fi
 	cd build && npm pack ..
 
-publish: package
-	@DIRTY_FILES="$$(git status --porcelain)" ; \
-	if [ "$$DIRTY_FILES" != "" ]; then \
-		echo "Error: git repo has uncommitted changes, refusing to public package built from dirty files:" ; \
-		echo "$$DIRTY_FILES" ; \
-		exit 1 ; \
-	fi
+publish: package _require-clean-checkout
 # Refuse to publish unless we get a 404 when looking up the publish path no S3.
 # If the artefact already exists will be overwritten if FORCE_OVERWRITE_PACKAGE
 # is set to the name of the archive being published.
@@ -48,10 +45,28 @@ publish: package
 		$$(if [[ "$$PUBLISH_DRYRUN" != "" ]] ; then echo --dryrun; fi) \
 		"build/$(packageFile)" s3://cudl-artefacts/projects/cudl-packaging/dist/
 
+bump-version-prerelease: _require-clean-checkout
+	npm version prerelease
+	git add package.json
+
+	packageName="$$(jq -r '.name' package.json)" ; \
+    packageVersion="$$(jq -r '.version' package.json)" ; \
+    tagName="$$packageName/$$packageVersion" ; \
+	git commit -m "Bump version of $$packageName to $$packageVersion" package.json ; \
+	git tag "$$tagName" HEAD
+
 build:
 	mkdir -p build
 
 clean:
 	rm -rf build
 
-.PHONY: package clean
+_require-clean-checkout:
+	@DIRTY_FILES="$$(git status --porcelain)" ; \
+	if [ "$$DIRTY_FILES" != "" ]; then \
+		echo "Error: git repo has uncommitted changes, refusing to continue:" ; \
+		echo "$$DIRTY_FILES" ; \
+		exit 1 ; \
+	fi
+
+.PHONY: package clean _require-clean-checkout
