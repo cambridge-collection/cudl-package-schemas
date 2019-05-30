@@ -399,8 +399,8 @@ def describe_validation_error(instance_name=None, schema_name=None, pytrace=Fals
 
 def format_validation_error(err: ValidationError, instance_name=None,
                             schema_name=None):
-    instance_path = JsonPointer.from_parts(err.path).path
-    schema_path = JsonPointer.from_parts(err.schema_path).path
+    instance_path = JsonPointer.from_parts(err.absolute_path).path
+    schema_path = JsonPointer.from_parts(err.absolute_schema_path).path
 
     return f'''\
 {instance_name or 'instance'} violates \
