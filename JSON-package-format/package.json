@@ -2,7 +2,7 @@
   "name": "cudl-schema-package-json",
   "version": "1.0.0-alpha.4",
   "description": "Schemas for CUDL's package data in JSON format",
-  "main": "build/manifest.json",
+  "main": "manifest.json",
   "files": [
     "examples/**/*.json",
     "examples/**/*.json5",
@@ -16,8 +16,9 @@
     "tests": "tests"
   },
   "scripts": {
-    "generate-manifest": "mkdir -p build && find examples tests schemas -name '*.json' -or -name '*.json5' | jq --raw-input '{files: [inputs]}' > build/manifest.json",
-    "prepack": "npm run generate-manifest"
+    "generate-manifest": "find examples tests schemas -name '*.json' -or -name '*.json5' | jq --raw-input '{files: [inputs]}' > manifest.json",
+    "ensure-running-in-build-dir": "if [ \"$(basename \"$(pwd)\")\" != \"build\" ] ; then echo 'Error: npm needs to run on package.json copied into build for this to work - see Makefile'; exit 1; fi",
+    "prepack": "npm run ensure-running-in-build-dir && npm run generate-manifest"
   },
   "repository": {
     "type": "git",

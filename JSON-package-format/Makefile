@@ -20,7 +20,11 @@ package: build
 		echo "Warning: git repo has uncommitted changes, package may not be reproducible:" ; \
 		echo "$$DIRTY_FILES" ; \
 	fi
-	cd build && npm pack ..
+# npm pack intentionally doesn't support symlinks, so we need to resolve the
+# links to actual files before packing. We do this by copying everything to the
+# build directory with --dereference to convert symlinks to files.
+	cp -r --dereference package.json README.md examples schemas tests build
+	cd build && npm pack
 
 publish: package _require-clean-checkout
 # Refuse to publish unless we get a 404 when looking up the publish path no S3.
