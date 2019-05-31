@@ -1,0 +1,14 @@
+[
+  {"op": "remove", "path": "/definitions/orientation/enum"},
+  {"op": "add", "path": "/definitions/orientation/pattern", "value": "^(?:(?:portrait|landscape)(?:\\s+(?:portrait|landscape))*)?$"},
+  {"op": "add", "path": "/definitions/lenient-uri-reference", "value": {
+    "type": "string",
+    "anyOf": [
+      {"format": "uri-reference"},
+      {"pattern": "^(/[\\w/ ,-]+)?$"}
+    ]
+  }},
+  {"op": "add", "path": "/properties/allTranscriptionDiplomaticURL", "value": {"$ref": "#/definitions/lenient-uri-reference"}},
+  {"op": "add", "path": "/definitions/page/properties/transcriptionNormalisedURL", "value": {"$ref": "#/definitions/lenient-uri-reference"}},
+  {"op": "add", "path": "/definitions/page/properties/transcriptionDiplomaticURL", "value": {"$ref": "#/definitions/lenient-uri-reference"}}
+]

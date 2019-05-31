@@ -1,0 +1,6 @@
+{
+  base: "../valid/minimal.json",
+  patch: [
+    {op:  "add", path: "/foo", value: "Not allowed"}
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  base: "../valid/PH-GEOGRAPHY-KE-00001.json",
+  patch: [
+    // Although the descriptiveMetadata section can contain non-display values,
+    // the objects can't use properties from display values if they're not
+    // actually displayable values.
+    {op:  "add", path: "/descriptiveMetadata/0/foo", value: {
+      value: "foobar"
+    }},
+  ]
+}

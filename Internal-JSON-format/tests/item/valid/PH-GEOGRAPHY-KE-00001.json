@@ -1,0 +1,111 @@
+{
+  "descriptiveMetadata": [
+    {
+      "subjects": {
+        "display": true,
+        "seq": 20,
+        "listDisplay": "inline",
+        "label": "Subject(s)",
+        "value": [
+          {
+            "display": true,
+            "displayForm": "Aerial photography",
+            "seq": 21,
+            "linktype": "keyword search",
+            "fullForm": "Aerial photography"
+          }
+        ]
+      },
+      "creations": {
+        "display": true,
+        "seq": 63,
+        "value": [
+          {
+            "type": "creation",
+            "dateStart": "1948",
+            "dateEnd": "1948",
+            "dateDisplay": {
+              "display": true,
+              "displayForm": "1948-07-24",
+              "linktype": "keyword search",
+              "label": "Date of Creation",
+              "seq": 77
+            }
+          }
+        ]
+      },
+      "physicalLocation": {
+        "display": true,
+        "displayForm": "Cambridge University Collection of Aerial Photography",
+        "label": "Physical Location",
+        "seq": 4
+      },
+      "shelfLocator": {
+        "display": true,
+        "displayForm": "K-E1",
+        "label": "Classmark",
+        "seq": 5
+      },
+      "thumbnailUrl": "/content/images/PH-GEOGRAPHY-KE-00001-000-00001_files/8/0_0.jpg",
+      "thumbnailOrientation": "landscape",
+      "displayImageRights": "Zooming image copyright Cambridge University Collection of Aerial Photography",
+      "downloadImageRights": "Images made available for download are licensed under a Creative Commons Attribution-NonCommercial 3.0 Unported License (CC BY-NC 3.0)",
+      "imageReproPageURL": "https://www.cambridgeairphotos.com/",
+      "metadataRights": "This metadata is licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License.",
+      "docAuthority": "",
+      "fundings": {
+        "display": true,
+        "seq": 200,
+        "label": "Funding",
+        "value": [
+          {
+            "display": true,
+            "displayForm": "",
+            "seq": 201
+          }
+        ]
+      },
+      "extent": {
+        "display": true,
+        "displayForm": "1 photograph",
+        "label": "Extent",
+        "seq": 171
+      },
+      "ID": "ITEM-1",
+      "title": {
+        "display": false,
+        "displayForm": "Silchester, Hants",
+        "label": "Title",
+        "seq": 8
+      }
+    }
+  ],
+  "numberOfPages": 1,
+  "embeddable": true,
+  "sourceData": "/v1/metadata/tei/PH-GEOGRAPHY-KE-00001/",
+  "pages": [
+    {
+      "label": "1",
+      "physID": "PHYS-1",
+      "sequence": 1,
+      "displayImageURL": "/content/images/PH-GEOGRAPHY-KE-00001-000-00001.dzi",
+      "downloadImageURL": "/content/images/PH-GEOGRAPHY-KE-00001-000-00001.jpg",
+      "IIIFImageURL": "PH-GEOGRAPHY-KE-00001-000-00001.jp2",
+      "thumbnailImageURL": "/content/images/PH-GEOGRAPHY-KE-00001-000-00001_files/8/0_0.jpg",
+      "thumbnailImageOrientation": "landscape",
+      "imageWidth": 6906,
+      "imageHeight": 6627
+    }
+  ],
+  "logicalStructures": [
+    {
+      "descriptiveMetadataID": "ITEM-1",
+      "label": "Silchester, Hants",
+      "startPageLabel": "1",
+      "startPagePosition": 1,
+      "startPageID": "PHYS-1",
+      "endPageLabel": "1",
+      "endPagePosition": 1
+    }
+  ]
+}

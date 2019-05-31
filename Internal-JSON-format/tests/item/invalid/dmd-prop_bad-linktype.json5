@@ -1,0 +1,7 @@
+{
+  base: "../valid/PH-GEOGRAPHY-KE-00001.json",
+  patch: [
+    // linktype can only be "keyword search"
+    {op:  "add", path: "/descriptiveMetadata/0/subjects/value/0/linktype", value: "foo"},
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  base: "../valid/PH-GEOGRAPHY-KE-00001.json",
+  patch: [
+    // physicalLocation already has a displayForm, so it can't have a list of values
+    {op:  "add", path: "/descriptiveMetadata/0/physicalLocation/value", value: []},
+  ]
+}
