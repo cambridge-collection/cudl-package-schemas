@@ -64,64 +64,78 @@
               "type": "object",
               "required": ["label"]
             },
+            "$comment": "These objects frequently have \"display\" and \"seq\" properties, but they are ignored and have no semantics.",
             "properties": {
               "value": {
                 "type": "array",
                 "items": {"$ref": "#/definitions/metadataContainer"}
               }
-            }
+            },
+            "required": ["value"]
           },
-          {"$ref": "#/definitions/metadataItem"},
-          {
-            "type": "string",
-            "format": "uri-reference"
-          },
-          {
-            "$comment": "Allow any other objects, arrays or booleans (e.g. manuscript = True). As a result none of the above *has* to match, it basically serves to document the objects which are used.",
-            "type": ["object", "array", "boolean"]
-          }
+          {"$ref": "#/definitions/displayableMetadata"},
+          {"$ref": "#/definitions/nonDisplayableMetadata"}
         ]
       }
     },
 
-    "metadataItem": {
+    "nonDisplayableMetadata": {
+      "$comment": "A metadata value which won't be displayed in the Viewer's list of item attributes. They may be used for other purposes though (e.g. in a search index).",
+      "$comment": "Allow any other objects, arrays or booleans (e.g. manuscript = True). As a result none of the above *has* to match, it basically serves to document the objects which are used.",
+      "oneOf": [
+        { "type": ["boolean", "string", "number", "null", "array"], "description": "e.g. \"manuscript\": true" },
+        {
+          "type": "object",
+          "not": {
+            "$comment": "Don't allow any display, seq, label, displayForm or value properties",
+            "anyOf": [
+              {"required": ["display"]},
+              {"required": ["seq"]},
+              {"required": ["label"]},
+              {"required": ["displayForm"]},
+              {"required": ["value"]}
+            ]
+          }
+        }
+      ]
+    },
+
+    "displayableMetadata": {
       "type": "object",
       "properties": {
-        "display": {"const": true},
+        "display": {"type": "boolean"},
         "seq": {"type": "integer"},
         "label": {"type": "string"}
       },
       "required": ["display", "seq", "label"],
 
       "oneOf": [
-        {
-          "$comment": "Text items",
-          "type": "object",
-          "properties": {
-            "displayForm": {"type": "string", "contentMediaType": "text/html"}
-          },
-          "required": ["displayForm"]
-        },
+        {"$ref": "#/definitions/metadataDisplayValue"},
         {
           "$comment": "Multi-valued items",
           "type": "object",
           "properties": {
             "value": {
               "type": "array",
-              "items": {"$ref": "#/definitions/metadataItem"}
+              "items": {"$ref": "#/definitions/metadataDisplayValue"}
             }
           },
-          "required": ["value"]
-        },
-        {
-          "$comment": "String items",
-          "type": "string",
-          "properties": {
-            "displayForm": {"type": "string", "contentMediaType": "text/html"}
-          },
-          "required": ["value"]
+          "required": ["value"],
+          "not": {"required": ["displayForm"]}
         }
-      ]
+      ],
+
+      "additionalProperties": {"$ref": "#/definitions/nonDisplayableMetadata"}
+    },
+
+    "metadataDisplayValue": {
+      "type": "object",
+      "properties": {
+        "displayForm": {"$ref": "#/definitions/html"},
+        "linktype": {"const": "keyword search"}
+      },
+      "required": ["displayForm"],
+      "not": {"required": ["value"]}
     },
 
     "page": {
@@ -213,6 +227,7 @@
     "useNormalisedTranscriptions": {"type": "boolean"},
     "useDiplomaticTranscriptions": {"type": "boolean"},
     "allTranscriptionDiplomaticURL": {"type": "string", "format": "uri-reference"},
+    "useTranslations": {"type": "boolean"},
     "completeness": {"type": "string"}
   },
 
