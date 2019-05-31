@@ -47,7 +47,7 @@ publish: package _require-clean-checkout
 	fi
 	aws s3 cp \
 		$$(if [[ "$$PUBLISH_DRYRUN" != "" ]] ; then echo --dryrun; fi) \
-		"build/$(packageFile)" s3://cudl-artefacts/projects/cudl-packaging/dist/
+		"build/$(packageFile)" "$(s3UrlBase)"
 
 bump-version-prerelease: _require-clean-checkout
 	npm version prerelease
