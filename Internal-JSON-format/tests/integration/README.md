@@ -6,6 +6,8 @@ There are a handful of errors in the data which are caught by the schema. By def
 
 ## Running
 
+> **Note**: [ajv-cli](https://www.npmjs.com/package/ajv-cli) needs to be installed.
+
 Run [`test-all.sh`](./test-all.sh) with `ITEM_JSON_DIR` set to a directory containing the item JSON files to validate. See the script for a few other envars that can be used to override defaults.
 
 ```
