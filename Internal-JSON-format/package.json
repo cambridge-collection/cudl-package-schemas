@@ -1,0 +1,29 @@
+{
+  "name": "cudl-schema-internal-json",
+  "version": "1.0.0-alpha.0",
+  "description": "Schemas for CUDL's internal data in JSON format",
+  "main": "manifest.json",
+  "files": [
+    "examples/**/*.json",
+    "examples/**/*.json5",
+    "schemas/*.json",
+    "tests/**/*.json",
+    "tests/**/*.json5"
+  ],
+  "directories": {
+    "schemas": "schemas",
+    "examples": "examples",
+    "tests": "tests"
+  },
+  "scripts": {
+    "generate-manifest": "find examples tests schemas -name '*.json' -or -name '*.json5' | jq --raw-input '{files: [inputs]}' > manifest.json",
+    "ensure-running-in-build-dir": "if [ \"$(basename \"$(pwd)\")\" != \"build\" ] ; then echo 'Error: npm needs to run on package.json copied into build for this to work - see Makefile'; exit 1; fi",
+    "prepack": "npm run ensure-running-in-build-dir && npm run generate-manifest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://bitbucket.org/CUDL/cudl-package-schemas.git"
+  },
+  "license": "UNLICENSED",
+  "homepage": "https://bitbucket.org/CUDL/cudl-package-schemas"
+}
