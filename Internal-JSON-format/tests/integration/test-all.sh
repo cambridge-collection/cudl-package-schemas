@@ -12,7 +12,7 @@ if [[ "$ITEM_JSON_DIR" == "" || ! -d "$ITEM_JSON_DIR" ]] ; then
     exit 1
 fi
 
-if [[ "$ITEM_SCHEMA_PATCH" != "" ]] ; then
+if [[ "$ITEM_SCHEMA_PATCH" != "false" ]] ; then
     VALIDATION_SCHEMA="$(mktemp)"
     poetry run jsonpatch --indent 2 "$ITEM_SCHEMA" "$ITEM_SCHEMA_PATCH" > "$VALIDATION_SCHEMA"
     echo "Validating with $ITEM_SCHEMA patched with $ITEM_SCHEMA_PATCH as $VALIDATION_SCHEMA to allow known data errors" 1>&2
