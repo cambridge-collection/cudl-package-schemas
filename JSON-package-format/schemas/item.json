@@ -114,7 +114,8 @@
               "format": "uri-reference",
               "type": "string"
             }
-          }
+          },
+          "required": ["type", "href"]
         }
       }
     }
