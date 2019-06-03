@@ -22,6 +22,60 @@
         "sourceData": "tei/foo.xml"
     },
 
+  // First-class support for linking additional data to item (rather than just
+  // referencing in an ad-hoc way with in the above "properties" section.)
+  // Additional data related to the item.
+  // Provides a means for attaching non-display oriented data, e.g:
+  // - data for search indexes
+  // - source data in an existing format, e.g TEI
+  // Loaders can automatically generate item data from data referenced here, and
+  // merge it with item data in this file. E.g. most of an item could be derived
+  // from a TEI file, with a few overrides here.
+  "data": {
+    // Keys are roles/IDs for the related data
+    "source": {
+      // TODO: other attributes required?
+
+      // data can reference external content, or include it inline
+      "data": {"@id": "./item-example.tei"}
+    },
+
+    // TODO: replace properties with data with custom role?
+    "uk.ac.cam.lib.cudl.item-properties": {
+      "data": {
+        "embeddable": true,
+        "useTranscriptions": true,
+        // ...
+      },
+    }
+  },
+
+  // Alternate layout facilitating linking data with multiple roles
+  "data": [
+    {
+      // e.g. metadata linked with "source" role could contribute to item
+      // description,
+      "role": ["cdl:descriptive-metadata", "cdl:source", "cdl:index"],
+      "data": {"@id": "./item-example.tei"}
+    },
+
+    {
+      "role": ["cdl:descriptive-metadata", "cdl:index"],
+      "data": {"@id": "./item-example.ead"}
+    },
+
+    // TODO: replace properties with data with custom role?
+    {
+      // "cudl:" being CUDL-specific, "cdl:" being general
+      "role": ["cudl:item-properties"],
+      "data": {
+        "embeddable": true,
+        "useTranscriptions": true,
+        // ...
+      },
+    }
+  ],
+
     // Simplified form of "descriptiveMetadata" which also includes range
     // information from "logicalStructures", avoiding the need for that.
     // - Don't allow arbitrary nesting of objects, just one level with lists of
