@@ -47,7 +47,8 @@
             }
           }
         }
-      }
+      },
+      "required": ["ID"]
     },
 
     "metadataContainer": {
