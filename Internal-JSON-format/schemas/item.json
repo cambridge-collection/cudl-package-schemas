@@ -44,7 +44,8 @@
                 "$comment": "IDs are item JSON filenames without the .json extension",
                 "type": "string"
               }
-            }
+            },
+            "required": ["ID"]
           }
         }
       },
