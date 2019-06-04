@@ -5,10 +5,11 @@ import pytest
 import jsonschema
 import json5
 
-from schema_testing import BaseDatatypeTest, describe_validation_error
+from schema_testing import (BaseDatatypeTest, describe_validation_error,
+                            RequireExplicitAdditionalProperties)
 
 
-class TestInternalItem(BaseDatatypeTest):
+class TestInternalItem(BaseDatatypeTest, RequireExplicitAdditionalProperties):
     schema_base_uri = 'https://schemas.cudl.lib.cam.ac.uk/__internal__/v1/'
     data_type = 'item'
     expected_valid_count = 4

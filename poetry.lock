@@ -213,6 +213,17 @@ version = "2.4.0"
 
 [[package]]
 category = "main"
+description = "Binding for jq JSON processor."
+name = "pyjq"
+optional = false
+python-versions = "*"
+version = "2.3.1"
+
+[package.dependencies]
+six = "*"
+
+[[package]]
+category = "main"
 description = "Persistent/Functional/Immutable data structures"
 name = "pyrsistent"
 optional = false
@@ -282,7 +293,7 @@ python-versions = "*"
 version = "0.1.7"
 
 [metadata]
-content-hash = "dc490997ee3a3997242198a03c71f2e1a5fea6874c172675557346bc4bd0f7ed"
+content-hash = "823337ca1a0013aa1ec34019a3ec9f248a4440cdd162563f3b0e1081d54e6047"
 python-versions = "^3.6"
 
 [metadata.hashes]
@@ -308,6 +319,7 @@ prompt-toolkit = ["11adf3389a996a6d45cc277580d0d53e8a5afd281d0c9ec71b28e6f121463
 ptyprocess = ["923f299cc5ad920c68f2bc0bc98b75b9f838b93b599941a6b63ddbc2476394c0", "d7cc528d76e76342423ca640335bd3633420dc1366f258cb31d05e865ef5ca1f"]
 py = ["64f65755aee5b381cea27766a3a147c3f15b9b6b9ac88676de66ba2ae36793fa", "dc639b046a6e2cff5bbe40194ad65936d6ba360b52b3c3fe1d08a82dd50b5e53"]
 pygments = ["31cba6ffb739f099a85e243eff8cb717089fdd3c7300767d9fc34cb8e1b065f5", "5ad302949b3c98dd73f8d9fcdc7e9cb592f120e32a18e23efd7f3dc51194472b"]
+pyjq = ["45f7688d8191a4043e7c4839d6cabff8f16abc98fe48c3a4a0cc2da05c62096d", "5f3cd45b856ae4b42a1058d2e91e13d84df5ea188aedc3ae397dc0e01c270db9"]
 pyrsistent = ["16692ee739d42cf5e39cef8d27649a8c1fdb7aa99887098f1460057c5eb75c3a"]
 pytest = ["1a8aa4fa958f8f451ac5441f3ac130d9fc86ea38780dd2715e6d5c5882700b24", "b8bf138592384bd4e87338cb0f256bf5f615398a649d4bd83915f0e4047a5ca6"]
 rfc3987 = ["10702b1e51e5658843460b189b185c0366d2cf4cff716f13111b0ea9fd2dce53", "d3c4d257a560d544e9826b38bc81db676890c79ab9d7ac92b39c7a253d5ca733"]

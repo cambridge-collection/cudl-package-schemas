@@ -15,6 +15,7 @@ from urllib.parse import quote, unquote
 
 import json5
 import jsonpatch
+import pyjq
 import pytest
 from jsonpointer import JsonPointer
 from jsonschema import Draft7Validator, RefResolver, ValidationError
@@ -219,10 +220,15 @@ def ref_resolver(schema_base_uri, schema_dir):
 
 @pytest.fixture(scope='class',
                 ids=lambda s: s.get('$id', '<schema-without-id>'))
-def schema(ref_resolver, schema_id):
-    id, schema = ref_resolver.resolve(schema_id)
-    Draft7Validator.check_schema(schema)
-    return Draft7Validator(schema, resolver=ref_resolver)
+def schema(ref_resolver, schema_json):
+    Draft7Validator.check_schema(schema_json)
+    return Draft7Validator(schema_json, resolver=ref_resolver)
+
+
+@pytest.fixture(scope='class')
+def schema_json(ref_resolver, schema_id):
+    _, schema = ref_resolver.resolve(schema_id)
+    return schema
 
 
 def pytest_generate_tests(metafunc):
@@ -405,3 +411,17 @@ def format_validation_error(err: ValidationError, instance_name=None,
 {f'schema {schema_name}' if schema_name else 'schema'} at path: {instance_path}
 description: {err.message}
 violated schema rule: {schema_path}'''
+
+
+class RequireExplicitAdditionalProperties:
+    def test_schema_uses_no_implicit_additional_properties(self, schema_id, schema_json):
+        implicit_ap_paths = pyjq.all('''\
+path(..|select((.|type) == "object" and
+               (.type? == "object") and
+               (.|has("additionalProperties")|not)))
+     |map(tostring)|join("/")|"/\\(.)"''', schema_json)
+
+        assert implicit_ap_paths == [], (
+f'Schema {schema_id!r} must explicitly state whether its object schemas accept'
+f' additional properties, but it contains object schemas that do not at the '
+f'following JSON paths: {implicit_ap_paths}')
