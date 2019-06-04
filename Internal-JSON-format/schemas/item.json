@@ -45,7 +45,8 @@
                 "type": "string"
               }
             },
-            "required": ["ID"]
+            "required": ["ID"],
+            "additionalProperties": false
           }
         }
       },
@@ -198,7 +199,8 @@
         }
       },
       "required": ["descriptiveMetadataID", "label", "startPagePosition",
-        "startPageLabel", "endPagePosition"]
+        "startPageLabel", "endPagePosition"],
+      "additionalProperties": false
     }
   },
 
