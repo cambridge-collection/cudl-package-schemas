@@ -1,0 +1,11 @@
+{
+  base: "../valid/minimal.json",
+  patch: [
+    {op:  "add", path: "/pages/-", value: {}}
+  ],
+  expectedErrors: [
+    "'label' is a required property",
+    "'physID' is a required property",
+    "'sequence' is a required property"
+  ]
+}

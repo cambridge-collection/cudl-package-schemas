@@ -162,7 +162,8 @@
           "contentMediaType": "text/html"
         },
         "pageType": {"type": "string"}
-      }
+      },
+      "required": ["label", "physID", "sequence"]
     },
 
     "listItemPage": {

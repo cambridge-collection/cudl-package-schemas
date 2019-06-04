@@ -12,7 +12,7 @@ class TestInternalItem(BaseDatatypeTest):
     schema_base_uri = 'https://schemas.cudl.lib.cam.ac.uk/__internal__/v1/'
     data_type = 'item'
     expected_valid_count = 4
-    expected_invalid_count = 11
+    expected_invalid_count = 12
 
 
 @pytest.fixture(scope='module')
