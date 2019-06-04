@@ -56,7 +56,7 @@
       "description": "An object directly containing displayable descriptive metadata objects, or objects with value arrays containing nested Metadata Containers.",
       "type": "object",
       "additionalProperties": {
-        "anyOf": [
+        "oneOf": [
           {
             "title": "Nested metadata ",
             "type": "object",
