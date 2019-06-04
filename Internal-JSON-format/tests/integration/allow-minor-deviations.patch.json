@@ -8,7 +8,8 @@
       {"pattern": "^(/[\\w/ ,-]+)?$"}
     ]
   }},
-  {"op": "add", "path": "/properties/allTranscriptionDiplomaticURL", "value": {"$ref": "#/definitions/lenient-uri-reference"}},
+  {"op": "add", "path": "/definitions/page/properties/transcriptionDiplomaticURL", "value": {"$ref": "#/definitions/lenient-uri-reference"}},
   {"op": "add", "path": "/definitions/page/properties/transcriptionNormalisedURL", "value": {"$ref": "#/definitions/lenient-uri-reference"}},
-  {"op": "add", "path": "/definitions/page/properties/transcriptionDiplomaticURL", "value": {"$ref": "#/definitions/lenient-uri-reference"}}
+  {"op": "add", "path": "/definitions/page/properties/translationURL", "value": {"$ref": "#/definitions/lenient-uri-reference"}},
+  {"op": "add", "path": "/properties/allTranscriptionDiplomaticURL", "value": {"$ref": "#/definitions/lenient-uri-reference"}}
 ]

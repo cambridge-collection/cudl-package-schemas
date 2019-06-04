@@ -154,8 +154,9 @@
         "thumbnailImageOrientation": {"$ref": "#/definitions/orientation"},
         "imageWidth": {"type": "integer"},
         "imageHeight": {"type": "integer"},
-        "transcriptionNormalisedURL": {"type": "string", "format": "uri-reference"},
         "transcriptionDiplomaticURL": {"type": "string", "format": "uri-reference"},
+        "transcriptionNormalisedURL": {"type": "string", "format": "uri-reference"},
+        "translationURL": {"type": "string", "format": "uri-reference"},
         "content": {
           "$comment": "Used in itemType: essay to hold the text of the essay constituting the item.",
           "type": "string",
@@ -163,7 +164,8 @@
         },
         "pageType": {"type": "string"}
       },
-      "required": ["label", "physID", "sequence"]
+      "required": ["label", "physID", "sequence"],
+      "additionalProperties": false
     },
 
     "listItemPage": {
