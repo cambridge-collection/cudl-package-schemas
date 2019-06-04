@@ -8,8 +8,7 @@ pipelines:
         script:
           - pip install poetry
           - poetry install
-          # Treat warnings as errors
-          - poetry run pytest -Werror
+          - poetry run pytest
         caches:
           - pip
           - poetry

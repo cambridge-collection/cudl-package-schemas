@@ -330,9 +330,7 @@ class BaseDatatypeTest:
             msg = (
 f'expected {cls.get_data_type()} to have {expected_count} {testcase_type} '
 f'testcases but found {len(paths)}')
-            assert len(paths) >= expected_count, msg
-            import warnings
-            warnings.warn(msg)
+            assert len(paths) == expected_count, msg
 
     @classmethod
     def generate_parameters(cls, metafunc):
