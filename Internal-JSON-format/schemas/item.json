@@ -92,9 +92,10 @@
             "$comment": "Don't allow any display, seq, label, displayForm or value properties",
             "anyOf": [
               {"required": ["display"]},
-              {"required": ["seq"]},
-              {"required": ["label"]},
               {"required": ["displayForm"]},
+              {"required": ["label"]},
+              {"required": ["linktype"]},
+              {"required": ["seq"]},
               {"required": ["value"]}
             ]
           }
