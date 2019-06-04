@@ -27,7 +27,7 @@ class TestCollection(CUDLSchemaTest):
 class TestItem(CUDLSchemaTest):
     data_type = 'item'
     expected_valid_count = 3
-    expected_invalid_count = 2
+    expected_invalid_count = 4
 
 
 class TestCUDLItem(CUDLSchemaTest):
