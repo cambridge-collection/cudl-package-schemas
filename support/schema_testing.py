@@ -415,13 +415,29 @@ violated schema rule: {schema_path}'''
 
 class RequireExplicitAdditionalProperties:
     def test_schema_uses_no_implicit_additional_properties(self, schema_id, schema_json):
-        implicit_ap_paths = pyjq.all('''\
+        implicit_paths = pyjq.all('''\
 path(..|select((.|type) == "object" and
                (.type? == "object") and
-               (.|has("additionalProperties")|not)))
+               (has("additionalProperties")|not)))
      |map(tostring)|join("/")|"/\\(.)"''', schema_json)
 
-        assert implicit_ap_paths == [], (
+        assert implicit_paths == [], (
 f'Schema {schema_id!r} must explicitly state whether its object schemas accept'
-f' additional properties, but it contains object schemas that do not at the '
-f'following JSON paths: {implicit_ap_paths}')
+f' additional properties. It contains object schemas that do not at the '
+f'following JSON paths: {implicit_paths}')
+
+
+class RequireExplicitOptionalProperties:
+    def test_schema_uses_no_implicit_empty_required_property_lists(self, schema_id, schema_json):
+        implicit_paths = pyjq.all('''\
+path(..|select((.|type) == "object" and
+               (.type? == "object") and
+               has("properties") and
+               (has("required")|not)))
+     |map(tostring)|join("/")|"/\\(.)"''', schema_json)
+
+        assert implicit_paths == [], (
+f'Schema {schema_id!r} must explicitly use "required": [] when an object '
+f'schema specifies named properties but has no required properties. It '
+f'contains object schemas that do not at the following JSON paths: '
+f'{implicit_paths}')

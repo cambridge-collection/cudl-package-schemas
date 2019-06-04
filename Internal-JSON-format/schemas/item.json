@@ -14,12 +14,10 @@
     },
 
     "descriptiveMetadataSection": {
-      "type": "object",
       "allOf": [
         {"$ref": "#/definitions/topLevelDescriptiveMetadataProperties"},
         {"$ref": "#/definitions/metadataContainer"}
-      ],
-      "additionalProperties": true
+      ]
     },
 
     "topLevelDescriptiveMetadataProperties": {
@@ -184,7 +182,8 @@
         "title": {"type": "string"},
         "listItemText": {"type": "string"}
       },
-      "additionalProperties": false
+      "additionalProperties": false,
+      "required": ["fileID", "dmdID", "startPage", "title", "listItemText"]
     },
 
     "logicalStructureNode": {
