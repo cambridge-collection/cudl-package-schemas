@@ -183,7 +183,7 @@
         "listItemText": {"type": "string"}
       },
       "additionalProperties": false,
-      "required": ["fileID", "dmdID", "startPage", "title", "listItemText"]
+      "required": ["fileID", "dmdID", "startPageLabel", "startPage", "title", "listItemText"]
     },
 
     "logicalStructureNode": {
