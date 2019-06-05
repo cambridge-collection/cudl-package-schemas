@@ -1,0 +1,2277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="enrich.css" title="Enrich" alternate="no"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Catalogue of Codices, Scrolls, and Other Texts in Hebrew Script in the
+                    University of Manchester (John Rylands) Library</title>
+                <funder/>
+                <principal>Renate Smithuis</principal>
+                <respStmt>
+                    <resp>Cataloguer</resp>
+                    <name>Stefania Silvestri</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>The University of Manchester Library</publisher>
+                <date calendar="Gregorian">2017</date>
+                <pubPlace>
+                    <address>
+                        <addrLine>The John Rylands Library</addrLine>
+                        <street>150 Deansgate</street>
+                        <settlement>Manchester</settlement>
+                        <postCode>M3 3EH</postCode>
+                        <addrLine>
+                     <ref target="http://www.library.manchester.ac.uk/specialcollections/">The
+                                John Rylands Library </ref>
+                  </addrLine>
+                        <addrLine>
+                     <email>uml.special-collections@manchester.ac.uk</email>
+                  </addrLine>
+                    </address>
+                </pubPlace>
+                <idno>UkMaJRU-Gaster-Hebrew-MS-00274</idno>
+                <availability xml:id="displayImageRights" status="restricted">
+                    <p>Zooming image © University of Manchester Library, All rights reserved.</p>
+                </availability>
+                <availability xml:id="downloadImageRights" status="restricted">
+                    <licence>Images made available for download are licensed under a Creative
+                        Commons Attribution-NonCommercial 3.0 Unported License (CC BY-NC
+                        3.0)</licence>
+                </availability>
+                <availability xml:id="metadataRights" status="restricted">
+                    <licence>This metadata is licensed under a Creative Commons
+                        Attribution-NonCommercial 3.0 Unported License.</licence>
+                </availability>
+            </publicationStmt>
+
+
+            <sourceDesc>
+                <msDesc xml:id="UkMaJRU-Gaster-Hebrew-MS-00274" xml:lang="en">
+
+
+
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <region type="county">Greater Manchester</region>
+                        <settlement>Manchester</settlement>
+                        <institution>The University of Manchester Library</institution>
+                        <repository>The John Rylands Library</repository>
+                        <collection>Hebrew Manuscripts</collection>
+
+
+                        <idno>Gaster Hebrew MS 274</idno>
+
+                        <msName/>
+
+                        <altIdentifier type="former">
+                            <idno>Gaster 274</idno>
+                        </altIdentifier>
+                        <altIdentifier type="internal">
+                            <idno>IMHM F 16005</idno>
+                        </altIdentifier>
+                        <altIdentifier type="internal">
+                            <idno>Aleph Record 000183587</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+
+
+
+                    <msContents>
+                        <summary>Composite manuscript containing fifteen stories in Judeo-Spanish
+                            written by various hands (folios <locus from="1a" to="88b"
+                                >1a-88b</locus>; <locus from="97a" to="99b">97a-99b</locus>) and
+                            some Hebrew liturgical poems (‘piyyutim’) for different occasions
+                            (folios <locus from="89a" to="96b">89a-96b</locus>; <locus from="100a"
+                                to="114b">100a-114b</locus>).</summary>
+                        <textLang mainLang="heb">Hebrew</textLang>
+                        <msItem>
+                            <title>Composite manuscript containing fifteen stories in
+                                Judeo-Spanish</title>
+                        </msItem>
+
+                    </msContents>
+
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc material="paper">
+                                <support>
+                                    <material>Paper</material>
+                                </support>
+
+                                <extent>
+                                    <measure unit="pages" quantity="228">116 ff.
+                                        (iv+116+i)</measure>
+                                    <dimensions type="leaf" unit="mm">
+                                        <height>146</height>
+                                        <width>96</width>
+                                    </dimensions>
+                                </extent>
+
+
+
+                                <foliation>
+                                    <p>Modern pencil foliation in Arabic numerals at the top outer
+                                        corner of side a of each folio. Unnumbered folio between
+                                        folios <locus from="50a" to="50b">50</locus> and <locus
+                                            from="51a" to="51b">51</locus>, 2 folios numbered 65.
+                                        Secondary foliation from folio 67: 1737-1739 (<locus
+                                            from="67a" to="69b">67-69</locus>), 1740-1756 (<locus
+                                            from="71a" to="87b">71-87</locus>), [..]58 (<locus
+                                            from="88a" to="88b">88</locus>), 1759 (<locus from="97a"
+                                            to="97b">97</locus>), [..] (<locus from="98a" to="98b"
+                                            >98</locus>), 162 (<locus from="99a" to="99b"
+                                        >99</locus>), etc.</p>
+                                </foliation>
+
+
+
+                                <condition>
+                                    <p>Repairs in inner edge with transparent tape. Folios have
+                                        uneven edges.</p>
+                                </condition>
+                            </supportDesc>
+
+
+                        </objectDesc>
+
+
+
+                        <bindingDesc>
+                            <p>One quarter binding: brown leather spine and brown chequered paper
+                                boards. Remains of two paper lables on spine. English printed matter
+                                used as fourth front fly-leaf and back fly-leaf. The manuscript must
+                                have been bound or rebound incorrently given the misplacement of
+                                folios <locus from="97a" to="99b">97-99</locus> that should follow
+                                folio <locus from="88a" to="88b">88</locus> and folio <locus
+                                    from="110a" to="110b">110</locus> that should follow <locus
+                                    from="107a" to="107b">107</locus>. In view of the catchwords
+                                several more parts seem to be in disorder, see especially folios
+                                    <locus from="37a" to="38b">37-38</locus>, <locus from="45a"
+                                    to="46b">45-46</locus>, <locus from="63a" to="64b"
+                                >63-64</locus>, <locus from="75a" to="76b">75-76</locus>, <locus
+                                    from="87a" to="88b">87-88</locus>, <locus from="100a" to="100b"
+                                    >100a-b</locus>, <locus from="101a" to="101b">101a-b</locus>,
+                                    <locus from="107a" to="108b">107-108</locus>, <locus from="108a"
+                                    to="109b">108-109</locus>.</p>
+                        </bindingDesc>
+
+                        <accMat>Note by N.Shalem on the content of the manuscript in <lang
+                                xml:lang="heb">Hebrew</lang> and <lang xml:lang="eng"
+                            >English</lang>, written in <placeName ref="7011781">London</placeName>
+                            on <date calendar="Gregorian" when="1938-09-04">4 September
+                            1938</date>.</accMat>
+                    </physDesc>
+
+                    <history>
+                        <origin>
+                            <p>Produced in the <origDate calendar="Gregorian" notBefore="1701"
+                                    notAfter="1800">eighteenth century</origDate>.</p>
+                        </origin>
+
+
+                        <provenance>
+                            <list>
+                                <item>Front paste-down: Handwritten in pencil numeral 274 and
+                                    several numbers and calculations.</item>
+                                <item>Folio <locus from="iia" to="iia">iia</locus>: Handwritten note
+                                    reading "S.ra / <name type="person" ref="supplied" role="fmo">
+                                        <persName type="display">Freja Brudo</persName>
+                                    </name> / Sn. <name type="person" ref="supplied" role="fmo">
+                                        <persName type="display">Brudo Raffaell</persName>
+                                    </name> [...] 444".</item>
+                                <item>Folio <locus from="iib" to="iib">iib</locus>: <name
+                                        type="person" ref="supplied" role="fmo">
+                                        <persName type="display">Benj. Cohen</persName>
+                                    </name>.</item>
+                                <item>Folio <locus from="1a" to="1a">1a</locus>: Handwritten in blue
+                                    ink "No. 274 / M Gaster".</item>
+                                <item>Owner's signature at the top edge of folios <locus from="3b"
+                                        to="3b">3b</locus>, <locus from="4a" to="4a">4a</locus>,
+                                        <locus from="6b" to="6b">6b</locus>: <name type="person"
+                                        ref="supplied" role="fmo">
+                                        <persName type="display">Salomon Bintata</persName>
+                                    </name>.</item>
+                                <item>Folio <locus from="14a" to="14a">14a</locus>: Owner's
+                                    signature on the outer edge, <name type="person" ref="supplied"
+                                        role="fmo">
+                                        <persName type="display">Benjamin Arye Haim Cohen</persName>
+                                    </name>.</item>
+                                <item>Folio <locus from="29a" to="29a">29a</locus>: Owner's
+                                    signature on the outer edge, <name type="person" ref="supplied"
+                                        role="fmo">
+                                        <persName type="display">Judah Go[..]</persName>
+                                    </name>.</item>
+                                <item>Folio <locus from="75b" to="75b">75b</locus>: Ownership note
+                                    reading "Questo di <name type="person" ref="supplied" role="fmo">
+                                        <persName type="display">Josiph Olsa[...]</persName>
+                                    </name> / 1790".</item>
+                                <item>Folio <locus from="88b" to="88b">88b</locus>: Handwritten note
+                                    in blue ink reading "v. 8 fols. further on".</item>
+                                <item>Folio <locus from="97a" to="97a">97a</locus>: Handwritten note
+                                    in blue ink reading "v. 8 fols. [...]".</item>
+                                <item>Folio <locus from="111b" to="111b">111b</locus>: Handwritten
+                                    note possibly indicating a debt reading "Deve Sn Brudo Bentto
+                                    Cohen Cohen".</item>
+                                <item>Folio <locus from="114b" to="114b">114b</locus>: Moses
+                                    Gaster's signature in blue ink and "114 f." in pencil.</item>
+                                <item>Folio <locus from="vb" to="vb">vb</locus> (back fly-leaf):
+                                    Owner's signature, <name type="person" ref="supplied" role="fmo">
+                                        <persName type="display">Mr Alexander Cohen [...]</persName>
+                                    </name>.</item>
+                            </list>
+                        </provenance>
+
+
+                        <acquisition>
+                            <p>Acquired by <name type="institution"
+                                    ref="http://viaf.org/viaf/152274029" role="his">
+                                    <orgName type="display">The John Rylands Library</orgName>
+                                </name> from the heirs of <name type="person"
+                                    ref="http://viaf.org/viaf/12428346" role="fmo">
+                                    <persName type="display">Moses Gaster</persName>
+                                    <persName type="standard">Gaster, Moses 1856-1939</persName>
+                                </name> in <date calendar="Gregorian" when="1954">1954</date>.</p>
+                        </acquisition>
+                    </history>
+
+
+
+                    <additional>
+                        <adminInfo>
+                            <recordHist>
+                                <source>Description based on <persName>Alexander Samely</persName>'s
+                                    unpublished draft catalogue and <persName>N. Shalem</persName>'s
+                                    note, revised and expanded by <persName>Stefania
+                                        Silvestri</persName> and <persName>Renate
+                                        Smithuis</persName>.</source>
+                                <change/>
+                            </recordHist>
+
+
+                            <availability status="restricted">
+                                <p>The manuscript is available for consultation by any accredited
+                                    reader.</p>
+                            </availability>
+                            <note/>
+                        </adminInfo>
+
+
+
+                    </additional>
+
+                    <msPart xml:id="UkMaJRU-Gaster-Hebrew-MS-00274-1">
+                        <altIdentifier type="partial">
+                            <idno type="part">Gaster Hebrew MS 274/1</idno>
+                        </altIdentifier>
+
+                        <msContents>
+                            <summary>Jewish moral tales, on folios <locus from="1a" to="88b"
+                                    >1a-88b</locus> and <locus from="97a" to="99b"
+                                >97a-99b</locus>.</summary>
+
+                            <msItem>
+                                <locus from="1a" to="99b">1a-88b, 97a-99b</locus>
+                                <!--<locus from="97a" to="99b">97a-99b</locus>-->
+                                <title xml:lang="heb" type="alt">מעשיות</title>
+                                <title>Tales</title>
+
+                                <note>Each Judeo-Spanish story is preceded by the word ma‘aseh
+                                    [מעשה], i.e. ‘story,’ in square script. These moral tales have
+                                    been numbered in pencil in the manuscript and separately
+                                    described in the accompanying note by N. Shalem. The stories are
+                                    as follows:<list>
+                                        <item>Story 1 (<locus from="1a" to="2b">1a-2b</locus>): Man
+                                            deals with a thief.</item>
+                                        <item>Story 2 (<locus from="2b" to="5b">2b-5b</locus>):
+                                            Rabbi Meir saves Judah from the snake; on the importance
+                                            of almsgiving. Cf. Gaster, Exempla, no. 394,
+                                            151–52.</item>
+                                        <item>Story 3 (<locus from="6a" to="8a">6a-8a</locus>):
+                                            Rabbi Joshua ben Levi and the butcher who will be his
+                                            companion in paradise; on the importance of charity. Cf.
+                                            Gaster, Exempla, no. 323, 117.</item>
+                                        <item>Story 4 (<locus from="8a" to="14a">8a-14a</locus>)
+                                            Rabbi Reuben ben Sabar and Matatiah ben Harash.</item>
+                                        <item>Story 5 (<locus from="14a" to="18a">14a-18a</locus>)
+                                            Rabbi Meir and the wife of Rabbi Judah the butcher. Cf.
+                                            Gaster, Exempla, no. 384, 147.</item>
+                                        <item>Story 6 (<locus from="18a" to="20a">18a-20a</locus>)
+                                            Pious man saves fellow Jews from persecution in a town
+                                            in Ashkenaz.</item>
+                                        <item>Story 7 (<locus from="20a" to="21a">20a-21a</locus>)
+                                            The daughter of Rabbi Akiva is saved from a snake on her
+                                            wedding day; on the importance of almsgiving. Cf.
+                                            Gaster, Exempla, no. 318, 116.</item>
+                                        <item>Story 8 (<locus from="21b" to="24b">21b-24b</locus>)
+                                            Diligent student recovers stolen money.</item>
+                                        <item>Story 9 (<locus from="24b" to="27b">24b-27b</locus>)
+                                            The weasel and the well; man does not keep his promise
+                                            to marry a woman. Cf. Gaster, Exempla, no. 89,
+                                            74.</item>
+                                        <item>Story 10 (<locus from="27b" to="31a">27b-31a</locus>)
+                                            Jewish woman enters the camp of the enemy to kill its
+                                            general during the Babylonian conquest of Jerusalem
+                                            (i.e. the story of Judith and Holofernes). Cf. Gaster,
+                                            Exempla, no. 251, 106.</item>
+                                        <item>Story 11 (<locus from="31a" to="34a">31a-34a</locus>)
+                                            Nachum Ish Gamzu. Cf. Gaster, Exempla, no. 25,
+                                            58.</item>
+                                        <item>Story 12 (<locus from="34a" to="39b">34a-39b</locus>)
+                                            Joshua ben Levi and the Angel of Death. Cf. Gaster,
+                                            Exempla, no. 138, 85.</item>
+                                        <item>Story 13 (<locus from="39b" to="42a">39b-42a</locus>)
+                                            Solomon and a poor man in the time of King David.</item>
+                                        <item>Story 14 (<locus from="42a" to="44b">42a-44b</locus>)
+                                            Nakdimon (Nicodemus) ben Gurion and the twelve water
+                                            cisterns in Jerusalem. Cf. Gaster, Exempla, no. 85,
+                                            72.</item>
+                                        <item>Story 15 (<locus from="45a" to="88b">45a-88b</locus>
+                                            and <locus from="97a" to="99b">97a-99b</locus>)
+                                            Joseph.</item>
+                                    </list>
+                                </note>
+                                <listBibl>
+
+                                    <bibl>
+                                        <ref target="http://www.worldcat.org/oclc/924123194">Moses
+                                            Gaster, The Exempla of the Rabbis Being a Collection of
+                                            Exempla, Apologues and Tales Culled from Hebrew
+                                            Manuscripts and Rare Hebrew Books (London; Leipzig,
+                                            1924)</ref>
+                                    </bibl>
+                                </listBibl>
+                                <textLang mainLang="heb" otherLangs="lad">Hebrew, Ladino</textLang>
+
+                            </msItem>
+                        </msContents>
+
+                        <physDesc>
+                            <objectDesc form="fragment">
+                                <supportDesc material="paper">
+                                    <support>
+                                        <material>Paper</material>
+                                    </support>
+
+                                    <extent>
+                                        <measure unit="pages" quantity="182">91 ff.</measure>
+                                    </extent>
+
+
+
+                                    <collation>
+                                        <p>
+                                            <catchwords>Catchwords at the bottom left corner of
+                                                nearly each page.</catchwords>
+                                        </p>
+                                    </collation>
+
+
+                                </supportDesc>
+
+                                <layoutDesc>
+                                    <layout columns="1" writtenLines="21">
+                                        <p>Long line with 21 written lines</p>
+                                    </layout>
+                                </layoutDesc>
+
+                            </objectDesc>
+
+
+                            <handDesc>
+                                <handNote scope="major" script="sephardi" rend="semicursive"
+                                    medium="ink">
+                                    <desc>Sephardi semi-cursive script, different hands.</desc>
+                                </handNote>
+                                <handNote scope="minor" script="sephardi" rend="square" medium="ink">
+                                    <desc>Sephardi square for the titles, different hands.</desc>
+                                </handNote>
+                            </handDesc>
+
+                        </physDesc>
+                    </msPart>
+
+
+                    <msPart xml:id="UkMaJRU-Gaster-Hebrew-MS-00274-2">
+                        <altIdentifier type="partial">
+                            <idno type="part">Gaster Hebrew MS 274/2</idno>
+                        </altIdentifier>
+
+                        <msContents>
+                            <summary>Liturgical poems for the Havdalah, the ceremony for the end of
+                                Shabbat, on folios <locus from="89a" to="96b">89a-96b</locus>, for
+                                the rite of circumcision on folios <locus from="106a" to="111b"
+                                    >106a-111b</locus>, and for putting on phylacteries on folios
+                                    <locus from="112a" to="114b">112-114b</locus>. Though most
+                                incipits have been transcribed, the survey below is as yet
+                                incomplete.</summary>
+
+                            <msItem n="1">
+                                <locus from="89a" to="96b">89a-96b</locus>
+                                <title>Liturgical poems and songs for the end of Shabbat</title>
+                                <title type="alt" xml:lang="heb">פיוטים וזמירות למוצאי שבת</title>
+
+
+
+                                <note>
+                                    <list>
+                                        <item>Liturgical poem 1 (<locus from="89a" to="89b"
+                                                >89a-b</locus>). Incipit: שבוע טוב בא לקראתכם תתחדש
+                                            בו ימי שמחתכם. Acrostic poem forming the name Isaac
+                                            [יצחק]. Cf. ש 411.</item>
+                                        <item>Liturgical poem 2 (<locus from="89b" to="90a"
+                                                >89b-90a</locus>). Incipit: אלי אליה יבא אלינו יהיה
+                                            אב רחמן זה שבועינו. Acrostic poem forming the name
+                                            Abraham Hazzak? [אברהם ?חזק].</item>
+                                        <item>Liturgical poem 3 (<locus from="90a" to="90b"
+                                                >90a-b</locus>). Incipit: מלכי וצורי שלח אל עמך הבא
+                                            אליהו הנביא אליהו התשבי.</item>
+                                        <item>Liturgical poem 4 (<locus from="90b" to="91a"
+                                                >90b-91a</locus>). Incipit: אלי אליה הנביא הבא נא
+                                            אלי אליה משיח ה[...]ה בו ירתום רכבו. Acrostic poem
+                                            forming the name Abraham [אברהם] (= <name type="person"
+                                                ref="http://viaf.org/viaf/88961846" role="aut">
+                                                <persName type="standard">Ibn Ezra, Abraham ben
+                                                  Meïr, 1089-1164</persName>
+                                                <persName type="alt" xml:lang="heb">אבן עזרא, אברהם
+                                                  בן מאיר, 1089-1164</persName>
+                                                <persName type="display">Ibn Ezra</persName>
+                                            </name>). Cf. א 4916.</item>
+                                        <item>Liturgical poem 5 (<locus from="91a" to="92a"
+                                                >91a-92a</locus>). Incipit: איש אשר קנא לשם האל איש
+                                            בושר שלום. Alphabetical acrostic poem, preceded by a few
+                                            opening words: זכרו לטוב בסימן טוב אליהו הנביא וכו. Cf.
+                                            א 3121.</item>
+                                        <item>Liturgical poem 6 (<locus from="92a" to="92a"
+                                                >92a</locus>). Incipit: אשרהו אשרי מי שראה פניו
+                                            אפילו בחלום.</item>
+                                    </list>
+                                </note>
+
+
+
+                                <bibl>
+                                    <ref target="http://www.worldcat.org/oclc/466181624">Israel
+                                        Davidson, Thesaurus of mediaeval Hebrew poetry (New York,
+                                        1924-1933)</ref>
+                                </bibl>
+
+                                <textLang mainLang="heb" otherLangs="jrb">Hebrew,
+                                    Judeo-Arabic</textLang>
+
+
+                            </msItem>
+
+                            <msItem n="2">
+                                <locus from="106a" to="111b">106a-111b</locus>
+                                <title>Liturgical poems for the rite of circumcision</title>
+                                <title type="alt" xml:lang="heb">פיוטים של מילה</title>
+
+
+                                <note>
+                                    <list>
+                                        <item>Liturgical poem 1 (<locus from="106a" to="106a"
+                                                >106a</locus>). Incipit: יעקב בחר לו יה ישראל
+                                            לסגולתו קראם מנת חלקו וחבל נחלתו. Acrostic poem forming
+                                            the name Jacob ben Tsur [יעקב בן צור] (= <name
+                                                type="person" ref="http://viaf.org/viaf/248556677"
+                                                role="aut">
+                                                <persName type="standard">Ibn Ẓur, Jacob ben Reuben
+                                                  1673-1752</persName>
+                                                <persName type="alt" xml:lang="heb">אבן צור, יעקב בן
+                                                  ראובן, 1673-1754</persName>
+                                                <persName type="display">Jacob ben Tsur</persName>
+                                            </name>). Cf. י 3258.</item>
+                                        <item>Liturgical poem 2 (<locus from="106a" to="107a"
+                                                >106a-107a</locus>). Incipit: אל אדון ברצותו לטהרינו
+                                            מסיג הערלה כי היא חרפה לנו . Acrostic poem forming
+                                            forming the phrase “I, Moshe Hazzak [אני משה
+                                            חזק].</item>
+                                        <item>Liturgical poem 3 (<locus from="107a" to="107b"
+                                                >107a-b</locus>). Incipit: אפצחה בשירה בשמחה ובגילה
+                                            לאל גדול נורא.</item>
+                                        <item>Liturgical poem 4 (<locus from="107b" to="107b"
+                                                >107b</locus>). Incipit: מדם בשרי ארום תרומה אל יה
+                                            תהלל כל הנשמה. Acrostic poem forming the name Moshe
+                                            Zakut [משה זכות] (= <name type="person"
+                                                ref="http://viaf.org/viaf/100212052" role="aut">
+                                                <persName type="standard">Zacuto, Moses ben
+                                                  Mordecai, approximately 1620-1697</persName>
+                                                <persName type="alt" xml:lang="heb">זכות, משה בן
+                                                  מרדכי, 1620?-1697</persName>
+                                                <persName type="display">Moshe Zakut</persName>
+                                            </name>). Cf. מ 260.</item>
+                                        <item>Liturgical poem 6 (<locus from="108a" to="108b"
+                                                >108a-b</locus>). Incipit: אערוך זמר תוך מקהילות.
+                                            This is poem is preceded by the end of another poem
+                                            (starting from רץ במצות אל) of which the incipit is
+                                            unknown, because the folios are no longer in the correct
+                                            order.</item>
+                                        <item>Liturgical poem 7 (<locus from="108b" to="108b"
+                                                >108b</locus>). Incipit: חותמך שדי חתמת בנו ישתבח
+                                            שימך לעד מלכנו. Acrostic poem forming the name Jacob
+                                            [יעקב] (= <name type="person"
+                                                ref="http://viaf.org/viaf/248556677" role="aut">
+                                                <persName type="standard">Ibn Ẓur, Jacob ben Reuben
+                                                  1673-1752</persName>
+                                                <persName type="alt" xml:lang="heb">אבן צור, יעקב בן
+                                                  ראובן, 1673-1754</persName>
+                                                <persName type="display">Jacob ben Tsur</persName>
+                                            </name>). Cf. ח 161.</item>
+                                        <item>Liturgical poem 9 (<locus from="109a" to="109b"
+                                                >109a-b</locus>). Incipit: אערוך שיר תהילה לצור אשר
+                                            אין בלתה. Acrostic poem forming the phrase “I, David
+                                            Hazzak” [אני דוד חזק] (= <name type="person"
+                                                ref="http://viaf.org/viaf/22309855" role="aut">
+                                                <persName type="standard">David ben Aaron ibn
+                                                  Ḥassin, approximately 1730-1792</persName>
+                                                <persName type="alt" xml:lang="heb">חסין, דוד בן
+                                                  אהרן אבן, 1727-1792</persName>
+                                                <persName type="display">David ben Aaron ibn
+                                                  Hassin</persName>
+                                            </name>). Cf. 7080 א. This poem is preceded by the end
+                                            of another poem (starting from יום השמיני נבחר למולה) of
+                                            which the incipit is unknown, because the folios are no
+                                            longer in the correct order.</item>
+                                        <item>Liturgical poem 10 (<locus from="109b" to="109b"
+                                                >109b</locus>). Incipit: עליון אהבת עולם אהבתנו.
+                                            Uncertain whether the poem is complete due to the fact
+                                            that the folios are no longer in the correct
+                                            order.</item>
+                                        <item>Liturgical poem 11 (<locus from="110a" to="11a"
+                                                >110a</locus>). Incipit: עלינו לשבח להדר ולנצח.
+                                            Preceded by the note: עמנואל ?סי.</item>
+                                        <item>Liturgical poem 12 (<locus from="110a" to="110b"
+                                                >110a-b</locus>). Incipit: שרידים נקראים עם סגולה
+                                            קבלו עליהם המצות המילה. Acrostic poem forming the word
+                                            Shaddai [שדי]. Cf. 2191 ש.</item>
+                                        <item>Liturgical poem 13 (<locus from="110b" to="110b"
+                                                >110b</locus>). Incipit: אפצחה ברינה בגילה על מצות
+                                            המילה.</item>
+                                        <item>Liturgical poem 14 (<locus from="110b" to="110b"
+                                                >110b</locus>). Incipit: אמרו בחיבת עדת אמוני ברוך
+                                            הבא בשם ה. It is unclear whether the manuscript contains
+                                            the rest of the poem, because the folios are no longer
+                                            in the correct order.</item>
+                                        <item>Liturgical poem 15 (<locus from="111a" to="111a"
+                                                >111a</locus>). Incipit: קומי נא אל נורא. This folio
+                                            might originally have followed folio 108 in view of the
+                                            catchword קומי on <locus from="108b" to="108b"
+                                                >108b</locus>.</item>
+                                        <item>Liturgical poem 16 (<locus from="111a" to="111a"
+                                                >111a</locus>). Incipit: ציץ פרח בגנינו יברכנו
+                                            אלהינו לתורתך תזכהו. Cf. צ 326.</item>
+                                    </list>
+                                </note>
+
+
+
+                                <bibl>
+                                    <ref target="http://www.worldcat.org/oclc/466181624">Israel
+                                        Davidson, Thesaurus of mediaeval Hebrew poetry (New York,
+                                        1924-1933)</ref>
+                                </bibl>
+
+                                <textLang mainLang="heb" otherLangs="jrb">Hebrew,
+                                    Judeo-Arabic</textLang>
+
+
+                            </msItem>
+
+
+                            <msItem n="3">
+                                <locus from="112a" to="114b">112-114b</locus>
+                                <title>Liturgical poems for putting on phylacteries</title>
+                                <title type="alt" xml:lang="heb">פיוטים של תפילין בע"ה</title>
+
+                                <author/>
+
+                                <note>
+                                    <list>
+                                        <item>Liturgical poem 1 (<locus from="112a" to="112a"
+                                                >112a</locus>). Incipit: עם הקדוש [...] אדיר שוכן
+                                            שמי?ם.</item>
+                                        <item>Liturgical poem 2 (<locus from="112a" to="112b"
+                                                >112a-b</locus>). Incipit: יתרומם שם אלהינו יתברך
+                                            לעד סלה.</item>
+                                        <item>Liturgical poem 3 (<locus from="112b" to="113a"
+                                                >112b-113a</locus>). Incipit: אשירה בקול זמרה בשיר
+                                            ומצלתים מצות ה' ברה מאירת עיניים. Acrostic poem forming
+                                            the name Jacob [יעקב]. Cf. א 7996.</item>
+                                        <item>Liturgical poem 4 (<locus from="113a" to="113a"
+                                                >113a</locus>). Incipit: אל גדול נורא נאזר בגבורה
+                                            ברוב תפארת הוא עיטרנו. Acrostic poem forming the words
+                                            ‘I, Jacob Hazzak [אני יעקב חזק]. Cf. א 3536.</item>
+                                        <item>Liturgical poem 5 (<locus from="113a" to="113b"
+                                                >113a-b</locus>). Incipit: עמוד נא פטרה חמודה בסוד
+                                            ישרים ועדה.</item>
+                                        <item>Liturgical poem 6 (<locus from="113b" to="113b"
+                                                >113b</locus>). Incipit: תמה בתריג מצות התורה.
+                                            Followed by a liturgical note: מה דין לעמך. For the
+                                            latter poem cf. ד 312.</item>
+                                        <item>Liturgical poem 7 (<locus from="113b" to="114a"
+                                                >113b-114a</locus>). Incipit: נעים ונחמד קום לפני
+                                            עדה טהורה.</item>
+                                        <item>Liturgical poem 8 (<locus from="114a" to="114a"
+                                                >114a</locus>). Incipit: אערוך שיר הילולים ברוב עם
+                                            במקבלים.</item>
+                                        <item>Liturgical poem 9 (<locus from="114a" to="114b"
+                                                >114a-b</locus>). Incipit: קול רינה וישועה תתן
+                                            ?ליוצריך. The poem is preceded by an introductory
+                                            note.</item>
+                                    </list>
+                                </note>
+
+
+
+                                <bibl>
+                                    <ref target="http://www.worldcat.org/oclc/466181624">Israel
+                                        Davidson, Thesaurus of mediaeval Hebrew poetry (New York,
+                                        1924-1933)</ref>
+                                </bibl>
+
+                                <textLang mainLang="heb" otherLangs="jrb">Hebrew,
+                                    Judeo-Arabic</textLang>
+
+
+                            </msItem>
+                        </msContents>
+
+                        <physDesc>
+                            <objectDesc form="fragment">
+                                <supportDesc material="paper">
+                                    <support>
+                                        <material>Paper</material> with visible laid
+                                        lines.</support>
+
+                                    <extent>
+                                        <measure unit="pages" quantity="46">23 ff.</measure>
+                                    </extent>
+
+                                    <collation>
+                                        <p>
+                                            <catchwords>Catchwords at the bottom left corner of
+                                                nearly each page.</catchwords>
+                                        </p>
+                                    </collation>
+
+                                    <condition>
+                                        <p>Repairs in inner edge with transparent tape. Folios have
+                                            uneven edges.</p>
+                                    </condition>
+                                </supportDesc>
+
+                                <layoutDesc>
+                                    <layout columns="1" writtenLines="21">
+                                        <p>Long line with 21 written lines</p>
+                                    </layout>
+                                </layoutDesc>
+
+                            </objectDesc>
+
+
+                            <handDesc>
+                                <handNote scope="major" script="sephardi" rend="semicursive"
+                                    medium="ink">
+                                    <desc>Sephardi semi-cursive script</desc>
+                                </handNote>
+                                <handNote scope="minor" script="sephardi" rend="square" medium="ink">
+                                    <desc>Sephardi square script for the titles</desc>
+                                </handNote>
+                            </handDesc>
+
+                        </physDesc>
+                    </msPart>
+
+
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+
+        <encodingDesc>
+            <classDecl>
+                <taxonomy xml:id="LCSH">
+                    <bibl>
+                        <ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of
+                            Congress Subject Headings</ref>
+                    </bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+
+
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#LCSH">
+                    <list>
+                        <item>
+                            <ref target="http://id.loc.gov/authorities/sh85132085">Tales</ref>
+                        </item>
+                        <item>
+                            <ref target="http://id.loc.gov/authorities/gf2014027181">Piyutim</ref>
+                        </item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+
+
+
+    </teiHeader>
+
+
+    <facsimile>
+        <graphic decls="#document-thumbnail" rend="portrait"
+            url="MS-HEBREW-GASTER-00274-000-00415.jp2"/>
+        <surface n="Front board" xml:id="i1">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="5687px" url="MS-HEBREW-GASTER-00274-000-00415.jp2"/>
+
+        </surface>
+        <surface n="Front paste-down" xml:id="i2">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4142px" url="MS-HEBREW-GASTER-00274-000-00416.jp2"/>
+
+        </surface>
+        <surface n="ia" xml:id="i3">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4126px" url="MS-HEBREW-GASTER-00274-000-00417.jp2"/>
+
+        </surface>
+        <surface n="ib" xml:id="i4">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4142px" url="MS-HEBREW-GASTER-00274-000-00418.jp2"/>
+
+        </surface>
+        <surface n="iia" xml:id="i5">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4215px" url="MS-HEBREW-GASTER-00274-000-00419.jp2"/>
+
+        </surface>
+        <surface n="iib" xml:id="i6">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4142px" url="MS-HEBREW-GASTER-00274-000-00420.jp2"/>
+
+        </surface>
+        <surface n="iiia" xml:id="i7">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4215px" url="MS-HEBREW-GASTER-00274-000-00421.jp2"/>
+
+        </surface>
+        <surface n="iiib" xml:id="i8">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4214px" url="MS-HEBREW-GASTER-00274-000-00422.jp2"/>
+
+        </surface>
+        <surface n="iva" xml:id="i9">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4324px" url="MS-HEBREW-GASTER-00274-000-00423.jp2"/>
+
+        </surface>
+        <surface n="ivb" xml:id="i10">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4217px" url="MS-HEBREW-GASTER-00274-000-00424.jp2"/>
+
+        </surface>
+        <surface n="1a" xml:id="i11">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4215px" url="MS-HEBREW-GASTER-00274-000-00425.jp2"/>
+
+        </surface>
+        <surface n="1b" xml:id="i12">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4420px" url="MS-HEBREW-GASTER-00274-000-00426.jp2"/>
+
+        </surface>
+        <surface n="2a" xml:id="i13">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4416px" url="MS-HEBREW-GASTER-00274-000-00427.jp2"/>
+
+        </surface>
+        <surface n="2b" xml:id="i14">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4274px" url="MS-HEBREW-GASTER-00274-000-00428.jp2"/>
+
+        </surface>
+        <surface n="3a" xml:id="i15">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4304px" url="MS-HEBREW-GASTER-00274-000-00429.jp2"/>
+
+        </surface>
+        <surface n="3b" xml:id="i16">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4223px" url="MS-HEBREW-GASTER-00274-000-00430.jp2"/>
+
+        </surface>
+        <surface n="4a" xml:id="i17">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4215px" url="MS-HEBREW-GASTER-00274-000-00431.jp2"/>
+
+        </surface>
+        <surface n="4b" xml:id="i18">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4206px" url="MS-HEBREW-GASTER-00274-000-00432.jp2"/>
+
+        </surface>
+        <surface n="5a" xml:id="i19">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4215px" url="MS-HEBREW-GASTER-00274-000-00433.jp2"/>
+
+        </surface>
+        <surface n="5b" xml:id="i20">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4206px" url="MS-HEBREW-GASTER-00274-000-00434.jp2"/>
+
+        </surface>
+        <surface n="6a" xml:id="i21">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4215px" url="MS-HEBREW-GASTER-00274-000-00435.jp2"/>
+
+        </surface>
+        <surface n="6b" xml:id="i22">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4247px" url="MS-HEBREW-GASTER-00274-000-00436.jp2"/>
+
+        </surface>
+        <surface n="7a" xml:id="i23">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4215px" url="MS-HEBREW-GASTER-00274-000-00437.jp2"/>
+
+        </surface>
+        <surface n="7b" xml:id="i24">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4247px" url="MS-HEBREW-GASTER-00274-000-00438.jp2"/>
+
+        </surface>
+        <surface n="8a" xml:id="i25">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4215px" url="MS-HEBREW-GASTER-00274-000-00439.jp2"/>
+
+        </surface>
+        <surface n="8b" xml:id="i26">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4247px" url="MS-HEBREW-GASTER-00274-000-00440.jp2"/>
+
+        </surface>
+        <surface n="9a" xml:id="i27">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4215px" url="MS-HEBREW-GASTER-00274-000-00441.jp2"/>
+
+        </surface>
+        <surface n="9b" xml:id="i28">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4344px" url="MS-HEBREW-GASTER-00274-000-00442.jp2"/>
+
+        </surface>
+        <surface n="10a" xml:id="i29">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4370px" url="MS-HEBREW-GASTER-00274-000-00443.jp2"/>
+
+        </surface>
+        <surface n="10b" xml:id="i30">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4344px" url="MS-HEBREW-GASTER-00274-000-00444.jp2"/>
+
+        </surface>
+        <surface n="11a" xml:id="i31">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4370px" url="MS-HEBREW-GASTER-00274-000-00445.jp2"/>
+
+        </surface>
+        <surface n="11b" xml:id="i32">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4344px" url="MS-HEBREW-GASTER-00274-000-00446.jp2"/>
+
+        </surface>
+        <surface n="12a" xml:id="i33">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4370px" url="MS-HEBREW-GASTER-00274-000-00447.jp2"/>
+
+        </surface>
+        <surface n="12b" xml:id="i34">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4344px" url="MS-HEBREW-GASTER-00274-000-00448.jp2"/>
+
+        </surface>
+        <surface n="13a" xml:id="i35">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4370px" url="MS-HEBREW-GASTER-00274-000-00449.jp2"/>
+
+        </surface>
+        <surface n="13b" xml:id="i36">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4344px" url="MS-HEBREW-GASTER-00274-000-00450.jp2"/>
+
+        </surface>
+        <surface n="14a" xml:id="i37">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4370px" url="MS-HEBREW-GASTER-00274-000-00451.jp2"/>
+
+        </surface>
+        <surface n="14b" xml:id="i38">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4344px" url="MS-HEBREW-GASTER-00274-000-00452.jp2"/>
+
+        </surface>
+        <surface n="15a" xml:id="i39">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4370px" url="MS-HEBREW-GASTER-00274-000-00453.jp2"/>
+
+        </surface>
+        <surface n="15b" xml:id="i40">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4344px" url="MS-HEBREW-GASTER-00274-000-00454.jp2"/>
+
+        </surface>
+        <surface n="16a" xml:id="i41">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4370px" url="MS-HEBREW-GASTER-00274-000-00455.jp2"/>
+
+        </surface>
+        <surface n="16b" xml:id="i42">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4344px" url="MS-HEBREW-GASTER-00274-000-00456.jp2"/>
+
+        </surface>
+        <surface n="17a" xml:id="i43">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4370px" url="MS-HEBREW-GASTER-00274-000-00457.jp2"/>
+
+        </surface>
+        <surface n="17b" xml:id="i44">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4344px" url="MS-HEBREW-GASTER-00274-000-00458.jp2"/>
+
+        </surface>
+        <surface n="18a" xml:id="i45">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4370px" url="MS-HEBREW-GASTER-00274-000-00459.jp2"/>
+
+        </surface>
+        <surface n="18b" xml:id="i46">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4344px" url="MS-HEBREW-GASTER-00274-000-00460.jp2"/>
+
+        </surface>
+        <surface n="19a" xml:id="i47">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4370px" url="MS-HEBREW-GASTER-00274-000-00461.jp2"/>
+
+        </surface>
+        <surface n="19b" xml:id="i48">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4292px" url="MS-HEBREW-GASTER-00274-000-00462.jp2"/>
+
+        </surface>
+        <surface n="20a" xml:id="i49">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4370px" url="MS-HEBREW-GASTER-00274-000-00463.jp2"/>
+
+        </surface>
+        <surface n="20b" xml:id="i50">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4292px" url="MS-HEBREW-GASTER-00274-000-00464.jp2"/>
+
+        </surface>
+        <surface n="21a" xml:id="i51">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4370px" url="MS-HEBREW-GASTER-00274-000-00465.jp2"/>
+
+        </surface>
+        <surface n="21b" xml:id="i52">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4341px" url="MS-HEBREW-GASTER-00274-000-00466.jp2"/>
+
+        </surface>
+        <surface n="22a" xml:id="i53">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4370px" url="MS-HEBREW-GASTER-00274-000-00467.jp2"/>
+
+        </surface>
+        <surface n="22b" xml:id="i54">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4245px" url="MS-HEBREW-GASTER-00274-000-00468.jp2"/>
+
+        </surface>
+        <surface n="23a" xml:id="i55">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4370px" url="MS-HEBREW-GASTER-00274-000-00469.jp2"/>
+
+        </surface>
+        <surface n="23b" xml:id="i56">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4245px" url="MS-HEBREW-GASTER-00274-000-00470.jp2"/>
+
+        </surface>
+        <surface n="24a" xml:id="i57">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4370px" url="MS-HEBREW-GASTER-00274-000-00471.jp2"/>
+
+        </surface>
+        <surface n="24b" xml:id="i58">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4291px" url="MS-HEBREW-GASTER-00274-000-00472.jp2"/>
+
+        </surface>
+        <surface n="25a" xml:id="i59">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4370px" url="MS-HEBREW-GASTER-00274-000-00473.jp2"/>
+
+        </surface>
+        <surface n="25b" xml:id="i60">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4291px" url="MS-HEBREW-GASTER-00274-000-00474.jp2"/>
+
+        </surface>
+        <surface n="26a" xml:id="i61">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4370px" url="MS-HEBREW-GASTER-00274-000-00475.jp2"/>
+
+        </surface>
+        <surface n="26b" xml:id="i62">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4292px" url="MS-HEBREW-GASTER-00274-000-00476.jp2"/>
+
+        </surface>
+        <surface n="27a" xml:id="i63">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4370px" url="MS-HEBREW-GASTER-00274-000-00477.jp2"/>
+
+        </surface>
+        <surface n="27b" xml:id="i64">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4324px" url="MS-HEBREW-GASTER-00274-000-00478.jp2"/>
+
+        </surface>
+        <surface n="28a" xml:id="i65">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4297px" url="MS-HEBREW-GASTER-00274-000-00479.jp2"/>
+
+        </surface>
+        <surface n="28b" xml:id="i66">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4324px" url="MS-HEBREW-GASTER-00274-000-00480.jp2"/>
+
+        </surface>
+        <surface n="29a" xml:id="i67">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4297px" url="MS-HEBREW-GASTER-00274-000-00481.jp2"/>
+
+        </surface>
+        <surface n="29b" xml:id="i68">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4364px" url="MS-HEBREW-GASTER-00274-000-00482.jp2"/>
+
+        </surface>
+        <surface n="30a" xml:id="i69">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4386px" url="MS-HEBREW-GASTER-00274-000-00483.jp2"/>
+
+        </surface>
+        <surface n="30b" xml:id="i70">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4364px" url="MS-HEBREW-GASTER-00274-000-00484.jp2"/>
+
+        </surface>
+        <surface n="31a" xml:id="i71">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4386px" url="MS-HEBREW-GASTER-00274-000-00485.jp2"/>
+
+        </surface>
+        <surface n="31b" xml:id="i72">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4364px" url="MS-HEBREW-GASTER-00274-000-00486.jp2"/>
+
+        </surface>
+        <surface n="32a" xml:id="i73">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4386px" url="MS-HEBREW-GASTER-00274-000-00487.jp2"/>
+
+        </surface>
+        <surface n="32b" xml:id="i74">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4364px" url="MS-HEBREW-GASTER-00274-000-00488.jp2"/>
+
+        </surface>
+        <surface n="33a" xml:id="i75">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4335px" url="MS-HEBREW-GASTER-00274-000-00489.jp2"/>
+
+        </surface>
+        <surface n="33b" xml:id="i76">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4364px" url="MS-HEBREW-GASTER-00274-000-00490.jp2"/>
+
+        </surface>
+        <surface n="34a" xml:id="i77">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4307px" url="MS-HEBREW-GASTER-00274-000-00491.jp2"/>
+
+        </surface>
+        <surface n="34b" xml:id="i78">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4364px" url="MS-HEBREW-GASTER-00274-000-00492.jp2"/>
+
+        </surface>
+        <surface n="35a" xml:id="i79">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4339px" url="MS-HEBREW-GASTER-00274-000-00493.jp2"/>
+
+        </surface>
+        <surface n="35b" xml:id="i80">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4364px" url="MS-HEBREW-GASTER-00274-000-00494.jp2"/>
+
+        </surface>
+        <surface n="36a" xml:id="i81">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4323px" url="MS-HEBREW-GASTER-00274-000-00495.jp2"/>
+
+        </surface>
+        <surface n="36b" xml:id="i82">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4364px" url="MS-HEBREW-GASTER-00274-000-00496.jp2"/>
+
+        </surface>
+        <surface n="37a" xml:id="i83">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4322px" url="MS-HEBREW-GASTER-00274-000-00497.jp2"/>
+
+        </surface>
+        <surface n="37b" xml:id="i84">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4319px" url="MS-HEBREW-GASTER-00274-000-00498.jp2"/>
+
+        </surface>
+        <surface n="38a" xml:id="i85">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4331px" url="MS-HEBREW-GASTER-00274-000-00499.jp2"/>
+
+        </surface>
+        <surface n="38b" xml:id="i86">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4319px" url="MS-HEBREW-GASTER-00274-000-00500.jp2"/>
+
+        </surface>
+        <surface n="39a" xml:id="i87">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4196px" url="MS-HEBREW-GASTER-00274-000-00501.jp2"/>
+
+        </surface>
+        <surface n="39b" xml:id="i88">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="3906px" url="MS-HEBREW-GASTER-00274-000-00502.jp2"/>
+
+        </surface>
+        <surface n="40a" xml:id="i89">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4040px" url="MS-HEBREW-GASTER-00274-000-00503.jp2"/>
+
+        </surface>
+        <surface n="40b" xml:id="i90">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="3906px" url="MS-HEBREW-GASTER-00274-000-00504.jp2"/>
+
+        </surface>
+        <surface n="41a" xml:id="i91">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="3993px" url="MS-HEBREW-GASTER-00274-000-00505.jp2"/>
+
+        </surface>
+        <surface n="41b" xml:id="i92">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="3957px" url="MS-HEBREW-GASTER-00274-000-00506.jp2"/>
+
+        </surface>
+        <surface n="42a" xml:id="i93">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="3993px" url="MS-HEBREW-GASTER-00274-000-00507.jp2"/>
+
+        </surface>
+        <surface n="42b" xml:id="i94">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4248px" url="MS-HEBREW-GASTER-00274-000-00508.jp2"/>
+
+        </surface>
+        <surface n="42Aa" xml:id="i95">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="3993px" url="MS-HEBREW-GASTER-00274-000-00509.jp2"/>
+
+        </surface>
+        <surface n="42Ab" xml:id="i96">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4480px" url="MS-HEBREW-GASTER-00274-000-00510.jp2"/>
+
+        </surface>
+        <surface n="43a" xml:id="i97">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4169px" url="MS-HEBREW-GASTER-00274-000-00511.jp2"/>
+
+        </surface>
+        <surface n="43b" xml:id="i98">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="3789px" url="MS-HEBREW-GASTER-00274-000-00512.jp2"/>
+
+        </surface>
+        <surface n="44a" xml:id="i99">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="3702px" url="MS-HEBREW-GASTER-00274-000-00513.jp2"/>
+
+        </surface>
+        <surface n="44b" xml:id="i100">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4031px" url="MS-HEBREW-GASTER-00274-000-00514.jp2"/>
+
+        </surface>
+        <surface n="45a" xml:id="i101">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4082px" url="MS-HEBREW-GASTER-00274-000-00515.jp2"/>
+
+        </surface>
+        <surface n="45b" xml:id="i102">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="3982px" url="MS-HEBREW-GASTER-00274-000-00516.jp2"/>
+
+        </surface>
+        <surface n="46a" xml:id="i103">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4125px" url="MS-HEBREW-GASTER-00274-000-00517.jp2"/>
+
+        </surface>
+        <surface n="46b" xml:id="i104">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4144px" url="MS-HEBREW-GASTER-00274-000-00518.jp2"/>
+
+        </surface>
+        <surface n="47a" xml:id="i105">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4202px" url="MS-HEBREW-GASTER-00274-000-00519.jp2"/>
+
+        </surface>
+        <surface n="47b" xml:id="i106">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4224px" url="MS-HEBREW-GASTER-00274-000-00520.jp2"/>
+
+        </surface>
+        <surface n="48a" xml:id="i107">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4161px" url="MS-HEBREW-GASTER-00274-000-00521.jp2"/>
+
+        </surface>
+        <surface n="48b" xml:id="i108">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4192px" url="MS-HEBREW-GASTER-00274-000-00522.jp2"/>
+
+        </surface>
+        <surface n="49a" xml:id="i109">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4161px" url="MS-HEBREW-GASTER-00274-000-00523.jp2"/>
+
+        </surface>
+        <surface n="49b" xml:id="i110">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4161px" url="MS-HEBREW-GASTER-00274-000-00524.jp2"/>
+
+        </surface>
+        <surface n="50a" xml:id="i111">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4161px" url="MS-HEBREW-GASTER-00274-000-00525.jp2"/>
+
+        </surface>
+        <surface n="50b" xml:id="i112">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4204px" url="MS-HEBREW-GASTER-00274-000-00526.jp2"/>
+
+        </surface>
+        <surface n="50Aa" xml:id="i113">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4146px" url="MS-HEBREW-GASTER-00274-000-00527.jp2"/>
+
+        </surface>
+        <surface n="50Ab" xml:id="i114">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4204px" url="MS-HEBREW-GASTER-00274-000-00528.jp2"/>
+
+        </surface>
+        <surface n="51a" xml:id="i115">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4146px" url="MS-HEBREW-GASTER-00274-000-00529.jp2"/>
+
+        </surface>
+        <surface n="51b" xml:id="i116">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4271px" url="MS-HEBREW-GASTER-00274-000-00530.jp2"/>
+
+        </surface>
+        <surface n="52a" xml:id="i117">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4146px" url="MS-HEBREW-GASTER-00274-000-00531.jp2"/>
+
+        </surface>
+        <surface n="52b" xml:id="i118">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4224px" url="MS-HEBREW-GASTER-00274-000-00532.jp2"/>
+
+        </surface>
+        <surface n="53a" xml:id="i119">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4146px" url="MS-HEBREW-GASTER-00274-000-00533.jp2"/>
+
+        </surface>
+        <surface n="53b" xml:id="i120">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4276px" url="MS-HEBREW-GASTER-00274-000-00534.jp2"/>
+
+        </surface>
+        <surface n="54a" xml:id="i121">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4284px" url="MS-HEBREW-GASTER-00274-000-00535.jp2"/>
+
+        </surface>
+        <surface n="54b" xml:id="i122">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="3946px" url="MS-HEBREW-GASTER-00274-000-00536.jp2"/>
+
+        </surface>
+        <surface n="55a" xml:id="i123">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="3902px" url="MS-HEBREW-GASTER-00274-000-00537.jp2"/>
+
+        </surface>
+        <surface n="55b" xml:id="i124">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="3980px" url="MS-HEBREW-GASTER-00274-000-00538.jp2"/>
+
+        </surface>
+        <surface n="56a" xml:id="i125">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="3894px" url="MS-HEBREW-GASTER-00274-000-00539.jp2"/>
+
+        </surface>
+        <surface n="56b" xml:id="i126">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4049px" url="MS-HEBREW-GASTER-00274-000-00540.jp2"/>
+
+        </surface>
+        <surface n="57a" xml:id="i127">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="3953px" url="MS-HEBREW-GASTER-00274-000-00541.jp2"/>
+
+        </surface>
+        <surface n="57b" xml:id="i128">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4227px" url="MS-HEBREW-GASTER-00274-000-00542.jp2"/>
+
+        </surface>
+        <surface n="58a" xml:id="i129">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="3899px" url="MS-HEBREW-GASTER-00274-000-00543.jp2"/>
+
+        </surface>
+        <surface n="58b" xml:id="i130">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4289px" url="MS-HEBREW-GASTER-00274-000-00544.jp2"/>
+
+        </surface>
+        <surface n="59a" xml:id="i131">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4201px" url="MS-HEBREW-GASTER-00274-000-00545.jp2"/>
+
+        </surface>
+        <surface n="59b" xml:id="i132">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4145px" url="MS-HEBREW-GASTER-00274-000-00546.jp2"/>
+
+        </surface>
+        <surface n="60a" xml:id="i133">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4328px" url="MS-HEBREW-GASTER-00274-000-00547.jp2"/>
+
+        </surface>
+        <surface n="60b" xml:id="i134">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4272px" url="MS-HEBREW-GASTER-00274-000-00548.jp2"/>
+
+        </surface>
+        <surface n="61a" xml:id="i135">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4312px" url="MS-HEBREW-GASTER-00274-000-00549.jp2"/>
+
+        </surface>
+        <surface n="61b" xml:id="i136">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4200px" url="MS-HEBREW-GASTER-00274-000-00550.jp2"/>
+
+        </surface>
+        <surface n="62a" xml:id="i137">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4312px" url="MS-HEBREW-GASTER-00274-000-00551.jp2"/>
+
+        </surface>
+        <surface n="62b" xml:id="i138">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4255px" url="MS-HEBREW-GASTER-00274-000-00552.jp2"/>
+
+        </surface>
+        <surface n="63a" xml:id="i139">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4277px" url="MS-HEBREW-GASTER-00274-000-00553.jp2"/>
+
+        </surface>
+        <surface n="63b" xml:id="i140">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4190px" url="MS-HEBREW-GASTER-00274-000-00554.jp2"/>
+
+        </surface>
+        <surface n="64a" xml:id="i141">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4277px" url="MS-HEBREW-GASTER-00274-000-00555.jp2"/>
+
+        </surface>
+        <surface n="64b" xml:id="i142">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4087px" url="MS-HEBREW-GASTER-00274-000-00556.jp2"/>
+
+        </surface>
+        <surface n="65a" xml:id="i143">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4294px" url="MS-HEBREW-GASTER-00274-000-00557.jp2"/>
+
+        </surface>
+        <surface n="65b" xml:id="i144">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="3972px" url="MS-HEBREW-GASTER-00274-000-00558.jp2"/>
+
+        </surface>
+        <surface n="65Aa" xml:id="i145">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4044px" url="MS-HEBREW-GASTER-00274-000-00559.jp2"/>
+
+        </surface>
+        <surface n="65Ab" xml:id="i146">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4262px" url="MS-HEBREW-GASTER-00274-000-00560.jp2"/>
+
+        </surface>
+        <surface n="66a" xml:id="i147">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4271px" url="MS-HEBREW-GASTER-00274-000-00561.jp2"/>
+
+        </surface>
+        <surface n="66b" xml:id="i148">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4309px" url="MS-HEBREW-GASTER-00274-000-00562.jp2"/>
+
+        </surface>
+        <surface n="67a" xml:id="i149">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4271px" url="MS-HEBREW-GASTER-00274-000-00563.jp2"/>
+
+        </surface>
+        <surface n="67b" xml:id="i150">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4309px" url="MS-HEBREW-GASTER-00274-000-00564.jp2"/>
+
+        </surface>
+        <surface n="68a" xml:id="i151">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4271px" url="MS-HEBREW-GASTER-00274-000-00565.jp2"/>
+
+        </surface>
+        <surface n="68b" xml:id="i152">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4309px" url="MS-HEBREW-GASTER-00274-000-00566.jp2"/>
+
+        </surface>
+        <surface n="69a" xml:id="i153">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4281px" url="MS-HEBREW-GASTER-00274-000-00567.jp2"/>
+
+        </surface>
+        <surface n="69b" xml:id="i154">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4188px" url="MS-HEBREW-GASTER-00274-000-00568.jp2"/>
+
+        </surface>
+        <surface n="70a" xml:id="i155">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4281px" url="MS-HEBREW-GASTER-00274-000-00569.jp2"/>
+
+        </surface>
+        <surface n="70b" xml:id="i156">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4188px" url="MS-HEBREW-GASTER-00274-000-00570.jp2"/>
+
+        </surface>
+        <surface n="71a" xml:id="i157">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4281px" url="MS-HEBREW-GASTER-00274-000-00571.jp2"/>
+
+        </surface>
+        <surface n="71b" xml:id="i158">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4253px" url="MS-HEBREW-GASTER-00274-000-00572.jp2"/>
+
+        </surface>
+        <surface n="72a" xml:id="i159">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4281px" url="MS-HEBREW-GASTER-00274-000-00573.jp2"/>
+
+        </surface>
+        <surface n="72b" xml:id="i160">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4253px" url="MS-HEBREW-GASTER-00274-000-00574.jp2"/>
+
+        </surface>
+        <surface n="73a" xml:id="i161">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4281px" url="MS-HEBREW-GASTER-00274-000-00575.jp2"/>
+
+        </surface>
+        <surface n="73b" xml:id="i162">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4253px" url="MS-HEBREW-GASTER-00274-000-00576.jp2"/>
+
+        </surface>
+        <surface n="74a" xml:id="i163">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4280px" url="MS-HEBREW-GASTER-00274-000-00577.jp2"/>
+
+        </surface>
+        <surface n="74b" xml:id="i164">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4042px" url="MS-HEBREW-GASTER-00274-000-00578.jp2"/>
+
+        </surface>
+        <surface n="75a" xml:id="i165">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4082px" url="MS-HEBREW-GASTER-00274-000-00579.jp2"/>
+
+        </surface>
+        <surface n="75b" xml:id="i166">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="3987px" url="MS-HEBREW-GASTER-00274-000-00580.jp2"/>
+
+        </surface>
+        <surface n="76a" xml:id="i167">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4016px" url="MS-HEBREW-GASTER-00274-000-00581.jp2"/>
+
+        </surface>
+        <surface n="76b" xml:id="i168">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4227px" url="MS-HEBREW-GASTER-00274-000-00582.jp2"/>
+
+        </surface>
+        <surface n="77a" xml:id="i169">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4234px" url="MS-HEBREW-GASTER-00274-000-00583.jp2"/>
+
+        </surface>
+        <surface n="77b" xml:id="i170">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4352px" url="MS-HEBREW-GASTER-00274-000-00584.jp2"/>
+
+        </surface>
+        <surface n="78a" xml:id="i171">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4269px" url="MS-HEBREW-GASTER-00274-000-00585.jp2"/>
+
+        </surface>
+        <surface n="78b" xml:id="i172">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4307px" url="MS-HEBREW-GASTER-00274-000-00586.jp2"/>
+
+        </surface>
+        <surface n="79a" xml:id="i173">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4260px" url="MS-HEBREW-GASTER-00274-000-00587.jp2"/>
+
+        </surface>
+        <surface n="79b" xml:id="i174">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4307px" url="MS-HEBREW-GASTER-00274-000-00588.jp2"/>
+
+        </surface>
+        <surface n="80a" xml:id="i175">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4260px" url="MS-HEBREW-GASTER-00274-000-00589.jp2"/>
+
+        </surface>
+        <surface n="80b" xml:id="i176">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4230px" url="MS-HEBREW-GASTER-00274-000-00590.jp2"/>
+
+        </surface>
+        <surface n="81a" xml:id="i177">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4260px" url="MS-HEBREW-GASTER-00274-000-00591.jp2"/>
+
+        </surface>
+        <surface n="81b" xml:id="i178">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4230px" url="MS-HEBREW-GASTER-00274-000-00592.jp2"/>
+
+        </surface>
+        <surface n="82a" xml:id="i179">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4260px" url="MS-HEBREW-GASTER-00274-000-00593.jp2"/>
+
+        </surface>
+        <surface n="82b" xml:id="i180">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4230px" url="MS-HEBREW-GASTER-00274-000-00594.jp2"/>
+
+        </surface>
+        <surface n="83a" xml:id="i181">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4221px" url="MS-HEBREW-GASTER-00274-000-00595.jp2"/>
+
+        </surface>
+        <surface n="83b" xml:id="i182">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4230px" url="MS-HEBREW-GASTER-00274-000-00596.jp2"/>
+
+        </surface>
+        <surface n="84a" xml:id="i183">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4221px" url="MS-HEBREW-GASTER-00274-000-00597.jp2"/>
+
+        </surface>
+        <surface n="84b" xml:id="i184">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4230px" url="MS-HEBREW-GASTER-00274-000-00598.jp2"/>
+
+        </surface>
+        <surface n="85a" xml:id="i185">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4221px" url="MS-HEBREW-GASTER-00274-000-00599.jp2"/>
+
+        </surface>
+        <surface n="85b" xml:id="i186">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4230px" url="MS-HEBREW-GASTER-00274-000-00600.jp2"/>
+
+        </surface>
+        <surface n="86a" xml:id="i187">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4199px" url="MS-HEBREW-GASTER-00274-000-00601.jp2"/>
+
+        </surface>
+        <surface n="86b" xml:id="i188">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4230px" url="MS-HEBREW-GASTER-00274-000-00602.jp2"/>
+
+        </surface>
+        <surface n="87a" xml:id="i189">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4003px" url="MS-HEBREW-GASTER-00274-000-00603.jp2"/>
+
+        </surface>
+        <surface n="87b" xml:id="i190">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4183px" url="MS-HEBREW-GASTER-00274-000-00604.jp2"/>
+
+        </surface>
+        <surface n="88a" xml:id="i191">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4185px" url="MS-HEBREW-GASTER-00274-000-00605.jp2"/>
+
+        </surface>
+        <surface n="88b" xml:id="i192">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4183px" url="MS-HEBREW-GASTER-00274-000-00606.jp2"/>
+
+        </surface>
+        <surface n="89a" xml:id="i193">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4226px" url="MS-HEBREW-GASTER-00274-000-00607.jp2"/>
+
+        </surface>
+        <surface n="89b" xml:id="i194">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="3958px" url="MS-HEBREW-GASTER-00274-000-00608.jp2"/>
+
+        </surface>
+        <surface n="90a" xml:id="i195">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4076px" url="MS-HEBREW-GASTER-00274-000-00609.jp2"/>
+
+        </surface>
+        <surface n="90b" xml:id="i196">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="3882px" url="MS-HEBREW-GASTER-00274-000-00610.jp2"/>
+
+        </surface>
+        <surface n="91a" xml:id="i197">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="3953px" url="MS-HEBREW-GASTER-00274-000-00611.jp2"/>
+
+        </surface>
+        <surface n="91b" xml:id="i198">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="3919px" url="MS-HEBREW-GASTER-00274-000-00612.jp2"/>
+
+        </surface>
+        <surface n="92a" xml:id="i199">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="3834px" url="MS-HEBREW-GASTER-00274-000-00613.jp2"/>
+
+        </surface>
+        <surface n="92b" xml:id="i200">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4245px" url="MS-HEBREW-GASTER-00274-000-00614.jp2"/>
+
+        </surface>
+        <surface n="93a" xml:id="i201">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4284px" url="MS-HEBREW-GASTER-00274-000-00615.jp2"/>
+
+        </surface>
+        <surface n="93b" xml:id="i202">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="3705px" url="MS-HEBREW-GASTER-00274-000-00616.jp2"/>
+
+        </surface>
+        <surface n="94a" xml:id="i203">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="3805px" url="MS-HEBREW-GASTER-00274-000-00617.jp2"/>
+
+        </surface>
+        <surface n="94b" xml:id="i204">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="3752px" url="MS-HEBREW-GASTER-00274-000-00618.jp2"/>
+
+        </surface>
+        <surface n="95a" xml:id="i205">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="3805px" url="MS-HEBREW-GASTER-00274-000-00619.jp2"/>
+
+        </surface>
+        <surface n="95b" xml:id="i206">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="3899px" url="MS-HEBREW-GASTER-00274-000-00620.jp2"/>
+
+        </surface>
+        <surface n="96a" xml:id="i207">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="3866px" url="MS-HEBREW-GASTER-00274-000-00621.jp2"/>
+
+        </surface>
+        <surface n="96b" xml:id="i208">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4252px" url="MS-HEBREW-GASTER-00274-000-00622.jp2"/>
+
+        </surface>
+        <surface n="97a" xml:id="i209">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4313px" url="MS-HEBREW-GASTER-00274-000-00623.jp2"/>
+
+        </surface>
+        <surface n="97b" xml:id="i210">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4249px" url="MS-HEBREW-GASTER-00274-000-00624.jp2"/>
+
+        </surface>
+        <surface n="98a" xml:id="i211">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4313px" url="MS-HEBREW-GASTER-00274-000-00625.jp2"/>
+
+        </surface>
+        <surface n="98b" xml:id="i212">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4249px" url="MS-HEBREW-GASTER-00274-000-00626.jp2"/>
+
+        </surface>
+        <surface n="99a" xml:id="i213">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4313px" url="MS-HEBREW-GASTER-00274-000-00627.jp2"/>
+
+        </surface>
+        <surface n="99b" xml:id="i214">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4249px" url="MS-HEBREW-GASTER-00274-000-00628.jp2"/>
+
+        </surface>
+        <surface n="100a" xml:id="i215">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4297px" url="MS-HEBREW-GASTER-00274-000-00629.jp2"/>
+
+        </surface>
+        <surface n="100b" xml:id="i216">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4014px" url="MS-HEBREW-GASTER-00274-000-00630.jp2"/>
+
+        </surface>
+        <surface n="101a" xml:id="i217">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="3980px" url="MS-HEBREW-GASTER-00274-000-00631.jp2"/>
+
+        </surface>
+        <surface n="101b" xml:id="i218">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4039px" url="MS-HEBREW-GASTER-00274-000-00632.jp2"/>
+
+        </surface>
+        <surface n="102a" xml:id="i219">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="3980px" url="MS-HEBREW-GASTER-00274-000-00633.jp2"/>
+
+        </surface>
+        <surface n="102b" xml:id="i220">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="3782px" url="MS-HEBREW-GASTER-00274-000-00634.jp2"/>
+
+        </surface>
+        <surface n="103a" xml:id="i221">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="3851px" url="MS-HEBREW-GASTER-00274-000-00635.jp2"/>
+
+        </surface>
+        <surface n="103b" xml:id="i222">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4229px" url="MS-HEBREW-GASTER-00274-000-00636.jp2"/>
+
+        </surface>
+        <surface n="104a" xml:id="i223">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4152px" url="MS-HEBREW-GASTER-00274-000-00637.jp2"/>
+
+        </surface>
+        <surface n="104b" xml:id="i224">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="3816px" url="MS-HEBREW-GASTER-00274-000-00638.jp2"/>
+
+        </surface>
+        <surface n="105a" xml:id="i225">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="3572px" url="MS-HEBREW-GASTER-00274-000-00639.jp2"/>
+
+        </surface>
+        <surface n="105b" xml:id="i226">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="3853px" url="MS-HEBREW-GASTER-00274-000-00640.jp2"/>
+
+        </surface>
+        <surface n="106a" xml:id="i227">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="3999px" url="MS-HEBREW-GASTER-00274-000-00641.jp2"/>
+
+        </surface>
+        <surface n="106b" xml:id="i228">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="3945px" url="MS-HEBREW-GASTER-00274-000-00642.jp2"/>
+
+        </surface>
+        <surface n="107a" xml:id="i229">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4005px" url="MS-HEBREW-GASTER-00274-000-00643.jp2"/>
+
+        </surface>
+        <surface n="107b" xml:id="i230">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4339px" url="MS-HEBREW-GASTER-00274-000-00644.jp2"/>
+
+        </surface>
+        <surface n="108a" xml:id="i231">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4340px" url="MS-HEBREW-GASTER-00274-000-00645.jp2"/>
+
+        </surface>
+        <surface n="108b" xml:id="i232">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="3720px" url="MS-HEBREW-GASTER-00274-000-00646.jp2"/>
+
+        </surface>
+        <surface n="109a" xml:id="i233">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="3751px" url="MS-HEBREW-GASTER-00274-000-00647.jp2"/>
+
+        </surface>
+        <surface n="109b" xml:id="i234">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="3757px" url="MS-HEBREW-GASTER-00274-000-00648.jp2"/>
+
+        </surface>
+        <surface n="110a" xml:id="i235">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="3821px" url="MS-HEBREW-GASTER-00274-000-00649.jp2"/>
+
+        </surface>
+        <surface n="110b" xml:id="i236">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="3757px" url="MS-HEBREW-GASTER-00274-000-00650.jp2"/>
+
+        </surface>
+        <surface n="111a" xml:id="i237">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="3737px" url="MS-HEBREW-GASTER-00274-000-00651.jp2"/>
+
+        </surface>
+        <surface n="111b" xml:id="i238">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4292px" url="MS-HEBREW-GASTER-00274-000-00652.jp2"/>
+
+        </surface>
+        <surface n="112a" xml:id="i239">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4354px" url="MS-HEBREW-GASTER-00274-000-00653.jp2"/>
+
+        </surface>
+        <surface n="112b" xml:id="i240">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="3816px" url="MS-HEBREW-GASTER-00274-000-00654.jp2"/>
+
+        </surface>
+        <surface n="113a" xml:id="i241">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="3832px" url="MS-HEBREW-GASTER-00274-000-00655.jp2"/>
+
+        </surface>
+        <surface n="113b" xml:id="i242">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="3885px" url="MS-HEBREW-GASTER-00274-000-00656.jp2"/>
+
+        </surface>
+        <surface n="114a" xml:id="i243">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="3832px" url="MS-HEBREW-GASTER-00274-000-00657.jp2"/>
+
+        </surface>
+        <surface n="114b" xml:id="i244">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4196px" url="MS-HEBREW-GASTER-00274-000-00658.jp2"/>
+
+        </surface>
+        <surface n="va" xml:id="i245">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4127px" url="MS-HEBREW-GASTER-00274-000-00659.jp2"/>
+
+        </surface>
+        <surface n="vb" xml:id="i246">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4638px" url="MS-HEBREW-GASTER-00274-000-00660.jp2"/>
+
+        </surface>
+        <surface n="Folded note 1" xml:id="i247">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4142px" url="MS-HEBREW-GASTER-00274-000-00661.jp2"/>
+
+        </surface>
+        <surface n="Folded note 2" xml:id="i248">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4638px" url="MS-HEBREW-GASTER-00274-000-00662.jp2"/>
+
+        </surface>
+        <surface n="Back paste-down" xml:id="i249">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="4142px" url="MS-HEBREW-GASTER-00274-000-00663.jp2"/>
+
+        </surface>
+        <surface n="Back board" xml:id="i250">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="5619px" url="MS-HEBREW-GASTER-00274-000-00664.jp2"/>
+
+        </surface>
+        <surface n="Head" xml:id="i251">
+            <graphic decls="#downloadImageRights #download" rend="landscape" height="2033px"
+                width="6500px" url="MS-HEBREW-GASTER-00274-000-00665.jp2"/>
+
+        </surface>
+        <surface n="Tail" xml:id="i252">
+            <graphic decls="#downloadImageRights #download" rend="landscape" height="2048px"
+                width="6500px" url="MS-HEBREW-GASTER-00274-000-00666.jp2"/>
+
+        </surface>
+        <surface n="Foredge" xml:id="i253">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="1643px" url="MS-HEBREW-GASTER-00274-000-00667.jp2"/>
+
+        </surface>
+        <surface n="Spine" xml:id="i254">
+            <graphic decls="#downloadImageRights #download" rend="portrait" height="6500px"
+                width="1643px" url="MS-HEBREW-GASTER-00274-000-00668.jp2"/>
+
+        </surface>
+        <surface n="Inserted folded note 1" xml:id="i255">
+            <graphic decls="#downloadImageRights #download" rend="landscape" height="6365px"
+                width="6500px" url="MS-HEBREW-GASTER-00274-000-00669.jp2"/>
+
+        </surface>
+        <surface n="Inserted folded note 2" xml:id="i256">
+            <graphic decls="#downloadImageRights #download" rend="landscape" height="6365px"
+                width="6500px" url="MS-HEBREW-GASTER-00274-000-00670.jp2"/>
+
+        </surface>
+        <surface n="Inserted folded note 3" xml:id="i257">
+            <graphic decls="#downloadImageRights #download" rend="landscape" height="6397px"
+                width="6500px" url="MS-HEBREW-GASTER-00274-000-00671.jp2"/>
+
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+            <div>
+                <pb n="Front board" xml:id="pb-Frontboard" facs="#i1"/>
+                <pb n="Front paste-down" xml:id="pb-Frontpaste-down" facs="#i2"/>
+                <pb n="ia" xml:id="pb-ia" facs="#i3"/>
+                <pb n="ib" xml:id="pb-ib" facs="#i4"/>
+                <pb n="iia" xml:id="pb-iia" facs="#i5"/>
+                <pb n="iib" xml:id="pb-iib" facs="#i6"/>
+                <pb n="iiia" xml:id="pb-iiia" facs="#i7"/>
+                <pb n="iiib" xml:id="pb-iiib" facs="#i8"/>
+                <pb n="iva" xml:id="pb-iva" facs="#i9"/>
+                <pb n="ivb" xml:id="pb-ivb" facs="#i10"/>
+                <pb n="1a" xml:id="pb-1a" facs="#i11"/>
+                <pb n="1b" xml:id="pb-1b" facs="#i12"/>
+                <pb n="2a" xml:id="pb-2a" facs="#i13"/>
+                <pb n="2b" xml:id="pb-2b" facs="#i14"/>
+                <pb n="3a" xml:id="pb-3a" facs="#i15"/>
+                <pb n="3b" xml:id="pb-3b" facs="#i16"/>
+                <pb n="4a" xml:id="pb-4a" facs="#i17"/>
+                <pb n="4b" xml:id="pb-4b" facs="#i18"/>
+                <pb n="5a" xml:id="pb-5a" facs="#i19"/>
+                <pb n="5b" xml:id="pb-5b" facs="#i20"/>
+                <pb n="6a" xml:id="pb-6a" facs="#i21"/>
+                <pb n="6b" xml:id="pb-6b" facs="#i22"/>
+                <pb n="7a" xml:id="pb-7a" facs="#i23"/>
+                <pb n="7b" xml:id="pb-7b" facs="#i24"/>
+                <pb n="8a" xml:id="pb-8a" facs="#i25"/>
+                <pb n="8b" xml:id="pb-8b" facs="#i26"/>
+                <pb n="9a" xml:id="pb-9a" facs="#i27"/>
+                <pb n="9b" xml:id="pb-9b" facs="#i28"/>
+                <pb n="10a" xml:id="pb-10a" facs="#i29"/>
+                <pb n="10b" xml:id="pb-10b" facs="#i30"/>
+                <pb n="11a" xml:id="pb-11a" facs="#i31"/>
+                <pb n="11b" xml:id="pb-11b" facs="#i32"/>
+                <pb n="12a" xml:id="pb-12a" facs="#i33"/>
+                <pb n="12b" xml:id="pb-12b" facs="#i34"/>
+                <pb n="13a" xml:id="pb-13a" facs="#i35"/>
+                <pb n="13b" xml:id="pb-13b" facs="#i36"/>
+                <pb n="14a" xml:id="pb-14a" facs="#i37"/>
+                <pb n="14b" xml:id="pb-14b" facs="#i38"/>
+                <pb n="15a" xml:id="pb-15a" facs="#i39"/>
+                <pb n="15b" xml:id="pb-15b" facs="#i40"/>
+                <pb n="16a" xml:id="pb-16a" facs="#i41"/>
+                <pb n="16b" xml:id="pb-16b" facs="#i42"/>
+                <pb n="17a" xml:id="pb-17a" facs="#i43"/>
+                <pb n="17b" xml:id="pb-17b" facs="#i44"/>
+                <pb n="18a" xml:id="pb-18a" facs="#i45"/>
+                <pb n="18b" xml:id="pb-18b" facs="#i46"/>
+                <pb n="19a" xml:id="pb-19a" facs="#i47"/>
+                <pb n="19b" xml:id="pb-19b" facs="#i48"/>
+                <pb n="20a" xml:id="pb-20a" facs="#i49"/>
+                <pb n="20b" xml:id="pb-20b" facs="#i50"/>
+                <pb n="21a" xml:id="pb-21a" facs="#i51"/>
+                <pb n="21b" xml:id="pb-21b" facs="#i52"/>
+                <pb n="22a" xml:id="pb-22a" facs="#i53"/>
+                <pb n="22b" xml:id="pb-22b" facs="#i54"/>
+                <pb n="23a" xml:id="pb-23a" facs="#i55"/>
+                <pb n="23b" xml:id="pb-23b" facs="#i56"/>
+                <pb n="24a" xml:id="pb-24a" facs="#i57"/>
+                <pb n="24b" xml:id="pb-24b" facs="#i58"/>
+                <pb n="25a" xml:id="pb-25a" facs="#i59"/>
+                <pb n="25b" xml:id="pb-25b" facs="#i60"/>
+                <pb n="26a" xml:id="pb-26a" facs="#i61"/>
+                <pb n="26b" xml:id="pb-26b" facs="#i62"/>
+                <pb n="27a" xml:id="pb-27a" facs="#i63"/>
+                <pb n="27b" xml:id="pb-27b" facs="#i64"/>
+                <pb n="28a" xml:id="pb-28a" facs="#i65"/>
+                <pb n="28b" xml:id="pb-28b" facs="#i66"/>
+                <pb n="29a" xml:id="pb-29a" facs="#i67"/>
+                <pb n="29b" xml:id="pb-29b" facs="#i68"/>
+                <pb n="30a" xml:id="pb-30a" facs="#i69"/>
+                <pb n="30b" xml:id="pb-30b" facs="#i70"/>
+                <pb n="31a" xml:id="pb-31a" facs="#i71"/>
+                <pb n="31b" xml:id="pb-31b" facs="#i72"/>
+                <pb n="32a" xml:id="pb-32a" facs="#i73"/>
+                <pb n="32b" xml:id="pb-32b" facs="#i74"/>
+                <pb n="33a" xml:id="pb-33a" facs="#i75"/>
+                <pb n="33b" xml:id="pb-33b" facs="#i76"/>
+                <pb n="34a" xml:id="pb-34a" facs="#i77"/>
+                <pb n="34b" xml:id="pb-34b" facs="#i78"/>
+                <pb n="35a" xml:id="pb-35a" facs="#i79"/>
+                <pb n="35b" xml:id="pb-35b" facs="#i80"/>
+                <pb n="36a" xml:id="pb-36a" facs="#i81"/>
+                <pb n="36b" xml:id="pb-36b" facs="#i82"/>
+                <pb n="37a" xml:id="pb-37a" facs="#i83"/>
+                <pb n="37b" xml:id="pb-37b" facs="#i84"/>
+                <pb n="38a" xml:id="pb-38a" facs="#i85"/>
+                <pb n="38b" xml:id="pb-38b" facs="#i86"/>
+                <pb n="39a" xml:id="pb-39a" facs="#i87"/>
+                <pb n="39b" xml:id="pb-39b" facs="#i88"/>
+                <pb n="40a" xml:id="pb-40a" facs="#i89"/>
+                <pb n="40b" xml:id="pb-40b" facs="#i90"/>
+                <pb n="41a" xml:id="pb-41a" facs="#i91"/>
+                <pb n="41b" xml:id="pb-41b" facs="#i92"/>
+                <pb n="42a" xml:id="pb-42a" facs="#i93"/>
+                <pb n="42b" xml:id="pb-42b" facs="#i94"/>
+                <pb n="42Aa" xml:id="pb-42Aa" facs="#i95"/>
+                <pb n="42Ab" xml:id="pb-42Ab" facs="#i96"/>
+                <pb n="43a" xml:id="pb-43a" facs="#i97"/>
+                <pb n="43b" xml:id="pb-43b" facs="#i98"/>
+                <pb n="44a" xml:id="pb-44a" facs="#i99"/>
+                <pb n="44b" xml:id="pb-44b" facs="#i100"/>
+                <pb n="45a" xml:id="pb-45a" facs="#i101"/>
+                <pb n="45b" xml:id="pb-45b" facs="#i102"/>
+                <pb n="46a" xml:id="pb-46a" facs="#i103"/>
+                <pb n="46b" xml:id="pb-46b" facs="#i104"/>
+                <pb n="47a" xml:id="pb-47a" facs="#i105"/>
+                <pb n="47b" xml:id="pb-47b" facs="#i106"/>
+                <pb n="48a" xml:id="pb-48a" facs="#i107"/>
+                <pb n="48b" xml:id="pb-48b" facs="#i108"/>
+                <pb n="49a" xml:id="pb-49a" facs="#i109"/>
+                <pb n="49b" xml:id="pb-49b" facs="#i110"/>
+                <pb n="50a" xml:id="pb-50a" facs="#i111"/>
+                <pb n="50b" xml:id="pb-50b" facs="#i112"/>
+                <pb n="50Aa" xml:id="pb-50Aa" facs="#i113"/>
+                <pb n="50Ab" xml:id="pb-50Ab" facs="#i114"/>
+                <pb n="51a" xml:id="pb-51a" facs="#i115"/>
+                <pb n="51b" xml:id="pb-51b" facs="#i116"/>
+                <pb n="52a" xml:id="pb-52a" facs="#i117"/>
+                <pb n="52b" xml:id="pb-52b" facs="#i118"/>
+                <pb n="53a" xml:id="pb-53a" facs="#i119"/>
+                <pb n="53b" xml:id="pb-53b" facs="#i120"/>
+                <pb n="54a" xml:id="pb-54a" facs="#i121"/>
+                <pb n="54b" xml:id="pb-54b" facs="#i122"/>
+                <pb n="55a" xml:id="pb-55a" facs="#i123"/>
+                <pb n="55b" xml:id="pb-55b" facs="#i124"/>
+                <pb n="56a" xml:id="pb-56a" facs="#i125"/>
+                <pb n="56b" xml:id="pb-56b" facs="#i126"/>
+                <pb n="57a" xml:id="pb-57a" facs="#i127"/>
+                <pb n="57b" xml:id="pb-57b" facs="#i128"/>
+                <pb n="58a" xml:id="pb-58a" facs="#i129"/>
+                <pb n="58b" xml:id="pb-58b" facs="#i130"/>
+                <pb n="59a" xml:id="pb-59a" facs="#i131"/>
+                <pb n="59b" xml:id="pb-59b" facs="#i132"/>
+                <pb n="60a" xml:id="pb-60a" facs="#i133"/>
+                <pb n="60b" xml:id="pb-60b" facs="#i134"/>
+                <pb n="61a" xml:id="pb-61a" facs="#i135"/>
+                <pb n="61b" xml:id="pb-61b" facs="#i136"/>
+                <pb n="62a" xml:id="pb-62a" facs="#i137"/>
+                <pb n="62b" xml:id="pb-62b" facs="#i138"/>
+                <pb n="63a" xml:id="pb-63a" facs="#i139"/>
+                <pb n="63b" xml:id="pb-63b" facs="#i140"/>
+                <pb n="64a" xml:id="pb-64a" facs="#i141"/>
+                <pb n="64b" xml:id="pb-64b" facs="#i142"/>
+                <pb n="65a" xml:id="pb-65a" facs="#i143"/>
+                <pb n="65b" xml:id="pb-65b" facs="#i144"/>
+                <pb n="65Aa" xml:id="pb-65Aa" facs="#i145"/>
+                <pb n="65Ab" xml:id="pb-65Ab" facs="#i146"/>
+                <pb n="66a" xml:id="pb-66a" facs="#i147"/>
+                <pb n="66b" xml:id="pb-66b" facs="#i148"/>
+                <pb n="67a" xml:id="pb-67a" facs="#i149"/>
+                <pb n="67b" xml:id="pb-67b" facs="#i150"/>
+                <pb n="68a" xml:id="pb-68a" facs="#i151"/>
+                <pb n="68b" xml:id="pb-68b" facs="#i152"/>
+                <pb n="69a" xml:id="pb-69a" facs="#i153"/>
+                <pb n="69b" xml:id="pb-69b" facs="#i154"/>
+                <pb n="70a" xml:id="pb-70a" facs="#i155"/>
+                <pb n="70b" xml:id="pb-70b" facs="#i156"/>
+                <pb n="71a" xml:id="pb-71a" facs="#i157"/>
+                <pb n="71b" xml:id="pb-71b" facs="#i158"/>
+                <pb n="72a" xml:id="pb-72a" facs="#i159"/>
+                <pb n="72b" xml:id="pb-72b" facs="#i160"/>
+                <pb n="73a" xml:id="pb-73a" facs="#i161"/>
+                <pb n="73b" xml:id="pb-73b" facs="#i162"/>
+                <pb n="74a" xml:id="pb-74a" facs="#i163"/>
+                <pb n="74b" xml:id="pb-74b" facs="#i164"/>
+                <pb n="75a" xml:id="pb-75a" facs="#i165"/>
+                <pb n="75b" xml:id="pb-75b" facs="#i166"/>
+                <pb n="76a" xml:id="pb-76a" facs="#i167"/>
+                <pb n="76b" xml:id="pb-76b" facs="#i168"/>
+                <pb n="77a" xml:id="pb-77a" facs="#i169"/>
+                <pb n="77b" xml:id="pb-77b" facs="#i170"/>
+                <pb n="78a" xml:id="pb-78a" facs="#i171"/>
+                <pb n="78b" xml:id="pb-78b" facs="#i172"/>
+                <pb n="79a" xml:id="pb-79a" facs="#i173"/>
+                <pb n="79b" xml:id="pb-79b" facs="#i174"/>
+                <pb n="80a" xml:id="pb-80a" facs="#i175"/>
+                <pb n="80b" xml:id="pb-80b" facs="#i176"/>
+                <pb n="81a" xml:id="pb-81a" facs="#i177"/>
+                <pb n="81b" xml:id="pb-81b" facs="#i178"/>
+                <pb n="82a" xml:id="pb-82a" facs="#i179"/>
+                <pb n="82b" xml:id="pb-82b" facs="#i180"/>
+                <pb n="83a" xml:id="pb-83a" facs="#i181"/>
+                <pb n="83b" xml:id="pb-83b" facs="#i182"/>
+                <pb n="84a" xml:id="pb-84a" facs="#i183"/>
+                <pb n="84b" xml:id="pb-84b" facs="#i184"/>
+                <pb n="85a" xml:id="pb-85a" facs="#i185"/>
+                <pb n="85b" xml:id="pb-85b" facs="#i186"/>
+                <pb n="86a" xml:id="pb-86a" facs="#i187"/>
+                <pb n="86b" xml:id="pb-86b" facs="#i188"/>
+                <pb n="87a" xml:id="pb-87a" facs="#i189"/>
+                <pb n="87b" xml:id="pb-87b" facs="#i190"/>
+                <pb n="88a" xml:id="pb-88a" facs="#i191"/>
+                <pb n="88b" xml:id="pb-88b" facs="#i192"/>
+                <pb n="89a" xml:id="pb-89a" facs="#i193"/>
+                <pb n="89b" xml:id="pb-89b" facs="#i194"/>
+                <pb n="90a" xml:id="pb-90a" facs="#i195"/>
+                <pb n="90b" xml:id="pb-90b" facs="#i196"/>
+                <pb n="91a" xml:id="pb-91a" facs="#i197"/>
+                <pb n="91b" xml:id="pb-91b" facs="#i198"/>
+                <pb n="92a" xml:id="pb-92a" facs="#i199"/>
+                <pb n="92b" xml:id="pb-92b" facs="#i200"/>
+                <pb n="93a" xml:id="pb-93a" facs="#i201"/>
+                <pb n="93b" xml:id="pb-93b" facs="#i202"/>
+                <pb n="94a" xml:id="pb-94a" facs="#i203"/>
+                <pb n="94b" xml:id="pb-94b" facs="#i204"/>
+                <pb n="95a" xml:id="pb-95a" facs="#i205"/>
+                <pb n="95b" xml:id="pb-95b" facs="#i206"/>
+                <pb n="96a" xml:id="pb-96a" facs="#i207"/>
+                <pb n="96b" xml:id="pb-96b" facs="#i208"/>
+                <pb n="97a" xml:id="pb-97a" facs="#i209"/>
+                <pb n="97b" xml:id="pb-97b" facs="#i210"/>
+                <pb n="98a" xml:id="pb-98a" facs="#i211"/>
+                <pb n="98b" xml:id="pb-98b" facs="#i212"/>
+                <pb n="99a" xml:id="pb-99a" facs="#i213"/>
+                <pb n="99b" xml:id="pb-99b" facs="#i214"/>
+                <pb n="100a" xml:id="pb-100a" facs="#i215"/>
+                <pb n="100b" xml:id="pb-100b" facs="#i216"/>
+                <pb n="101a" xml:id="pb-101a" facs="#i217"/>
+                <pb n="101b" xml:id="pb-101b" facs="#i218"/>
+                <pb n="102a" xml:id="pb-102a" facs="#i219"/>
+                <pb n="102b" xml:id="pb-102b" facs="#i220"/>
+                <pb n="103a" xml:id="pb-103a" facs="#i221"/>
+                <pb n="103b" xml:id="pb-103b" facs="#i222"/>
+                <pb n="104a" xml:id="pb-104a" facs="#i223"/>
+                <pb n="104b" xml:id="pb-104b" facs="#i224"/>
+                <pb n="105a" xml:id="pb-105a" facs="#i225"/>
+                <pb n="105b" xml:id="pb-105b" facs="#i226"/>
+                <pb n="106a" xml:id="pb-106a" facs="#i227"/>
+                <pb n="106b" xml:id="pb-106b" facs="#i228"/>
+                <pb n="107a" xml:id="pb-107a" facs="#i229"/>
+                <pb n="107b" xml:id="pb-107b" facs="#i230"/>
+                <pb n="108a" xml:id="pb-108a" facs="#i231"/>
+                <pb n="108b" xml:id="pb-108b" facs="#i232"/>
+                <pb n="109a" xml:id="pb-109a" facs="#i233"/>
+                <pb n="109b" xml:id="pb-109b" facs="#i234"/>
+                <pb n="110a" xml:id="pb-110a" facs="#i235"/>
+                <pb n="110b" xml:id="pb-110b" facs="#i236"/>
+                <pb n="111a" xml:id="pb-111a" facs="#i237"/>
+                <pb n="111b" xml:id="pb-111b" facs="#i238"/>
+                <pb n="112a" xml:id="pb-112a" facs="#i239"/>
+                <pb n="112b" xml:id="pb-112b" facs="#i240"/>
+                <pb n="113a" xml:id="pb-113a" facs="#i241"/>
+                <pb n="113b" xml:id="pb-113b" facs="#i242"/>
+                <pb n="114a" xml:id="pb-114a" facs="#i243"/>
+                <pb n="114b" xml:id="pb-114b" facs="#i244"/>
+                <pb n="va" xml:id="pb-va" facs="#i245"/>
+                <pb n="vb" xml:id="pb-vb" facs="#i246"/>
+                <pb n="Folded note 1" xml:id="pb-Foldednote1" facs="#i247"/>
+                <pb n="Folded note 2" xml:id="pb-Foldednote2" facs="#i248"/>
+                <pb n="Back paste-down" xml:id="pb-Backpaste-down" facs="#i249"/>
+                <pb n="Back board" xml:id="pb-Backboard" facs="#i250"/>
+                <pb n="Head" xml:id="pb-Head" facs="#i251"/>
+                <pb n="Tail" xml:id="pb-Tail" facs="#i252"/>
+                <pb n="Foredge" xml:id="pb-Foredge" facs="#i253"/>
+                <pb n="Spine" xml:id="pb-Spine" facs="#i254"/>
+                <pb n="Inserted folded note 1" xml:id="pb-Insertedfoldednote1" facs="#i255"/>
+                <pb n="Inserted folded note 2" xml:id="pb-Insertedfoldednote2" facs="#i256"/>
+                <pb n="Inserted folded note 3" xml:id="pb-Insertedfoldednote3" facs="#i257"/>
+            </div>
+        </body>
+    </text>
+
+</TEI>

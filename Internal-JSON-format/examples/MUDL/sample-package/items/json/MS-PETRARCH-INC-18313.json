@@ -1,0 +1,3193 @@
+
+         {
+            "descriptiveMetadata": 
+               [
+            
+         {
+            "abstract": 
+               {
+               "display": false, 
+                  "displayForm": "<p style='text-align: justify;'>The Rerum vulgarium fragmenta and Triumphi with the Life of Petrarch by Leonardo Bruni. Printed by Filippo di Petri in Venice with colophon dated 17 August 1482. </p>", 
+                  "label": "Abstract", 
+               "seq": 11
+               },
+            "authors": 
+               {
+               "display": true, 
+               "seq": 38, 
+                  "listDisplay": "unordered", 
+                  "label": "Author(s)", 
+               "value": [
+            
+         {
+               "display": true, 
+                  "displayForm": "Petrarca, Francesco, 1304-1374.", 
+               "seq": 39, 
+                  "linktype": "keyword search", 
+            "fullForm": "Petrarca, Francesco, 1304-1374.",
+            "shortForm": "Petrarca, Francesco, 1304-1374.",
+            "type": "person",
+            "role": "aut"
+         },
+         {
+               "display": true, 
+                  "displayForm": "Bruni, Leonardo, 1369-1444.", 
+               "seq": 39, 
+                  "linktype": "keyword search", 
+            "fullForm": "Bruni, Leonardo, 1369-1444.",
+            "shortForm": "Bruni, Leonardo, 1369-1444.",
+            "type": "person",
+            "role": "aut"
+         }
+               ]
+               },
+            "formerOwners": 
+               {
+               "display": true, 
+               "seq": 130, 
+                  "label": "Former Owner(s)", 
+               "value": [
+            
+         {
+               "display": true, 
+                  "displayForm": "Spencer, George John Spencer, Earl, 1758-1834.", 
+               "seq": 131, 
+                  "linktype": "keyword search", 
+            "fullForm": "Spencer, George John Spencer, Earl, 1758-1834.",
+            "shortForm": "Spencer, George John Spencer, Earl, 1758-1834.",
+            "type": "person",
+            "role": "fmo"
+         },
+         {
+               "display": true, 
+                  "displayForm": "Spencer, John Poyntz Spencer, Earl, 1835-1910", 
+               "seq": 131, 
+                  "linktype": "keyword search", 
+            "fullForm": "Spencer, John Poyntz Spencer, Earl, 1835-1910",
+            "shortForm": "John Poyntz Spencer (1835-1910), 5th Earl Spencer",
+            "type": "person",
+            "role": "fmo"
+         }
+               ]
+               },
+            "associated": 
+               {
+               "display": true, 
+               "seq": 139, 
+                  "listDisplay": "unordered", 
+                  "label": "Associated Person(s)", 
+               "value": [
+            
+         {
+               "display": true, 
+                  "displayForm": "Petri, Philipo di, active 1472-1482.", 
+               "seq": 140, 
+                  "linktype": "keyword search", 
+            "fullForm": "Petri, Philipo di, active 1472-1482.",
+            "shortForm": "Petri, Philipo di, active 1472-1482.",
+            "type": "person",
+            "role": "prt"
+         }
+               ]
+               },
+            "creations": 
+               {
+               "display": true, 
+               "seq": 65, 
+               "value": [
+            
+         {
+            "type": "creation",
+            "places": 
+               {
+               "display": true, 
+               "seq": 70, 
+                  "label": "Origin Place", 
+               "value": [
+            
+         {
+               "display": true, 
+                  "displayForm": "Venice", 
+               "seq": 71, 
+                  "linktype": "keyword search", 
+            "shortForm": "Venice"
+         }
+               ]
+               },
+            "dateStart": "1482",
+            "dateEnd": "1482",
+            "dateDisplay": 
+               {
+               "display": true, 
+                  "displayForm": "1482", 
+                  "linktype": "keyword search", 
+                  "label": "Date of Creation", 
+               "seq": 79
+               }
+         }
+               ]
+               },
+            "acquisitions": 
+               {
+               "display": true, 
+               "seq": 202, 
+               "value": [
+            
+         {
+            "type": "acquisition",
+            "dateStart": "1892",
+            "dateEnd": "1892",
+            "dateDisplay": 
+               {
+               "display": true, 
+                  "displayForm": "1892", 
+                  "label": "Date of Acquisition", 
+               "seq": 207
+               }
+         }
+               ]
+               },
+            "physicalLocation": 
+               {
+               "display": true, 
+                  "displayForm": "The John Rylands Library", 
+                  "label": "Physical Location", 
+               "seq": 4
+               },
+            "shelfLocator": 
+               {
+               "display": true, 
+                  "displayForm": "Incunable 18313", 
+                  "label": "Classmark", 
+               "seq": 5
+               },
+            "thumbnailUrl": "MS-PETRARCH-INC-18313-000-00825.jp2",
+            "thumbnailOrientation": "portrait",
+            "displayImageRights": "Zooming image © University of Manchester Library, All rights reserved.",
+            "downloadImageRights": "Images made available for download are licensed under a Creative Commons Attribution-NonCommercial 3.0 Unported License (CC BY-NC 3.0)",
+            "imageReproPageURL": "http://www.manchester-image-licensing-link",
+            "metadataRights": "This metadata is licensed under a Creative Commons Attribution-NonCommercial 3.0 Unported License.",
+            "docAuthority": "",
+            "fundings": 
+               {
+               "display": true, 
+               "seq": 208, 
+                  "label": "Funding", 
+               "value": [
+            
+               {
+               "display": true, 
+                  "displayForm": "AHRC", 
+               "seq": 209
+               }
+               ]
+               },
+            "form": 
+               {
+               "display": true, 
+                  "displayForm": "Codex", 
+                  "label": "Format", 
+               "seq": 178
+               },
+            "material": 
+               {
+               "display": true, 
+                  "displayForm": "Paper.", 
+                  "label": "Material", 
+               "seq": 177
+               },
+            "extent": 
+               {
+               "display": true, 
+                  "displayForm": "[146] leaves", 
+                  "label": "Extent", 
+               "seq": 173
+               },
+            "collation": 
+               {
+               "display": true, 
+                  "displayForm": "Fol: *⁶ a⁸⁺¹ b⁸ c⁶ d-m⁸ n-o⁶ p-q⁸ r⁸⁺¹ s⁸. UML copy at 18313: Imperfect, missing leaves s5-s8.", 
+                  "label": "Collation", 
+               "seq": 174
+               },
+            "decorations": 
+               {
+               "display": true, 
+               "seq": 192, 
+                  "label": "Decoration", 
+               "value": [
+            
+               {
+               "display": true, 
+                  "displayForm": "<div>Red and green hand-coloured initials for each RVF<br />Illuminated initials for each Triumph<br /><a href='' onclick='store.loadPage(17);return false;'>a1r</a>: Rectangular-box illumination at the bottom of the opening page of RVF [fol. a1r]: with unidentified coat of arms [upper part red, bottom part vertical blue and white stripes] encircled by a leaves wreath with an angel at each side set in a rural scene.<br /><a href='' onclick='store.loadPage(231);return false;'>p1r</a>: Rectangular-box illumination at the bottom of the opening page of the Triumphi [fol. p1r]: with a blindfolded Cupid in a landscape (depicted within a circle at whose both sides there are decorative elemens: a vase with some flowers surmounted by the head of a cherub).<br /></div><br />", 
+               "seq": 193
+               }
+               ]
+               },
+            "bindings": 
+               {
+               "display": true, 
+               "seq": 181, 
+                  "label": "Binding", 
+               "value": [
+            
+               {
+               "display": true, 
+                  "displayForm": "<p>18th century Italian full calf over boards; gilt tooled borders and fillets in panel design; with marbled endpapers; gilt tooling on spine with title and author.</p>", 
+               "seq": 182
+               }
+               ]
+               },
+            "acquisitionTexts": 
+               {
+               "display": true, 
+               "seq": 200, 
+                  "label": "Acquisition", 
+               "value": [
+            
+               {
+               "display": true, 
+                  "displayForm": "Part of the Spencer library acquired by Enriqueta Rylands in 1892 from John Poyntz Spencer (1835-1910), 5th Earl Spencer for The John Rylands Library.", 
+               "seq": 201
+               }
+               ]
+               },
+            "bibliographies": 
+               {
+               "display": true, 
+               "seq": 214, 
+                  "label": "Bibliography", 
+               "value": [
+            
+               {
+               "display": true, 
+                  "displayForm": "<div style='list-style-type: disc;'><div style='display: list-item; margin-left: 20px;'>Recorded in University of Manchester <a target='_blank' class='externalLink' href='http://man.ac.uk/PEnxc6'>Library Search</a></div><div style='display: list-item; margin-left: 20px;'>A link to the AHRC Petrarch database will be <a target='_blank' class='externalLink' href='https://warwick.ac.uk/fac/arts/ren/projects/petrarch/'>put here</a></div></div><br />", 
+               "seq": 215
+               }
+               ]
+               },
+            "dataRevisions": 
+               {
+               "display": true, 
+                  "displayForm": "Julianne Simpson", 
+                  "label": "Author(s) of the Record", 
+               "seq": 212
+               },
+            "ID": "ITEM-1",
+            "title": 
+               {
+               "display": false, 
+                  "displayForm": "[Canzoniere e Trionfi]", 
+                  "label": "Title", 
+               "seq": 10
+               },
+            "alternativeTitles": 
+               {
+               "display": true, 
+               "seq": 16, 
+                  "label": "Alternative Title(s)", 
+               "value": [
+            
+               {
+               "display": true, 
+                  "displayForm": "Poetical works", 
+               "seq": 17
+               }
+               ]
+               },
+            "languageCodes": 
+               [
+            "ita"
+               ],
+            "languageStrings": 
+               {
+               "display": true, 
+               "seq": 119, 
+                  "label": "Language(s)", 
+               "value": [
+            
+               {
+               "display": true, 
+                  "displayForm": "Italian", 
+               "seq": 120
+               }
+               ]
+               },
+            "notes": 
+               {
+               "display": true, 
+               "seq": 164, 
+                  "label": "Note(s)", 
+               "value": [
+            
+               {
+               "display": true, 
+                  "displayForm": "Poems in roman type, printed with one verse per line; no printed numbering.", 
+               "seq": 165
+               }
+               ]
+               }
+         },
+         {
+            "ID": "ITEM-2",
+            "title": 
+               {
+               "display": true, 
+                  "displayForm": "Blank", 
+                  "label": "Title", 
+               "seq": 10
+               }
+         },
+         {
+            "ID": "ITEM-3",
+            "title": 
+               {
+               "display": true, 
+                  "displayForm": "Alphabetical index of the first lines of RVF poems (under each letter of the alphabet poems are listed according to their order of appearance)", 
+                  "label": "Title", 
+               "seq": 10
+               }
+         },
+         {
+            "ID": "ITEM-4",
+            "title": 
+               {
+               "display": true, 
+                  "displayForm": "Index of the first lines of the capitoli of the Triumphi in order of appearance", 
+                  "label": "Title", 
+               "seq": 10
+               }
+         },
+         {
+            "ID": "ITEM-5",
+            "title": 
+               {
+               "display": true, 
+                  "displayForm": "Petrarch’s note on Laura", 
+                  "label": "Title", 
+               "seq": 10
+               }
+         },
+         {
+            "ID": "ITEM-6",
+            "title": 
+               {
+               "display": true, 
+                  "displayForm": "Rerum vulgarium fragmenta", 
+                  "label": "Title", 
+               "seq": 10
+               }
+         },
+         {
+            "ID": "ITEM-7",
+            "title": 
+               {
+               "display": true, 
+                  "displayForm": "Colophon: FRANCISCI PETRARCAE POETAE EXCELLENTISSIMI RERVM VVULGARVM FRAGMENTA EXPLICIVNT", 
+                  "label": "Title", 
+               "seq": 10
+               }
+         },
+         {
+            "ID": "ITEM-8",
+            "title": 
+               {
+               "display": true, 
+                  "displayForm": "Triumphi", 
+                  "label": "Title", 
+               "seq": 10
+               }
+         },
+         {
+            "ID": "ITEM-9",
+            "title": 
+               {
+               "display": true, 
+                  "displayForm": "Colophon: FRANCISCI PETRALGAE [sic] POETAE EXCELLENTISSIMI TRIVMPHI EXPLICIVNT", 
+                  "label": "Title", 
+               "seq": 10
+               }
+         }
+               ],
+            "numberOfPages": 296,
+            "embeddable": true,
+            "textDirection": "L",
+            "sourceData": "/v1/metadata/tei/MS-PETRARCH-INC-18313/",
+            "pages": 
+               [
+            
+         {
+            "label": "upper_cover",
+            "physID": "PHYS-1",
+            "sequence": 1,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00825.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4334,
+            "imageHeight": 6500
+         },
+         {
+            "label": "inside_upper_cover",
+            "physID": "PHYS-2",
+            "sequence": 2,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00826.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3754,
+            "imageHeight": 6500
+         },
+         {
+            "label": "front_endpaper_[recto]",
+            "physID": "PHYS-3",
+            "sequence": 3,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00827.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3698,
+            "imageHeight": 6500
+         },
+         {
+            "label": "front_endpaper_[verso]",
+            "physID": "PHYS-4",
+            "sequence": 4,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00828.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3656,
+            "imageHeight": 6500
+         },
+         {
+            "label": "1r",
+            "physID": "PHYS-5",
+            "sequence": 5,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00829.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3611,
+            "imageHeight": 6500
+         },
+         {
+            "label": "1v",
+            "physID": "PHYS-6",
+            "sequence": 6,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00830.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3634,
+            "imageHeight": 6500
+         },
+         {
+            "label": "2r",
+            "physID": "PHYS-7",
+            "sequence": 7,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00831.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3609,
+            "imageHeight": 6500
+         },
+         {
+            "label": "2v",
+            "physID": "PHYS-8",
+            "sequence": 8,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00832.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3522,
+            "imageHeight": 6500
+         },
+         {
+            "label": "3r",
+            "physID": "PHYS-9",
+            "sequence": 9,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00833.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3536,
+            "imageHeight": 6500
+         },
+         {
+            "label": "3v",
+            "physID": "PHYS-10",
+            "sequence": 10,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00834.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3549,
+            "imageHeight": 6500
+         },
+         {
+            "label": "4r",
+            "physID": "PHYS-11",
+            "sequence": 11,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00835.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3551,
+            "imageHeight": 6500
+         },
+         {
+            "label": "4v",
+            "physID": "PHYS-12",
+            "sequence": 12,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00836.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3549,
+            "imageHeight": 6500
+         },
+         {
+            "label": "5r",
+            "physID": "PHYS-13",
+            "sequence": 13,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00837.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3550,
+            "imageHeight": 6500
+         },
+         {
+            "label": "5v",
+            "physID": "PHYS-14",
+            "sequence": 14,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00838.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3549,
+            "imageHeight": 6500
+         },
+         {
+            "label": "6r",
+            "physID": "PHYS-15",
+            "sequence": 15,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00839.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3550,
+            "imageHeight": 6500
+         },
+         {
+            "label": "6v",
+            "physID": "PHYS-16",
+            "sequence": 16,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00840.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3549,
+            "imageHeight": 6500
+         },
+         {
+            "label": "a1r",
+            "physID": "PHYS-17",
+            "sequence": 17,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00841.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3551,
+            "imageHeight": 6500
+         },
+         {
+            "label": "a1v",
+            "physID": "PHYS-18",
+            "sequence": 18,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00842.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3549,
+            "imageHeight": 6500
+         },
+         {
+            "label": "a2r",
+            "physID": "PHYS-19",
+            "sequence": 19,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00843.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3552,
+            "imageHeight": 6500
+         },
+         {
+            "label": "a2v",
+            "physID": "PHYS-20",
+            "sequence": 20,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00844.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3549,
+            "imageHeight": 6500
+         },
+         {
+            "label": "a3r",
+            "physID": "PHYS-21",
+            "sequence": 21,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00845.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3552,
+            "imageHeight": 6500
+         },
+         {
+            "label": "a3v",
+            "physID": "PHYS-22",
+            "sequence": 22,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00846.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3549,
+            "imageHeight": 6500
+         },
+         {
+            "label": "a4r",
+            "physID": "PHYS-23",
+            "sequence": 23,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00847.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3551,
+            "imageHeight": 6500
+         },
+         {
+            "label": "a4v",
+            "physID": "PHYS-24",
+            "sequence": 24,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00848.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3549,
+            "imageHeight": 6500
+         },
+         {
+            "label": "a5r",
+            "physID": "PHYS-25",
+            "sequence": 25,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00849.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3550,
+            "imageHeight": 6500
+         },
+         {
+            "label": "a5v",
+            "physID": "PHYS-26",
+            "sequence": 26,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00850.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3549,
+            "imageHeight": 6500
+         },
+         {
+            "label": "a6r",
+            "physID": "PHYS-27",
+            "sequence": 27,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00851.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3551,
+            "imageHeight": 6500
+         },
+         {
+            "label": "a6v",
+            "physID": "PHYS-28",
+            "sequence": 28,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00852.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3549,
+            "imageHeight": 6500
+         },
+         {
+            "label": "a7r",
+            "physID": "PHYS-29",
+            "sequence": 29,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00853.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3550,
+            "imageHeight": 6500
+         },
+         {
+            "label": "a7v",
+            "physID": "PHYS-30",
+            "sequence": 30,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00854.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3549,
+            "imageHeight": 6500
+         },
+         {
+            "label": "a8r",
+            "physID": "PHYS-31",
+            "sequence": 31,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00855.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3548,
+            "imageHeight": 6500
+         },
+         {
+            "label": "a8v",
+            "physID": "PHYS-32",
+            "sequence": 32,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00856.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3549,
+            "imageHeight": 6500
+         },
+         {
+            "label": "a9r",
+            "physID": "PHYS-33",
+            "sequence": 33,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00857.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3538,
+            "imageHeight": 6500
+         },
+         {
+            "label": "a9v",
+            "physID": "PHYS-34",
+            "sequence": 34,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00858.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3549,
+            "imageHeight": 6500
+         },
+         {
+            "label": "b1r",
+            "physID": "PHYS-35",
+            "sequence": 35,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00859.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3522,
+            "imageHeight": 6500
+         },
+         {
+            "label": "b1v",
+            "physID": "PHYS-36",
+            "sequence": 36,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00860.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3549,
+            "imageHeight": 6500
+         },
+         {
+            "label": "b2r",
+            "physID": "PHYS-37",
+            "sequence": 37,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00861.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3502,
+            "imageHeight": 6500
+         },
+         {
+            "label": "b2v",
+            "physID": "PHYS-38",
+            "sequence": 38,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00862.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3549,
+            "imageHeight": 6500
+         },
+         {
+            "label": "b3r",
+            "physID": "PHYS-39",
+            "sequence": 39,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00863.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3500,
+            "imageHeight": 6500
+         },
+         {
+            "label": "b3v",
+            "physID": "PHYS-40",
+            "sequence": 40,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00864.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3549,
+            "imageHeight": 6500
+         },
+         {
+            "label": "b4r",
+            "physID": "PHYS-41",
+            "sequence": 41,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00865.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3500,
+            "imageHeight": 6500
+         },
+         {
+            "label": "b4v",
+            "physID": "PHYS-42",
+            "sequence": 42,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00866.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3549,
+            "imageHeight": 6500
+         },
+         {
+            "label": "b5r",
+            "physID": "PHYS-43",
+            "sequence": 43,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00867.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3501,
+            "imageHeight": 6500
+         },
+         {
+            "label": "b5v",
+            "physID": "PHYS-44",
+            "sequence": 44,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00868.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3505,
+            "imageHeight": 6500
+         },
+         {
+            "label": "b6r",
+            "physID": "PHYS-45",
+            "sequence": 45,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00869.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3500,
+            "imageHeight": 6500
+         },
+         {
+            "label": "b6v",
+            "physID": "PHYS-46",
+            "sequence": 46,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00870.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3506,
+            "imageHeight": 6500
+         },
+         {
+            "label": "b7r",
+            "physID": "PHYS-47",
+            "sequence": 47,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00871.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3499,
+            "imageHeight": 6500
+         },
+         {
+            "label": "b7v",
+            "physID": "PHYS-48",
+            "sequence": 48,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00872.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3498,
+            "imageHeight": 6500
+         },
+         {
+            "label": "b8r",
+            "physID": "PHYS-49",
+            "sequence": 49,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00873.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3500,
+            "imageHeight": 6500
+         },
+         {
+            "label": "b8v",
+            "physID": "PHYS-50",
+            "sequence": 50,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00874.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3503,
+            "imageHeight": 6500
+         },
+         {
+            "label": "c1r",
+            "physID": "PHYS-51",
+            "sequence": 51,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00875.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3500,
+            "imageHeight": 6500
+         },
+         {
+            "label": "c1v",
+            "physID": "PHYS-52",
+            "sequence": 52,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00876.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3505,
+            "imageHeight": 6500
+         },
+         {
+            "label": "c2r",
+            "physID": "PHYS-53",
+            "sequence": 53,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00877.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3502,
+            "imageHeight": 6500
+         },
+         {
+            "label": "c2v",
+            "physID": "PHYS-54",
+            "sequence": 54,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00878.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3498,
+            "imageHeight": 6500
+         },
+         {
+            "label": "c3r",
+            "physID": "PHYS-55",
+            "sequence": 55,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00879.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3502,
+            "imageHeight": 6500
+         },
+         {
+            "label": "c3v",
+            "physID": "PHYS-56",
+            "sequence": 56,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00880.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3497,
+            "imageHeight": 6500
+         },
+         {
+            "label": "c4r",
+            "physID": "PHYS-57",
+            "sequence": 57,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00881.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3500,
+            "imageHeight": 6500
+         },
+         {
+            "label": "c4v",
+            "physID": "PHYS-58",
+            "sequence": 58,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00882.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3501,
+            "imageHeight": 6500
+         },
+         {
+            "label": "c5r",
+            "physID": "PHYS-59",
+            "sequence": 59,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00883.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3500,
+            "imageHeight": 6500
+         },
+         {
+            "label": "c5v",
+            "physID": "PHYS-60",
+            "sequence": 60,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00884.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3498,
+            "imageHeight": 6500
+         },
+         {
+            "label": "c6r",
+            "physID": "PHYS-61",
+            "sequence": 61,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00885.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3501,
+            "imageHeight": 6500
+         },
+         {
+            "label": "c6v",
+            "physID": "PHYS-62",
+            "sequence": 62,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00886.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3499,
+            "imageHeight": 6500
+         },
+         {
+            "label": "d1r",
+            "physID": "PHYS-63",
+            "sequence": 63,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00887.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3500,
+            "imageHeight": 6500
+         },
+         {
+            "label": "d1v",
+            "physID": "PHYS-64",
+            "sequence": 64,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00888.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3501,
+            "imageHeight": 6500
+         },
+         {
+            "label": "d2r",
+            "physID": "PHYS-65",
+            "sequence": 65,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00889.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3501,
+            "imageHeight": 6500
+         },
+         {
+            "label": "d2v",
+            "physID": "PHYS-66",
+            "sequence": 66,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00890.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3500,
+            "imageHeight": 6500
+         },
+         {
+            "label": "d3r",
+            "physID": "PHYS-67",
+            "sequence": 67,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00891.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3500,
+            "imageHeight": 6500
+         },
+         {
+            "label": "d3v",
+            "physID": "PHYS-68",
+            "sequence": 68,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00892.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3505,
+            "imageHeight": 6500
+         },
+         {
+            "label": "d4r",
+            "physID": "PHYS-69",
+            "sequence": 69,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00893.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3500,
+            "imageHeight": 6500
+         },
+         {
+            "label": "d4v",
+            "physID": "PHYS-70",
+            "sequence": 70,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00894.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3507,
+            "imageHeight": 6500
+         },
+         {
+            "label": "d5r",
+            "physID": "PHYS-71",
+            "sequence": 71,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00895.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3500,
+            "imageHeight": 6500
+         },
+         {
+            "label": "d5v",
+            "physID": "PHYS-72",
+            "sequence": 72,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00896.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3498,
+            "imageHeight": 6500
+         },
+         {
+            "label": "d6r",
+            "physID": "PHYS-73",
+            "sequence": 73,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00897.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3498,
+            "imageHeight": 6500
+         },
+         {
+            "label": "d6v",
+            "physID": "PHYS-74",
+            "sequence": 74,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00898.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3497,
+            "imageHeight": 6500
+         },
+         {
+            "label": "d7r",
+            "physID": "PHYS-75",
+            "sequence": 75,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00899.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3508,
+            "imageHeight": 6500
+         },
+         {
+            "label": "d7v",
+            "physID": "PHYS-76",
+            "sequence": 76,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00900.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3497,
+            "imageHeight": 6500
+         },
+         {
+            "label": "d8r",
+            "physID": "PHYS-77",
+            "sequence": 77,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00901.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3499,
+            "imageHeight": 6500
+         },
+         {
+            "label": "d8v",
+            "physID": "PHYS-78",
+            "sequence": 78,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00902.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3502,
+            "imageHeight": 6500
+         },
+         {
+            "label": "e1r",
+            "physID": "PHYS-79",
+            "sequence": 79,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00903.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3501,
+            "imageHeight": 6500
+         },
+         {
+            "label": "e1v",
+            "physID": "PHYS-80",
+            "sequence": 80,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00904.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3497,
+            "imageHeight": 6500
+         },
+         {
+            "label": "e2r",
+            "physID": "PHYS-81",
+            "sequence": 81,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00905.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3497,
+            "imageHeight": 6500
+         },
+         {
+            "label": "e2v",
+            "physID": "PHYS-82",
+            "sequence": 82,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00906.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3504,
+            "imageHeight": 6500
+         },
+         {
+            "label": "e3r",
+            "physID": "PHYS-83",
+            "sequence": 83,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00907.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3498,
+            "imageHeight": 6500
+         },
+         {
+            "label": "e3v",
+            "physID": "PHYS-84",
+            "sequence": 84,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00908.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3503,
+            "imageHeight": 6500
+         },
+         {
+            "label": "e4r",
+            "physID": "PHYS-85",
+            "sequence": 85,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00909.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3494,
+            "imageHeight": 6500
+         },
+         {
+            "label": "e4v",
+            "physID": "PHYS-86",
+            "sequence": 86,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00910.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3498,
+            "imageHeight": 6500
+         },
+         {
+            "label": "e5r",
+            "physID": "PHYS-87",
+            "sequence": 87,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00911.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3499,
+            "imageHeight": 6500
+         },
+         {
+            "label": "e5v",
+            "physID": "PHYS-88",
+            "sequence": 88,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00912.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3500,
+            "imageHeight": 6500
+         },
+         {
+            "label": "e6r",
+            "physID": "PHYS-89",
+            "sequence": 89,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00913.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3501,
+            "imageHeight": 6500
+         },
+         {
+            "label": "e6v",
+            "physID": "PHYS-90",
+            "sequence": 90,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00914.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3498,
+            "imageHeight": 6500
+         },
+         {
+            "label": "e7r",
+            "physID": "PHYS-91",
+            "sequence": 91,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00915.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3498,
+            "imageHeight": 6500
+         },
+         {
+            "label": "e7v",
+            "physID": "PHYS-92",
+            "sequence": 92,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00916.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3498,
+            "imageHeight": 6500
+         },
+         {
+            "label": "e8r",
+            "physID": "PHYS-93",
+            "sequence": 93,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00917.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3498,
+            "imageHeight": 6500
+         },
+         {
+            "label": "e8v",
+            "physID": "PHYS-94",
+            "sequence": 94,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00918.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3500,
+            "imageHeight": 6500
+         },
+         {
+            "label": "f1r",
+            "physID": "PHYS-95",
+            "sequence": 95,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00919.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3498,
+            "imageHeight": 6500
+         },
+         {
+            "label": "f1v",
+            "physID": "PHYS-96",
+            "sequence": 96,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00920.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3498,
+            "imageHeight": 6500
+         },
+         {
+            "label": "f2r",
+            "physID": "PHYS-97",
+            "sequence": 97,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00921.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3497,
+            "imageHeight": 6500
+         },
+         {
+            "label": "f2v",
+            "physID": "PHYS-98",
+            "sequence": 98,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00922.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3499,
+            "imageHeight": 6500
+         },
+         {
+            "label": "f3r",
+            "physID": "PHYS-99",
+            "sequence": 99,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00923.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3498,
+            "imageHeight": 6500
+         },
+         {
+            "label": "f3v",
+            "physID": "PHYS-100",
+            "sequence": 100,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00924.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3499,
+            "imageHeight": 6500
+         },
+         {
+            "label": "f4r",
+            "physID": "PHYS-101",
+            "sequence": 101,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00925.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3497,
+            "imageHeight": 6500
+         },
+         {
+            "label": "f4v",
+            "physID": "PHYS-102",
+            "sequence": 102,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00926.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3501,
+            "imageHeight": 6500
+         },
+         {
+            "label": "f5r",
+            "physID": "PHYS-103",
+            "sequence": 103,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00927.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3497,
+            "imageHeight": 6500
+         },
+         {
+            "label": "f5v",
+            "physID": "PHYS-104",
+            "sequence": 104,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00928.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3495,
+            "imageHeight": 6500
+         },
+         {
+            "label": "f6r",
+            "physID": "PHYS-105",
+            "sequence": 105,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00929.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3495,
+            "imageHeight": 6500
+         },
+         {
+            "label": "f6v",
+            "physID": "PHYS-106",
+            "sequence": 106,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00930.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3499,
+            "imageHeight": 6500
+         },
+         {
+            "label": "f7r",
+            "physID": "PHYS-107",
+            "sequence": 107,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00931.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3500,
+            "imageHeight": 6500
+         },
+         {
+            "label": "f7v",
+            "physID": "PHYS-108",
+            "sequence": 108,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00932.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3495,
+            "imageHeight": 6500
+         },
+         {
+            "label": "f8r",
+            "physID": "PHYS-109",
+            "sequence": 109,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00933.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3497,
+            "imageHeight": 6500
+         },
+         {
+            "label": "f8v",
+            "physID": "PHYS-110",
+            "sequence": 110,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00934.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3498,
+            "imageHeight": 6500
+         },
+         {
+            "label": "g1r",
+            "physID": "PHYS-111",
+            "sequence": 111,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00935.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3498,
+            "imageHeight": 6500
+         },
+         {
+            "label": "g1v",
+            "physID": "PHYS-112",
+            "sequence": 112,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00936.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3495,
+            "imageHeight": 6500
+         },
+         {
+            "label": "g2r",
+            "physID": "PHYS-113",
+            "sequence": 113,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00937.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3497,
+            "imageHeight": 6500
+         },
+         {
+            "label": "g2v",
+            "physID": "PHYS-114",
+            "sequence": 114,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00938.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3491,
+            "imageHeight": 6500
+         },
+         {
+            "label": "g3r",
+            "physID": "PHYS-115",
+            "sequence": 115,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00939.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3494,
+            "imageHeight": 6500
+         },
+         {
+            "label": "g3v",
+            "physID": "PHYS-116",
+            "sequence": 116,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00940.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3499,
+            "imageHeight": 6500
+         },
+         {
+            "label": "g4r",
+            "physID": "PHYS-117",
+            "sequence": 117,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00941.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3499,
+            "imageHeight": 6500
+         },
+         {
+            "label": "g4v",
+            "physID": "PHYS-118",
+            "sequence": 118,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00942.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3496,
+            "imageHeight": 6500
+         },
+         {
+            "label": "g5r",
+            "physID": "PHYS-119",
+            "sequence": 119,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00943.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3499,
+            "imageHeight": 6500
+         },
+         {
+            "label": "g5v",
+            "physID": "PHYS-120",
+            "sequence": 120,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00944.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3490,
+            "imageHeight": 6500
+         },
+         {
+            "label": "g6r",
+            "physID": "PHYS-121",
+            "sequence": 121,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00945.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3495,
+            "imageHeight": 6500
+         },
+         {
+            "label": "g6v",
+            "physID": "PHYS-122",
+            "sequence": 122,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00946.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3496,
+            "imageHeight": 6500
+         },
+         {
+            "label": "g7r",
+            "physID": "PHYS-123",
+            "sequence": 123,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00947.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3498,
+            "imageHeight": 6500
+         },
+         {
+            "label": "g7v",
+            "physID": "PHYS-124",
+            "sequence": 124,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00948.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3496,
+            "imageHeight": 6500
+         },
+         {
+            "label": "g8r",
+            "physID": "PHYS-125",
+            "sequence": 125,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00949.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3501,
+            "imageHeight": 6500
+         },
+         {
+            "label": "g8v",
+            "physID": "PHYS-126",
+            "sequence": 126,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00950.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3464,
+            "imageHeight": 6500
+         },
+         {
+            "label": "h1r",
+            "physID": "PHYS-127",
+            "sequence": 127,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00951.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3489,
+            "imageHeight": 6500
+         },
+         {
+            "label": "h1v",
+            "physID": "PHYS-128",
+            "sequence": 128,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00952.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3464,
+            "imageHeight": 6500
+         },
+         {
+            "label": "h2r",
+            "physID": "PHYS-129",
+            "sequence": 129,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00953.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3498,
+            "imageHeight": 6500
+         },
+         {
+            "label": "h2v",
+            "physID": "PHYS-130",
+            "sequence": 130,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00954.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3464,
+            "imageHeight": 6500
+         },
+         {
+            "label": "h3r",
+            "physID": "PHYS-131",
+            "sequence": 131,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00955.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3499,
+            "imageHeight": 6500
+         },
+         {
+            "label": "h3v",
+            "physID": "PHYS-132",
+            "sequence": 132,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00956.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3464,
+            "imageHeight": 6500
+         },
+         {
+            "label": "h4r",
+            "physID": "PHYS-133",
+            "sequence": 133,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00957.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3493,
+            "imageHeight": 6500
+         },
+         {
+            "label": "h4v",
+            "physID": "PHYS-134",
+            "sequence": 134,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00958.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3464,
+            "imageHeight": 6500
+         },
+         {
+            "label": "h5r",
+            "physID": "PHYS-135",
+            "sequence": 135,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00959.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3496,
+            "imageHeight": 6500
+         },
+         {
+            "label": "h5v",
+            "physID": "PHYS-136",
+            "sequence": 136,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00960.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3464,
+            "imageHeight": 6500
+         },
+         {
+            "label": "h6r",
+            "physID": "PHYS-137",
+            "sequence": 137,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00961.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3494,
+            "imageHeight": 6500
+         },
+         {
+            "label": "h6v",
+            "physID": "PHYS-138",
+            "sequence": 138,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00962.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3474,
+            "imageHeight": 6500
+         },
+         {
+            "label": "h7r",
+            "physID": "PHYS-139",
+            "sequence": 139,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00963.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3495,
+            "imageHeight": 6500
+         },
+         {
+            "label": "h7v",
+            "physID": "PHYS-140",
+            "sequence": 140,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00964.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3474,
+            "imageHeight": 6500
+         },
+         {
+            "label": "h8r",
+            "physID": "PHYS-141",
+            "sequence": 141,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00965.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3486,
+            "imageHeight": 6500
+         },
+         {
+            "label": "h8v",
+            "physID": "PHYS-142",
+            "sequence": 142,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00966.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3474,
+            "imageHeight": 6500
+         },
+         {
+            "label": "i1r",
+            "physID": "PHYS-143",
+            "sequence": 143,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00967.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3474,
+            "imageHeight": 6500
+         },
+         {
+            "label": "i1v",
+            "physID": "PHYS-144",
+            "sequence": 144,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00968.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3474,
+            "imageHeight": 6500
+         },
+         {
+            "label": "i2r",
+            "physID": "PHYS-145",
+            "sequence": 145,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00969.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3474,
+            "imageHeight": 6500
+         },
+         {
+            "label": "i2v",
+            "physID": "PHYS-146",
+            "sequence": 146,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00970.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3476,
+            "imageHeight": 6500
+         },
+         {
+            "label": "i3r",
+            "physID": "PHYS-147",
+            "sequence": 147,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00971.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3476,
+            "imageHeight": 6500
+         },
+         {
+            "label": "i3v",
+            "physID": "PHYS-148",
+            "sequence": 148,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00972.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3477,
+            "imageHeight": 6500
+         },
+         {
+            "label": "i4r",
+            "physID": "PHYS-149",
+            "sequence": 149,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00973.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3476,
+            "imageHeight": 6500
+         },
+         {
+            "label": "i4v",
+            "physID": "PHYS-150",
+            "sequence": 150,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00974.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3475,
+            "imageHeight": 6500
+         },
+         {
+            "label": "i5r",
+            "physID": "PHYS-151",
+            "sequence": 151,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00975.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3477,
+            "imageHeight": 6500
+         },
+         {
+            "label": "i5v",
+            "physID": "PHYS-152",
+            "sequence": 152,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00976.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3479,
+            "imageHeight": 6500
+         },
+         {
+            "label": "i6r",
+            "physID": "PHYS-153",
+            "sequence": 153,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00977.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3475,
+            "imageHeight": 6500
+         },
+         {
+            "label": "i6v",
+            "physID": "PHYS-154",
+            "sequence": 154,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00978.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3475,
+            "imageHeight": 6500
+         },
+         {
+            "label": "i7r",
+            "physID": "PHYS-155",
+            "sequence": 155,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00979.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3475,
+            "imageHeight": 6500
+         },
+         {
+            "label": "i7v",
+            "physID": "PHYS-156",
+            "sequence": 156,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00980.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3474,
+            "imageHeight": 6500
+         },
+         {
+            "label": "i8r",
+            "physID": "PHYS-157",
+            "sequence": 157,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00981.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3475,
+            "imageHeight": 6500
+         },
+         {
+            "label": "i8v",
+            "physID": "PHYS-158",
+            "sequence": 158,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00982.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3476,
+            "imageHeight": 6500
+         },
+         {
+            "label": "k1r",
+            "physID": "PHYS-159",
+            "sequence": 159,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00983.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3475,
+            "imageHeight": 6500
+         },
+         {
+            "label": "k1v",
+            "physID": "PHYS-160",
+            "sequence": 160,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00984.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3475,
+            "imageHeight": 6500
+         },
+         {
+            "label": "k2r",
+            "physID": "PHYS-161",
+            "sequence": 161,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00985.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3475,
+            "imageHeight": 6500
+         },
+         {
+            "label": "k2v",
+            "physID": "PHYS-162",
+            "sequence": 162,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00986.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3475,
+            "imageHeight": 6500
+         },
+         {
+            "label": "k3r",
+            "physID": "PHYS-163",
+            "sequence": 163,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00987.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3475,
+            "imageHeight": 6500
+         },
+         {
+            "label": "k3v",
+            "physID": "PHYS-164",
+            "sequence": 164,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00988.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3476,
+            "imageHeight": 6500
+         },
+         {
+            "label": "k4r",
+            "physID": "PHYS-165",
+            "sequence": 165,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00989.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3476,
+            "imageHeight": 6500
+         },
+         {
+            "label": "k4v",
+            "physID": "PHYS-166",
+            "sequence": 166,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00990.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3476,
+            "imageHeight": 6500
+         },
+         {
+            "label": "k5r",
+            "physID": "PHYS-167",
+            "sequence": 167,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00991.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3472,
+            "imageHeight": 6500
+         },
+         {
+            "label": "k5v",
+            "physID": "PHYS-168",
+            "sequence": 168,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00992.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3472,
+            "imageHeight": 6500
+         },
+         {
+            "label": "k6r",
+            "physID": "PHYS-169",
+            "sequence": 169,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00993.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3473,
+            "imageHeight": 6500
+         },
+         {
+            "label": "k6v",
+            "physID": "PHYS-170",
+            "sequence": 170,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00994.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3475,
+            "imageHeight": 6500
+         },
+         {
+            "label": "k7r",
+            "physID": "PHYS-171",
+            "sequence": 171,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00995.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3474,
+            "imageHeight": 6500
+         },
+         {
+            "label": "k7v",
+            "physID": "PHYS-172",
+            "sequence": 172,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00996.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3477,
+            "imageHeight": 6500
+         },
+         {
+            "label": "k8r",
+            "physID": "PHYS-173",
+            "sequence": 173,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00997.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3474,
+            "imageHeight": 6500
+         },
+         {
+            "label": "k8v",
+            "physID": "PHYS-174",
+            "sequence": 174,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00998.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3474,
+            "imageHeight": 6500
+         },
+         {
+            "label": "l1r",
+            "physID": "PHYS-175",
+            "sequence": 175,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-00999.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3475,
+            "imageHeight": 6500
+         },
+         {
+            "label": "l1v",
+            "physID": "PHYS-176",
+            "sequence": 176,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-01000.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3474,
+            "imageHeight": 6500
+         },
+         {
+            "label": "l2r",
+            "physID": "PHYS-177",
+            "sequence": 177,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-01001.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3475,
+            "imageHeight": 6500
+         },
+         {
+            "label": "l2v",
+            "physID": "PHYS-178",
+            "sequence": 178,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-01002.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3475,
+            "imageHeight": 6500
+         },
+         {
+            "label": "l3r",
+            "physID": "PHYS-179",
+            "sequence": 179,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-01003.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3475,
+            "imageHeight": 6500
+         },
+         {
+            "label": "l3v",
+            "physID": "PHYS-180",
+            "sequence": 180,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-01004.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3474,
+            "imageHeight": 6500
+         },
+         {
+            "label": "l4r",
+            "physID": "PHYS-181",
+            "sequence": 181,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-01005.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3475,
+            "imageHeight": 6500
+         },
+         {
+            "label": "l4v",
+            "physID": "PHYS-182",
+            "sequence": 182,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-01006.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3474,
+            "imageHeight": 6500
+         },
+         {
+            "label": "l5r",
+            "physID": "PHYS-183",
+            "sequence": 183,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-01007.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3474,
+            "imageHeight": 6500
+         },
+         {
+            "label": "l5v",
+            "physID": "PHYS-184",
+            "sequence": 184,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-01008.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3476,
+            "imageHeight": 6500
+         },
+         {
+            "label": "l6r",
+            "physID": "PHYS-185",
+            "sequence": 185,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-01009.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3475,
+            "imageHeight": 6500
+         },
+         {
+            "label": "l6v",
+            "physID": "PHYS-186",
+            "sequence": 186,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-01010.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3479,
+            "imageHeight": 6500
+         },
+         {
+            "label": "l7r",
+            "physID": "PHYS-187",
+            "sequence": 187,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-01011.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3475,
+            "imageHeight": 6500
+         },
+         {
+            "label": "l7v",
+            "physID": "PHYS-188",
+            "sequence": 188,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-01012.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3480,
+            "imageHeight": 6500
+         },
+         {
+            "label": "l8r",
+            "physID": "PHYS-189",
+            "sequence": 189,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-01013.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3475,
+            "imageHeight": 6500
+         },
+         {
+            "label": "l8v",
+            "physID": "PHYS-190",
+            "sequence": 190,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-01014.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3474,
+            "imageHeight": 6500
+         },
+         {
+            "label": "m1r",
+            "physID": "PHYS-191",
+            "sequence": 191,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-01015.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3475,
+            "imageHeight": 6500
+         },
+         {
+            "label": "m1v",
+            "physID": "PHYS-192",
+            "sequence": 192,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-01016.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3475,
+            "imageHeight": 6500
+         },
+         {
+            "label": "m2r",
+            "physID": "PHYS-193",
+            "sequence": 193,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-01017.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3476,
+            "imageHeight": 6500
+         },
+         {
+            "label": "m2v",
+            "physID": "PHYS-194",
+            "sequence": 194,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-01018.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3478,
+            "imageHeight": 6500
+         },
+         {
+            "label": "m3r",
+            "physID": "PHYS-195",
+            "sequence": 195,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-01019.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3475,
+            "imageHeight": 6500
+         },
+         {
+            "label": "m3v",
+            "physID": "PHYS-196",
+            "sequence": 196,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-01020.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3480,
+            "imageHeight": 6500
+         },
+         {
+            "label": "m4r",
+            "physID": "PHYS-197",
+            "sequence": 197,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-01021.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3473,
+            "imageHeight": 6500
+         },
+         {
+            "label": "m4v",
+            "physID": "PHYS-198",
+            "sequence": 198,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-01022.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3477,
+            "imageHeight": 6500
+         },
+         {
+            "label": "m5r",
+            "physID": "PHYS-199",
+            "sequence": 199,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-01023.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3477,
+            "imageHeight": 6500
+         },
+         {
+            "label": "m5v",
+            "physID": "PHYS-200",
+            "sequence": 200,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-01024.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3473,
+            "imageHeight": 6500
+         },
+         {
+            "label": "m6r",
+            "physID": "PHYS-201",
+            "sequence": 201,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-01025.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3473,
+            "imageHeight": 6500
+         },
+         {
+            "label": "m6v",
+            "physID": "PHYS-202",
+            "sequence": 202,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-01026.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3475,
+            "imageHeight": 6500
+         },
+         {
+            "label": "m7r",
+            "physID": "PHYS-203",
+            "sequence": 203,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-01027.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3477,
+            "imageHeight": 6500
+         },
+         {
+            "label": "m7v",
+            "physID": "PHYS-204",
+            "sequence": 204,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-01028.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3475,
+            "imageHeight": 6500
+         },
+         {
+            "label": "m8r",
+            "physID": "PHYS-205",
+            "sequence": 205,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-01029.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3473,
+            "imageHeight": 6500
+         },
+         {
+            "label": "m8v",
+            "physID": "PHYS-206",
+            "sequence": 206,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-01030.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3475,
+            "imageHeight": 6500
+         },
+         {
+            "label": "n1r",
+            "physID": "PHYS-207",
+            "sequence": 207,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-01031.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3477,
+            "imageHeight": 6500
+         },
+         {
+            "label": "n1v",
+            "physID": "PHYS-208",
+            "sequence": 208,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-01032.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3475,
+            "imageHeight": 6500
+         },
+         {
+            "label": "n2r",
+            "physID": "PHYS-209",
+            "sequence": 209,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-01033.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3474,
+            "imageHeight": 6500
+         },
+         {
+            "label": "n2v",
+            "physID": "PHYS-210",
+            "sequence": 210,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-01034.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3477,
+            "imageHeight": 6500
+         },
+         {
+            "label": "n3r",
+            "physID": "PHYS-211",
+            "sequence": 211,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-01035.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3476,
+            "imageHeight": 6500
+         },
+         {
+            "label": "n3v",
+            "physID": "PHYS-212",
+            "sequence": 212,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-01036.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3474,
+            "imageHeight": 6500
+         },
+         {
+            "label": "n4r",
+            "physID": "PHYS-213",
+            "sequence": 213,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-01037.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3476,
+            "imageHeight": 6500
+         },
+         {
+            "label": "n4v",
+            "physID": "PHYS-214",
+            "sequence": 214,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-01038.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3476,
+            "imageHeight": 6500
+         },
+         {
+            "label": "n5r",
+            "physID": "PHYS-215",
+            "sequence": 215,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-01039.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3477,
+            "imageHeight": 6500
+         },
+         {
+            "label": "n5v",
+            "physID": "PHYS-216",
+            "sequence": 216,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-01040.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3480,
+            "imageHeight": 6500
+         },
+         {
+            "label": "n6r",
+            "physID": "PHYS-217",
+            "sequence": 217,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-01041.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3476,
+            "imageHeight": 6500
+         },
+         {
+            "label": "n6v",
+            "physID": "PHYS-218",
+            "sequence": 218,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-01042.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3475,
+            "imageHeight": 6500
+         },
+         {
+            "label": "o1r",
+            "physID": "PHYS-219",
+            "sequence": 219,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-01043.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3479,
+            "imageHeight": 6500
+         },
+         {
+            "label": "o1v",
+            "physID": "PHYS-220",
+            "sequence": 220,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-01044.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3476,
+            "imageHeight": 6500
+         },
+         {
+            "label": "o2r",
+            "physID": "PHYS-221",
+            "sequence": 221,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-01045.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3474,
+            "imageHeight": 6500
+         },
+         {
+            "label": "o2v",
+            "physID": "PHYS-222",
+            "sequence": 222,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-01046.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3477,
+            "imageHeight": 6500
+         },
+         {
+            "label": "o3r",
+            "physID": "PHYS-223",
+            "sequence": 223,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-01047.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3476,
+            "imageHeight": 6500
+         },
+         {
+            "label": "o3v",
+            "physID": "PHYS-224",
+            "sequence": 224,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-01048.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3475,
+            "imageHeight": 6500
+         },
+         {
+            "label": "o4r",
+            "physID": "PHYS-225",
+            "sequence": 225,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-01049.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3476,
+            "imageHeight": 6500
+         },
+         {
+            "label": "o4v",
+            "physID": "PHYS-226",
+            "sequence": 226,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-01050.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3478,
+            "imageHeight": 6500
+         },
+         {
+            "label": "o5r",
+            "physID": "PHYS-227",
+            "sequence": 227,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-01051.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3478,
+            "imageHeight": 6500
+         },
+         {
+            "label": "o5v",
+            "physID": "PHYS-228",
+            "sequence": 228,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-01052.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3478,
+            "imageHeight": 6500
+         },
+         {
+            "label": "o6r",
+            "physID": "PHYS-229",
+            "sequence": 229,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-01053.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3476,
+            "imageHeight": 6500
+         },
+         {
+            "label": "o6v",
+            "physID": "PHYS-230",
+            "sequence": 230,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-01054.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3476,
+            "imageHeight": 6500
+         },
+         {
+            "label": "p1r",
+            "physID": "PHYS-231",
+            "sequence": 231,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-01055.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3476,
+            "imageHeight": 6500
+         },
+         {
+            "label": "p1v",
+            "physID": "PHYS-232",
+            "sequence": 232,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-01056.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3474,
+            "imageHeight": 6500
+         },
+         {
+            "label": "p2r",
+            "physID": "PHYS-233",
+            "sequence": 233,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-01057.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3478,
+            "imageHeight": 6500
+         },
+         {
+            "label": "p2v",
+            "physID": "PHYS-234",
+            "sequence": 234,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-01058.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3484,
+            "imageHeight": 6500
+         },
+         {
+            "label": "p3r",
+            "physID": "PHYS-235",
+            "sequence": 235,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-01059.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3481,
+            "imageHeight": 6500
+         },
+         {
+            "label": "p3v",
+            "physID": "PHYS-236",
+            "sequence": 236,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-01060.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3478,
+            "imageHeight": 6500
+         },
+         {
+            "label": "p4r",
+            "physID": "PHYS-237",
+            "sequence": 237,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-01061.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3479,
+            "imageHeight": 6500
+         },
+         {
+            "label": "p4v",
+            "physID": "PHYS-238",
+            "sequence": 238,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-01062.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3477,
+            "imageHeight": 6500
+         },
+         {
+            "label": "p5r",
+            "physID": "PHYS-239",
+            "sequence": 239,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-01063.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3488,
+            "imageHeight": 6500
+         },
+         {
+            "label": "p5v",
+            "physID": "PHYS-240",
+            "sequence": 240,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-01064.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3499,
+            "imageHeight": 6500
+         },
+         {
+            "label": "p6r",
+            "physID": "PHYS-241",
+            "sequence": 241,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-01065.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3505,
+            "imageHeight": 6500
+         },
+         {
+            "label": "p6v",
+            "physID": "PHYS-242",
+            "sequence": 242,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-01066.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3499,
+            "imageHeight": 6500
+         },
+         {
+            "label": "p7r",
+            "physID": "PHYS-243",
+            "sequence": 243,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-01067.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3505,
+            "imageHeight": 6500
+         },
+         {
+            "label": "p7v",
+            "physID": "PHYS-244",
+            "sequence": 244,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-01068.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3500,
+            "imageHeight": 6500
+         },
+         {
+            "label": "p8r",
+            "physID": "PHYS-245",
+            "sequence": 245,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-01069.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3509,
+            "imageHeight": 6500
+         },
+         {
+            "label": "p8v",
+            "physID": "PHYS-246",
+            "sequence": 246,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-01070.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3495,
+            "imageHeight": 6500
+         },
+         {
+            "label": "q1r",
+            "physID": "PHYS-247",
+            "sequence": 247,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-01071.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3513,
+            "imageHeight": 6500
+         },
+         {
+            "label": "q1v",
+            "physID": "PHYS-248",
+            "sequence": 248,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-01072.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3495,
+            "imageHeight": 6500
+         },
+         {
+            "label": "q2r",
+            "physID": "PHYS-249",
+            "sequence": 249,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-01073.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3503,
+            "imageHeight": 6500
+         },
+         {
+            "label": "q2v",
+            "physID": "PHYS-250",
+            "sequence": 250,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-01074.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3475,
+            "imageHeight": 6500
+         },
+         {
+            "label": "q3r",
+            "physID": "PHYS-251",
+            "sequence": 251,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-01075.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3500,
+            "imageHeight": 6500
+         },
+         {
+            "label": "q3v",
+            "physID": "PHYS-252",
+            "sequence": 252,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-01076.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3486,
+            "imageHeight": 6500
+         },
+         {
+            "label": "q4r",
+            "physID": "PHYS-253",
+            "sequence": 253,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-01077.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3506,
+            "imageHeight": 6500
+         },
+         {
+            "label": "q4v",
+            "physID": "PHYS-254",
+            "sequence": 254,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-01078.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3499,
+            "imageHeight": 6500
+         },
+         {
+            "label": "q5r",
+            "physID": "PHYS-255",
+            "sequence": 255,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-01079.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3532,
+            "imageHeight": 6500
+         },
+         {
+            "label": "q5v",
+            "physID": "PHYS-256",
+            "sequence": 256,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-01080.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3500,
+            "imageHeight": 6500
+         },
+         {
+            "label": "q6r",
+            "physID": "PHYS-257",
+            "sequence": 257,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-01081.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3524,
+            "imageHeight": 6500
+         },
+         {
+            "label": "q6v",
+            "physID": "PHYS-258",
+            "sequence": 258,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-01082.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3499,
+            "imageHeight": 6500
+         },
+         {
+            "label": "q7r",
+            "physID": "PHYS-259",
+            "sequence": 259,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-01083.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3505,
+            "imageHeight": 6500
+         },
+         {
+            "label": "q7v",
+            "physID": "PHYS-260",
+            "sequence": 260,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-01084.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3503,
+            "imageHeight": 6500
+         },
+         {
+            "label": "q8r",
+            "physID": "PHYS-261",
+            "sequence": 261,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-01085.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3502,
+            "imageHeight": 6500
+         },
+         {
+            "label": "q8v",
+            "physID": "PHYS-262",
+            "sequence": 262,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-01086.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3498,
+            "imageHeight": 6500
+         },
+         {
+            "label": "r1r",
+            "physID": "PHYS-263",
+            "sequence": 263,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-01087.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3501,
+            "imageHeight": 6500
+         },
+         {
+            "label": "r1v",
+            "physID": "PHYS-264",
+            "sequence": 264,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-01088.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3497,
+            "imageHeight": 6500
+         },
+         {
+            "label": "r2r",
+            "physID": "PHYS-265",
+            "sequence": 265,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-01089.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3506,
+            "imageHeight": 6500
+         },
+         {
+            "label": "r2v",
+            "physID": "PHYS-266",
+            "sequence": 266,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-01090.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3503,
+            "imageHeight": 6500
+         },
+         {
+            "label": "r3r",
+            "physID": "PHYS-267",
+            "sequence": 267,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-01091.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3504,
+            "imageHeight": 6500
+         },
+         {
+            "label": "r3v",
+            "physID": "PHYS-268",
+            "sequence": 268,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-01092.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3499,
+            "imageHeight": 6500
+         },
+         {
+            "label": "r4r",
+            "physID": "PHYS-269",
+            "sequence": 269,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-01093.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3509,
+            "imageHeight": 6500
+         },
+         {
+            "label": "r4v",
+            "physID": "PHYS-270",
+            "sequence": 270,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-01094.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3503,
+            "imageHeight": 6500
+         },
+         {
+            "label": "r5r",
+            "physID": "PHYS-271",
+            "sequence": 271,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-01095.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3509,
+            "imageHeight": 6500
+         },
+         {
+            "label": "r5v",
+            "physID": "PHYS-272",
+            "sequence": 272,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-01096.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3498,
+            "imageHeight": 6500
+         },
+         {
+            "label": "r6r",
+            "physID": "PHYS-273",
+            "sequence": 273,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-01097.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3500,
+            "imageHeight": 6500
+         },
+         {
+            "label": "r6v",
+            "physID": "PHYS-274",
+            "sequence": 274,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-01098.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3500,
+            "imageHeight": 6500
+         },
+         {
+            "label": "r7r",
+            "physID": "PHYS-275",
+            "sequence": 275,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-01099.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3502,
+            "imageHeight": 6500
+         },
+         {
+            "label": "r7v",
+            "physID": "PHYS-276",
+            "sequence": 276,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-01100.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3502,
+            "imageHeight": 6500
+         },
+         {
+            "label": "r8r",
+            "physID": "PHYS-277",
+            "sequence": 277,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-01101.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3525,
+            "imageHeight": 6500
+         },
+         {
+            "label": "r8v",
+            "physID": "PHYS-278",
+            "sequence": 278,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-01102.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3501,
+            "imageHeight": 6500
+         },
+         {
+            "label": "r9r",
+            "physID": "PHYS-279",
+            "sequence": 279,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-01103.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3520,
+            "imageHeight": 6500
+         },
+         {
+            "label": "r9v",
+            "physID": "PHYS-280",
+            "sequence": 280,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-01104.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3500,
+            "imageHeight": 6500
+         },
+         {
+            "label": "s1s",
+            "physID": "PHYS-281",
+            "sequence": 281,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-01105.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3524,
+            "imageHeight": 6500
+         },
+         {
+            "label": "s1v",
+            "physID": "PHYS-282",
+            "sequence": 282,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-01106.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3500,
+            "imageHeight": 6500
+         },
+         {
+            "label": "s2s",
+            "physID": "PHYS-283",
+            "sequence": 283,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-01107.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3522,
+            "imageHeight": 6500
+         },
+         {
+            "label": "s2v",
+            "physID": "PHYS-284",
+            "sequence": 284,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-01108.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3501,
+            "imageHeight": 6500
+         },
+         {
+            "label": "s3s",
+            "physID": "PHYS-285",
+            "sequence": 285,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-01109.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3527,
+            "imageHeight": 6500
+         },
+         {
+            "label": "s3v",
+            "physID": "PHYS-286",
+            "sequence": 286,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-01110.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3497,
+            "imageHeight": 6500
+         },
+         {
+            "label": "s4s",
+            "physID": "PHYS-287",
+            "sequence": 287,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-01111.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3529,
+            "imageHeight": 6500
+         },
+         {
+            "label": "s4v",
+            "physID": "PHYS-288",
+            "sequence": 288,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-01112.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3504,
+            "imageHeight": 6500
+         },
+         {
+            "label": "rear_endpaper_[recto]",
+            "physID": "PHYS-289",
+            "sequence": 289,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-01113.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3586,
+            "imageHeight": 6500
+         },
+         {
+            "label": "rear_endpaper_[verso]",
+            "physID": "PHYS-290",
+            "sequence": 290,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-01114.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3548,
+            "imageHeight": 6500
+         },
+         {
+            "label": "inside_lower_cover",
+            "physID": "PHYS-291",
+            "sequence": 291,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-01115.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3677,
+            "imageHeight": 6500
+         },
+         {
+            "label": "lower_cover",
+            "physID": "PHYS-292",
+            "sequence": 292,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-01116.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3852,
+            "imageHeight": 6500
+         },
+         {
+            "label": "spine",
+            "physID": "PHYS-293",
+            "sequence": 293,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-01117.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 936,
+            "imageHeight": 6500
+         },
+         {
+            "label": "head",
+            "physID": "PHYS-294",
+            "sequence": 294,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-01118.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 1578,
+            "imageHeight": 6500
+         },
+         {
+            "label": "fore_edge",
+            "physID": "PHYS-295",
+            "sequence": 295,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-01119.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 929,
+            "imageHeight": 6500
+         },
+         {
+            "label": "tail",
+            "physID": "PHYS-296",
+            "sequence": 296,
+            "IIIFImageURL": "MS-PETRARCH-INC-18313-000-01120.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 1573,
+            "imageHeight": 6500
+         }
+               ],
+            "logicalStructures": 
+               [
+            
+         {
+            "descriptiveMetadataID": "ITEM-1",
+            "label": "[Canzoniere e Trionfi]",
+            "startPageLabel": "upper_cover",
+            "startPagePosition": 1,
+            "startPageID": "PHYS-1",
+            "endPageLabel": "tail",
+            "endPagePosition": 296,
+            "children": 
+               [
+            
+         {
+            "descriptiveMetadataID": "ITEM-2",
+            "label": "Blank",
+            "startPageLabel": "1r",
+            "startPagePosition": 5,
+            "startPageID": "PHYS-5",
+            "endPageLabel": "2r",
+            "endPagePosition": 7
+         },
+         {
+            "descriptiveMetadataID": "ITEM-3",
+            "label": "Alphabetical index of the first lines of RVF poems (under each letter of the alphabet poems are listed according to their order of appearance)",
+            "startPageLabel": "2v",
+            "startPagePosition": 8,
+            "startPageID": "PHYS-8",
+            "endPageLabel": "6r",
+            "endPagePosition": 15
+         },
+         {
+            "descriptiveMetadataID": "ITEM-4",
+            "label": "Index of the first lines of the capitoli of the Triumphi in order of appearance",
+            "startPageLabel": "6r",
+            "startPagePosition": 15,
+            "startPageID": "PHYS-15",
+            "endPageLabel": "6v",
+            "endPagePosition": 16
+         },
+         {
+            "descriptiveMetadataID": "ITEM-5",
+            "label": "Petrarch’s note on Laura",
+            "startPageLabel": "6v",
+            "startPagePosition": 16,
+            "startPageID": "PHYS-16",
+            "endPageLabel": "6v",
+            "endPagePosition": 16
+         },
+         {
+            "descriptiveMetadataID": "ITEM-6",
+            "label": "Rerum vulgarium fragmenta",
+            "startPageLabel": "a1r",
+            "startPagePosition": 17,
+            "startPageID": "PHYS-17",
+            "endPageLabel": "o6v",
+            "endPagePosition": 230
+         },
+         {
+            "descriptiveMetadataID": "ITEM-7",
+            "label": "Colophon: FRANCISCI PETRARCAE POETAE EXCELLENTISSIMI RERVM VVULGARVM FRAGMENTA EXPLICIVNT",
+            "startPageLabel": "o6v",
+            "startPagePosition": 230,
+            "startPageID": "PHYS-230",
+            "endPageLabel": "o6v",
+            "endPagePosition": 230
+         },
+         {
+            "descriptiveMetadataID": "ITEM-8",
+            "label": "Triumphi",
+            "startPageLabel": "p1r",
+            "startPagePosition": 231,
+            "startPageID": "PHYS-231",
+            "endPageLabel": "s4v",
+            "endPagePosition": 288
+         },
+         {
+            "descriptiveMetadataID": "ITEM-9",
+            "label": "Colophon: FRANCISCI PETRALGAE [sic] POETAE EXCELLENTISSIMI TRIVMPHI EXPLICIVNT",
+            "startPageLabel": "s4v",
+            "startPagePosition": 288,
+            "startPageID": "PHYS-288",
+            "endPageLabel": "s4v",
+            "endPagePosition": 288
+         }
+               ]
+         }
+               ],
+            "listItemPages": 
+               [
+            
+         {
+            "fileID": "MS-PETRARCH-INC-18313",
+            "dmdID": "ITEM-1",
+            "startPageLabel": "a1r",
+            "startPage": 17,
+            "title": "a1r",
+            "listItemText": "a1r: Rectangular-box illumination at the bottom of the opening page of RVF [fol. a1r]: with unidentified coat of arms [upper part red, bottom part vertical blue and white stripes] encircled by a leaves wreath with an angel at each side set in a rural scene."
+         },
+         {
+            "fileID": "MS-PETRARCH-INC-18313",
+            "dmdID": "ITEM-1",
+            "startPageLabel": "p1r",
+            "startPage": 231,
+            "title": "p1r",
+            "listItemText": "p1r: Rectangular-box illumination at the bottom of the opening page of the Triumphi [fol. p1r]: with a blindfolded Cupid in a landscape (depicted within a circle at whose both sides there are decorative elemens: a vase with some flowers surmounted by the head of a cherub)."
+         }
+               ]
+         }

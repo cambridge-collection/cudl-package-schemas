@@ -1,0 +1,5232 @@
+
+         {
+            "descriptiveMetadata": 
+               [
+            
+         {
+            "abstract": 
+               {
+               "display": false, 
+                  "displayForm": "<p style='text-align: justify;'>This is an illuminated specimen of Nahmanides' commentary on the Pentateuch, most likely produced in fifteenth-century Italy. It has been suggested that the elaborate borders containing medallions showing animals, birds and putti were executed by the Florentine miniaturist Francesco d’Antonio del Cherico. Other scholars have suggested another Italian miniaturist, Mariano del Buono. The manuscript was censored by Giovanni Antonio Costanzi in 1769.</p>", 
+                  "label": "Abstract", 
+               "seq": 11
+               },
+            "authors": 
+               {
+               "display": true, 
+               "seq": 38, 
+                  "listDisplay": "unordered", 
+                  "label": "Author(s)", 
+               "value": [
+            
+         {
+               "display": true, 
+                  "displayForm": "Moshe ben Nahman, ca. 1195-ca. 1270", 
+               "seq": 39, 
+                  "linktype": "keyword search", 
+            "fullForm": "Moshe ben Nahman, ca. 1195-ca. 1270",
+            "shortForm": "Nachmanides",
+            "type": "person",
+            "role": "aut"
+         }
+               ]
+               },
+            "formerOwners": 
+               {
+               "display": true, 
+               "seq": 130, 
+                  "label": "Former Owner(s)", 
+               "value": [
+            
+         {
+               "display": true, 
+                  "displayForm": "Crawford, James Ludovic Lindsay, Earl of, 1847-1913", 
+               "seq": 131, 
+                  "linktype": "keyword search", 
+            "fullForm": "Crawford, James Ludovic Lindsay, Earl of, 1847-1913",
+            "shortForm": "James Lindsay, 26th Earl of Crawford of Haigh Hall",
+            "type": "person",
+            "role": "fmo"
+         }
+               ]
+               },
+            "associated": 
+               {
+               "display": true, 
+               "seq": 139, 
+                  "listDisplay": "unordered", 
+                  "label": "Associated Person(s)", 
+               "value": [
+            
+         {
+               "display": true, 
+                  "displayForm": "Costanzi, Giovanni Antonio", 
+               "seq": 140, 
+                  "linktype": "keyword search", 
+            "fullForm": "Costanzi, Giovanni Antonio",
+            "shortForm": "Gio An.to Costanzi",
+            "type": "person",
+            "role": "cns"
+         }
+               ]
+               },
+            "subjects": 
+               {
+               "display": true, 
+               "seq": 22, 
+                  "listDisplay": "inline", 
+                  "label": "Subject(s)", 
+               "value": [
+            
+         {
+               "display": true, 
+                  "displayForm": "Bible Commentaries", 
+               "seq": 23, 
+                  "linktype": "keyword search", 
+            "fullForm": "Bible Commentaries",
+            "authority": "Library of Congress Subject Headings",
+            "authorityURI": "http://id.loc.gov/authorities/about.html#lcsh",
+            "valueURI": "http://lccn.loc.gov/sh85013597"
+         },
+         {
+               "display": true, 
+                  "displayForm": "Naḥmanides, approximately 1195-approximately 1270", 
+               "seq": 23, 
+                  "linktype": "keyword search", 
+            "fullForm": "Naḥmanides, approximately 1195-approximately 1270",
+            "authority": "Library of Congress Subject Headings",
+            "authorityURI": "http://id.loc.gov/authorities/about.html#lcsh",
+            "valueURI": "http://lccn.loc.gov/n50008543"
+         }
+               ]
+               },
+            "creations": 
+               {
+               "display": true, 
+               "seq": 65, 
+               "value": [
+            
+         {
+            "type": "creation",
+            "places": 
+               {
+               "display": true, 
+               "seq": 70, 
+                  "label": "Origin Place", 
+               "value": [
+            
+         {
+               "display": true, 
+                  "displayForm": "Italy", 
+               "seq": 71, 
+                  "linktype": "keyword search", 
+            "shortForm": "Italy"
+         },
+         {
+               "display": true, 
+                  "displayForm": "Firenze", 
+               "seq": 71, 
+                  "linktype": "keyword search", 
+            "shortForm": "Firenze"
+         }
+               ]
+               },
+            "dateStart": "1460",
+            "dateEnd": "1460",
+            "dateDisplay": 
+               {
+               "display": true, 
+                  "displayForm": "1460-1470", 
+                  "linktype": "keyword search", 
+                  "label": "Date of Creation", 
+               "seq": 79
+               }
+         }
+               ]
+               },
+            "acquisitions": 
+               {
+               "display": true, 
+               "seq": 202, 
+               "value": [
+            
+         {
+            "type": "acquisition",
+            "dateStart": "1901",
+            "dateEnd": "1901",
+            "dateDisplay": 
+               {
+               "display": true, 
+                  "displayForm": "1901", 
+                  "label": "Date of Acquisition", 
+               "seq": 207
+               }
+         }
+               ]
+               },
+            "physicalLocation": 
+               {
+               "display": true, 
+                  "displayForm": "The John Rylands Library", 
+                  "label": "Physical Location", 
+               "seq": 4
+               },
+            "shelfLocator": 
+               {
+               "display": true, 
+                  "displayForm": "Hebrew MS 8", 
+                  "label": "Classmark", 
+               "seq": 5
+               },
+            "altIdentifiers": 
+               {
+               "display": true, 
+               "seq": 6, 
+                  "label": "Alternative Identifier(s)", 
+               "value": [
+            
+               {
+               "display": true, 
+                  "displayForm": "Crawford MS 8", 
+               "seq": 7
+               }
+               ]
+               },
+            "thumbnailUrl": "MS-HEBREW-MSS-00008-000-00005.jp2",
+            "thumbnailOrientation": "portrait",
+            "displayImageRights": "Zooming image © University of Manchester Library, All rights reserved.",
+            "downloadImageRights": "Images made available for download are licensed under a Creative Commons Attribution-NonCommercial 3.0 Unported License (CC BY-NC 3.0)",
+            "imageReproPageURL": "http://www.manchester-image-licensing-link",
+            "metadataRights": "This metadata is licensed under a Creative Commons Attribution-NonCommercial 3.0 Unported License.",
+            "docAuthority": "",
+            "fundings": 
+               {
+               "display": true, 
+               "seq": 208, 
+                  "label": "Funding", 
+               "value": [
+            
+               {
+               "display": true, 
+                  "displayForm": "", 
+               "seq": 209
+               }
+               ]
+               },
+            "form": 
+               {
+               "display": true, 
+                  "displayForm": "Codex", 
+                  "label": "Format", 
+               "seq": 178
+               },
+            "material": 
+               {
+               "display": true, 
+                  "displayForm": "Parchment", 
+                  "label": "Material", 
+               "seq": 177
+               },
+            "extent": 
+               {
+               "display": true, 
+                  "displayForm": "256 ff. (256+i) Leaf height: 333 mm, width: 237 mm.", 
+                  "label": "Extent", 
+               "seq": 173
+               },
+            "foliation": 
+               {
+               "display": true, 
+                  "displayForm": "<p><p>Modern pencil foliation in Arabic numerals at the top outer corner of side a of each folio. Folio <a href='' onclick='store.loadPage(511);return false;'>255</a> has been cut vertically in half.</p></p>", 
+                  "label": "Foliation", 
+               "seq": 189
+               },
+            "collation": 
+               {
+               "display": true, 
+                  "displayForm": "<p>25V(250) + two single leaves (251-252) + 1II(256)Catchwords used as quire signatures at the bottom left corner of side b of the last folio of each quinion.</p>", 
+                  "label": "Collation", 
+               "seq": 174
+               },
+            "conditions": 
+               {
+               "display": true, 
+               "seq": 179, 
+                  "label": "Condition", 
+               "value": [
+            
+               {
+               "display": true, 
+                  "displayForm": "<p>Inner spine exposed between folios 210-211, quires 22 and 23 loose.</p>", 
+               "seq": 180
+               }
+               ]
+               },
+            "layouts": 
+               {
+               "display": true, 
+               "seq": 190, 
+                  "label": "Layout", 
+               "value": [
+            
+               {
+               "display": true, 
+                  "displayForm": "<p>Long line of 44 written lines. Visible hard-point ruling, margins in double lines.</p>", 
+               "seq": 191
+               }
+               ]
+               },
+            "scripts": 
+               {
+               "display": true, 
+               "seq": 185, 
+                  "label": "Script", 
+               "value": [
+            
+               {
+               "display": true, 
+                  "displayForm": "<div style='list-style-type: disc;'><div style='display: list-item; margin-left: 20px;'>Italian semi-cursive script.</div></div>", 
+               "seq": 186
+               }
+               ]
+               },
+            "decorations": 
+               {
+               "display": true, 
+               "seq": 192, 
+                  "label": "Decoration", 
+               "value": [
+            
+               {
+               "display": true, 
+                  "displayForm": "The manuscript includes six illuminated pages. The artist's identity is unknown, although there is some debate on this. The manuscript was identified by R. Schilling as a valuable addition to the oeuvre of Francesco d’Antonio del Cherico, one of the foremost miniature painters of Florence in the second half of the fifteenth century. He had a large, select clientele including Cosimo and Lorenzo de Medici and some wealthy Jews. A. Garzelli and A.C. De la Mare, however, argue that this is certainly an early work by Mariano del Buono, made around 1465-1470.<div>Folio <a href='' onclick='store.loadPage(3);return false;'>1a</a>: Red and blue painted gilt-bordered fields for the initial word in gilded letters (בשם). The margins of the page are filled with an elaborately decorated border which includes cherubs and animals on a background of red, blue, green and pink painted floral motifs, gilding and black penwork. Top of page: four cherubs pulling a grass floor. Left margin (from top to bottom): cherub and a peacock in gilded frame; a sitting doe; cherub with tambourine in gilded frame; centaur fighting a bear; face of a male figure; cherub with a flute in gilded frame. Bottom of page: painted depiction of a leopard and a lemon / orange tree in a round painted green gilt-bordered field. Around the depiction of the leopard are four cherubs (clockwise from upper right): cherub with owl; twice a cherub riding a hare; cherub and a bird. Right margin (bottom to top): cherub with triangle in gilded frame; two birds; flower in gilded frame; a bird and a hare; cherub climbing to pick fruit.<br />Folio <a href='' onclick='store.loadPage(6);return false;'>2b</a>: Gilded initial-word בראשית in red and blue painted gilt-bordered fields. Similar decorations in the margins. The margins of the page are filled with an elaborately decorated border which includes cherubs and animals on a background of white interlaced branches with painted pink, blue and green compartments, gilding and black penwork. Top of page: cherub in a gilded frame in the middle and cherubs on his left and right side. Left margin (from top to bottom): cherub feeding a bird; flower in a gilded frame; cherub blowing a trumpet; cherub with drum in gilded frame. Bottom of page: a sitting leopard with a lemon / orange tree in a gilt-bordered laurel. On both sides of the lion are three cherubs, hanging a garland. Right margin (bottom to top): cherub blowing a flute in a gilded frame; two birds; a jar; cherub with doe and two birds; cherub holding an object (another instrument?); cherub with fox and bird; cherub with tambourine in a gilded frame.<br />Folio <a href='' onclick='store.loadPage(142);return false;'>70b</a>: Initial-words written in black ink: סדר ואלה שמות. The margins of the page are filled with an elaborately decorated border which includes cherubs and animals on a background of blue, green and pink painted floral motifs. Top of page: yellow flower on green painted field with gilded frame; on its left side a doe and on its right side a hare. Left margin (from top to bottom): cherub and a doe in gilded frame; a bird; climbing cherub; vase; posing cherub in gilded frame; bird; drinking cherub in gilded frame. Bottom of page: in the centre a sitting leopard with a lemon / orange tree in a gilt-bordered laurel. Surrounding the frame are four cherubs. Right margin (from bottom to top): cherub in gilded frame (seen from the back); two standing cherubs blowing a trumpet; cherub standing on one leg in gilded frame; a vase with on its left side a cherub playing a violin, on its right side a cherub playing the cither; two birds; a cherub sitting on a bird in a gilded frame.<br />Folio <a href='' onclick='store.loadPage(258);return false;'>128b</a>: Initial-words ספר ויקרא written on a blank field within a red painted and gilded frame. Initial-words סדר ויקרא written on a blank field within a red painted and gilded frame. The margins of the page are filled with an elaborately decorated border which includes cherubs and animals on a background of white interlaced branches with painted pink, blue and green compartments, gilding and black penwork. Top of page: yellow flower on green painted field and gilded frame in the middle; on its left side a cherub sitting on a fox and on its right side a cherub riding on a bear and holding a whip. Left margin (from top to bottom): cherub blowing a trumpet in gilded frame; cherub cuddling a hare; two birds; standing cherub holding a round gilt-bordered frame with the depiction of a hare; bird; cherub with dead hare on his back. Bottom of page: in the centre a sitting leopard with a lemon / orange tree in a gilt-bordered laurel. Surrounding the frame are four cherubs. Right margin (bottom to top): cherub holding a bird in a gilded frame; hare with a bird; two cherubs holding grapes; cherub playing with an animal in gilded frame; two birds sitting on the frame; cherub with fruit in his hand and a bear, he tries to ride the bear; two hares sit facing each other; cherub blowing a horn in a gilded frame.<br />Folio <a href='' onclick='store.loadPage(347);return false;'>173a</a>: Initial-words ספר במדבר סיני in a pink painted gilt-bordered field with gilded floral decorations. Above the words is a depiction of a high priest in a gilt-bordered laurel, held by two cherubs. The margins of the page are filled with an elaborately decorated border that includes cherubs and animals on a background of white interlaced branches with painted pink, blue and green compartments, gilding and black penwork. The frame is decorated with pink, blue and green flowers, black penwork and gilding. Top of page: in the centre a flower on a painted green field in a gilded frame; on both sides a playing cherub. Left margin (from top to bottom): man holding a blank text scroll in a gilded frame; cherub and a bird; another cherub and bird, the cherub climbs down to cookies in two platters; sitting stag in gilded frame; cherub with a dog and peacock, he pours water in the dog’s mouth; cherub and piglet; a vessel; a bird; monkey holding a coconut in a gilded frame. Bottom of page (from left to right): cherub with escaping hare; cherub with drum; leopard in a gilt-bordered laurel holding a lemon / orange tree; cherub with doe; cherub with tambourine. Right margin (from bottom to top): monkey with dog in gilded frame; climbing cherub trying to catch a hare; lion sitting in a gilt-bordered frame; cherub; bird; man holding a blank text scroll.<br />Folio <a href='' onclick='store.loadPage(423);return false;'>211a</a>: Initial-words ספר אלה הדברים written on a blank field within a pink painted gilded frame. On the frame sit two cherubs, holding the depiction of Moses receiving the Ten Commandments on Mount Horeb and bringing them down to the people, in a gilt-bordered laurel. The margins of the page are filled with an elaborately decorated border which includes cherubs and animals on a background of red, blue, green and pink painted floral motifs, gilding and black penwork. Top of page: a painted lion in a gilded frame; on both sides a bird. Left margin (top to bottom): two cherubs sitting; a standing cherub; leopard in a gilded frame; a cherub riding a goat; two birds. Bottom of page: leopard in a gilt-bordered laurel holding a lemon / orange tree; on both sides a cherub. Right margin (from bottom to top): a sitting doe; two cherubs stand facing each other, holding a flower; two birds facing each other; two rabbits in a gilded frame; two birds; a running hare.<br /></div><br />", 
+               "seq": 193
+               }
+               ]
+               },
+            "additions": 
+               {
+               "display": true, 
+               "seq": 194, 
+                  "label": "Additions", 
+               "value": [
+            
+               {
+               "display": true, 
+                  "displayForm": "<div style='list-style-type: disc;'><div style='display: list-item; margin-left: 20px;'>Marginal corrections have been added by different hands throughout the manuscript. For examples of longer marginal notes see folios <a href='' onclick='store.loadPage(125);return false;'>62a</a>, <a href='' onclick='store.loadPage(151);return false;'>75a</a>, <a href='' onclick='store.loadPage(167);return false;'>83a</a>, and so forth.</div><div style='display: list-item; margin-left: 20px;'>Censorship marks are found on folios <a href='' onclick='store.loadPage(132);return false;'>65b-66a</a>, <a href='' onclick='store.loadPage(135);return false;'>67a</a>, <a href='' onclick='store.loadPage(185);return false;'>92a</a>, <a href='' onclick='store.loadPage(347);return false;'>173a</a>, <a href='' onclick='store.loadPage(398);return false;'>198b</a>, <a href='' onclick='store.loadPage(401);return false;'>200a-201a</a>, <a href='' onclick='store.loadPage(484);return false;'>241b-242a</a>.</div></div>", 
+               "seq": 195
+               }
+               ]
+               },
+            "bindings": 
+               {
+               "display": true, 
+               "seq": 181, 
+                  "label": "Binding", 
+               "value": [
+            
+               {
+               "display": true, 
+                  "displayForm": "<p>Brown leather binding. On spine gold-tooling of flower motives in the fields created by the sewing strips. No tooling on front or back covers. Sewn on five strips of leather. Text block edges decorated with red ink dots.</p>", 
+               "seq": 182
+               }
+               ]
+               },
+            "provenances": 
+               {
+               "display": true, 
+               "seq": 196, 
+                  "label": "Provenance", 
+               "value": [
+            
+               {
+               "display": true, 
+                  "displayForm": "<div>Spine: Gold-tooled lettering reading \"ARAMAN / QAL ATTORA\" and traces of paper label.<br /><a href='' onclick='store.loadPage(2);return false;'>Front paste-down</a>: Handwritten in pencil number 49<br />Folio <a href='' onclick='store.loadPage(509);return false;'>254a</a>: Censorship note reading \"Rivisto, et corretto da me s.tto, questo Libro di Biur al- / Htora, seu Expositio Legii, autore R. Mose Bar / Nachman, in compendio, detto Haramban - / scritto in Membrana, carattere Rabbinico - / q.to dì 16 Agosto 1769 - / - Gio An.to Costanzi -\".<br />Back paste-down: Handwritten in pencil \"Hebrew MSS / No. 8\".<br />Back paste-down: Handwritten in pencil \"Dr. [...] / Bp. of Jerusalem / £100.00\".<br />Back paste-down: Traces of a bookplate from the Bibliotheca Lindesiana, with shelfmark \" E / 12\" in pencil.<br />Back paste-down: Handwritten note in pencil \"[...] £100\".<br /></div><br />", 
+               "seq": 197
+               }
+               ]
+               },
+            "origins": 
+               {
+               "display": true, 
+               "seq": 198, 
+                  "label": "Origin", 
+               "value": [
+            
+               {
+               "display": true, 
+                  "displayForm": "Produced in Italy, possibly in Firenze in 1460-1470.", 
+               "seq": 199
+               }
+               ]
+               },
+            "acquisitionTexts": 
+               {
+               "display": true, 
+               "seq": 200, 
+                  "label": "Acquisition", 
+               "value": [
+            
+               {
+               "display": true, 
+                  "displayForm": "Acquired by Enriqueta Rylands in 1901 from James Lindsay, 26th Earl of Crawford of Haigh Hall and later bequeathed to the The John Rylands Library.", 
+               "seq": 201
+               }
+               ]
+               },
+            "bibliographies": 
+               {
+               "display": true, 
+               "seq": 214, 
+                  "label": "Bibliography", 
+               "value": [
+            
+               {
+               "display": true, 
+                  "displayForm": "<div style='list-style-type: disc;'><div style='display: list-item; margin-left: 20px;'><a target='_blank' class='externalLink' href='http://www.worldcat.org/oclc/7907984'>Catalogue of an Exhibition of Hebrew Manuscripts and Printed Books together with Other Items of Jewish Interest (Manchester: The John Rylands Library, 1958), 10, item 5.</a></div><div style='display: list-item; margin-left: 20px;'><a target='_blank' class='externalLink' href='http://www.worldcat.org/oclc/18071891'>The Jewish Heritage: Catalogue of an Exhibition held in the John Rylands University Library of Manchester, January-April 1988, 2-3, case 1, item 4.</a></div><div style='display: list-item; margin-left: 20px;'><a target='_blank' class='externalLink' href='http://www.worldcat.org/oclc/2478470'>Schilling Rosy, \"Das Ruotpertus-Evangelistar aus Prüm, MS. 7 der John Rylands Library in Manchester\", in Studien zur Buchmalerei und Goldschmiedekunst des Mittelalters. Festschrift für Karl Hermann Usener zum 60. Geburtstag am 19. August 1965, ed. Karl Herrmann Usener and Frieda Dettweiler (Marburg: Verlag des Kunstgeschichtlichen Seminars der Universität, 1967): 143-54.</a></div><div style='display: list-item; margin-left: 20px;'><a target='_blank' class='externalLink' href='http://www.worldcat.org/oclc/15108444'>Garzelli Annarosa and De la Mare Albinia C., Miniatura fiorentina del Rinascimento, 1440-1525: un primo censimento, Firenze: Scandicci, 1985.</a></div></div><br />", 
+               "seq": 215
+               }
+               ]
+               },
+            "dataSources": 
+               {
+               "display": true, 
+               "seq": 210, 
+                  "label": "Data Source(s)", 
+               "value": [
+            
+               {
+               "display": true, 
+                  "displayForm": "Description based on Alexander Samely's unpublished draft catalogue, description of decorations by Gabrielle Sed-Rajna, revised and expanded by Stefania Silvestri, Renate Smithuis and Nienke Valk.", 
+               "seq": 211
+               }
+               ]
+               },
+            "ID": "ITEM-1",
+            "title": 
+               {
+               "display": false, 
+                  "displayForm": "Commentary on the Pentateuch by Nachmanides", 
+                  "label": "Title", 
+               "seq": 10
+               },
+            "alternativeTitles": 
+               {
+               "display": true, 
+               "seq": 16, 
+                  "label": "Alternative Title(s)", 
+               "value": [
+            
+               {
+               "display": true, 
+                  "displayForm": "פירוש התורה לרמב\"ן", 
+               "seq": 17
+               }
+               ]
+               },
+            "languageCodes": 
+               [
+            "heb"
+               ],
+            "languageStrings": 
+               {
+               "display": true, 
+               "seq": 119, 
+                  "label": "Language(s)", 
+               "value": [
+            
+               {
+               "display": true, 
+                  "displayForm": "Hebrew", 
+               "seq": 120
+               }
+               ]
+               }
+         }
+               ],
+            "numberOfPages": 520,
+            "embeddable": true,
+            "textDirection": "R",
+            "sourceData": "/v1/metadata/tei/MS-HEBREW-MSS-00008/",
+            "pages": 
+               [
+            
+         {
+            "label": "Front board",
+            "physID": "PHYS-1",
+            "sequence": 1,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00005.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4958,
+            "imageHeight": 6500
+         },
+         {
+            "label": "Front paste-down",
+            "physID": "PHYS-2",
+            "sequence": 2,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00006.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4619,
+            "imageHeight": 6500
+         },
+         {
+            "label": "1a",
+            "physID": "PHYS-3",
+            "sequence": 3,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00007.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4658,
+            "imageHeight": 6500
+         },
+         {
+            "label": "1b",
+            "physID": "PHYS-4",
+            "sequence": 4,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00008.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4520,
+            "imageHeight": 6500
+         },
+         {
+            "label": "2a",
+            "physID": "PHYS-5",
+            "sequence": 5,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00009.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4588,
+            "imageHeight": 6500
+         },
+         {
+            "label": "2b",
+            "physID": "PHYS-6",
+            "sequence": 6,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00010.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4582,
+            "imageHeight": 6500
+         },
+         {
+            "label": "3a",
+            "physID": "PHYS-7",
+            "sequence": 7,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00011.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4563,
+            "imageHeight": 6500
+         },
+         {
+            "label": "3b",
+            "physID": "PHYS-8",
+            "sequence": 8,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00012.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4582,
+            "imageHeight": 6500
+         },
+         {
+            "label": "4a",
+            "physID": "PHYS-9",
+            "sequence": 9,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00013.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4582,
+            "imageHeight": 6500
+         },
+         {
+            "label": "4b",
+            "physID": "PHYS-10",
+            "sequence": 10,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00014.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4582,
+            "imageHeight": 6500
+         },
+         {
+            "label": "5a",
+            "physID": "PHYS-11",
+            "sequence": 11,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00015.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4623,
+            "imageHeight": 6500
+         },
+         {
+            "label": "5b",
+            "physID": "PHYS-12",
+            "sequence": 12,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00016.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4582,
+            "imageHeight": 6500
+         },
+         {
+            "label": "6a",
+            "physID": "PHYS-13",
+            "sequence": 13,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00017.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4528,
+            "imageHeight": 6500
+         },
+         {
+            "label": "6b",
+            "physID": "PHYS-14",
+            "sequence": 14,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00018.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4582,
+            "imageHeight": 6500
+         },
+         {
+            "label": "7a",
+            "physID": "PHYS-15",
+            "sequence": 15,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00019.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4545,
+            "imageHeight": 6500
+         },
+         {
+            "label": "7b",
+            "physID": "PHYS-16",
+            "sequence": 16,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00020.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4582,
+            "imageHeight": 6500
+         },
+         {
+            "label": "8a",
+            "physID": "PHYS-17",
+            "sequence": 17,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00021.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4545,
+            "imageHeight": 6500
+         },
+         {
+            "label": "8b",
+            "physID": "PHYS-18",
+            "sequence": 18,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00022.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4582,
+            "imageHeight": 6500
+         },
+         {
+            "label": "9a",
+            "physID": "PHYS-19",
+            "sequence": 19,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00023.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4546,
+            "imageHeight": 6500
+         },
+         {
+            "label": "9b",
+            "physID": "PHYS-20",
+            "sequence": 20,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00024.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4556,
+            "imageHeight": 6500
+         },
+         {
+            "label": "10a",
+            "physID": "PHYS-21",
+            "sequence": 21,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00025.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4488,
+            "imageHeight": 6500
+         },
+         {
+            "label": "10b",
+            "physID": "PHYS-22",
+            "sequence": 22,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00026.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4561,
+            "imageHeight": 6500
+         },
+         {
+            "label": "11a",
+            "physID": "PHYS-23",
+            "sequence": 23,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00027.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4538,
+            "imageHeight": 6500
+         },
+         {
+            "label": "11b",
+            "physID": "PHYS-24",
+            "sequence": 24,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00028.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4538,
+            "imageHeight": 6500
+         },
+         {
+            "label": "12a",
+            "physID": "PHYS-25",
+            "sequence": 25,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00029.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4558,
+            "imageHeight": 6500
+         },
+         {
+            "label": "12b",
+            "physID": "PHYS-26",
+            "sequence": 26,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00030.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4594,
+            "imageHeight": 6500
+         },
+         {
+            "label": "13a",
+            "physID": "PHYS-27",
+            "sequence": 27,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00031.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4585,
+            "imageHeight": 6500
+         },
+         {
+            "label": "13b",
+            "physID": "PHYS-28",
+            "sequence": 28,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00032.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4594,
+            "imageHeight": 6500
+         },
+         {
+            "label": "14a",
+            "physID": "PHYS-29",
+            "sequence": 29,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00033.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4590,
+            "imageHeight": 6500
+         },
+         {
+            "label": "14b",
+            "physID": "PHYS-30",
+            "sequence": 30,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00034.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4519,
+            "imageHeight": 6500
+         },
+         {
+            "label": "15a",
+            "physID": "PHYS-31",
+            "sequence": 31,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00035.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4590,
+            "imageHeight": 6500
+         },
+         {
+            "label": "15b",
+            "physID": "PHYS-32",
+            "sequence": 32,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00036.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4519,
+            "imageHeight": 6500
+         },
+         {
+            "label": "16a",
+            "physID": "PHYS-33",
+            "sequence": 33,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00037.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4590,
+            "imageHeight": 6500
+         },
+         {
+            "label": "16b",
+            "physID": "PHYS-34",
+            "sequence": 34,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00038.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4519,
+            "imageHeight": 6500
+         },
+         {
+            "label": "17a",
+            "physID": "PHYS-35",
+            "sequence": 35,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00039.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4588,
+            "imageHeight": 6500
+         },
+         {
+            "label": "17b",
+            "physID": "PHYS-36",
+            "sequence": 36,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00040.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4519,
+            "imageHeight": 6500
+         },
+         {
+            "label": "18a",
+            "physID": "PHYS-37",
+            "sequence": 37,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00041.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4588,
+            "imageHeight": 6500
+         },
+         {
+            "label": "18b",
+            "physID": "PHYS-38",
+            "sequence": 38,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00042.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4586,
+            "imageHeight": 6500
+         },
+         {
+            "label": "19a",
+            "physID": "PHYS-39",
+            "sequence": 39,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00043.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4610,
+            "imageHeight": 6500
+         },
+         {
+            "label": "19b",
+            "physID": "PHYS-40",
+            "sequence": 40,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00044.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4586,
+            "imageHeight": 6500
+         },
+         {
+            "label": "20a",
+            "physID": "PHYS-41",
+            "sequence": 41,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00045.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4581,
+            "imageHeight": 6500
+         },
+         {
+            "label": "20b",
+            "physID": "PHYS-42",
+            "sequence": 42,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00046.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4586,
+            "imageHeight": 6500
+         },
+         {
+            "label": "21a",
+            "physID": "PHYS-43",
+            "sequence": 43,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00047.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4548,
+            "imageHeight": 6500
+         },
+         {
+            "label": "21b",
+            "physID": "PHYS-44",
+            "sequence": 44,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00048.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4551,
+            "imageHeight": 6500
+         },
+         {
+            "label": "22a",
+            "physID": "PHYS-45",
+            "sequence": 45,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00049.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4518,
+            "imageHeight": 6500
+         },
+         {
+            "label": "22b",
+            "physID": "PHYS-46",
+            "sequence": 46,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00050.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4551,
+            "imageHeight": 6500
+         },
+         {
+            "label": "23a",
+            "physID": "PHYS-47",
+            "sequence": 47,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00051.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4563,
+            "imageHeight": 6500
+         },
+         {
+            "label": "23b",
+            "physID": "PHYS-48",
+            "sequence": 48,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00052.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4551,
+            "imageHeight": 6500
+         },
+         {
+            "label": "24a",
+            "physID": "PHYS-49",
+            "sequence": 49,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00053.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4537,
+            "imageHeight": 6500
+         },
+         {
+            "label": "24b",
+            "physID": "PHYS-50",
+            "sequence": 50,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00054.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4404,
+            "imageHeight": 6500
+         },
+         {
+            "label": "25a",
+            "physID": "PHYS-51",
+            "sequence": 51,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00055.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4530,
+            "imageHeight": 6500
+         },
+         {
+            "label": "25b",
+            "physID": "PHYS-52",
+            "sequence": 52,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00056.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4589,
+            "imageHeight": 6500
+         },
+         {
+            "label": "26a",
+            "physID": "PHYS-53",
+            "sequence": 53,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00057.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4548,
+            "imageHeight": 6500
+         },
+         {
+            "label": "26b",
+            "physID": "PHYS-54",
+            "sequence": 54,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00058.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4499,
+            "imageHeight": 6500
+         },
+         {
+            "label": "27a",
+            "physID": "PHYS-55",
+            "sequence": 55,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00059.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4554,
+            "imageHeight": 6500
+         },
+         {
+            "label": "27b",
+            "physID": "PHYS-56",
+            "sequence": 56,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00060.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4551,
+            "imageHeight": 6500
+         },
+         {
+            "label": "28a",
+            "physID": "PHYS-57",
+            "sequence": 57,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00061.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4555,
+            "imageHeight": 6500
+         },
+         {
+            "label": "28b",
+            "physID": "PHYS-58",
+            "sequence": 58,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00062.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4551,
+            "imageHeight": 6500
+         },
+         {
+            "label": "29a",
+            "physID": "PHYS-59",
+            "sequence": 59,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00063.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4560,
+            "imageHeight": 6500
+         },
+         {
+            "label": "29b",
+            "physID": "PHYS-60",
+            "sequence": 60,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00064.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4534,
+            "imageHeight": 6500
+         },
+         {
+            "label": "30a",
+            "physID": "PHYS-61",
+            "sequence": 61,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00065.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4529,
+            "imageHeight": 6500
+         },
+         {
+            "label": "30b",
+            "physID": "PHYS-62",
+            "sequence": 62,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00066.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4440,
+            "imageHeight": 6500
+         },
+         {
+            "label": "31a",
+            "physID": "PHYS-63",
+            "sequence": 63,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00067.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4526,
+            "imageHeight": 6500
+         },
+         {
+            "label": "31b",
+            "physID": "PHYS-64",
+            "sequence": 64,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00068.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4433,
+            "imageHeight": 6500
+         },
+         {
+            "label": "32a",
+            "physID": "PHYS-65",
+            "sequence": 65,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00069.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4577,
+            "imageHeight": 6500
+         },
+         {
+            "label": "32b",
+            "physID": "PHYS-66",
+            "sequence": 66,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00070.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4571,
+            "imageHeight": 6500
+         },
+         {
+            "label": "33a",
+            "physID": "PHYS-67",
+            "sequence": 67,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00071.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4577,
+            "imageHeight": 6500
+         },
+         {
+            "label": "33b",
+            "physID": "PHYS-68",
+            "sequence": 68,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00072.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4523,
+            "imageHeight": 6500
+         },
+         {
+            "label": "34a",
+            "physID": "PHYS-69",
+            "sequence": 69,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00073.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4577,
+            "imageHeight": 6500
+         },
+         {
+            "label": "34b",
+            "physID": "PHYS-70",
+            "sequence": 70,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00074.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4507,
+            "imageHeight": 6500
+         },
+         {
+            "label": "35a",
+            "physID": "PHYS-71",
+            "sequence": 71,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00075.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4577,
+            "imageHeight": 6500
+         },
+         {
+            "label": "35b",
+            "physID": "PHYS-72",
+            "sequence": 72,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00076.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4507,
+            "imageHeight": 6500
+         },
+         {
+            "label": "36a",
+            "physID": "PHYS-73",
+            "sequence": 73,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00077.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4577,
+            "imageHeight": 6500
+         },
+         {
+            "label": "36b",
+            "physID": "PHYS-74",
+            "sequence": 74,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00078.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4485,
+            "imageHeight": 6500
+         },
+         {
+            "label": "37a",
+            "physID": "PHYS-75",
+            "sequence": 75,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00079.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4577,
+            "imageHeight": 6500
+         },
+         {
+            "label": "37b",
+            "physID": "PHYS-76",
+            "sequence": 76,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00080.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4495,
+            "imageHeight": 6500
+         },
+         {
+            "label": "38a",
+            "physID": "PHYS-77",
+            "sequence": 77,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00081.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4577,
+            "imageHeight": 6500
+         },
+         {
+            "label": "38b",
+            "physID": "PHYS-78",
+            "sequence": 78,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00082.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4463,
+            "imageHeight": 6500
+         },
+         {
+            "label": "39a",
+            "physID": "PHYS-79",
+            "sequence": 79,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00083.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4564,
+            "imageHeight": 6500
+         },
+         {
+            "label": "39b",
+            "physID": "PHYS-80",
+            "sequence": 80,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00084.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4522,
+            "imageHeight": 6500
+         },
+         {
+            "label": "40a",
+            "physID": "PHYS-81",
+            "sequence": 81,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00085.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4564,
+            "imageHeight": 6500
+         },
+         {
+            "label": "40b",
+            "physID": "PHYS-82",
+            "sequence": 82,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00086.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4591,
+            "imageHeight": 6500
+         },
+         {
+            "label": "41a",
+            "physID": "PHYS-83",
+            "sequence": 83,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00087.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4564,
+            "imageHeight": 6500
+         },
+         {
+            "label": "41b",
+            "physID": "PHYS-84",
+            "sequence": 84,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00088.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4591,
+            "imageHeight": 6500
+         },
+         {
+            "label": "42a",
+            "physID": "PHYS-85",
+            "sequence": 85,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00089.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4564,
+            "imageHeight": 6500
+         },
+         {
+            "label": "42b",
+            "physID": "PHYS-86",
+            "sequence": 86,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00090.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4557,
+            "imageHeight": 6500
+         },
+         {
+            "label": "43a",
+            "physID": "PHYS-87",
+            "sequence": 87,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00091.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4564,
+            "imageHeight": 6500
+         },
+         {
+            "label": "43b",
+            "physID": "PHYS-88",
+            "sequence": 88,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00092.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4523,
+            "imageHeight": 6500
+         },
+         {
+            "label": "44a",
+            "physID": "PHYS-89",
+            "sequence": 89,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00093.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4564,
+            "imageHeight": 6500
+         },
+         {
+            "label": "44b",
+            "physID": "PHYS-90",
+            "sequence": 90,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00094.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4614,
+            "imageHeight": 6500
+         },
+         {
+            "label": "45a",
+            "physID": "PHYS-91",
+            "sequence": 91,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00095.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4564,
+            "imageHeight": 6500
+         },
+         {
+            "label": "45b",
+            "physID": "PHYS-92",
+            "sequence": 92,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00096.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4467,
+            "imageHeight": 6500
+         },
+         {
+            "label": "46a",
+            "physID": "PHYS-93",
+            "sequence": 93,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00097.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4564,
+            "imageHeight": 6500
+         },
+         {
+            "label": "46b",
+            "physID": "PHYS-94",
+            "sequence": 94,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00098.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4496,
+            "imageHeight": 6500
+         },
+         {
+            "label": "47a",
+            "physID": "PHYS-95",
+            "sequence": 95,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00099.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4564,
+            "imageHeight": 6500
+         },
+         {
+            "label": "47b",
+            "physID": "PHYS-96",
+            "sequence": 96,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00100.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4496,
+            "imageHeight": 6500
+         },
+         {
+            "label": "48a",
+            "physID": "PHYS-97",
+            "sequence": 97,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00101.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4564,
+            "imageHeight": 6500
+         },
+         {
+            "label": "48b",
+            "physID": "PHYS-98",
+            "sequence": 98,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00102.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4555,
+            "imageHeight": 6500
+         },
+         {
+            "label": "49a",
+            "physID": "PHYS-99",
+            "sequence": 99,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00103.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4635,
+            "imageHeight": 6500
+         },
+         {
+            "label": "49b",
+            "physID": "PHYS-100",
+            "sequence": 100,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00104.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4565,
+            "imageHeight": 6500
+         },
+         {
+            "label": "50a",
+            "physID": "PHYS-101",
+            "sequence": 101,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00105.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4564,
+            "imageHeight": 6500
+         },
+         {
+            "label": "50b",
+            "physID": "PHYS-102",
+            "sequence": 102,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00106.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4565,
+            "imageHeight": 6500
+         },
+         {
+            "label": "51a",
+            "physID": "PHYS-103",
+            "sequence": 103,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00107.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4564,
+            "imageHeight": 6500
+         },
+         {
+            "label": "51b",
+            "physID": "PHYS-104",
+            "sequence": 104,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00108.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4581,
+            "imageHeight": 6500
+         },
+         {
+            "label": "52a",
+            "physID": "PHYS-105",
+            "sequence": 105,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00109.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4564,
+            "imageHeight": 6500
+         },
+         {
+            "label": "52b",
+            "physID": "PHYS-106",
+            "sequence": 106,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00110.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4577,
+            "imageHeight": 6500
+         },
+         {
+            "label": "53a",
+            "physID": "PHYS-107",
+            "sequence": 107,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00111.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4564,
+            "imageHeight": 6500
+         },
+         {
+            "label": "53b",
+            "physID": "PHYS-108",
+            "sequence": 108,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00112.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4552,
+            "imageHeight": 6500
+         },
+         {
+            "label": "54a",
+            "physID": "PHYS-109",
+            "sequence": 109,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00113.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4564,
+            "imageHeight": 6500
+         },
+         {
+            "label": "54b",
+            "physID": "PHYS-110",
+            "sequence": 110,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00114.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4552,
+            "imageHeight": 6500
+         },
+         {
+            "label": "55a",
+            "physID": "PHYS-111",
+            "sequence": 111,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00115.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4564,
+            "imageHeight": 6500
+         },
+         {
+            "label": "55b",
+            "physID": "PHYS-112",
+            "sequence": 112,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00116.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4581,
+            "imageHeight": 6500
+         },
+         {
+            "label": "56a",
+            "physID": "PHYS-113",
+            "sequence": 113,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00117.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4564,
+            "imageHeight": 6500
+         },
+         {
+            "label": "56b",
+            "physID": "PHYS-114",
+            "sequence": 114,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00118.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4619,
+            "imageHeight": 6500
+         },
+         {
+            "label": "57a",
+            "physID": "PHYS-115",
+            "sequence": 115,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00119.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4564,
+            "imageHeight": 6500
+         },
+         {
+            "label": "57b",
+            "physID": "PHYS-116",
+            "sequence": 116,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00120.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4619,
+            "imageHeight": 6500
+         },
+         {
+            "label": "58a",
+            "physID": "PHYS-117",
+            "sequence": 117,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00121.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4564,
+            "imageHeight": 6500
+         },
+         {
+            "label": "58b",
+            "physID": "PHYS-118",
+            "sequence": 118,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00122.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4619,
+            "imageHeight": 6500
+         },
+         {
+            "label": "59a",
+            "physID": "PHYS-119",
+            "sequence": 119,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00123.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4525,
+            "imageHeight": 6500
+         },
+         {
+            "label": "59b",
+            "physID": "PHYS-120",
+            "sequence": 120,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00124.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4619,
+            "imageHeight": 6500
+         },
+         {
+            "label": "60a",
+            "physID": "PHYS-121",
+            "sequence": 121,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00125.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4564,
+            "imageHeight": 6500
+         },
+         {
+            "label": "60b",
+            "physID": "PHYS-122",
+            "sequence": 122,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00126.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4619,
+            "imageHeight": 6500
+         },
+         {
+            "label": "61a",
+            "physID": "PHYS-123",
+            "sequence": 123,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00127.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4564,
+            "imageHeight": 6500
+         },
+         {
+            "label": "61b",
+            "physID": "PHYS-124",
+            "sequence": 124,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00128.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4619,
+            "imageHeight": 6500
+         },
+         {
+            "label": "62a",
+            "physID": "PHYS-125",
+            "sequence": 125,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00129.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4564,
+            "imageHeight": 6500
+         },
+         {
+            "label": "62b",
+            "physID": "PHYS-126",
+            "sequence": 126,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00130.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4619,
+            "imageHeight": 6500
+         },
+         {
+            "label": "63a",
+            "physID": "PHYS-127",
+            "sequence": 127,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00131.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4526,
+            "imageHeight": 6500
+         },
+         {
+            "label": "63b",
+            "physID": "PHYS-128",
+            "sequence": 128,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00132.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4585,
+            "imageHeight": 6500
+         },
+         {
+            "label": "64a",
+            "physID": "PHYS-129",
+            "sequence": 129,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00133.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4526,
+            "imageHeight": 6500
+         },
+         {
+            "label": "64b",
+            "physID": "PHYS-130",
+            "sequence": 130,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00134.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4585,
+            "imageHeight": 6500
+         },
+         {
+            "label": "65a",
+            "physID": "PHYS-131",
+            "sequence": 131,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00135.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4526,
+            "imageHeight": 6500
+         },
+         {
+            "label": "65b",
+            "physID": "PHYS-132",
+            "sequence": 132,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00136.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4585,
+            "imageHeight": 6500
+         },
+         {
+            "label": "66a",
+            "physID": "PHYS-133",
+            "sequence": 133,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00137.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4526,
+            "imageHeight": 6500
+         },
+         {
+            "label": "66b",
+            "physID": "PHYS-134",
+            "sequence": 134,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00138.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4585,
+            "imageHeight": 6500
+         },
+         {
+            "label": "67a",
+            "physID": "PHYS-135",
+            "sequence": 135,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00139.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4526,
+            "imageHeight": 6500
+         },
+         {
+            "label": "67b",
+            "physID": "PHYS-136",
+            "sequence": 136,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00140.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4585,
+            "imageHeight": 6500
+         },
+         {
+            "label": "68a",
+            "physID": "PHYS-137",
+            "sequence": 137,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00141.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4526,
+            "imageHeight": 6500
+         },
+         {
+            "label": "68b",
+            "physID": "PHYS-138",
+            "sequence": 138,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00142.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4585,
+            "imageHeight": 6500
+         },
+         {
+            "label": "69a",
+            "physID": "PHYS-139",
+            "sequence": 139,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00143.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4526,
+            "imageHeight": 6500
+         },
+         {
+            "label": "69b",
+            "physID": "PHYS-140",
+            "sequence": 140,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00144.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4615,
+            "imageHeight": 6500
+         },
+         {
+            "label": "70a",
+            "physID": "PHYS-141",
+            "sequence": 141,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00145.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4526,
+            "imageHeight": 6500
+         },
+         {
+            "label": "70b",
+            "physID": "PHYS-142",
+            "sequence": 142,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00146.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4615,
+            "imageHeight": 6500
+         },
+         {
+            "label": "71a",
+            "physID": "PHYS-143",
+            "sequence": 143,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00147.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4550,
+            "imageHeight": 6500
+         },
+         {
+            "label": "71b",
+            "physID": "PHYS-144",
+            "sequence": 144,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00148.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4554,
+            "imageHeight": 6500
+         },
+         {
+            "label": "72a",
+            "physID": "PHYS-145",
+            "sequence": 145,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00149.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4550,
+            "imageHeight": 6500
+         },
+         {
+            "label": "72b",
+            "physID": "PHYS-146",
+            "sequence": 146,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00150.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4595,
+            "imageHeight": 6500
+         },
+         {
+            "label": "73a",
+            "physID": "PHYS-147",
+            "sequence": 147,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00151.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4550,
+            "imageHeight": 6500
+         },
+         {
+            "label": "73b",
+            "physID": "PHYS-148",
+            "sequence": 148,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00152.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4595,
+            "imageHeight": 6500
+         },
+         {
+            "label": "74a",
+            "physID": "PHYS-149",
+            "sequence": 149,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00153.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4550,
+            "imageHeight": 6500
+         },
+         {
+            "label": "74b",
+            "physID": "PHYS-150",
+            "sequence": 150,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00154.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4595,
+            "imageHeight": 6500
+         },
+         {
+            "label": "75a",
+            "physID": "PHYS-151",
+            "sequence": 151,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00155.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4550,
+            "imageHeight": 6500
+         },
+         {
+            "label": "75b",
+            "physID": "PHYS-152",
+            "sequence": 152,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00156.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4595,
+            "imageHeight": 6500
+         },
+         {
+            "label": "76a",
+            "physID": "PHYS-153",
+            "sequence": 153,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00157.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4550,
+            "imageHeight": 6500
+         },
+         {
+            "label": "76b",
+            "physID": "PHYS-154",
+            "sequence": 154,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00158.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4595,
+            "imageHeight": 6500
+         },
+         {
+            "label": "77a",
+            "physID": "PHYS-155",
+            "sequence": 155,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00159.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4550,
+            "imageHeight": 6500
+         },
+         {
+            "label": "77b",
+            "physID": "PHYS-156",
+            "sequence": 156,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00160.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4595,
+            "imageHeight": 6500
+         },
+         {
+            "label": "78a",
+            "physID": "PHYS-157",
+            "sequence": 157,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00161.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4550,
+            "imageHeight": 6500
+         },
+         {
+            "label": "78b",
+            "physID": "PHYS-158",
+            "sequence": 158,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00162.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4576,
+            "imageHeight": 6500
+         },
+         {
+            "label": "79a",
+            "physID": "PHYS-159",
+            "sequence": 159,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00163.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4550,
+            "imageHeight": 6500
+         },
+         {
+            "label": "79b",
+            "physID": "PHYS-160",
+            "sequence": 160,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00164.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4576,
+            "imageHeight": 6500
+         },
+         {
+            "label": "80a",
+            "physID": "PHYS-161",
+            "sequence": 161,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00165.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4550,
+            "imageHeight": 6500
+         },
+         {
+            "label": "80b",
+            "physID": "PHYS-162",
+            "sequence": 162,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00166.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4576,
+            "imageHeight": 6500
+         },
+         {
+            "label": "81a",
+            "physID": "PHYS-163",
+            "sequence": 163,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00167.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4550,
+            "imageHeight": 6500
+         },
+         {
+            "label": "81b",
+            "physID": "PHYS-164",
+            "sequence": 164,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00168.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4576,
+            "imageHeight": 6500
+         },
+         {
+            "label": "82a",
+            "physID": "PHYS-165",
+            "sequence": 165,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00169.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4550,
+            "imageHeight": 6500
+         },
+         {
+            "label": "82b",
+            "physID": "PHYS-166",
+            "sequence": 166,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00170.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4576,
+            "imageHeight": 6500
+         },
+         {
+            "label": "83a",
+            "physID": "PHYS-167",
+            "sequence": 167,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00171.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4550,
+            "imageHeight": 6500
+         },
+         {
+            "label": "83b",
+            "physID": "PHYS-168",
+            "sequence": 168,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00172.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4576,
+            "imageHeight": 6500
+         },
+         {
+            "label": "84a",
+            "physID": "PHYS-169",
+            "sequence": 169,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00173.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4506,
+            "imageHeight": 6500
+         },
+         {
+            "label": "84b",
+            "physID": "PHYS-170",
+            "sequence": 170,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00174.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4576,
+            "imageHeight": 6500
+         },
+         {
+            "label": "85a",
+            "physID": "PHYS-171",
+            "sequence": 171,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00175.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4552,
+            "imageHeight": 6500
+         },
+         {
+            "label": "85b",
+            "physID": "PHYS-172",
+            "sequence": 172,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00176.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4576,
+            "imageHeight": 6500
+         },
+         {
+            "label": "86a",
+            "physID": "PHYS-173",
+            "sequence": 173,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00177.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4538,
+            "imageHeight": 6500
+         },
+         {
+            "label": "86b",
+            "physID": "PHYS-174",
+            "sequence": 174,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00178.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4576,
+            "imageHeight": 6500
+         },
+         {
+            "label": "87a",
+            "physID": "PHYS-175",
+            "sequence": 175,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00179.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4538,
+            "imageHeight": 6500
+         },
+         {
+            "label": "87b",
+            "physID": "PHYS-176",
+            "sequence": 176,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00180.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4576,
+            "imageHeight": 6500
+         },
+         {
+            "label": "88a",
+            "physID": "PHYS-177",
+            "sequence": 177,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00181.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4538,
+            "imageHeight": 6500
+         },
+         {
+            "label": "88b",
+            "physID": "PHYS-178",
+            "sequence": 178,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00182.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4576,
+            "imageHeight": 6500
+         },
+         {
+            "label": "89a",
+            "physID": "PHYS-179",
+            "sequence": 179,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00183.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4538,
+            "imageHeight": 6500
+         },
+         {
+            "label": "89b",
+            "physID": "PHYS-180",
+            "sequence": 180,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00184.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4564,
+            "imageHeight": 6500
+         },
+         {
+            "label": "90a",
+            "physID": "PHYS-181",
+            "sequence": 181,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00185.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4538,
+            "imageHeight": 6500
+         },
+         {
+            "label": "90b",
+            "physID": "PHYS-182",
+            "sequence": 182,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00186.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4564,
+            "imageHeight": 6500
+         },
+         {
+            "label": "91a",
+            "physID": "PHYS-183",
+            "sequence": 183,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00187.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4577,
+            "imageHeight": 6500
+         },
+         {
+            "label": "91b",
+            "physID": "PHYS-184",
+            "sequence": 184,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00188.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4564,
+            "imageHeight": 6500
+         },
+         {
+            "label": "92a",
+            "physID": "PHYS-185",
+            "sequence": 185,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00189.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4577,
+            "imageHeight": 6500
+         },
+         {
+            "label": "92b",
+            "physID": "PHYS-186",
+            "sequence": 186,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00190.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4507,
+            "imageHeight": 6500
+         },
+         {
+            "label": "93a",
+            "physID": "PHYS-187",
+            "sequence": 187,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00191.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4514,
+            "imageHeight": 6500
+         },
+         {
+            "label": "93b",
+            "physID": "PHYS-188",
+            "sequence": 188,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00192.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4507,
+            "imageHeight": 6500
+         },
+         {
+            "label": "94a",
+            "physID": "PHYS-189",
+            "sequence": 189,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00193.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4585,
+            "imageHeight": 6500
+         },
+         {
+            "label": "94b",
+            "physID": "PHYS-190",
+            "sequence": 190,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00194.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4531,
+            "imageHeight": 6500
+         },
+         {
+            "label": "95a",
+            "physID": "PHYS-191",
+            "sequence": 191,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00195.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4585,
+            "imageHeight": 6500
+         },
+         {
+            "label": "95b",
+            "physID": "PHYS-192",
+            "sequence": 192,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00196.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4531,
+            "imageHeight": 6500
+         },
+         {
+            "label": "96a",
+            "physID": "PHYS-193",
+            "sequence": 193,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00197.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4552,
+            "imageHeight": 6500
+         },
+         {
+            "label": "96b",
+            "physID": "PHYS-194",
+            "sequence": 194,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00198.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4531,
+            "imageHeight": 6500
+         },
+         {
+            "label": "97a",
+            "physID": "PHYS-195",
+            "sequence": 195,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00199.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4552,
+            "imageHeight": 6500
+         },
+         {
+            "label": "97b",
+            "physID": "PHYS-196",
+            "sequence": 196,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00200.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4531,
+            "imageHeight": 6500
+         },
+         {
+            "label": "98a",
+            "physID": "PHYS-197",
+            "sequence": 197,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00201.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4552,
+            "imageHeight": 6500
+         },
+         {
+            "label": "98b",
+            "physID": "PHYS-198",
+            "sequence": 198,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00202.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4531,
+            "imageHeight": 6500
+         },
+         {
+            "label": "99a",
+            "physID": "PHYS-199",
+            "sequence": 199,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00203.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4552,
+            "imageHeight": 6500
+         },
+         {
+            "label": "99b",
+            "physID": "PHYS-200",
+            "sequence": 200,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00204.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4531,
+            "imageHeight": 6500
+         },
+         {
+            "label": "100a",
+            "physID": "PHYS-201",
+            "sequence": 201,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00205.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4552,
+            "imageHeight": 6500
+         },
+         {
+            "label": "100b",
+            "physID": "PHYS-202",
+            "sequence": 202,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00206.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4621,
+            "imageHeight": 6500
+         },
+         {
+            "label": "101a",
+            "physID": "PHYS-203",
+            "sequence": 203,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00207.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4552,
+            "imageHeight": 6500
+         },
+         {
+            "label": "101b",
+            "physID": "PHYS-204",
+            "sequence": 204,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00208.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4612,
+            "imageHeight": 6500
+         },
+         {
+            "label": "102a",
+            "physID": "PHYS-205",
+            "sequence": 205,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00209.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4552,
+            "imageHeight": 6500
+         },
+         {
+            "label": "102b",
+            "physID": "PHYS-206",
+            "sequence": 206,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00210.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4513,
+            "imageHeight": 6500
+         },
+         {
+            "label": "103a",
+            "physID": "PHYS-207",
+            "sequence": 207,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00211.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4552,
+            "imageHeight": 6500
+         },
+         {
+            "label": "103b",
+            "physID": "PHYS-208",
+            "sequence": 208,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00212.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4588,
+            "imageHeight": 6500
+         },
+         {
+            "label": "104a",
+            "physID": "PHYS-209",
+            "sequence": 209,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00213.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4552,
+            "imageHeight": 6500
+         },
+         {
+            "label": "104b",
+            "physID": "PHYS-210",
+            "sequence": 210,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00214.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4520,
+            "imageHeight": 6500
+         },
+         {
+            "label": "105a",
+            "physID": "PHYS-211",
+            "sequence": 211,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00215.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4552,
+            "imageHeight": 6500
+         },
+         {
+            "label": "105b",
+            "physID": "PHYS-212",
+            "sequence": 212,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00216.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4525,
+            "imageHeight": 6500
+         },
+         {
+            "label": "106a",
+            "physID": "PHYS-213",
+            "sequence": 213,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00217.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4552,
+            "imageHeight": 6500
+         },
+         {
+            "label": "106b",
+            "physID": "PHYS-214",
+            "sequence": 214,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00218.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4549,
+            "imageHeight": 6500
+         },
+         {
+            "label": "107a",
+            "physID": "PHYS-215",
+            "sequence": 215,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00219.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4470,
+            "imageHeight": 6500
+         },
+         {
+            "label": "107b",
+            "physID": "PHYS-216",
+            "sequence": 216,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00220.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4526,
+            "imageHeight": 6500
+         },
+         {
+            "label": "108a",
+            "physID": "PHYS-217",
+            "sequence": 217,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00221.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4470,
+            "imageHeight": 6500
+         },
+         {
+            "label": "108b",
+            "physID": "PHYS-218",
+            "sequence": 218,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00222.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4637,
+            "imageHeight": 6500
+         },
+         {
+            "label": "109a",
+            "physID": "PHYS-219",
+            "sequence": 219,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00223.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4470,
+            "imageHeight": 6500
+         },
+         {
+            "label": "109b",
+            "physID": "PHYS-220",
+            "sequence": 220,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00224.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4600,
+            "imageHeight": 6500
+         },
+         {
+            "label": "110a",
+            "physID": "PHYS-221",
+            "sequence": 221,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00225.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4470,
+            "imageHeight": 6500
+         },
+         {
+            "label": "110b",
+            "physID": "PHYS-222",
+            "sequence": 222,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00226.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4659,
+            "imageHeight": 6500
+         },
+         {
+            "label": "111a",
+            "physID": "PHYS-223",
+            "sequence": 223,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00227.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4470,
+            "imageHeight": 6500
+         },
+         {
+            "label": "111b",
+            "physID": "PHYS-224",
+            "sequence": 224,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00228.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4602,
+            "imageHeight": 6500
+         },
+         {
+            "label": "112a",
+            "physID": "PHYS-225",
+            "sequence": 225,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00229.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4470,
+            "imageHeight": 6500
+         },
+         {
+            "label": "112b",
+            "physID": "PHYS-226",
+            "sequence": 226,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00230.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4602,
+            "imageHeight": 6500
+         },
+         {
+            "label": "113a",
+            "physID": "PHYS-227",
+            "sequence": 227,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00231.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4505,
+            "imageHeight": 6500
+         },
+         {
+            "label": "113b",
+            "physID": "PHYS-228",
+            "sequence": 228,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00232.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4539,
+            "imageHeight": 6500
+         },
+         {
+            "label": "114a",
+            "physID": "PHYS-229",
+            "sequence": 229,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00233.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4505,
+            "imageHeight": 6500
+         },
+         {
+            "label": "114b",
+            "physID": "PHYS-230",
+            "sequence": 230,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00234.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4504,
+            "imageHeight": 6500
+         },
+         {
+            "label": "115a",
+            "physID": "PHYS-231",
+            "sequence": 231,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00235.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4505,
+            "imageHeight": 6500
+         },
+         {
+            "label": "115b",
+            "physID": "PHYS-232",
+            "sequence": 232,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00236.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4517,
+            "imageHeight": 6500
+         },
+         {
+            "label": "116a",
+            "physID": "PHYS-233",
+            "sequence": 233,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00237.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4505,
+            "imageHeight": 6500
+         },
+         {
+            "label": "116b",
+            "physID": "PHYS-234",
+            "sequence": 234,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00238.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4554,
+            "imageHeight": 6500
+         },
+         {
+            "label": "117a",
+            "physID": "PHYS-235",
+            "sequence": 235,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00239.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4505,
+            "imageHeight": 6500
+         },
+         {
+            "label": "117b",
+            "physID": "PHYS-236",
+            "sequence": 236,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00240.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4597,
+            "imageHeight": 6500
+         },
+         {
+            "label": "118a",
+            "physID": "PHYS-237",
+            "sequence": 237,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00241.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4532,
+            "imageHeight": 6500
+         },
+         {
+            "label": "118b",
+            "physID": "PHYS-238",
+            "sequence": 238,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00242.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4597,
+            "imageHeight": 6500
+         },
+         {
+            "label": "119a",
+            "physID": "PHYS-239",
+            "sequence": 239,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00243.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4625,
+            "imageHeight": 6500
+         },
+         {
+            "label": "119b",
+            "physID": "PHYS-240",
+            "sequence": 240,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00244.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4597,
+            "imageHeight": 6500
+         },
+         {
+            "label": "120a",
+            "physID": "PHYS-241",
+            "sequence": 241,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00245.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4537,
+            "imageHeight": 6500
+         },
+         {
+            "label": "120b",
+            "physID": "PHYS-242",
+            "sequence": 242,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00246.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4597,
+            "imageHeight": 6500
+         },
+         {
+            "label": "121a",
+            "physID": "PHYS-243",
+            "sequence": 243,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00247.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4651,
+            "imageHeight": 6500
+         },
+         {
+            "label": "121b",
+            "physID": "PHYS-244",
+            "sequence": 244,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00248.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4596,
+            "imageHeight": 6500
+         },
+         {
+            "label": "122a",
+            "physID": "PHYS-245",
+            "sequence": 245,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00249.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4590,
+            "imageHeight": 6500
+         },
+         {
+            "label": "122b",
+            "physID": "PHYS-246",
+            "sequence": 246,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00250.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4596,
+            "imageHeight": 6500
+         },
+         {
+            "label": "123a",
+            "physID": "PHYS-247",
+            "sequence": 247,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00251.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4631,
+            "imageHeight": 6500
+         },
+         {
+            "label": "123b",
+            "physID": "PHYS-248",
+            "sequence": 248,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00252.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4539,
+            "imageHeight": 6500
+         },
+         {
+            "label": "124a",
+            "physID": "PHYS-249",
+            "sequence": 249,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00253.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4650,
+            "imageHeight": 6500
+         },
+         {
+            "label": "124b",
+            "physID": "PHYS-250",
+            "sequence": 250,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00254.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4539,
+            "imageHeight": 6500
+         },
+         {
+            "label": "125a",
+            "physID": "PHYS-251",
+            "sequence": 251,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00255.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4561,
+            "imageHeight": 6500
+         },
+         {
+            "label": "125b",
+            "physID": "PHYS-252",
+            "sequence": 252,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00256.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4539,
+            "imageHeight": 6500
+         },
+         {
+            "label": "126a",
+            "physID": "PHYS-253",
+            "sequence": 253,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00257.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4585,
+            "imageHeight": 6500
+         },
+         {
+            "label": "126b",
+            "physID": "PHYS-254",
+            "sequence": 254,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00258.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4539,
+            "imageHeight": 6500
+         },
+         {
+            "label": "127a",
+            "physID": "PHYS-255",
+            "sequence": 255,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00259.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4511,
+            "imageHeight": 6500
+         },
+         {
+            "label": "127b",
+            "physID": "PHYS-256",
+            "sequence": 256,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00260.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4539,
+            "imageHeight": 6500
+         },
+         {
+            "label": "128a",
+            "physID": "PHYS-257",
+            "sequence": 257,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00261.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4608,
+            "imageHeight": 6500
+         },
+         {
+            "label": "128b",
+            "physID": "PHYS-258",
+            "sequence": 258,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00262.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4620,
+            "imageHeight": 6500
+         },
+         {
+            "label": "129a",
+            "physID": "PHYS-259",
+            "sequence": 259,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00263.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4663,
+            "imageHeight": 6500
+         },
+         {
+            "label": "129b",
+            "physID": "PHYS-260",
+            "sequence": 260,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00264.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4620,
+            "imageHeight": 6500
+         },
+         {
+            "label": "130a",
+            "physID": "PHYS-261",
+            "sequence": 261,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00265.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4614,
+            "imageHeight": 6500
+         },
+         {
+            "label": "130b",
+            "physID": "PHYS-262",
+            "sequence": 262,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00266.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4620,
+            "imageHeight": 6500
+         },
+         {
+            "label": "131a",
+            "physID": "PHYS-263",
+            "sequence": 263,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00267.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4545,
+            "imageHeight": 6500
+         },
+         {
+            "label": "131b",
+            "physID": "PHYS-264",
+            "sequence": 264,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00268.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4620,
+            "imageHeight": 6500
+         },
+         {
+            "label": "132a",
+            "physID": "PHYS-265",
+            "sequence": 265,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00269.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4668,
+            "imageHeight": 6500
+         },
+         {
+            "label": "132b",
+            "physID": "PHYS-266",
+            "sequence": 266,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00270.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4584,
+            "imageHeight": 6500
+         },
+         {
+            "label": "133a",
+            "physID": "PHYS-267",
+            "sequence": 267,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00271.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4621,
+            "imageHeight": 6500
+         },
+         {
+            "label": "133b",
+            "physID": "PHYS-268",
+            "sequence": 268,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00272.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4584,
+            "imageHeight": 6500
+         },
+         {
+            "label": "134a",
+            "physID": "PHYS-269",
+            "sequence": 269,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00273.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4634,
+            "imageHeight": 6500
+         },
+         {
+            "label": "134b",
+            "physID": "PHYS-270",
+            "sequence": 270,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00274.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4584,
+            "imageHeight": 6500
+         },
+         {
+            "label": "135a",
+            "physID": "PHYS-271",
+            "sequence": 271,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00275.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4570,
+            "imageHeight": 6500
+         },
+         {
+            "label": "135b",
+            "physID": "PHYS-272",
+            "sequence": 272,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00276.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4584,
+            "imageHeight": 6500
+         },
+         {
+            "label": "136a",
+            "physID": "PHYS-273",
+            "sequence": 273,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00277.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4659,
+            "imageHeight": 6500
+         },
+         {
+            "label": "136b",
+            "physID": "PHYS-274",
+            "sequence": 274,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00278.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4584,
+            "imageHeight": 6500
+         },
+         {
+            "label": "137a",
+            "physID": "PHYS-275",
+            "sequence": 275,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00279.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4601,
+            "imageHeight": 6500
+         },
+         {
+            "label": "137b",
+            "physID": "PHYS-276",
+            "sequence": 276,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00280.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4584,
+            "imageHeight": 6500
+         },
+         {
+            "label": "138a",
+            "physID": "PHYS-277",
+            "sequence": 277,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00281.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4560,
+            "imageHeight": 6500
+         },
+         {
+            "label": "138b",
+            "physID": "PHYS-278",
+            "sequence": 278,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00282.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4584,
+            "imageHeight": 6500
+         },
+         {
+            "label": "139a",
+            "physID": "PHYS-279",
+            "sequence": 279,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00283.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4560,
+            "imageHeight": 6500
+         },
+         {
+            "label": "139b",
+            "physID": "PHYS-280",
+            "sequence": 280,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00284.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4584,
+            "imageHeight": 6500
+         },
+         {
+            "label": "140a",
+            "physID": "PHYS-281",
+            "sequence": 281,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00285.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4560,
+            "imageHeight": 6500
+         },
+         {
+            "label": "140b",
+            "physID": "PHYS-282",
+            "sequence": 282,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00286.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4584,
+            "imageHeight": 6500
+         },
+         {
+            "label": "141a",
+            "physID": "PHYS-283",
+            "sequence": 283,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00287.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4560,
+            "imageHeight": 6500
+         },
+         {
+            "label": "141b",
+            "physID": "PHYS-284",
+            "sequence": 284,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00288.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4584,
+            "imageHeight": 6500
+         },
+         {
+            "label": "142a",
+            "physID": "PHYS-285",
+            "sequence": 285,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00289.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4560,
+            "imageHeight": 6500
+         },
+         {
+            "label": "142b",
+            "physID": "PHYS-286",
+            "sequence": 286,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00290.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4582,
+            "imageHeight": 6500
+         },
+         {
+            "label": "143a",
+            "physID": "PHYS-287",
+            "sequence": 287,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00291.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4568,
+            "imageHeight": 6500
+         },
+         {
+            "label": "143b",
+            "physID": "PHYS-288",
+            "sequence": 288,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00292.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4582,
+            "imageHeight": 6500
+         },
+         {
+            "label": "144a",
+            "physID": "PHYS-289",
+            "sequence": 289,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00293.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4631,
+            "imageHeight": 6500
+         },
+         {
+            "label": "144b",
+            "physID": "PHYS-290",
+            "sequence": 290,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00294.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4565,
+            "imageHeight": 6500
+         },
+         {
+            "label": "145a",
+            "physID": "PHYS-291",
+            "sequence": 291,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00295.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4568,
+            "imageHeight": 6500
+         },
+         {
+            "label": "145b",
+            "physID": "PHYS-292",
+            "sequence": 292,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00296.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4585,
+            "imageHeight": 6500
+         },
+         {
+            "label": "146a",
+            "physID": "PHYS-293",
+            "sequence": 293,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00297.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4603,
+            "imageHeight": 6500
+         },
+         {
+            "label": "146b",
+            "physID": "PHYS-294",
+            "sequence": 294,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00298.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4629,
+            "imageHeight": 6500
+         },
+         {
+            "label": "147a",
+            "physID": "PHYS-295",
+            "sequence": 295,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00299.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4611,
+            "imageHeight": 6500
+         },
+         {
+            "label": "147b",
+            "physID": "PHYS-296",
+            "sequence": 296,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00300.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4629,
+            "imageHeight": 6500
+         },
+         {
+            "label": "148a",
+            "physID": "PHYS-297",
+            "sequence": 297,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00301.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4560,
+            "imageHeight": 6500
+         },
+         {
+            "label": "148b",
+            "physID": "PHYS-298",
+            "sequence": 298,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00302.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4629,
+            "imageHeight": 6500
+         },
+         {
+            "label": "149a",
+            "physID": "PHYS-299",
+            "sequence": 299,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00303.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4560,
+            "imageHeight": 6500
+         },
+         {
+            "label": "149b",
+            "physID": "PHYS-300",
+            "sequence": 300,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00304.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4629,
+            "imageHeight": 6500
+         },
+         {
+            "label": "150a",
+            "physID": "PHYS-301",
+            "sequence": 301,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00305.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4544,
+            "imageHeight": 6500
+         },
+         {
+            "label": "150b",
+            "physID": "PHYS-302",
+            "sequence": 302,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00306.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4629,
+            "imageHeight": 6500
+         },
+         {
+            "label": "151a",
+            "physID": "PHYS-303",
+            "sequence": 303,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00307.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4538,
+            "imageHeight": 6500
+         },
+         {
+            "label": "151b",
+            "physID": "PHYS-304",
+            "sequence": 304,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00308.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4590,
+            "imageHeight": 6500
+         },
+         {
+            "label": "152a",
+            "physID": "PHYS-305",
+            "sequence": 305,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00309.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4584,
+            "imageHeight": 6500
+         },
+         {
+            "label": "152b",
+            "physID": "PHYS-306",
+            "sequence": 306,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00310.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4572,
+            "imageHeight": 6500
+         },
+         {
+            "label": "153a",
+            "physID": "PHYS-307",
+            "sequence": 307,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00311.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4581,
+            "imageHeight": 6500
+         },
+         {
+            "label": "153b",
+            "physID": "PHYS-308",
+            "sequence": 308,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00312.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4589,
+            "imageHeight": 6500
+         },
+         {
+            "label": "154a",
+            "physID": "PHYS-309",
+            "sequence": 309,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00313.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4565,
+            "imageHeight": 6500
+         },
+         {
+            "label": "154b",
+            "physID": "PHYS-310",
+            "sequence": 310,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00314.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4589,
+            "imageHeight": 6500
+         },
+         {
+            "label": "155a",
+            "physID": "PHYS-311",
+            "sequence": 311,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00315.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4573,
+            "imageHeight": 6500
+         },
+         {
+            "label": "155b",
+            "physID": "PHYS-312",
+            "sequence": 312,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00316.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4589,
+            "imageHeight": 6500
+         },
+         {
+            "label": "156a",
+            "physID": "PHYS-313",
+            "sequence": 313,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00317.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4635,
+            "imageHeight": 6500
+         },
+         {
+            "label": "156b",
+            "physID": "PHYS-314",
+            "sequence": 314,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00318.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4589,
+            "imageHeight": 6500
+         },
+         {
+            "label": "157a",
+            "physID": "PHYS-315",
+            "sequence": 315,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00319.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4573,
+            "imageHeight": 6500
+         },
+         {
+            "label": "157b",
+            "physID": "PHYS-316",
+            "sequence": 316,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00320.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4589,
+            "imageHeight": 6500
+         },
+         {
+            "label": "158a",
+            "physID": "PHYS-317",
+            "sequence": 317,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00321.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4595,
+            "imageHeight": 6500
+         },
+         {
+            "label": "158b",
+            "physID": "PHYS-318",
+            "sequence": 318,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00322.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4589,
+            "imageHeight": 6500
+         },
+         {
+            "label": "159a",
+            "physID": "PHYS-319",
+            "sequence": 319,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00323.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4548,
+            "imageHeight": 6500
+         },
+         {
+            "label": "159b",
+            "physID": "PHYS-320",
+            "sequence": 320,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00324.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4589,
+            "imageHeight": 6500
+         },
+         {
+            "label": "160a",
+            "physID": "PHYS-321",
+            "sequence": 321,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00325.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4599,
+            "imageHeight": 6500
+         },
+         {
+            "label": "160b",
+            "physID": "PHYS-322",
+            "sequence": 322,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00326.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4589,
+            "imageHeight": 6500
+         },
+         {
+            "label": "161a",
+            "physID": "PHYS-323",
+            "sequence": 323,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00327.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4587,
+            "imageHeight": 6500
+         },
+         {
+            "label": "161b",
+            "physID": "PHYS-324",
+            "sequence": 324,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00328.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4589,
+            "imageHeight": 6500
+         },
+         {
+            "label": "162a",
+            "physID": "PHYS-325",
+            "sequence": 325,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00329.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4642,
+            "imageHeight": 6500
+         },
+         {
+            "label": "162b",
+            "physID": "PHYS-326",
+            "sequence": 326,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00330.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4589,
+            "imageHeight": 6500
+         },
+         {
+            "label": "163a",
+            "physID": "PHYS-327",
+            "sequence": 327,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00331.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4606,
+            "imageHeight": 6500
+         },
+         {
+            "label": "163b",
+            "physID": "PHYS-328",
+            "sequence": 328,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00332.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4589,
+            "imageHeight": 6500
+         },
+         {
+            "label": "164a",
+            "physID": "PHYS-329",
+            "sequence": 329,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00333.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4618,
+            "imageHeight": 6500
+         },
+         {
+            "label": "164b",
+            "physID": "PHYS-330",
+            "sequence": 330,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00334.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4589,
+            "imageHeight": 6500
+         },
+         {
+            "label": "165a",
+            "physID": "PHYS-331",
+            "sequence": 331,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00335.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4610,
+            "imageHeight": 6500
+         },
+         {
+            "label": "165b",
+            "physID": "PHYS-332",
+            "sequence": 332,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00336.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4589,
+            "imageHeight": 6500
+         },
+         {
+            "label": "166a",
+            "physID": "PHYS-333",
+            "sequence": 333,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00337.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4598,
+            "imageHeight": 6500
+         },
+         {
+            "label": "166b",
+            "physID": "PHYS-334",
+            "sequence": 334,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00338.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4589,
+            "imageHeight": 6500
+         },
+         {
+            "label": "167a",
+            "physID": "PHYS-335",
+            "sequence": 335,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00339.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4594,
+            "imageHeight": 6500
+         },
+         {
+            "label": "167b",
+            "physID": "PHYS-336",
+            "sequence": 336,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00340.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4589,
+            "imageHeight": 6500
+         },
+         {
+            "label": "168a",
+            "physID": "PHYS-337",
+            "sequence": 337,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00341.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4576,
+            "imageHeight": 6500
+         },
+         {
+            "label": "168b",
+            "physID": "PHYS-338",
+            "sequence": 338,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00342.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4589,
+            "imageHeight": 6500
+         },
+         {
+            "label": "169a",
+            "physID": "PHYS-339",
+            "sequence": 339,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00343.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4573,
+            "imageHeight": 6500
+         },
+         {
+            "label": "169b",
+            "physID": "PHYS-340",
+            "sequence": 340,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00344.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4589,
+            "imageHeight": 6500
+         },
+         {
+            "label": "170a",
+            "physID": "PHYS-341",
+            "sequence": 341,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00345.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4624,
+            "imageHeight": 6500
+         },
+         {
+            "label": "170b",
+            "physID": "PHYS-342",
+            "sequence": 342,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00346.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4541,
+            "imageHeight": 6500
+         },
+         {
+            "label": "171a",
+            "physID": "PHYS-343",
+            "sequence": 343,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00347.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4569,
+            "imageHeight": 6500
+         },
+         {
+            "label": "171b",
+            "physID": "PHYS-344",
+            "sequence": 344,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00348.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4541,
+            "imageHeight": 6500
+         },
+         {
+            "label": "172a",
+            "physID": "PHYS-345",
+            "sequence": 345,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00349.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4569,
+            "imageHeight": 6500
+         },
+         {
+            "label": "172b",
+            "physID": "PHYS-346",
+            "sequence": 346,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00350.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4541,
+            "imageHeight": 6500
+         },
+         {
+            "label": "173a",
+            "physID": "PHYS-347",
+            "sequence": 347,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00351.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4569,
+            "imageHeight": 6500
+         },
+         {
+            "label": "173b",
+            "physID": "PHYS-348",
+            "sequence": 348,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00352.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4541,
+            "imageHeight": 6500
+         },
+         {
+            "label": "174a",
+            "physID": "PHYS-349",
+            "sequence": 349,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00353.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4592,
+            "imageHeight": 6500
+         },
+         {
+            "label": "174b",
+            "physID": "PHYS-350",
+            "sequence": 350,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00354.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4541,
+            "imageHeight": 6500
+         },
+         {
+            "label": "175a",
+            "physID": "PHYS-351",
+            "sequence": 351,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00355.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4546,
+            "imageHeight": 6500
+         },
+         {
+            "label": "175b",
+            "physID": "PHYS-352",
+            "sequence": 352,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00356.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4541,
+            "imageHeight": 6500
+         },
+         {
+            "label": "176a",
+            "physID": "PHYS-353",
+            "sequence": 353,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00357.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4561,
+            "imageHeight": 6500
+         },
+         {
+            "label": "176b",
+            "physID": "PHYS-354",
+            "sequence": 354,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00358.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4584,
+            "imageHeight": 6500
+         },
+         {
+            "label": "177a",
+            "physID": "PHYS-355",
+            "sequence": 355,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00359.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4590,
+            "imageHeight": 6500
+         },
+         {
+            "label": "177b",
+            "physID": "PHYS-356",
+            "sequence": 356,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00360.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4584,
+            "imageHeight": 6500
+         },
+         {
+            "label": "178a",
+            "physID": "PHYS-357",
+            "sequence": 357,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00361.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4590,
+            "imageHeight": 6500
+         },
+         {
+            "label": "178b",
+            "physID": "PHYS-358",
+            "sequence": 358,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00362.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4570,
+            "imageHeight": 6500
+         },
+         {
+            "label": "179a",
+            "physID": "PHYS-359",
+            "sequence": 359,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00363.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4605,
+            "imageHeight": 6500
+         },
+         {
+            "label": "179b",
+            "physID": "PHYS-360",
+            "sequence": 360,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00364.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4570,
+            "imageHeight": 6500
+         },
+         {
+            "label": "180a",
+            "physID": "PHYS-361",
+            "sequence": 361,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00365.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4548,
+            "imageHeight": 6500
+         },
+         {
+            "label": "180b",
+            "physID": "PHYS-362",
+            "sequence": 362,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00366.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4570,
+            "imageHeight": 6500
+         },
+         {
+            "label": "181a",
+            "physID": "PHYS-363",
+            "sequence": 363,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00367.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4524,
+            "imageHeight": 6500
+         },
+         {
+            "label": "181b",
+            "physID": "PHYS-364",
+            "sequence": 364,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00368.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4570,
+            "imageHeight": 6500
+         },
+         {
+            "label": "182a",
+            "physID": "PHYS-365",
+            "sequence": 365,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00369.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4548,
+            "imageHeight": 6500
+         },
+         {
+            "label": "182b",
+            "physID": "PHYS-366",
+            "sequence": 366,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00370.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4595,
+            "imageHeight": 6500
+         },
+         {
+            "label": "183a",
+            "physID": "PHYS-367",
+            "sequence": 367,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00371.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4729,
+            "imageHeight": 6500
+         },
+         {
+            "label": "183b",
+            "physID": "PHYS-368",
+            "sequence": 368,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00372.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4591,
+            "imageHeight": 6500
+         },
+         {
+            "label": "184a",
+            "physID": "PHYS-369",
+            "sequence": 369,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00373.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4614,
+            "imageHeight": 6500
+         },
+         {
+            "label": "184b",
+            "physID": "PHYS-370",
+            "sequence": 370,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00374.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4591,
+            "imageHeight": 6500
+         },
+         {
+            "label": "185a",
+            "physID": "PHYS-371",
+            "sequence": 371,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00375.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4583,
+            "imageHeight": 6500
+         },
+         {
+            "label": "185b",
+            "physID": "PHYS-372",
+            "sequence": 372,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00376.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4591,
+            "imageHeight": 6500
+         },
+         {
+            "label": "186a",
+            "physID": "PHYS-373",
+            "sequence": 373,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00377.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4575,
+            "imageHeight": 6500
+         },
+         {
+            "label": "186b",
+            "physID": "PHYS-374",
+            "sequence": 374,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00378.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4591,
+            "imageHeight": 6500
+         },
+         {
+            "label": "187a",
+            "physID": "PHYS-375",
+            "sequence": 375,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00379.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4575,
+            "imageHeight": 6500
+         },
+         {
+            "label": "187b",
+            "physID": "PHYS-376",
+            "sequence": 376,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00380.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4591,
+            "imageHeight": 6500
+         },
+         {
+            "label": "188a",
+            "physID": "PHYS-377",
+            "sequence": 377,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00381.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4575,
+            "imageHeight": 6500
+         },
+         {
+            "label": "188b",
+            "physID": "PHYS-378",
+            "sequence": 378,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00382.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4576,
+            "imageHeight": 6500
+         },
+         {
+            "label": "189a",
+            "physID": "PHYS-379",
+            "sequence": 379,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00383.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4575,
+            "imageHeight": 6500
+         },
+         {
+            "label": "189b",
+            "physID": "PHYS-380",
+            "sequence": 380,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00384.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4576,
+            "imageHeight": 6500
+         },
+         {
+            "label": "190a",
+            "physID": "PHYS-381",
+            "sequence": 381,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00385.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4575,
+            "imageHeight": 6500
+         },
+         {
+            "label": "190b",
+            "physID": "PHYS-382",
+            "sequence": 382,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00386.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4576,
+            "imageHeight": 6500
+         },
+         {
+            "label": "191a",
+            "physID": "PHYS-383",
+            "sequence": 383,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00387.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4615,
+            "imageHeight": 6500
+         },
+         {
+            "label": "191b",
+            "physID": "PHYS-384",
+            "sequence": 384,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00388.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4576,
+            "imageHeight": 6500
+         },
+         {
+            "label": "192a",
+            "physID": "PHYS-385",
+            "sequence": 385,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00389.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4615,
+            "imageHeight": 6500
+         },
+         {
+            "label": "192b",
+            "physID": "PHYS-386",
+            "sequence": 386,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00390.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4576,
+            "imageHeight": 6500
+         },
+         {
+            "label": "193a",
+            "physID": "PHYS-387",
+            "sequence": 387,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00391.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4615,
+            "imageHeight": 6500
+         },
+         {
+            "label": "193b",
+            "physID": "PHYS-388",
+            "sequence": 388,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00392.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4576,
+            "imageHeight": 6500
+         },
+         {
+            "label": "194a",
+            "physID": "PHYS-389",
+            "sequence": 389,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00393.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4615,
+            "imageHeight": 6500
+         },
+         {
+            "label": "194b",
+            "physID": "PHYS-390",
+            "sequence": 390,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00394.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4576,
+            "imageHeight": 6500
+         },
+         {
+            "label": "195a",
+            "physID": "PHYS-391",
+            "sequence": 391,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00395.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4643,
+            "imageHeight": 6500
+         },
+         {
+            "label": "195b",
+            "physID": "PHYS-392",
+            "sequence": 392,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00396.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4576,
+            "imageHeight": 6500
+         },
+         {
+            "label": "196a",
+            "physID": "PHYS-393",
+            "sequence": 393,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00397.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4643,
+            "imageHeight": 6500
+         },
+         {
+            "label": "196b",
+            "physID": "PHYS-394",
+            "sequence": 394,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00398.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4576,
+            "imageHeight": 6500
+         },
+         {
+            "label": "197a",
+            "physID": "PHYS-395",
+            "sequence": 395,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00399.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4599,
+            "imageHeight": 6500
+         },
+         {
+            "label": "197b",
+            "physID": "PHYS-396",
+            "sequence": 396,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00400.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4576,
+            "imageHeight": 6500
+         },
+         {
+            "label": "198a",
+            "physID": "PHYS-397",
+            "sequence": 397,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00401.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4601,
+            "imageHeight": 6500
+         },
+         {
+            "label": "198b",
+            "physID": "PHYS-398",
+            "sequence": 398,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00402.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4576,
+            "imageHeight": 6500
+         },
+         {
+            "label": "199a",
+            "physID": "PHYS-399",
+            "sequence": 399,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00403.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4688,
+            "imageHeight": 6500
+         },
+         {
+            "label": "199b",
+            "physID": "PHYS-400",
+            "sequence": 400,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00404.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4576,
+            "imageHeight": 6500
+         },
+         {
+            "label": "200a",
+            "physID": "PHYS-401",
+            "sequence": 401,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00405.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4631,
+            "imageHeight": 6500
+         },
+         {
+            "label": "200b",
+            "physID": "PHYS-402",
+            "sequence": 402,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00406.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4576,
+            "imageHeight": 6500
+         },
+         {
+            "label": "201a",
+            "physID": "PHYS-403",
+            "sequence": 403,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00407.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4627,
+            "imageHeight": 6500
+         },
+         {
+            "label": "201b",
+            "physID": "PHYS-404",
+            "sequence": 404,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00408.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4548,
+            "imageHeight": 6500
+         },
+         {
+            "label": "202a",
+            "physID": "PHYS-405",
+            "sequence": 405,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00409.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4664,
+            "imageHeight": 6500
+         },
+         {
+            "label": "202b",
+            "physID": "PHYS-406",
+            "sequence": 406,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00410.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4548,
+            "imageHeight": 6500
+         },
+         {
+            "label": "203a",
+            "physID": "PHYS-407",
+            "sequence": 407,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00411.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4664,
+            "imageHeight": 6500
+         },
+         {
+            "label": "203b",
+            "physID": "PHYS-408",
+            "sequence": 408,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00412.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4548,
+            "imageHeight": 6500
+         },
+         {
+            "label": "204a",
+            "physID": "PHYS-409",
+            "sequence": 409,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00413.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4613,
+            "imageHeight": 6500
+         },
+         {
+            "label": "204b",
+            "physID": "PHYS-410",
+            "sequence": 410,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00414.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4532,
+            "imageHeight": 6500
+         },
+         {
+            "label": "205a",
+            "physID": "PHYS-411",
+            "sequence": 411,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00415.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4610,
+            "imageHeight": 6500
+         },
+         {
+            "label": "205b",
+            "physID": "PHYS-412",
+            "sequence": 412,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00416.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4541,
+            "imageHeight": 6500
+         },
+         {
+            "label": "206a",
+            "physID": "PHYS-413",
+            "sequence": 413,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00417.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4658,
+            "imageHeight": 6500
+         },
+         {
+            "label": "206b",
+            "physID": "PHYS-414",
+            "sequence": 414,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00418.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4541,
+            "imageHeight": 6500
+         },
+         {
+            "label": "207a",
+            "physID": "PHYS-415",
+            "sequence": 415,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00419.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4567,
+            "imageHeight": 6500
+         },
+         {
+            "label": "207b",
+            "physID": "PHYS-416",
+            "sequence": 416,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00420.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4546,
+            "imageHeight": 6500
+         },
+         {
+            "label": "208a",
+            "physID": "PHYS-417",
+            "sequence": 417,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00421.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4606,
+            "imageHeight": 6500
+         },
+         {
+            "label": "208b",
+            "physID": "PHYS-418",
+            "sequence": 418,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00422.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4546,
+            "imageHeight": 6500
+         },
+         {
+            "label": "209a",
+            "physID": "PHYS-419",
+            "sequence": 419,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00423.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4558,
+            "imageHeight": 6500
+         },
+         {
+            "label": "209b",
+            "physID": "PHYS-420",
+            "sequence": 420,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00424.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4546,
+            "imageHeight": 6500
+         },
+         {
+            "label": "210a",
+            "physID": "PHYS-421",
+            "sequence": 421,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00425.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4587,
+            "imageHeight": 6500
+         },
+         {
+            "label": "210b",
+            "physID": "PHYS-422",
+            "sequence": 422,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00426.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4546,
+            "imageHeight": 6500
+         },
+         {
+            "label": "211a",
+            "physID": "PHYS-423",
+            "sequence": 423,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00427.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4615,
+            "imageHeight": 6500
+         },
+         {
+            "label": "211b",
+            "physID": "PHYS-424",
+            "sequence": 424,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00428.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4599,
+            "imageHeight": 6500
+         },
+         {
+            "label": "212a",
+            "physID": "PHYS-425",
+            "sequence": 425,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00429.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4604,
+            "imageHeight": 6500
+         },
+         {
+            "label": "212b",
+            "physID": "PHYS-426",
+            "sequence": 426,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00430.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4547,
+            "imageHeight": 6500
+         },
+         {
+            "label": "213a",
+            "physID": "PHYS-427",
+            "sequence": 427,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00431.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4644,
+            "imageHeight": 6500
+         },
+         {
+            "label": "213b",
+            "physID": "PHYS-428",
+            "sequence": 428,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00432.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4547,
+            "imageHeight": 6500
+         },
+         {
+            "label": "214a",
+            "physID": "PHYS-429",
+            "sequence": 429,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00433.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4630,
+            "imageHeight": 6500
+         },
+         {
+            "label": "214b",
+            "physID": "PHYS-430",
+            "sequence": 430,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00434.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4547,
+            "imageHeight": 6500
+         },
+         {
+            "label": "215a",
+            "physID": "PHYS-431",
+            "sequence": 431,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00435.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4690,
+            "imageHeight": 6500
+         },
+         {
+            "label": "215b",
+            "physID": "PHYS-432",
+            "sequence": 432,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00436.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4547,
+            "imageHeight": 6500
+         },
+         {
+            "label": "216a",
+            "physID": "PHYS-433",
+            "sequence": 433,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00437.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4566,
+            "imageHeight": 6500
+         },
+         {
+            "label": "216b",
+            "physID": "PHYS-434",
+            "sequence": 434,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00438.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4547,
+            "imageHeight": 6500
+         },
+         {
+            "label": "217a",
+            "physID": "PHYS-435",
+            "sequence": 435,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00439.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4608,
+            "imageHeight": 6500
+         },
+         {
+            "label": "217b",
+            "physID": "PHYS-436",
+            "sequence": 436,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00440.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4547,
+            "imageHeight": 6500
+         },
+         {
+            "label": "218a",
+            "physID": "PHYS-437",
+            "sequence": 437,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00441.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4672,
+            "imageHeight": 6500
+         },
+         {
+            "label": "218b",
+            "physID": "PHYS-438",
+            "sequence": 438,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00442.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4547,
+            "imageHeight": 6500
+         },
+         {
+            "label": "219a",
+            "physID": "PHYS-439",
+            "sequence": 439,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00443.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4630,
+            "imageHeight": 6500
+         },
+         {
+            "label": "219b",
+            "physID": "PHYS-440",
+            "sequence": 440,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00444.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4547,
+            "imageHeight": 6500
+         },
+         {
+            "label": "220a",
+            "physID": "PHYS-441",
+            "sequence": 441,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00445.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4627,
+            "imageHeight": 6500
+         },
+         {
+            "label": "220b",
+            "physID": "PHYS-442",
+            "sequence": 442,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00446.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4547,
+            "imageHeight": 6500
+         },
+         {
+            "label": "221a",
+            "physID": "PHYS-443",
+            "sequence": 443,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00447.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4704,
+            "imageHeight": 6500
+         },
+         {
+            "label": "221b",
+            "physID": "PHYS-444",
+            "sequence": 444,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00448.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4547,
+            "imageHeight": 6500
+         },
+         {
+            "label": "222a",
+            "physID": "PHYS-445",
+            "sequence": 445,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00449.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4615,
+            "imageHeight": 6500
+         },
+         {
+            "label": "222b",
+            "physID": "PHYS-446",
+            "sequence": 446,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00450.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4547,
+            "imageHeight": 6500
+         },
+         {
+            "label": "223a",
+            "physID": "PHYS-447",
+            "sequence": 447,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00451.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4615,
+            "imageHeight": 6500
+         },
+         {
+            "label": "223b",
+            "physID": "PHYS-448",
+            "sequence": 448,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00452.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4547,
+            "imageHeight": 6500
+         },
+         {
+            "label": "224a",
+            "physID": "PHYS-449",
+            "sequence": 449,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00453.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4615,
+            "imageHeight": 6500
+         },
+         {
+            "label": "224b",
+            "physID": "PHYS-450",
+            "sequence": 450,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00454.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4547,
+            "imageHeight": 6500
+         },
+         {
+            "label": "225a",
+            "physID": "PHYS-451",
+            "sequence": 451,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00455.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4607,
+            "imageHeight": 6500
+         },
+         {
+            "label": "225b",
+            "physID": "PHYS-452",
+            "sequence": 452,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00456.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4547,
+            "imageHeight": 6500
+         },
+         {
+            "label": "226a",
+            "physID": "PHYS-453",
+            "sequence": 453,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00457.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4650,
+            "imageHeight": 6500
+         },
+         {
+            "label": "226b",
+            "physID": "PHYS-454",
+            "sequence": 454,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00458.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4547,
+            "imageHeight": 6500
+         },
+         {
+            "label": "227a",
+            "physID": "PHYS-455",
+            "sequence": 455,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00459.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4628,
+            "imageHeight": 6500
+         },
+         {
+            "label": "227b",
+            "physID": "PHYS-456",
+            "sequence": 456,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00460.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4547,
+            "imageHeight": 6500
+         },
+         {
+            "label": "228a",
+            "physID": "PHYS-457",
+            "sequence": 457,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00461.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4752,
+            "imageHeight": 6500
+         },
+         {
+            "label": "228b",
+            "physID": "PHYS-458",
+            "sequence": 458,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00462.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4547,
+            "imageHeight": 6500
+         },
+         {
+            "label": "229a",
+            "physID": "PHYS-459",
+            "sequence": 459,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00463.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4631,
+            "imageHeight": 6500
+         },
+         {
+            "label": "229b",
+            "physID": "PHYS-460",
+            "sequence": 460,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00464.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4547,
+            "imageHeight": 6500
+         },
+         {
+            "label": "230a",
+            "physID": "PHYS-461",
+            "sequence": 461,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00465.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4629,
+            "imageHeight": 6500
+         },
+         {
+            "label": "230b",
+            "physID": "PHYS-462",
+            "sequence": 462,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00466.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4547,
+            "imageHeight": 6500
+         },
+         {
+            "label": "231a",
+            "physID": "PHYS-463",
+            "sequence": 463,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00467.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4691,
+            "imageHeight": 6500
+         },
+         {
+            "label": "231b",
+            "physID": "PHYS-464",
+            "sequence": 464,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00468.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4547,
+            "imageHeight": 6500
+         },
+         {
+            "label": "232a",
+            "physID": "PHYS-465",
+            "sequence": 465,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00469.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4683,
+            "imageHeight": 6500
+         },
+         {
+            "label": "232b",
+            "physID": "PHYS-466",
+            "sequence": 466,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00470.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4547,
+            "imageHeight": 6500
+         },
+         {
+            "label": "233a",
+            "physID": "PHYS-467",
+            "sequence": 467,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00471.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4657,
+            "imageHeight": 6500
+         },
+         {
+            "label": "233b",
+            "physID": "PHYS-468",
+            "sequence": 468,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00472.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4532,
+            "imageHeight": 6500
+         },
+         {
+            "label": "234a",
+            "physID": "PHYS-469",
+            "sequence": 469,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00473.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4657,
+            "imageHeight": 6500
+         },
+         {
+            "label": "234b",
+            "physID": "PHYS-470",
+            "sequence": 470,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00474.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4532,
+            "imageHeight": 6500
+         },
+         {
+            "label": "235a",
+            "physID": "PHYS-471",
+            "sequence": 471,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00475.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4657,
+            "imageHeight": 6500
+         },
+         {
+            "label": "235b",
+            "physID": "PHYS-472",
+            "sequence": 472,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00476.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4532,
+            "imageHeight": 6500
+         },
+         {
+            "label": "236a",
+            "physID": "PHYS-473",
+            "sequence": 473,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00477.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4657,
+            "imageHeight": 6500
+         },
+         {
+            "label": "236b",
+            "physID": "PHYS-474",
+            "sequence": 474,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00478.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4532,
+            "imageHeight": 6500
+         },
+         {
+            "label": "237a",
+            "physID": "PHYS-475",
+            "sequence": 475,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00479.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4657,
+            "imageHeight": 6500
+         },
+         {
+            "label": "237b",
+            "physID": "PHYS-476",
+            "sequence": 476,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00480.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4532,
+            "imageHeight": 6500
+         },
+         {
+            "label": "238a",
+            "physID": "PHYS-477",
+            "sequence": 477,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00481.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4657,
+            "imageHeight": 6500
+         },
+         {
+            "label": "238b",
+            "physID": "PHYS-478",
+            "sequence": 478,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00482.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4585,
+            "imageHeight": 6500
+         },
+         {
+            "label": "239a",
+            "physID": "PHYS-479",
+            "sequence": 479,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00483.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4657,
+            "imageHeight": 6500
+         },
+         {
+            "label": "239b",
+            "physID": "PHYS-480",
+            "sequence": 480,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00484.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4585,
+            "imageHeight": 6500
+         },
+         {
+            "label": "240a",
+            "physID": "PHYS-481",
+            "sequence": 481,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00485.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4657,
+            "imageHeight": 6500
+         },
+         {
+            "label": "240b",
+            "physID": "PHYS-482",
+            "sequence": 482,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00486.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4585,
+            "imageHeight": 6500
+         },
+         {
+            "label": "241a",
+            "physID": "PHYS-483",
+            "sequence": 483,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00487.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4611,
+            "imageHeight": 6500
+         },
+         {
+            "label": "241b",
+            "physID": "PHYS-484",
+            "sequence": 484,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00488.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4585,
+            "imageHeight": 6500
+         },
+         {
+            "label": "242a",
+            "physID": "PHYS-485",
+            "sequence": 485,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00489.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4611,
+            "imageHeight": 6500
+         },
+         {
+            "label": "242b",
+            "physID": "PHYS-486",
+            "sequence": 486,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00490.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4560,
+            "imageHeight": 6500
+         },
+         {
+            "label": "243a",
+            "physID": "PHYS-487",
+            "sequence": 487,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00491.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4611,
+            "imageHeight": 6500
+         },
+         {
+            "label": "243b",
+            "physID": "PHYS-488",
+            "sequence": 488,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00492.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4560,
+            "imageHeight": 6500
+         },
+         {
+            "label": "244a",
+            "physID": "PHYS-489",
+            "sequence": 489,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00493.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4611,
+            "imageHeight": 6500
+         },
+         {
+            "label": "244b",
+            "physID": "PHYS-490",
+            "sequence": 490,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00494.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4560,
+            "imageHeight": 6500
+         },
+         {
+            "label": "245a",
+            "physID": "PHYS-491",
+            "sequence": 491,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00495.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4553,
+            "imageHeight": 6500
+         },
+         {
+            "label": "245b",
+            "physID": "PHYS-492",
+            "sequence": 492,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00496.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4560,
+            "imageHeight": 6500
+         },
+         {
+            "label": "246a",
+            "physID": "PHYS-493",
+            "sequence": 493,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00497.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4618,
+            "imageHeight": 6500
+         },
+         {
+            "label": "246b",
+            "physID": "PHYS-494",
+            "sequence": 494,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00498.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4560,
+            "imageHeight": 6500
+         },
+         {
+            "label": "247a",
+            "physID": "PHYS-495",
+            "sequence": 495,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00499.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4618,
+            "imageHeight": 6500
+         },
+         {
+            "label": "247b",
+            "physID": "PHYS-496",
+            "sequence": 496,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00500.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4560,
+            "imageHeight": 6500
+         },
+         {
+            "label": "248a",
+            "physID": "PHYS-497",
+            "sequence": 497,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00501.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4618,
+            "imageHeight": 6500
+         },
+         {
+            "label": "248b",
+            "physID": "PHYS-498",
+            "sequence": 498,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00502.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4560,
+            "imageHeight": 6500
+         },
+         {
+            "label": "249a",
+            "physID": "PHYS-499",
+            "sequence": 499,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00503.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4618,
+            "imageHeight": 6500
+         },
+         {
+            "label": "249b",
+            "physID": "PHYS-500",
+            "sequence": 500,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00504.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4560,
+            "imageHeight": 6500
+         },
+         {
+            "label": "250a",
+            "physID": "PHYS-501",
+            "sequence": 501,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00505.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4619,
+            "imageHeight": 6500
+         },
+         {
+            "label": "250b",
+            "physID": "PHYS-502",
+            "sequence": 502,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00506.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4564,
+            "imageHeight": 6500
+         },
+         {
+            "label": "251a",
+            "physID": "PHYS-503",
+            "sequence": 503,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00507.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4619,
+            "imageHeight": 6500
+         },
+         {
+            "label": "251b",
+            "physID": "PHYS-504",
+            "sequence": 504,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00508.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4499,
+            "imageHeight": 6500
+         },
+         {
+            "label": "252a",
+            "physID": "PHYS-505",
+            "sequence": 505,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00509.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4480,
+            "imageHeight": 6500
+         },
+         {
+            "label": "252b",
+            "physID": "PHYS-506",
+            "sequence": 506,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00510.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4499,
+            "imageHeight": 6500
+         },
+         {
+            "label": "253a",
+            "physID": "PHYS-507",
+            "sequence": 507,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00511.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4610,
+            "imageHeight": 6500
+         },
+         {
+            "label": "253b",
+            "physID": "PHYS-508",
+            "sequence": 508,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00512.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4499,
+            "imageHeight": 6500
+         },
+         {
+            "label": "254a",
+            "physID": "PHYS-509",
+            "sequence": 509,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00513.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4610,
+            "imageHeight": 6500
+         },
+         {
+            "label": "254b",
+            "physID": "PHYS-510",
+            "sequence": 510,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00514.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4580,
+            "imageHeight": 6500
+         },
+         {
+            "label": "255a",
+            "physID": "PHYS-511",
+            "sequence": 511,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00515.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 2426,
+            "imageHeight": 6500
+         },
+         {
+            "label": "255b",
+            "physID": "PHYS-512",
+            "sequence": 512,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00516.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4580,
+            "imageHeight": 6500
+         },
+         {
+            "label": "256a",
+            "physID": "PHYS-513",
+            "sequence": 513,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00517.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4566,
+            "imageHeight": 6500
+         },
+         {
+            "label": "256b",
+            "physID": "PHYS-514",
+            "sequence": 514,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00518.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4580,
+            "imageHeight": 6500
+         },
+         {
+            "label": "Back paste-down",
+            "physID": "PHYS-515",
+            "sequence": 515,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00519.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4506,
+            "imageHeight": 6500
+         },
+         {
+            "label": "Back board",
+            "physID": "PHYS-516",
+            "sequence": 516,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00520.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4600,
+            "imageHeight": 6500
+         },
+         {
+            "label": "Spine",
+            "physID": "PHYS-517",
+            "sequence": 517,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00521.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 1264,
+            "imageHeight": 6500
+         },
+         {
+            "label": "Head",
+            "physID": "PHYS-518",
+            "sequence": 518,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00522.jp2",
+            "thumbnailImageOrientation": "landscape",
+            "imageWidth": 6500,
+            "imageHeight": 2637
+         },
+         {
+            "label": "Edge",
+            "physID": "PHYS-519",
+            "sequence": 519,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00523.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 1886,
+            "imageHeight": 6500
+         },
+         {
+            "label": "Tail",
+            "physID": "PHYS-520",
+            "sequence": 520,
+            "IIIFImageURL": "MS-HEBREW-MSS-00008-000-00524.jp2",
+            "thumbnailImageOrientation": "landscape",
+            "imageWidth": 6500,
+            "imageHeight": 2635
+         }
+               ],
+            "logicalStructures": 
+               [
+            
+         {
+            "descriptiveMetadataID": "ITEM-1",
+            "label": "Commentary on the Pentateuch by Nachmanides",
+            "startPageLabel": "Front board",
+            "startPagePosition": 1,
+            "startPageID": "PHYS-1",
+            "endPageLabel": "Tail",
+            "endPagePosition": 520
+         }
+               ],
+            "listItemPages": 
+               [
+            
+         {
+            "fileID": "MS-HEBREW-MSS-00008",
+            "dmdID": "ITEM-1",
+            "startPageLabel": "1a",
+            "startPage": 3,
+            "title": "1a",
+            "listItemText": "Folio 1a: Red and blue painted gilt-bordered fields for the initial word in gilded letters (בשם). The margins of the page are filled with an elaborately decorated border which includes cherubs and animals on a background of red, blue, green and pink painted floral motifs, gilding and black penwork. Top of page: four cherubs pulling a grass floor. Left margin (from top to bottom): cherub and a peacock in gilded frame; a sitting doe; cherub with tambourine in gilded frame; centaur fighting a bear; face of a male figure; cherub with a flute in gilded frame. Bottom of page: painted depiction of a leopard and a lemon / orange tree in a round painted green gilt-bordered field. Around the depiction of the leopard are four cherubs (clockwise from upper right): cherub with owl; twice a cherub riding a hare; cherub and a bird. Right margin (bottom to top): cherub with triangle in gilded frame; two birds; flower in gilded frame; a bird and a hare; cherub climbing to pick fruit."
+         },
+         {
+            "fileID": "MS-HEBREW-MSS-00008",
+            "dmdID": "ITEM-1",
+            "startPageLabel": "2b",
+            "startPage": 6,
+            "title": "2b",
+            "listItemText": "Folio 2b: Gilded initial-word בראשית in red and blue painted gilt-bordered fields. Similar decorations in the margins. The margins of the page are filled with an elaborately decorated border which includes cherubs and animals on a background of white interlaced branches with painted pink, blue and green compartments, gilding and black penwork. Top of page: cherub in a gilded frame in the middle and cherubs on his left and right side. Left margin (from top to bottom): cherub feeding a bird; flower in a gilded frame; cherub blowing a trumpet; cherub with drum in gilded frame. Bottom of page: a sitting leopard with a lemon / orange tree in a gilt-bordered laurel. On both sides of the lion are three cherubs, hanging a garland. Right margin (bottom to top): cherub blowing a flute in a gilded frame; two birds; a jar; cherub with doe and two birds; cherub holding an object (another instrument?); cherub with fox and bird; cherub with tambourine in a gilded frame."
+         },
+         {
+            "fileID": "MS-HEBREW-MSS-00008",
+            "dmdID": "ITEM-1",
+            "startPageLabel": "70b",
+            "startPage": 142,
+            "title": "70b",
+            "listItemText": "Folio 70b: Initial-words written in black ink: סדר ואלה שמות. The margins of the page are filled with an elaborately decorated border which includes cherubs and animals on a background of blue, green and pink painted floral motifs. Top of page: yellow flower on green painted field with gilded frame; on its left side a doe and on its right side a hare. Left margin (from top to bottom): cherub and a doe in gilded frame; a bird; climbing cherub; vase; posing cherub in gilded frame; bird; drinking cherub in gilded frame. Bottom of page: in the centre a sitting leopard with a lemon / orange tree in a gilt-bordered laurel. Surrounding the frame are four cherubs. Right margin (from bottom to top): cherub in gilded frame (seen from the back); two standing cherubs blowing a trumpet; cherub standing on one leg in gilded frame; a vase with on its left side a cherub playing a violin, on its right side a cherub playing the cither; two birds; a cherub sitting on a bird in a gilded frame."
+         },
+         {
+            "fileID": "MS-HEBREW-MSS-00008",
+            "dmdID": "ITEM-1",
+            "startPageLabel": "128b",
+            "startPage": 258,
+            "title": "128b",
+            "listItemText": "Folio 128b: Initial-words ספר ויקרא written on a blank field within a red painted and gilded frame. Initial-words סדר ויקרא written on a blank field within a red painted and gilded frame. The margins of the page are filled with an elaborately decorated border which includes cherubs and animals on a background of white interlaced branches with painted pink, blue and green compartments, gilding and black penwork. Top of page: yellow flower on green painted field and gilded frame in the middle; on its left side a cherub sitting on a fox and on its right side a cherub riding on a bear and holding a whip. Left margin (from top to bottom): cherub blowing a trumpet in gilded frame; cherub cuddling a hare; two birds; standing cherub holding a round gilt-bordered frame with the depiction of a hare; bird; cherub with dead hare on his back. Bottom of page: in the centre a sitting leopard with a lemon / orange tree in a gilt-bordered laurel. Surrounding the frame are four cherubs. Right margin (bottom to top): cherub holding a bird in a gilded frame; hare with a bird; two cherubs holding grapes; cherub playing with an animal in gilded frame; two birds sitting on the frame; cherub with fruit in his hand and a bear, he tries to ride the bear; two hares sit facing each other; cherub blowing a horn in a gilded frame."
+         },
+         {
+            "fileID": "MS-HEBREW-MSS-00008",
+            "dmdID": "ITEM-1",
+            "startPageLabel": "173a",
+            "startPage": 347,
+            "title": "173a",
+            "listItemText": "Folio 173a: Initial-words ספר במדבר סיני in a pink painted gilt-bordered field with gilded floral decorations. Above the words is a depiction of a high priest in a gilt-bordered laurel, held by two cherubs. The margins of the page are filled with an elaborately decorated border that includes cherubs and animals on a background of white interlaced branches with painted pink, blue and green compartments, gilding and black penwork. The frame is decorated with pink, blue and green flowers, black penwork and gilding. Top of page: in the centre a flower on a painted green field in a gilded frame; on both sides a playing cherub. Left margin (from top to bottom): man holding a blank text scroll in a gilded frame; cherub and a bird; another cherub and bird, the cherub climbs down to cookies in two platters; sitting stag in gilded frame; cherub with a dog and peacock, he pours water in the dog’s mouth; cherub and piglet; a vessel; a bird; monkey holding a coconut in a gilded frame. Bottom of page (from left to right): cherub with escaping hare; cherub with drum; leopard in a gilt-bordered laurel holding a lemon / orange tree; cherub with doe; cherub with tambourine. Right margin (from bottom to top): monkey with dog in gilded frame; climbing cherub trying to catch a hare; lion sitting in a gilt-bordered frame; cherub; bird; man holding a blank text scroll."
+         },
+         {
+            "fileID": "MS-HEBREW-MSS-00008",
+            "dmdID": "ITEM-1",
+            "startPageLabel": "211a",
+            "startPage": 423,
+            "title": "211a",
+            "listItemText": "Folio 211a: Initial-words ספר אלה הדברים written on a blank field within a pink painted gilded frame. On the frame sit two cherubs, holding the depiction of Moses receiving the Ten Commandments on Mount Horeb and bringing them down to the people, in a gilt-bordered laurel. The margins of the page are filled with an elaborately decorated border which includes cherubs and animals on a background of red, blue, green and pink painted floral motifs, gilding and black penwork. Top of page: a painted lion in a gilded frame; on both sides a bird. Left margin (top to bottom): two cherubs sitting; a standing cherub; leopard in a gilded frame; a cherub riding a goat; two birds. Bottom of page: leopard in a gilt-bordered laurel holding a lemon / orange tree; on both sides a cherub. Right margin (from bottom to top): a sitting doe; two cherubs stand facing each other, holding a flower; two birds facing each other; two rabbits in a gilded frame; two birds; a running hare."
+         },
+         {
+            "fileID": "MS-HEBREW-MSS-00008",
+            "dmdID": "ITEM-1",
+            "startPageLabel": "62a",
+            "startPage": 125,
+            "title": "62a",
+            "listItemText": "Marginal corrections have been added by different hands throughout the manuscript. For examples of longer marginal notes see folios 62a, 75a, 83a, and so forth."
+         },
+         {
+            "fileID": "MS-HEBREW-MSS-00008",
+            "dmdID": "ITEM-1",
+            "startPageLabel": "65b",
+            "startPage": 132,
+            "title": "65b",
+            "listItemText": "Censorship marks are found on folios 65b-66a, 67a, 92a, 173a, 198b, 200a-201a, 241b-242a."
+         },
+         {
+            "fileID": "MS-HEBREW-MSS-00008",
+            "dmdID": "ITEM-1",
+            "startPageLabel": "Front paste-down",
+            "startPage": 2,
+            "title": "Front paste-down",
+            "listItemText": "Front paste-down: Handwritten in pencil number 49"
+         },
+         {
+            "fileID": "MS-HEBREW-MSS-00008",
+            "dmdID": "ITEM-1",
+            "startPageLabel": "254a",
+            "startPage": 509,
+            "title": "254a",
+            "listItemText": "Folio 254a: Censorship note reading \"Rivisto, et corretto da me s.tto, questo Libro di Biur al- / Htora, seu Expositio Legii, autore R. Mose Bar / Nachman, in compendio, detto Haramban - / scritto in Membrana, carattere Rabbinico - / q.to dì 16 Agosto 1769 - / - Costanzi, Giovanni AntonioGio An.to Costanzi -\"."
+         }
+               ]
+         }

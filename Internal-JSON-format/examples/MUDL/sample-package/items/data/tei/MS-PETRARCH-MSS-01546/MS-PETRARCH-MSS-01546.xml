@@ -1,0 +1,4560 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="enrich.css" title="Enrich" alternate="no"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Petrarch Commentary and Exegesis in Renaissance Italy, c. 1350-c.
+                    1650</title>
+                <funder>AHRC</funder>
+                <principal>Simon Gilson</principal>
+                <respStmt>
+                    <resp>Cataloguer</resp>
+                    <name>Julianne Simpson</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>The University of Manchester Library</publisher>
+                <date calendar="Gregorian">2018</date>
+                <pubPlace>
+                    <address>
+                        <addrLine>The John Rylands Library</addrLine>
+                        <street>150 Deansgate</street>
+                        <settlement>Manchester</settlement>
+                        <postCode>M3 3EH</postCode>
+                        <addrLine>
+                     <ref target="http://www.library.manchester.ac.uk/specialcollections/">The John Rylands Library
+                        </ref>
+                  </addrLine>
+                        <addrLine>
+                     <email>uml.special-collections@manchester.ac.uk</email>
+                  </addrLine>
+                    </address>
+                </pubPlace>
+                <idno>UkMaJRU-Bullock-1546</idno>
+                <availability xml:id="displayImageRights" status="restricted">
+                    <p>Zooming image © University of Manchester Library, All rights reserved.</p>
+                </availability>
+                <availability xml:id="downloadImageRights" status="restricted">
+                    <licence>Images made available for download are licensed under a Creative
+                        Commons Attribution-NonCommercial 3.0 Unported License (CC BY-NC
+                        3.0)</licence>
+                </availability>
+                <availability xml:id="metadataRights" status="restricted">
+                    <licence>This metadata is licensed under a Creative Commons
+                        Attribution-NonCommercial 3.0 Unported License.</licence>
+                </availability>
+            </publicationStmt>
+
+
+            <sourceDesc>
+                <msDesc xml:id="UkMaJRU-Bullock-1546" xml:lang="eng">
+
+                    <msIdentifier>
+                        <country>United Kingdom</country>
+                        <region type="county">Greater Manchester</region>
+                        <settlement>Manchester</settlement>
+                        <institution>The University of Manchester Library</institution>
+                        <repository>The John Rylands Library</repository>
+                        <collection>Bullock Collection</collection>
+
+
+                        <idno>Bullock 1546</idno>
+
+
+                    </msIdentifier>
+
+                    <msContents>
+                        <summary>The Rerum vulgarium fragmenta and Triumphi with commentary by Alessandro Vellutello. A reprint of the 1547 and 1550 editions published by Gabriele Giolito de Ferrari &amp; fratelli.</summary>
+
+
+                        <msItem>
+
+                            <title>Il Petrarcha con l’espositione d’Allessandro Vellutello di novo
+                                ristampato con le figure a i triomphi, et con piu cose utili in
+                                varii luoghi aggiunte.</title>
+                            <title type="alt" xml:lang="eng">Poetical works</title>
+
+
+
+                            <author>
+                                <name type="person" role="aut" ref="http://viaf.org/viaf/39382430">
+                                    <persName type="standard" xml:lang="ita">Petrarca, Francesco,
+                                        1304-1374.</persName>
+                                    <persName type="display">Petrarca, Francesco,
+                                        1304-1374.</persName>
+                                </name>
+                            </author>
+
+                            <respStmt>
+
+                                <name type="person" role="cwt" ref="http://viaf.org/viaf/95398289">
+                                    <persName type="standard" xml:lang="ita">Vellutello,
+                                        Alessandro.</persName>
+                                    <persName type="display">Vellutello, Alessandro.</persName>
+                                </name>
+                                <name type="person" role="edt" ref="http://viaf.org/viaf/7486683">
+                                    <persName type="standard" xml:lang="ita">Domenichi, Lodovico,
+                                        1515-1564.</persName>
+                                    <persName type="display">Domenichi, Lodovico,
+                                        1515-1564.</persName>
+                                </name>
+                                <name type="org" role="pbl" ref="http://viaf.org/viaf/121294203">
+                                    <orgName type="standard" xml:lang="ita">Gabriele Giolito de
+                                        Ferrari &amp; fratelli.</orgName>
+                                    <orgName type="display">Gabriele Giolito de Ferrari &amp;
+                                        fratelli.</orgName>
+                                </name>
+                                
+                                <resp/>
+                            </respStmt>
+
+                            <textLang mainLang="ita">Italian</textLang>
+
+                            <note>Poems in italic type and commentary in roman type; printed
+                                numbering; most of Petrarch’s texts set on left in small block, with
+                                commentary distributed on three sides; some other Petrarch’s texts
+                                set on left in a sequence of blocks, with commentary distributed in
+                                single column on right. <locus from="*1r" to="*1r">Title</locus>
+                                within architectural frame; one full-page woodcut (map) on <locus from="*5v" to="*5v">*5v</locus>, one small woodcut (portrait) on
+                                    <locus from="*2v" to="*2v">*2v</locus>, six rectangular-box
+                                woodcuts (Triumfi: <locus from="X2r" to="X2r">X2r</locus>, <locus from="Z4v" to="Z4v">Z4v</locus>, <locus from="AA1r" to="AA1r">AA1r</locus>, <locus from="AA7r" to="AA7r">AA7r</locus>, <locus from="CC3v" to="CC3v">CC3v</locus>, <locus from="CC6r" to="CC6r">CC6r</locus>.</note>
+
+
+                            <msItem n="1">
+                                <locus from="*1r" to="*1r">*1r</locus>
+                                <title xml:lang="eng">Title page</title>
+                            </msItem>
+                            <msItem n="2">
+                                <locus from="*1v" to="*1v">*1v</locus>
+                                <title xml:lang="eng">Blank</title>
+                            </msItem>
+                            <msItem n="3">
+                                <locus from="*2r" to="*2r">*2r</locus>
+                                <title xml:lang="eng">Lodovico Domenichi’s address to the
+                                    readers</title>
+                            </msItem>
+                            <msItem n="4">
+                                <locus from="*2v" to="*2v">*2v</locus>
+                                <title xml:lang="eng">Small woodcut with an urn with half-length
+                                    portraits of Laura and Petrarch facing each other; sonnet on
+                                    Petrarch and Laura’s ashes, ‘Laura, ch’un Sol fu tra le Donne in
+                                    terra’ (‘Sonetto sopra le sacre ceneri del Petrarcha e di M.
+                                    Laura’)</title>
+                            </msItem>
+                            <msItem n="5">
+                                <locus from="*3r" to="*5r">*3r-*5r</locus>
+                                <title xml:lang="eng">Vellutello’s life of Petrarch (‘Vita e costumi
+                                    del poeta’)</title>
+                            </msItem>
+                            <msItem n="6">
+                                <locus from="*5v" to="*5v">*5v</locus>
+                                <title xml:lang="eng">Full-page topographical map of
+                                    Provence</title>
+                            </msItem>
+                            <msItem n="7">
+                                <locus from="*6r" to="*8v">*6r-*8v</locus>
+                                <title xml:lang="eng">Life of Laura with a description of Vaucluse
+                                    (‘Origine di Madonna Laura con la descrittione de Valclusa, e
+                                    del luogo ove il poeta a principio di lei s’innamorò’)</title>
+                            </msItem>
+                            <msItem n="8">
+                                <locus from="*8v" to="*8v">*8v</locus>
+                                <title xml:lang="eng">Discussion of how RVF is divided into three
+                                    parts (‘Divisione de son. e de le canz. del Petrarcha in tre
+                                    parti’)</title>
+                            </msItem>
+                            <msItem n="9">
+                                <locus from="A1r" to="N1v">A1r-N1v</locus>
+                                <title xml:lang="eng">First part of RVF with commentary (‘Sonetti, e
+                                    canzoni del divino poeta M. Francesco Petrarca, colla
+                                    espositione di M. Alessandro Vellutello’)</title>
+                            </msItem>
+                            <msItem n="10">
+                                <locus from="N2r" to="R8r">N2r-R8r</locus>
+                                <title xml:lang="eng">Second part of RVF (beginning with RVF 267)
+                                    with commentary (‘Sonetti, e canzoni del divino poeta Messer
+                                    Francesco Petrarcha in morte di madonna Laura colla espositione
+                                    del Vellutello’)</title>
+                            </msItem>
+                            <msItem n="11">
+                                <locus from="R8v" to="V8v">R8v-V8v</locus>
+                                <title xml:lang="eng">Third part of RVF with commentary (‘Incomincia
+                                    la terza parte de i sonetti et delle canzoni di M. Francesco
+                                    Petrarcha, colla espositione di Messer Alessandro
+                                    Vellutello’)</title>
+                            </msItem>
+                            <msItem n="12">
+                                <locus from="X1r" to="X1r">X1r</locus>
+                                <title xml:lang="eng">Poems addressed to Petrarch by Muzio Stramazzo
+                                    da Perugia (‘La santa fiamma, de laqual son priue’), Giacomo
+                                    Colonna (‘Se le parti del corpo mio destrutte’), Geri
+                                    Gianfigliazzi (‘Messer Francesco, chi d’amor sospira’), and
+                                    Giovanni Dondi dall’Orologio (‘Io non so ben s’io uedo quel,
+                                    ch’io ueggio’), each poem is followed by the first line of
+                                    Petrarch’s reply accompanied by the page number where the poem
+                                    is printed; Vellutello’s prologue to his commentary on the
+                                    Triumphi (‘Alessandro Vellutello sopra i Triomphi del
+                                    Petrarca’)</title>
+                            </msItem>
+                            <msItem n="13">
+                                <locus from="X1v" to="X1v">X1v</locus>
+                                <title xml:lang="eng">Vellutello’s overview of the content of the
+                                    Triumphi (‘Soggetto de’ Triomphi del poeta’)</title>
+                            </msItem>
+                            <msItem n="14">
+                                <locus from="X2r" to="CC8r">X2r-CC8r</locus>
+                                <title xml:lang="eng">Triumphi with commentary (‘Triomphi di messer
+                                    Francesco Petrarca, colla espositione di messer Alessandro
+                                    Vellutello’); each triumph is preceded by a rectangular-box
+                                    woodcut: Triumphus Amoris (X2r); Triumphus Pudicitie (Z4v),
+                                    Triumphus Mortis (AA1r), Triumphus Fame (AA7r), Triumphus
+                                    Temporis (CC3v), Triumphus Divinitatis (CC6r)</title>
+                            </msItem>
+                            <msItem n="15">
+                                <locus from="CC8v" to="DD4r">CC8v-DD4r</locus>
+                                <title xml:lang="eng">Petrarch’s scattered poems (capitolo ‘Nel cor
+                                    pien d’amarissima dolcezza’, canzone ‘Quel, c’ha nostra natura
+                                    in se piu degno’, ballad ‘Noua bellezza in habito gentile’,
+                                    sonnet ‘Anima doue sei? ch’adhora adhora’)</title>
+                            </msItem>
+                            <msItem n="16">
+                                <locus from="DD4r" to="DD4v">DD4r-DD4v</locus>
+                                <title xml:lang="eng">Poems addressed to Petrarch by Jacopo de’
+                                    Caratori da Imola (‘O nouella Tarpea, in cui s’asconde’) and Ser
+                                    Diotesalvi di Pietro da Siena (‘Il bello occhio d’Apollo, del
+                                    cui sguardo’), each poem is followed by Petrarch’s reply
+                                    (‘Ingegno usato a le question profonde’ and ‘Se Phebo al primo
+                                    amor non è bugiardo’, respectively)</title>
+                            </msItem>
+                            <msItem n="17">
+                                <locus from="DD5r" to="DD5v">DD5r-DD5v</locus>
+                                <title xml:lang="eng">Petrarch’s scattered sonnets (‘Quella
+                                    ghirlanda, che la bella fronte’, ‘Stato fuss’io, quando la uidi
+                                    prima’, ‘In ira a i cieli, al mondo, &amp; a la gente’, ‘Se
+                                    sotto legge Amor uiuesse quella’, ‘Lasso com’io fui mal
+                                    approueduto’, and ‘Quella, che ’l giouenil mio cor
+                                    auinse’)</title>
+                            </msItem>
+                            <msItem n="18">
+                                <locus from="DD6r" to="DD8r">DD6r-DD8r</locus>
+                                <title xml:lang="eng">Alphabetical index of the first lines of both
+                                    RVF poems and the Triumphi’s capitoli (under each letter of the
+                                    alphabet sonnets and canzoni (including capitoli) are listed
+                                    separately, both according to their order of appearance)
+                                    (‘Tavola de son. et de le canz. del Petrarcha’)</title>
+                            </msItem>
+                            <msItem n="19">
+                                <locus from="DD8r" to="DD8r">DD8r</locus>
+                                <title xml:lang="eng">Register; printer’s mark; colophon: In Vinegia
+                                    appresso Gabriel Giolito de Ferrari e fratelli MDLII</title>
+                            </msItem>
+                            <msItem n="20">
+                                <locus from="DD8v" to="DD8v">DD8v</locus>
+                                <title xml:lang="eng">Blank</title>
+                            </msItem>
+
+                        </msItem>
+                    </msContents>
+
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc material="paper">
+                                <support>
+                           <material>Paper</material>.</support>
+
+                                <extent>
+                                    <measure unit="pages" quantity="448">[8], 216 leaves.</measure>
+                                </extent>
+                                <collation>
+                           <p>4to: *⁸ A-Z⁸ AA-DD⁸</p>
+                        </collation>
+                            </supportDesc>
+                        </objectDesc>
+
+
+
+                        <additions>
+                            <p>RVF <locus from="T3v" to="T3v">114</locus> and <locus from="S6v" to="S7r">136-38</locus> have been cancelled with some strokes of
+                                pen.</p>
+                        </additions>
+
+
+                        <bindingDesc>
+                            <p>18th/19th century Italian full parchment over boards with pink
+                                marbled endpapers; red and green leather spine labels with gilt
+                                lettering.</p>
+                        </bindingDesc>
+                    </physDesc>
+
+                    <history>
+                        <origin>
+                            <origDate when="1552">1552</origDate>
+                            <origPlace ref="7018159">Venice</origPlace>
+                            <note type="publisher">In Vinegia appresso Gabriel Giolito de Ferrari e
+                                fratelli. M D L II</note>
+                        </origin>
+
+
+                        <provenance>
+                     <p>Signature of Walter L. Bullock on <locus from="inside_upper_cover" to="inside_upper_cover">inside upper
+                                    cover</locus>
+                     </p>
+                        </provenance>
+
+
+                        <acquisition>Donated to the <name type="institution" ref="http://viaf.org/viaf/157695433">
+                                <orgName type="display">The University of
+                                    Manchester</orgName>
+                     </name> by Hélène Louise Bullock, the widow of <name type="person"
+                           ref="http://viaf.org/viaf/8479151838000320520006"
+                           role="fmo">
+                                <persName type="display">Walter L. Bullock</persName>
+                        <persName type="standard">Bullock, Walter L. (Walter Llewellyn),
+                                    1890-1944.</persName>
+                     </name>, Serena Professor of Italian, in
+                                <date calendar="Gregorian" when="1944">1944</date>. </acquisition>
+                    </history>
+
+
+
+                    <additional>
+
+                        <listBibl>
+                            <bibl>Recorded in University of Manchester <ref target="http://man.ac.uk/2oTx7Z">Library Search</ref>
+                     </bibl>
+                            <bibl>A link to the AHRC Petrarch database will be <ref target="https://warwick.ac.uk/fac/arts/ren/projects/petrarch/">put here</ref>
+                     </bibl>
+                        </listBibl>
+                    </additional>
+
+
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+
+        <!--encodingDesc>
+            <classDecl>
+                <taxonomy xml:id="LCSH">
+                    <bibl><ref target="http://id.loc.gov/authorities/about.html#lcsh">Library of
+                            Congress Subject Headings</ref></bibl>
+                </taxonomy>
+            </classDecl>
+        </encodingDesc>
+
+
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#LCSH">
+                    <list>
+                        <item><ref target="http://id.loc.gov/authorities/n79063688">Bible. N.T.
+                                Gospels</ref></item>
+                        <item><ref target="http://id.loc.gov/authorities/sh92002120">Christian
+                                literature, Arabic</ref></item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc-->
+
+
+        <revisionDesc>
+
+            <change when="2018-07-29">
+                <persName role="cre">Julianne Simpson</persName>
+         </change>
+            <change when="2018-11-13">
+                <persName role="cre">Julianne Simpson</persName>
+         </change>
+        </revisionDesc>
+    </teiHeader>
+
+
+
+    <facsimile>
+        <graphic decls="#document-thumbnail"
+               rend="portrait"
+               url="MS-PETRARCH-MSS-01546-000-00021.jp2"/>
+        <surface n="upper_cover" xml:id="i1">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="5485px"
+                  url="MS-PETRARCH-MSS-01546-000-00021.jp2"/>
+
+        </surface>
+        <surface n="inside_upper_cover" xml:id="i2">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4549px"
+                  url="MS-PETRARCH-MSS-01546-000-00022.jp2"/>
+
+        </surface>
+        <surface n="front_flyleaf_[i]" xml:id="i3">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4487px"
+                  url="MS-PETRARCH-MSS-01546-000-00023.jp2"/>
+
+        </surface>
+        <surface n="front_flyleaf_[ii]" xml:id="i4">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4517px"
+                  url="MS-PETRARCH-MSS-01546-000-00024.jp2"/>
+
+        </surface>
+        <surface n="front_flyleaf_[iii]" xml:id="i5">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4487px"
+                  url="MS-PETRARCH-MSS-01546-000-00025.jp2"/>
+
+        </surface>
+        <surface n="front_flyleaf_[iv]" xml:id="i6">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4517px"
+                  url="MS-PETRARCH-MSS-01546-000-00026.jp2"/>
+
+        </surface>
+        <surface n="*1r" xml:id="i7">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4487px"
+                  url="MS-PETRARCH-MSS-01546-000-00027.jp2"/>
+
+        </surface>
+        <surface n="*1v" xml:id="i8">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4517px"
+                  url="MS-PETRARCH-MSS-01546-000-00028.jp2"/>
+
+        </surface>
+        <surface n="*2r" xml:id="i9">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4366px"
+                  url="MS-PETRARCH-MSS-01546-000-00029.jp2"/>
+
+        </surface>
+        <surface n="*2v" xml:id="i10">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4400px"
+                  url="MS-PETRARCH-MSS-01546-000-00030.jp2"/>
+
+        </surface>
+        <surface n="*3r" xml:id="i11">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4342px"
+                  url="MS-PETRARCH-MSS-01546-000-00031.jp2"/>
+
+        </surface>
+        <surface n="*3v" xml:id="i12">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4402px"
+                  url="MS-PETRARCH-MSS-01546-000-00032.jp2"/>
+
+        </surface>
+        <surface n="*4r" xml:id="i13">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4377px"
+                  url="MS-PETRARCH-MSS-01546-000-00033.jp2"/>
+
+        </surface>
+        <surface n="*4v" xml:id="i14">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4416px"
+                  url="MS-PETRARCH-MSS-01546-000-00034.jp2"/>
+
+        </surface>
+        <surface n="*5r" xml:id="i15">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4384px"
+                  url="MS-PETRARCH-MSS-01546-000-00035.jp2"/>
+
+        </surface>
+        <surface n="*5v" xml:id="i16">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4470px"
+                  url="MS-PETRARCH-MSS-01546-000-00036.jp2"/>
+
+        </surface>
+        <surface n="*6r" xml:id="i17">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4429px"
+                  url="MS-PETRARCH-MSS-01546-000-00037.jp2"/>
+
+        </surface>
+        <surface n="*6v" xml:id="i18">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4432px"
+                  url="MS-PETRARCH-MSS-01546-000-00038.jp2"/>
+
+        </surface>
+        <surface n="*7r" xml:id="i19">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4372px"
+                  url="MS-PETRARCH-MSS-01546-000-00039.jp2"/>
+
+        </surface>
+        <surface n="*7v" xml:id="i20">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4362px"
+                  url="MS-PETRARCH-MSS-01546-000-00040.jp2"/>
+
+        </surface>
+        <surface n="*8r" xml:id="i21">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4340px"
+                  url="MS-PETRARCH-MSS-01546-000-00041.jp2"/>
+
+        </surface>
+        <surface n="*8v" xml:id="i22">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4362px"
+                  url="MS-PETRARCH-MSS-01546-000-00042.jp2"/>
+
+        </surface>
+        <surface n="A1r" xml:id="i23">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4348px"
+                  url="MS-PETRARCH-MSS-01546-000-00043.jp2"/>
+
+        </surface>
+        <surface n="A1v" xml:id="i24">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4362px"
+                  url="MS-PETRARCH-MSS-01546-000-00044.jp2"/>
+
+        </surface>
+        <surface n="A2r" xml:id="i25">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4315px"
+                  url="MS-PETRARCH-MSS-01546-000-00045.jp2"/>
+
+        </surface>
+        <surface n="A2v" xml:id="i26">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4362px"
+                  url="MS-PETRARCH-MSS-01546-000-00046.jp2"/>
+
+        </surface>
+        <surface n="A3r" xml:id="i27">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4319px"
+                  url="MS-PETRARCH-MSS-01546-000-00047.jp2"/>
+
+        </surface>
+        <surface n="A3v" xml:id="i28">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4404px"
+                  url="MS-PETRARCH-MSS-01546-000-00048.jp2"/>
+
+        </surface>
+        <surface n="A4r" xml:id="i29">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4340px"
+                  url="MS-PETRARCH-MSS-01546-000-00049.jp2"/>
+
+        </surface>
+        <surface n="A4v" xml:id="i30">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4404px"
+                  url="MS-PETRARCH-MSS-01546-000-00050.jp2"/>
+
+        </surface>
+        <surface n="A5r" xml:id="i31">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4337px"
+                  url="MS-PETRARCH-MSS-01546-000-00051.jp2"/>
+
+        </surface>
+        <surface n="A5v" xml:id="i32">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4415px"
+                  url="MS-PETRARCH-MSS-01546-000-00052.jp2"/>
+
+        </surface>
+        <surface n="A6r" xml:id="i33">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4282px"
+                  url="MS-PETRARCH-MSS-01546-000-00053.jp2"/>
+
+        </surface>
+        <surface n="A6v" xml:id="i34">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4415px"
+                  url="MS-PETRARCH-MSS-01546-000-00054.jp2"/>
+
+        </surface>
+        <surface n="A7r" xml:id="i35">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4314px"
+                  url="MS-PETRARCH-MSS-01546-000-00055.jp2"/>
+
+        </surface>
+        <surface n="A7v" xml:id="i36">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4415px"
+                  url="MS-PETRARCH-MSS-01546-000-00056.jp2"/>
+
+        </surface>
+        <surface n="A8r" xml:id="i37">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4315px"
+                  url="MS-PETRARCH-MSS-01546-000-00057.jp2"/>
+
+        </surface>
+        <surface n="A8v" xml:id="i38">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4415px"
+                  url="MS-PETRARCH-MSS-01546-000-00058.jp2"/>
+
+        </surface>
+        <surface n="B1r" xml:id="i39">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4314px"
+                  url="MS-PETRARCH-MSS-01546-000-00059.jp2"/>
+
+        </surface>
+        <surface n="B1v" xml:id="i40">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4415px"
+                  url="MS-PETRARCH-MSS-01546-000-00060.jp2"/>
+
+        </surface>
+        <surface n="B2r" xml:id="i41">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4323px"
+                  url="MS-PETRARCH-MSS-01546-000-00061.jp2"/>
+
+        </surface>
+        <surface n="B2v" xml:id="i42">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4415px"
+                  url="MS-PETRARCH-MSS-01546-000-00062.jp2"/>
+
+        </surface>
+        <surface n="B3r" xml:id="i43">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4322px"
+                  url="MS-PETRARCH-MSS-01546-000-00063.jp2"/>
+
+        </surface>
+        <surface n="B3v" xml:id="i44">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4415px"
+                  url="MS-PETRARCH-MSS-01546-000-00064.jp2"/>
+
+        </surface>
+        <surface n="B4r" xml:id="i45">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4310px"
+                  url="MS-PETRARCH-MSS-01546-000-00065.jp2"/>
+
+        </surface>
+        <surface n="B4v" xml:id="i46">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4415px"
+                  url="MS-PETRARCH-MSS-01546-000-00066.jp2"/>
+
+        </surface>
+        <surface n="B5r" xml:id="i47">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4296px"
+                  url="MS-PETRARCH-MSS-01546-000-00067.jp2"/>
+
+        </surface>
+        <surface n="B5v" xml:id="i48">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4373px"
+                  url="MS-PETRARCH-MSS-01546-000-00068.jp2"/>
+
+        </surface>
+        <surface n="B6r" xml:id="i49">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4292px"
+                  url="MS-PETRARCH-MSS-01546-000-00069.jp2"/>
+
+        </surface>
+        <surface n="B6v" xml:id="i50">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4415px"
+                  url="MS-PETRARCH-MSS-01546-000-00070.jp2"/>
+
+        </surface>
+        <surface n="B7r" xml:id="i51">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4287px"
+                  url="MS-PETRARCH-MSS-01546-000-00071.jp2"/>
+
+        </surface>
+        <surface n="B7v" xml:id="i52">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4415px"
+                  url="MS-PETRARCH-MSS-01546-000-00072.jp2"/>
+
+        </surface>
+        <surface n="B8r" xml:id="i53">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4301px"
+                  url="MS-PETRARCH-MSS-01546-000-00073.jp2"/>
+
+        </surface>
+        <surface n="B8v" xml:id="i54">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4415px"
+                  url="MS-PETRARCH-MSS-01546-000-00074.jp2"/>
+
+        </surface>
+        <surface n="C1r" xml:id="i55">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4299px"
+                  url="MS-PETRARCH-MSS-01546-000-00075.jp2"/>
+
+        </surface>
+        <surface n="C1v" xml:id="i56">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4415px"
+                  url="MS-PETRARCH-MSS-01546-000-00076.jp2"/>
+
+        </surface>
+        <surface n="C2r" xml:id="i57">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4291px"
+                  url="MS-PETRARCH-MSS-01546-000-00077.jp2"/>
+
+        </surface>
+        <surface n="C2v" xml:id="i58">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4415px"
+                  url="MS-PETRARCH-MSS-01546-000-00078.jp2"/>
+
+        </surface>
+        <surface n="C3r" xml:id="i59">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4298px"
+                  url="MS-PETRARCH-MSS-01546-000-00079.jp2"/>
+
+        </surface>
+        <surface n="C3v" xml:id="i60">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4415px"
+                  url="MS-PETRARCH-MSS-01546-000-00080.jp2"/>
+
+        </surface>
+        <surface n="C4r" xml:id="i61">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4265px"
+                  url="MS-PETRARCH-MSS-01546-000-00081.jp2"/>
+
+        </surface>
+        <surface n="C4v" xml:id="i62">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4415px"
+                  url="MS-PETRARCH-MSS-01546-000-00082.jp2"/>
+
+        </surface>
+        <surface n="C5r" xml:id="i63">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4277px"
+                  url="MS-PETRARCH-MSS-01546-000-00083.jp2"/>
+
+        </surface>
+        <surface n="C5v" xml:id="i64">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4415px"
+                  url="MS-PETRARCH-MSS-01546-000-00084.jp2"/>
+
+        </surface>
+        <surface n="C6r" xml:id="i65">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4288px"
+                  url="MS-PETRARCH-MSS-01546-000-00085.jp2"/>
+
+        </surface>
+        <surface n="C6v" xml:id="i66">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4415px"
+                  url="MS-PETRARCH-MSS-01546-000-00086.jp2"/>
+
+        </surface>
+        <surface n="C7r" xml:id="i67">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4300px"
+                  url="MS-PETRARCH-MSS-01546-000-00087.jp2"/>
+
+        </surface>
+        <surface n="C7v" xml:id="i68">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4415px"
+                  url="MS-PETRARCH-MSS-01546-000-00088.jp2"/>
+
+        </surface>
+        <surface n="C8r" xml:id="i69">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4286px"
+                  url="MS-PETRARCH-MSS-01546-000-00089.jp2"/>
+
+        </surface>
+        <surface n="C8v" xml:id="i70">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4415px"
+                  url="MS-PETRARCH-MSS-01546-000-00090.jp2"/>
+
+        </surface>
+        <surface n="D1r" xml:id="i71">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4287px"
+                  url="MS-PETRARCH-MSS-01546-000-00091.jp2"/>
+
+        </surface>
+        <surface n="D1v" xml:id="i72">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4415px"
+                  url="MS-PETRARCH-MSS-01546-000-00092.jp2"/>
+
+        </surface>
+        <surface n="D2r" xml:id="i73">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4300px"
+                  url="MS-PETRARCH-MSS-01546-000-00093.jp2"/>
+
+        </surface>
+        <surface n="D2v" xml:id="i74">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4415px"
+                  url="MS-PETRARCH-MSS-01546-000-00094.jp2"/>
+
+        </surface>
+        <surface n="D3r" xml:id="i75">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4273px"
+                  url="MS-PETRARCH-MSS-01546-000-00095.jp2"/>
+
+        </surface>
+        <surface n="D3v" xml:id="i76">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4415px"
+                  url="MS-PETRARCH-MSS-01546-000-00096.jp2"/>
+
+        </surface>
+        <surface n="D4r" xml:id="i77">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4302px"
+                  url="MS-PETRARCH-MSS-01546-000-00097.jp2"/>
+
+        </surface>
+        <surface n="D4v" xml:id="i78">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4415px"
+                  url="MS-PETRARCH-MSS-01546-000-00098.jp2"/>
+
+        </surface>
+        <surface n="D5r" xml:id="i79">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4302px"
+                  url="MS-PETRARCH-MSS-01546-000-00099.jp2"/>
+
+        </surface>
+        <surface n="D5v" xml:id="i80">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4415px"
+                  url="MS-PETRARCH-MSS-01546-000-00100.jp2"/>
+
+        </surface>
+        <surface n="D6r" xml:id="i81">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4302px"
+                  url="MS-PETRARCH-MSS-01546-000-00101.jp2"/>
+
+        </surface>
+        <surface n="D6v" xml:id="i82">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4364px"
+                  url="MS-PETRARCH-MSS-01546-000-00102.jp2"/>
+
+        </surface>
+        <surface n="D7r" xml:id="i83">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4302px"
+                  url="MS-PETRARCH-MSS-01546-000-00103.jp2"/>
+
+        </surface>
+        <surface n="D7v" xml:id="i84">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4364px"
+                  url="MS-PETRARCH-MSS-01546-000-00104.jp2"/>
+
+        </surface>
+        <surface n="D8r" xml:id="i85">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4302px"
+                  url="MS-PETRARCH-MSS-01546-000-00105.jp2"/>
+
+        </surface>
+        <surface n="D8v" xml:id="i86">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4364px"
+                  url="MS-PETRARCH-MSS-01546-000-00106.jp2"/>
+
+        </surface>
+        <surface n="E1r" xml:id="i87">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4302px"
+                  url="MS-PETRARCH-MSS-01546-000-00107.jp2"/>
+
+        </surface>
+        <surface n="E1v" xml:id="i88">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4347px"
+                  url="MS-PETRARCH-MSS-01546-000-00108.jp2"/>
+
+        </surface>
+        <surface n="E2r" xml:id="i89">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4260px"
+                  url="MS-PETRARCH-MSS-01546-000-00109.jp2"/>
+
+        </surface>
+        <surface n="E2v" xml:id="i90">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4347px"
+                  url="MS-PETRARCH-MSS-01546-000-00110.jp2"/>
+
+        </surface>
+        <surface n="E3r" xml:id="i91">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4260px"
+                  url="MS-PETRARCH-MSS-01546-000-00111.jp2"/>
+
+        </surface>
+        <surface n="E3v" xml:id="i92">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4347px"
+                  url="MS-PETRARCH-MSS-01546-000-00112.jp2"/>
+
+        </surface>
+        <surface n="E4r" xml:id="i93">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4260px"
+                  url="MS-PETRARCH-MSS-01546-000-00113.jp2"/>
+
+        </surface>
+        <surface n="E4v" xml:id="i94">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4347px"
+                  url="MS-PETRARCH-MSS-01546-000-00114.jp2"/>
+
+        </surface>
+        <surface n="E5r" xml:id="i95">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4260px"
+                  url="MS-PETRARCH-MSS-01546-000-00115.jp2"/>
+
+        </surface>
+        <surface n="E5v" xml:id="i96">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4347px"
+                  url="MS-PETRARCH-MSS-01546-000-00116.jp2"/>
+
+        </surface>
+        <surface n="E6r" xml:id="i97">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4260px"
+                  url="MS-PETRARCH-MSS-01546-000-00117.jp2"/>
+
+        </surface>
+        <surface n="E6v" xml:id="i98">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4347px"
+                  url="MS-PETRARCH-MSS-01546-000-00118.jp2"/>
+
+        </surface>
+        <surface n="E7r" xml:id="i99">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4260px"
+                  url="MS-PETRARCH-MSS-01546-000-00119.jp2"/>
+
+        </surface>
+        <surface n="E7v" xml:id="i100">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4347px"
+                  url="MS-PETRARCH-MSS-01546-000-00120.jp2"/>
+
+        </surface>
+        <surface n="E8r" xml:id="i101">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4260px"
+                  url="MS-PETRARCH-MSS-01546-000-00121.jp2"/>
+
+        </surface>
+        <surface n="E8v" xml:id="i102">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4347px"
+                  url="MS-PETRARCH-MSS-01546-000-00122.jp2"/>
+
+        </surface>
+        <surface n="F1r" xml:id="i103">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4260px"
+                  url="MS-PETRARCH-MSS-01546-000-00123.jp2"/>
+
+        </surface>
+        <surface n="F1v" xml:id="i104">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4347px"
+                  url="MS-PETRARCH-MSS-01546-000-00124.jp2"/>
+
+        </surface>
+        <surface n="F2r" xml:id="i105">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4260px"
+                  url="MS-PETRARCH-MSS-01546-000-00125.jp2"/>
+
+        </surface>
+        <surface n="F2v" xml:id="i106">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4347px"
+                  url="MS-PETRARCH-MSS-01546-000-00126.jp2"/>
+
+        </surface>
+        <surface n="F3r" xml:id="i107">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4260px"
+                  url="MS-PETRARCH-MSS-01546-000-00127.jp2"/>
+
+        </surface>
+        <surface n="F3v" xml:id="i108">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4347px"
+                  url="MS-PETRARCH-MSS-01546-000-00128.jp2"/>
+
+        </surface>
+        <surface n="F4r" xml:id="i109">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4260px"
+                  url="MS-PETRARCH-MSS-01546-000-00129.jp2"/>
+
+        </surface>
+        <surface n="F4v" xml:id="i110">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4347px"
+                  url="MS-PETRARCH-MSS-01546-000-00130.jp2"/>
+
+        </surface>
+        <surface n="F5r" xml:id="i111">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4260px"
+                  url="MS-PETRARCH-MSS-01546-000-00131.jp2"/>
+
+        </surface>
+        <surface n="F5v" xml:id="i112">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4347px"
+                  url="MS-PETRARCH-MSS-01546-000-00132.jp2"/>
+
+        </surface>
+        <surface n="F6r" xml:id="i113">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4260px"
+                  url="MS-PETRARCH-MSS-01546-000-00133.jp2"/>
+
+        </surface>
+        <surface n="F6v" xml:id="i114">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4347px"
+                  url="MS-PETRARCH-MSS-01546-000-00134.jp2"/>
+
+        </surface>
+        <surface n="F7r" xml:id="i115">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4260px"
+                  url="MS-PETRARCH-MSS-01546-000-00135.jp2"/>
+
+        </surface>
+        <surface n="F7v" xml:id="i116">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4347px"
+                  url="MS-PETRARCH-MSS-01546-000-00136.jp2"/>
+
+        </surface>
+        <surface n="F8r" xml:id="i117">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4260px"
+                  url="MS-PETRARCH-MSS-01546-000-00137.jp2"/>
+
+        </surface>
+        <surface n="F8v" xml:id="i118">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4347px"
+                  url="MS-PETRARCH-MSS-01546-000-00138.jp2"/>
+
+        </surface>
+        <surface n="G1r" xml:id="i119">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4260px"
+                  url="MS-PETRARCH-MSS-01546-000-00139.jp2"/>
+
+        </surface>
+        <surface n="G1v" xml:id="i120">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4347px"
+                  url="MS-PETRARCH-MSS-01546-000-00140.jp2"/>
+
+        </surface>
+        <surface n="G2r" xml:id="i121">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4260px"
+                  url="MS-PETRARCH-MSS-01546-000-00141.jp2"/>
+
+        </surface>
+        <surface n="G2v" xml:id="i122">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4347px"
+                  url="MS-PETRARCH-MSS-01546-000-00142.jp2"/>
+
+        </surface>
+        <surface n="G3r" xml:id="i123">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4260px"
+                  url="MS-PETRARCH-MSS-01546-000-00143.jp2"/>
+
+        </surface>
+        <surface n="G3v" xml:id="i124">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4347px"
+                  url="MS-PETRARCH-MSS-01546-000-00144.jp2"/>
+
+        </surface>
+        <surface n="G4r" xml:id="i125">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4260px"
+                  url="MS-PETRARCH-MSS-01546-000-00145.jp2"/>
+
+        </surface>
+        <surface n="G4v" xml:id="i126">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4347px"
+                  url="MS-PETRARCH-MSS-01546-000-00146.jp2"/>
+
+        </surface>
+        <surface n="G5r" xml:id="i127">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4260px"
+                  url="MS-PETRARCH-MSS-01546-000-00147.jp2"/>
+
+        </surface>
+        <surface n="G5v" xml:id="i128">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4347px"
+                  url="MS-PETRARCH-MSS-01546-000-00148.jp2"/>
+
+        </surface>
+        <surface n="G6r" xml:id="i129">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4284px"
+                  url="MS-PETRARCH-MSS-01546-000-00149.jp2"/>
+
+        </surface>
+        <surface n="G6v" xml:id="i130">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4347px"
+                  url="MS-PETRARCH-MSS-01546-000-00150.jp2"/>
+
+        </surface>
+        <surface n="G7r" xml:id="i131">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4284px"
+                  url="MS-PETRARCH-MSS-01546-000-00151.jp2"/>
+
+        </surface>
+        <surface n="G7v" xml:id="i132">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4347px"
+                  url="MS-PETRARCH-MSS-01546-000-00152.jp2"/>
+
+        </surface>
+        <surface n="G8r" xml:id="i133">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4284px"
+                  url="MS-PETRARCH-MSS-01546-000-00153.jp2"/>
+
+        </surface>
+        <surface n="G8v" xml:id="i134">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4347px"
+                  url="MS-PETRARCH-MSS-01546-000-00154.jp2"/>
+
+        </surface>
+        <surface n="H1r" xml:id="i135">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4284px"
+                  url="MS-PETRARCH-MSS-01546-000-00155.jp2"/>
+
+        </surface>
+        <surface n="H1v" xml:id="i136">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4347px"
+                  url="MS-PETRARCH-MSS-01546-000-00156.jp2"/>
+
+        </surface>
+        <surface n="H2r" xml:id="i137">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4284px"
+                  url="MS-PETRARCH-MSS-01546-000-00157.jp2"/>
+
+        </surface>
+        <surface n="H2v" xml:id="i138">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4347px"
+                  url="MS-PETRARCH-MSS-01546-000-00158.jp2"/>
+
+        </surface>
+        <surface n="H3r" xml:id="i139">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4258px"
+                  url="MS-PETRARCH-MSS-01546-000-00159.jp2"/>
+
+        </surface>
+        <surface n="H3v" xml:id="i140">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4347px"
+                  url="MS-PETRARCH-MSS-01546-000-00160.jp2"/>
+
+        </surface>
+        <surface n="H4r" xml:id="i141">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4284px"
+                  url="MS-PETRARCH-MSS-01546-000-00161.jp2"/>
+
+        </surface>
+        <surface n="H4v" xml:id="i142">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4347px"
+                  url="MS-PETRARCH-MSS-01546-000-00162.jp2"/>
+
+        </surface>
+        <surface n="H5r" xml:id="i143">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4254px"
+                  url="MS-PETRARCH-MSS-01546-000-00163.jp2"/>
+
+        </surface>
+        <surface n="H5v" xml:id="i144">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4332px"
+                  url="MS-PETRARCH-MSS-01546-000-00164.jp2"/>
+
+        </surface>
+        <surface n="H6r" xml:id="i145">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4259px"
+                  url="MS-PETRARCH-MSS-01546-000-00165.jp2"/>
+
+        </surface>
+        <surface n="H6v" xml:id="i146">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4332px"
+                  url="MS-PETRARCH-MSS-01546-000-00166.jp2"/>
+
+        </surface>
+        <surface n="H7r" xml:id="i147">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4237px"
+                  url="MS-PETRARCH-MSS-01546-000-00167.jp2"/>
+
+        </surface>
+        <surface n="H7v" xml:id="i148">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4332px"
+                  url="MS-PETRARCH-MSS-01546-000-00168.jp2"/>
+
+        </surface>
+        <surface n="H8r" xml:id="i149">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4230px"
+                  url="MS-PETRARCH-MSS-01546-000-00169.jp2"/>
+
+        </surface>
+        <surface n="H8v" xml:id="i150">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4332px"
+                  url="MS-PETRARCH-MSS-01546-000-00170.jp2"/>
+
+        </surface>
+        <surface n="I1r" xml:id="i151">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4255px"
+                  url="MS-PETRARCH-MSS-01546-000-00171.jp2"/>
+
+        </surface>
+        <surface n="I1v" xml:id="i152">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4323px"
+                  url="MS-PETRARCH-MSS-01546-000-00172.jp2"/>
+
+        </surface>
+        <surface n="I2r" xml:id="i153">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4255px"
+                  url="MS-PETRARCH-MSS-01546-000-00173.jp2"/>
+
+        </surface>
+        <surface n="I2v" xml:id="i154">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4323px"
+                  url="MS-PETRARCH-MSS-01546-000-00174.jp2"/>
+
+        </surface>
+        <surface n="I3r" xml:id="i155">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4226px"
+                  url="MS-PETRARCH-MSS-01546-000-00175.jp2"/>
+
+        </surface>
+        <surface n="I3v" xml:id="i156">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4297px"
+                  url="MS-PETRARCH-MSS-01546-000-00176.jp2"/>
+
+        </surface>
+        <surface n="I4r" xml:id="i157">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4226px"
+                  url="MS-PETRARCH-MSS-01546-000-00177.jp2"/>
+
+        </surface>
+        <surface n="I4v" xml:id="i158">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4297px"
+                  url="MS-PETRARCH-MSS-01546-000-00178.jp2"/>
+
+        </surface>
+        <surface n="I5r" xml:id="i159">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4226px"
+                  url="MS-PETRARCH-MSS-01546-000-00179.jp2"/>
+
+        </surface>
+        <surface n="I5v" xml:id="i160">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4297px"
+                  url="MS-PETRARCH-MSS-01546-000-00180.jp2"/>
+
+        </surface>
+        <surface n="I6r" xml:id="i161">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4226px"
+                  url="MS-PETRARCH-MSS-01546-000-00181.jp2"/>
+
+        </surface>
+        <surface n="I6v" xml:id="i162">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4297px"
+                  url="MS-PETRARCH-MSS-01546-000-00182.jp2"/>
+
+        </surface>
+        <surface n="I7r" xml:id="i163">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4226px"
+                  url="MS-PETRARCH-MSS-01546-000-00183.jp2"/>
+
+        </surface>
+        <surface n="I7v" xml:id="i164">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4297px"
+                  url="MS-PETRARCH-MSS-01546-000-00184.jp2"/>
+
+        </surface>
+        <surface n="I8r" xml:id="i165">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4226px"
+                  url="MS-PETRARCH-MSS-01546-000-00185.jp2"/>
+
+        </surface>
+        <surface n="I8v" xml:id="i166">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4297px"
+                  url="MS-PETRARCH-MSS-01546-000-00186.jp2"/>
+
+        </surface>
+        <surface n="K1r" xml:id="i167">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4226px"
+                  url="MS-PETRARCH-MSS-01546-000-00187.jp2"/>
+
+        </surface>
+        <surface n="K1v" xml:id="i168">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4297px"
+                  url="MS-PETRARCH-MSS-01546-000-00188.jp2"/>
+
+        </surface>
+        <surface n="K2r" xml:id="i169">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4226px"
+                  url="MS-PETRARCH-MSS-01546-000-00189.jp2"/>
+
+        </surface>
+        <surface n="K2v" xml:id="i170">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4297px"
+                  url="MS-PETRARCH-MSS-01546-000-00190.jp2"/>
+
+        </surface>
+        <surface n="K3r" xml:id="i171">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4226px"
+                  url="MS-PETRARCH-MSS-01546-000-00191.jp2"/>
+
+        </surface>
+        <surface n="K3v" xml:id="i172">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4297px"
+                  url="MS-PETRARCH-MSS-01546-000-00192.jp2"/>
+
+        </surface>
+        <surface n="K4r" xml:id="i173">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4226px"
+                  url="MS-PETRARCH-MSS-01546-000-00193.jp2"/>
+
+        </surface>
+        <surface n="K4v" xml:id="i174">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4297px"
+                  url="MS-PETRARCH-MSS-01546-000-00194.jp2"/>
+
+        </surface>
+        <surface n="K5r" xml:id="i175">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4226px"
+                  url="MS-PETRARCH-MSS-01546-000-00195.jp2"/>
+
+        </surface>
+        <surface n="K5v" xml:id="i176">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4297px"
+                  url="MS-PETRARCH-MSS-01546-000-00196.jp2"/>
+
+        </surface>
+        <surface n="K6r" xml:id="i177">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4226px"
+                  url="MS-PETRARCH-MSS-01546-000-00197.jp2"/>
+
+        </surface>
+        <surface n="K6v" xml:id="i178">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4297px"
+                  url="MS-PETRARCH-MSS-01546-000-00198.jp2"/>
+
+        </surface>
+        <surface n="K7r" xml:id="i179">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4226px"
+                  url="MS-PETRARCH-MSS-01546-000-00199.jp2"/>
+
+        </surface>
+        <surface n="K7v" xml:id="i180">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4297px"
+                  url="MS-PETRARCH-MSS-01546-000-00200.jp2"/>
+
+        </surface>
+        <surface n="K8r" xml:id="i181">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4226px"
+                  url="MS-PETRARCH-MSS-01546-000-00201.jp2"/>
+
+        </surface>
+        <surface n="K8v" xml:id="i182">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4297px"
+                  url="MS-PETRARCH-MSS-01546-000-00202.jp2"/>
+
+        </surface>
+        <surface n="L1r" xml:id="i183">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4226px"
+                  url="MS-PETRARCH-MSS-01546-000-00203.jp2"/>
+
+        </surface>
+        <surface n="L1v" xml:id="i184">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4297px"
+                  url="MS-PETRARCH-MSS-01546-000-00204.jp2"/>
+
+        </surface>
+        <surface n="L2r" xml:id="i185">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4226px"
+                  url="MS-PETRARCH-MSS-01546-000-00205.jp2"/>
+
+        </surface>
+        <surface n="L2v" xml:id="i186">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4297px"
+                  url="MS-PETRARCH-MSS-01546-000-00206.jp2"/>
+
+        </surface>
+        <surface n="L3r" xml:id="i187">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4226px"
+                  url="MS-PETRARCH-MSS-01546-000-00207.jp2"/>
+
+        </surface>
+        <surface n="L3v" xml:id="i188">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4297px"
+                  url="MS-PETRARCH-MSS-01546-000-00208.jp2"/>
+
+        </surface>
+        <surface n="L4r" xml:id="i189">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4226px"
+                  url="MS-PETRARCH-MSS-01546-000-00209.jp2"/>
+
+        </surface>
+        <surface n="L4v" xml:id="i190">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4283px"
+                  url="MS-PETRARCH-MSS-01546-000-00210.jp2"/>
+
+        </surface>
+        <surface n="L5r" xml:id="i191">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4226px"
+                  url="MS-PETRARCH-MSS-01546-000-00211.jp2"/>
+
+        </surface>
+        <surface n="L5v" xml:id="i192">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4283px"
+                  url="MS-PETRARCH-MSS-01546-000-00212.jp2"/>
+
+        </surface>
+        <surface n="L6r" xml:id="i193">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4226px"
+                  url="MS-PETRARCH-MSS-01546-000-00213.jp2"/>
+
+        </surface>
+        <surface n="L6v" xml:id="i194">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4282px"
+                  url="MS-PETRARCH-MSS-01546-000-00214.jp2"/>
+
+        </surface>
+        <surface n="L7r" xml:id="i195">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4239px"
+                  url="MS-PETRARCH-MSS-01546-000-00215.jp2"/>
+
+        </surface>
+        <surface n="L7v" xml:id="i196">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4282px"
+                  url="MS-PETRARCH-MSS-01546-000-00216.jp2"/>
+
+        </surface>
+        <surface n="L8r" xml:id="i197">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4239px"
+                  url="MS-PETRARCH-MSS-01546-000-00217.jp2"/>
+
+        </surface>
+        <surface n="L8v" xml:id="i198">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4282px"
+                  url="MS-PETRARCH-MSS-01546-000-00218.jp2"/>
+
+        </surface>
+        <surface n="M1r" xml:id="i199">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4239px"
+                  url="MS-PETRARCH-MSS-01546-000-00219.jp2"/>
+
+        </surface>
+        <surface n="M1v" xml:id="i200">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4282px"
+                  url="MS-PETRARCH-MSS-01546-000-00220.jp2"/>
+
+        </surface>
+        <surface n="M2r" xml:id="i201">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4239px"
+                  url="MS-PETRARCH-MSS-01546-000-00221.jp2"/>
+
+        </surface>
+        <surface n="M2v" xml:id="i202">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4282px"
+                  url="MS-PETRARCH-MSS-01546-000-00222.jp2"/>
+
+        </surface>
+        <surface n="M3r" xml:id="i203">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4239px"
+                  url="MS-PETRARCH-MSS-01546-000-00223.jp2"/>
+
+        </surface>
+        <surface n="M3v" xml:id="i204">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4282px"
+                  url="MS-PETRARCH-MSS-01546-000-00224.jp2"/>
+
+        </surface>
+        <surface n="M4r" xml:id="i205">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4239px"
+                  url="MS-PETRARCH-MSS-01546-000-00225.jp2"/>
+
+        </surface>
+        <surface n="M4v" xml:id="i206">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4282px"
+                  url="MS-PETRARCH-MSS-01546-000-00226.jp2"/>
+
+        </surface>
+        <surface n="M5r" xml:id="i207">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4226px"
+                  url="MS-PETRARCH-MSS-01546-000-00227.jp2"/>
+
+        </surface>
+        <surface n="M5v" xml:id="i208">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4282px"
+                  url="MS-PETRARCH-MSS-01546-000-00228.jp2"/>
+
+        </surface>
+        <surface n="M6r" xml:id="i209">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4226px"
+                  url="MS-PETRARCH-MSS-01546-000-00229.jp2"/>
+
+        </surface>
+        <surface n="M6v" xml:id="i210">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4282px"
+                  url="MS-PETRARCH-MSS-01546-000-00230.jp2"/>
+
+        </surface>
+        <surface n="M7r" xml:id="i211">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4226px"
+                  url="MS-PETRARCH-MSS-01546-000-00231.jp2"/>
+
+        </surface>
+        <surface n="M7v" xml:id="i212">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4282px"
+                  url="MS-PETRARCH-MSS-01546-000-00232.jp2"/>
+
+        </surface>
+        <surface n="M8r" xml:id="i213">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4226px"
+                  url="MS-PETRARCH-MSS-01546-000-00233.jp2"/>
+
+        </surface>
+        <surface n="M8v" xml:id="i214">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4282px"
+                  url="MS-PETRARCH-MSS-01546-000-00234.jp2"/>
+
+        </surface>
+        <surface n="N1r" xml:id="i215">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4226px"
+                  url="MS-PETRARCH-MSS-01546-000-00235.jp2"/>
+
+        </surface>
+        <surface n="N1v" xml:id="i216">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4282px"
+                  url="MS-PETRARCH-MSS-01546-000-00236.jp2"/>
+
+        </surface>
+        <surface n="N2r" xml:id="i217">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4226px"
+                  url="MS-PETRARCH-MSS-01546-000-00237.jp2"/>
+
+        </surface>
+        <surface n="N2v" xml:id="i218">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4278px"
+                  url="MS-PETRARCH-MSS-01546-000-00238.jp2"/>
+
+        </surface>
+        <surface n="N3r" xml:id="i219">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4237px"
+                  url="MS-PETRARCH-MSS-01546-000-00239.jp2"/>
+
+        </surface>
+        <surface n="N3v" xml:id="i220">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4278px"
+                  url="MS-PETRARCH-MSS-01546-000-00240.jp2"/>
+
+        </surface>
+        <surface n="N4r" xml:id="i221">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4237px"
+                  url="MS-PETRARCH-MSS-01546-000-00241.jp2"/>
+
+        </surface>
+        <surface n="N4v" xml:id="i222">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4278px"
+                  url="MS-PETRARCH-MSS-01546-000-00242.jp2"/>
+
+        </surface>
+        <surface n="N5r" xml:id="i223">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4237px"
+                  url="MS-PETRARCH-MSS-01546-000-00243.jp2"/>
+
+        </surface>
+        <surface n="N5v" xml:id="i224">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4278px"
+                  url="MS-PETRARCH-MSS-01546-000-00244.jp2"/>
+
+        </surface>
+        <surface n="N6r" xml:id="i225">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4237px"
+                  url="MS-PETRARCH-MSS-01546-000-00245.jp2"/>
+
+        </surface>
+        <surface n="N6v" xml:id="i226">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4278px"
+                  url="MS-PETRARCH-MSS-01546-000-00246.jp2"/>
+
+        </surface>
+        <surface n="N7r" xml:id="i227">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4237px"
+                  url="MS-PETRARCH-MSS-01546-000-00247.jp2"/>
+
+        </surface>
+        <surface n="N7v" xml:id="i228">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4278px"
+                  url="MS-PETRARCH-MSS-01546-000-00248.jp2"/>
+
+        </surface>
+        <surface n="N8r" xml:id="i229">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4237px"
+                  url="MS-PETRARCH-MSS-01546-000-00249.jp2"/>
+
+        </surface>
+        <surface n="N8v" xml:id="i230">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4278px"
+                  url="MS-PETRARCH-MSS-01546-000-00250.jp2"/>
+
+        </surface>
+        <surface n="O1r" xml:id="i231">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4237px"
+                  url="MS-PETRARCH-MSS-01546-000-00251.jp2"/>
+
+        </surface>
+        <surface n="O1v" xml:id="i232">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4278px"
+                  url="MS-PETRARCH-MSS-01546-000-00252.jp2"/>
+
+        </surface>
+        <surface n="O2r" xml:id="i233">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4237px"
+                  url="MS-PETRARCH-MSS-01546-000-00253.jp2"/>
+
+        </surface>
+        <surface n="O2v" xml:id="i234">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4285px"
+                  url="MS-PETRARCH-MSS-01546-000-00254.jp2"/>
+
+        </surface>
+        <surface n="O3r" xml:id="i235">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4237px"
+                  url="MS-PETRARCH-MSS-01546-000-00255.jp2"/>
+
+        </surface>
+        <surface n="O3v" xml:id="i236">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4285px"
+                  url="MS-PETRARCH-MSS-01546-000-00256.jp2"/>
+
+        </surface>
+        <surface n="O4r" xml:id="i237">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4204px"
+                  url="MS-PETRARCH-MSS-01546-000-00257.jp2"/>
+
+        </surface>
+        <surface n="O4v" xml:id="i238">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4285px"
+                  url="MS-PETRARCH-MSS-01546-000-00258.jp2"/>
+
+        </surface>
+        <surface n="O5r" xml:id="i239">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4204px"
+                  url="MS-PETRARCH-MSS-01546-000-00259.jp2"/>
+
+        </surface>
+        <surface n="O5v" xml:id="i240">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4285px"
+                  url="MS-PETRARCH-MSS-01546-000-00260.jp2"/>
+
+        </surface>
+        <surface n="O6r" xml:id="i241">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4204px"
+                  url="MS-PETRARCH-MSS-01546-000-00261.jp2"/>
+
+        </surface>
+        <surface n="O6v" xml:id="i242">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4285px"
+                  url="MS-PETRARCH-MSS-01546-000-00262.jp2"/>
+
+        </surface>
+        <surface n="O7r" xml:id="i243">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4204px"
+                  url="MS-PETRARCH-MSS-01546-000-00263.jp2"/>
+
+        </surface>
+        <surface n="O7v" xml:id="i244">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4285px"
+                  url="MS-PETRARCH-MSS-01546-000-00264.jp2"/>
+
+        </surface>
+        <surface n="O8r" xml:id="i245">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4204px"
+                  url="MS-PETRARCH-MSS-01546-000-00265.jp2"/>
+
+        </surface>
+        <surface n="O8v" xml:id="i246">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4285px"
+                  url="MS-PETRARCH-MSS-01546-000-00266.jp2"/>
+
+        </surface>
+        <surface n="P1r" xml:id="i247">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4204px"
+                  url="MS-PETRARCH-MSS-01546-000-00267.jp2"/>
+
+        </surface>
+        <surface n="P1v" xml:id="i248">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4285px"
+                  url="MS-PETRARCH-MSS-01546-000-00268.jp2"/>
+
+        </surface>
+        <surface n="P2r" xml:id="i249">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4279px"
+                  url="MS-PETRARCH-MSS-01546-000-00269.jp2"/>
+
+        </surface>
+        <surface n="P2v" xml:id="i250">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4300px"
+                  url="MS-PETRARCH-MSS-01546-000-00270.jp2"/>
+
+        </surface>
+        <surface n="P3r" xml:id="i251">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4279px"
+                  url="MS-PETRARCH-MSS-01546-000-00271.jp2"/>
+
+        </surface>
+        <surface n="P3v" xml:id="i252">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4300px"
+                  url="MS-PETRARCH-MSS-01546-000-00272.jp2"/>
+
+        </surface>
+        <surface n="P4r" xml:id="i253">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4279px"
+                  url="MS-PETRARCH-MSS-01546-000-00273.jp2"/>
+
+        </surface>
+        <surface n="P4v" xml:id="i254">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4300px"
+                  url="MS-PETRARCH-MSS-01546-000-00274.jp2"/>
+
+        </surface>
+        <surface n="P5r" xml:id="i255">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4279px"
+                  url="MS-PETRARCH-MSS-01546-000-00275.jp2"/>
+
+        </surface>
+        <surface n="P5v" xml:id="i256">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4300px"
+                  url="MS-PETRARCH-MSS-01546-000-00276.jp2"/>
+
+        </surface>
+        <surface n="P6r" xml:id="i257">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4279px"
+                  url="MS-PETRARCH-MSS-01546-000-00277.jp2"/>
+
+        </surface>
+        <surface n="P6v" xml:id="i258">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4300px"
+                  url="MS-PETRARCH-MSS-01546-000-00278.jp2"/>
+
+        </surface>
+        <surface n="P7r" xml:id="i259">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4266px"
+                  url="MS-PETRARCH-MSS-01546-000-00279.jp2"/>
+
+        </surface>
+        <surface n="P7v" xml:id="i260">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4300px"
+                  url="MS-PETRARCH-MSS-01546-000-00280.jp2"/>
+
+        </surface>
+        <surface n="P8r" xml:id="i261">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4257px"
+                  url="MS-PETRARCH-MSS-01546-000-00281.jp2"/>
+
+        </surface>
+        <surface n="P8v" xml:id="i262">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4300px"
+                  url="MS-PETRARCH-MSS-01546-000-00282.jp2"/>
+
+        </surface>
+        <surface n="Q1r" xml:id="i263">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4245px"
+                  url="MS-PETRARCH-MSS-01546-000-00283.jp2"/>
+
+        </surface>
+        <surface n="Q1v" xml:id="i264">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4300px"
+                  url="MS-PETRARCH-MSS-01546-000-00284.jp2"/>
+
+        </surface>
+        <surface n="Q2r" xml:id="i265">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4245px"
+                  url="MS-PETRARCH-MSS-01546-000-00285.jp2"/>
+
+        </surface>
+        <surface n="Q2v" xml:id="i266">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4300px"
+                  url="MS-PETRARCH-MSS-01546-000-00286.jp2"/>
+
+        </surface>
+        <surface n="Q3r" xml:id="i267">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4245px"
+                  url="MS-PETRARCH-MSS-01546-000-00287.jp2"/>
+
+        </surface>
+        <surface n="Q3v" xml:id="i268">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4300px"
+                  url="MS-PETRARCH-MSS-01546-000-00288.jp2"/>
+
+        </surface>
+        <surface n="Q4r" xml:id="i269">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4285px"
+                  url="MS-PETRARCH-MSS-01546-000-00289.jp2"/>
+
+        </surface>
+        <surface n="Q4v" xml:id="i270">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4300px"
+                  url="MS-PETRARCH-MSS-01546-000-00290.jp2"/>
+
+        </surface>
+        <surface n="Q5r" xml:id="i271">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4305px"
+                  url="MS-PETRARCH-MSS-01546-000-00291.jp2"/>
+
+        </surface>
+        <surface n="Q5v" xml:id="i272">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4300px"
+                  url="MS-PETRARCH-MSS-01546-000-00292.jp2"/>
+
+        </surface>
+        <surface n="Q6r" xml:id="i273">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4305px"
+                  url="MS-PETRARCH-MSS-01546-000-00293.jp2"/>
+
+        </surface>
+        <surface n="Q6v" xml:id="i274">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4300px"
+                  url="MS-PETRARCH-MSS-01546-000-00294.jp2"/>
+
+        </surface>
+        <surface n="Q7r" xml:id="i275">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4305px"
+                  url="MS-PETRARCH-MSS-01546-000-00295.jp2"/>
+
+        </surface>
+        <surface n="Q7v" xml:id="i276">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4326px"
+                  url="MS-PETRARCH-MSS-01546-000-00296.jp2"/>
+
+        </surface>
+        <surface n="Q8r" xml:id="i277">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4305px"
+                  url="MS-PETRARCH-MSS-01546-000-00297.jp2"/>
+
+        </surface>
+        <surface n="Q8v" xml:id="i278">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4326px"
+                  url="MS-PETRARCH-MSS-01546-000-00298.jp2"/>
+
+        </surface>
+        <surface n="R1r" xml:id="i279">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4305px"
+                  url="MS-PETRARCH-MSS-01546-000-00299.jp2"/>
+
+        </surface>
+        <surface n="R1v" xml:id="i280">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4326px"
+                  url="MS-PETRARCH-MSS-01546-000-00300.jp2"/>
+
+        </surface>
+        <surface n="R2r" xml:id="i281">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4305px"
+                  url="MS-PETRARCH-MSS-01546-000-00301.jp2"/>
+
+        </surface>
+        <surface n="R2v" xml:id="i282">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4326px"
+                  url="MS-PETRARCH-MSS-01546-000-00302.jp2"/>
+
+        </surface>
+        <surface n="R3r" xml:id="i283">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4305px"
+                  url="MS-PETRARCH-MSS-01546-000-00303.jp2"/>
+
+        </surface>
+        <surface n="R3v" xml:id="i284">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4326px"
+                  url="MS-PETRARCH-MSS-01546-000-00304.jp2"/>
+
+        </surface>
+        <surface n="R4r" xml:id="i285">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4305px"
+                  url="MS-PETRARCH-MSS-01546-000-00305.jp2"/>
+
+        </surface>
+        <surface n="R4v" xml:id="i286">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4321px"
+                  url="MS-PETRARCH-MSS-01546-000-00306.jp2"/>
+
+        </surface>
+        <surface n="R5r" xml:id="i287">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4305px"
+                  url="MS-PETRARCH-MSS-01546-000-00307.jp2"/>
+
+        </surface>
+        <surface n="R5v" xml:id="i288">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4321px"
+                  url="MS-PETRARCH-MSS-01546-000-00308.jp2"/>
+
+        </surface>
+        <surface n="R6r" xml:id="i289">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4305px"
+                  url="MS-PETRARCH-MSS-01546-000-00309.jp2"/>
+
+        </surface>
+        <surface n="R6v" xml:id="i290">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4321px"
+                  url="MS-PETRARCH-MSS-01546-000-00310.jp2"/>
+
+        </surface>
+        <surface n="R7r" xml:id="i291">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4305px"
+                  url="MS-PETRARCH-MSS-01546-000-00311.jp2"/>
+
+        </surface>
+        <surface n="R7v" xml:id="i292">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4310px"
+                  url="MS-PETRARCH-MSS-01546-000-00312.jp2"/>
+
+        </surface>
+        <surface n="R8r" xml:id="i293">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4305px"
+                  url="MS-PETRARCH-MSS-01546-000-00313.jp2"/>
+
+        </surface>
+        <surface n="R8v" xml:id="i294">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4310px"
+                  url="MS-PETRARCH-MSS-01546-000-00314.jp2"/>
+
+        </surface>
+        <surface n="S1r" xml:id="i295">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4305px"
+                  url="MS-PETRARCH-MSS-01546-000-00315.jp2"/>
+
+        </surface>
+        <surface n="S1v" xml:id="i296">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4331px"
+                  url="MS-PETRARCH-MSS-01546-000-00316.jp2"/>
+
+        </surface>
+        <surface n="S2r" xml:id="i297">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4305px"
+                  url="MS-PETRARCH-MSS-01546-000-00317.jp2"/>
+
+        </surface>
+        <surface n="S2v" xml:id="i298">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4331px"
+                  url="MS-PETRARCH-MSS-01546-000-00318.jp2"/>
+
+        </surface>
+        <surface n="S3r" xml:id="i299">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4305px"
+                  url="MS-PETRARCH-MSS-01546-000-00319.jp2"/>
+
+        </surface>
+        <surface n="S3v" xml:id="i300">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4331px"
+                  url="MS-PETRARCH-MSS-01546-000-00320.jp2"/>
+
+        </surface>
+        <surface n="S4r" xml:id="i301">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4305px"
+                  url="MS-PETRARCH-MSS-01546-000-00321.jp2"/>
+
+        </surface>
+        <surface n="S4v" xml:id="i302">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4331px"
+                  url="MS-PETRARCH-MSS-01546-000-00322.jp2"/>
+
+        </surface>
+        <surface n="S5r" xml:id="i303">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4325px"
+                  url="MS-PETRARCH-MSS-01546-000-00323.jp2"/>
+
+        </surface>
+        <surface n="S5v" xml:id="i304">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4331px"
+                  url="MS-PETRARCH-MSS-01546-000-00324.jp2"/>
+
+        </surface>
+        <surface n="S6r" xml:id="i305">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4325px"
+                  url="MS-PETRARCH-MSS-01546-000-00325.jp2"/>
+
+        </surface>
+        <surface n="S6v" xml:id="i306">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4331px"
+                  url="MS-PETRARCH-MSS-01546-000-00326.jp2"/>
+
+        </surface>
+        <surface n="S7r" xml:id="i307">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4325px"
+                  url="MS-PETRARCH-MSS-01546-000-00327.jp2"/>
+
+        </surface>
+        <surface n="S7v" xml:id="i308">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4296px"
+                  url="MS-PETRARCH-MSS-01546-000-00328.jp2"/>
+
+        </surface>
+        <surface n="S8r" xml:id="i309">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4325px"
+                  url="MS-PETRARCH-MSS-01546-000-00329.jp2"/>
+
+        </surface>
+        <surface n="S8v" xml:id="i310">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4296px"
+                  url="MS-PETRARCH-MSS-01546-000-00330.jp2"/>
+
+        </surface>
+        <surface n="T1r" xml:id="i311">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4325px"
+                  url="MS-PETRARCH-MSS-01546-000-00331.jp2"/>
+
+        </surface>
+        <surface n="T1v" xml:id="i312">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4296px"
+                  url="MS-PETRARCH-MSS-01546-000-00332.jp2"/>
+
+        </surface>
+        <surface n="T2r" xml:id="i313">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4325px"
+                  url="MS-PETRARCH-MSS-01546-000-00333.jp2"/>
+
+        </surface>
+        <surface n="T2v" xml:id="i314">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4323px"
+                  url="MS-PETRARCH-MSS-01546-000-00334.jp2"/>
+
+        </surface>
+        <surface n="T3r" xml:id="i315">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4374px"
+                  url="MS-PETRARCH-MSS-01546-000-00335.jp2"/>
+
+        </surface>
+        <surface n="T3v" xml:id="i316">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4323px"
+                  url="MS-PETRARCH-MSS-01546-000-00336.jp2"/>
+
+        </surface>
+        <surface n="T4r" xml:id="i317">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4374px"
+                  url="MS-PETRARCH-MSS-01546-000-00337.jp2"/>
+
+        </surface>
+        <surface n="T4v" xml:id="i318">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4323px"
+                  url="MS-PETRARCH-MSS-01546-000-00338.jp2"/>
+
+        </surface>
+        <surface n="T5r" xml:id="i319">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4374px"
+                  url="MS-PETRARCH-MSS-01546-000-00339.jp2"/>
+
+        </surface>
+        <surface n="T5v" xml:id="i320">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4323px"
+                  url="MS-PETRARCH-MSS-01546-000-00340.jp2"/>
+
+        </surface>
+        <surface n="T6r" xml:id="i321">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4387px"
+                  url="MS-PETRARCH-MSS-01546-000-00341.jp2"/>
+
+        </surface>
+        <surface n="T6v" xml:id="i322">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4334px"
+                  url="MS-PETRARCH-MSS-01546-000-00342.jp2"/>
+
+        </surface>
+        <surface n="T7r" xml:id="i323">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4387px"
+                  url="MS-PETRARCH-MSS-01546-000-00343.jp2"/>
+
+        </surface>
+        <surface n="T7v" xml:id="i324">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4334px"
+                  url="MS-PETRARCH-MSS-01546-000-00344.jp2"/>
+
+        </surface>
+        <surface n="T8r" xml:id="i325">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4387px"
+                  url="MS-PETRARCH-MSS-01546-000-00345.jp2"/>
+
+        </surface>
+        <surface n="T8v" xml:id="i326">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4334px"
+                  url="MS-PETRARCH-MSS-01546-000-00346.jp2"/>
+
+        </surface>
+        <surface n="V1r" xml:id="i327">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4387px"
+                  url="MS-PETRARCH-MSS-01546-000-00347.jp2"/>
+
+        </surface>
+        <surface n="V1v" xml:id="i328">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4334px"
+                  url="MS-PETRARCH-MSS-01546-000-00348.jp2"/>
+
+        </surface>
+        <surface n="V2r" xml:id="i329">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4387px"
+                  url="MS-PETRARCH-MSS-01546-000-00349.jp2"/>
+
+        </surface>
+        <surface n="V2v" xml:id="i330">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4334px"
+                  url="MS-PETRARCH-MSS-01546-000-00350.jp2"/>
+
+        </surface>
+        <surface n="V3r" xml:id="i331">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4372px"
+                  url="MS-PETRARCH-MSS-01546-000-00351.jp2"/>
+
+        </surface>
+        <surface n="V3v" xml:id="i332">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4334px"
+                  url="MS-PETRARCH-MSS-01546-000-00352.jp2"/>
+
+        </surface>
+        <surface n="V4r" xml:id="i333">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4365px"
+                  url="MS-PETRARCH-MSS-01546-000-00353.jp2"/>
+
+        </surface>
+        <surface n="V4v" xml:id="i334">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4334px"
+                  url="MS-PETRARCH-MSS-01546-000-00354.jp2"/>
+
+        </surface>
+        <surface n="V5r" xml:id="i335">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4371px"
+                  url="MS-PETRARCH-MSS-01546-000-00355.jp2"/>
+
+        </surface>
+        <surface n="v5v" xml:id="i336">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4334px"
+                  url="MS-PETRARCH-MSS-01546-000-00356.jp2"/>
+
+        </surface>
+        <surface n="V6r" xml:id="i337">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4371px"
+                  url="MS-PETRARCH-MSS-01546-000-00357.jp2"/>
+
+        </surface>
+        <surface n="V6v" xml:id="i338">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4334px"
+                  url="MS-PETRARCH-MSS-01546-000-00358.jp2"/>
+
+        </surface>
+        <surface n="V7r" xml:id="i339">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4353px"
+                  url="MS-PETRARCH-MSS-01546-000-00359.jp2"/>
+
+        </surface>
+        <surface n="V7v" xml:id="i340">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4334px"
+                  url="MS-PETRARCH-MSS-01546-000-00360.jp2"/>
+
+        </surface>
+        <surface n="V8r" xml:id="i341">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4340px"
+                  url="MS-PETRARCH-MSS-01546-000-00361.jp2"/>
+
+        </surface>
+        <surface n="V8v" xml:id="i342">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4334px"
+                  url="MS-PETRARCH-MSS-01546-000-00362.jp2"/>
+
+        </surface>
+        <surface n="X1r" xml:id="i343">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4353px"
+                  url="MS-PETRARCH-MSS-01546-000-00363.jp2"/>
+
+        </surface>
+        <surface n="X1v" xml:id="i344">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4334px"
+                  url="MS-PETRARCH-MSS-01546-000-00364.jp2"/>
+
+        </surface>
+        <surface n="X2r" xml:id="i345">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4363px"
+                  url="MS-PETRARCH-MSS-01546-000-00365.jp2"/>
+
+        </surface>
+        <surface n="X2v" xml:id="i346">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4334px"
+                  url="MS-PETRARCH-MSS-01546-000-00366.jp2"/>
+
+        </surface>
+        <surface n="X3r" xml:id="i347">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4363px"
+                  url="MS-PETRARCH-MSS-01546-000-00367.jp2"/>
+
+        </surface>
+        <surface n="X3v" xml:id="i348">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4334px"
+                  url="MS-PETRARCH-MSS-01546-000-00368.jp2"/>
+
+        </surface>
+        <surface n="X4r" xml:id="i349">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4356px"
+                  url="MS-PETRARCH-MSS-01546-000-00369.jp2"/>
+
+        </surface>
+        <surface n="X4v" xml:id="i350">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4334px"
+                  url="MS-PETRARCH-MSS-01546-000-00370.jp2"/>
+
+        </surface>
+        <surface n="X5r" xml:id="i351">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4356px"
+                  url="MS-PETRARCH-MSS-01546-000-00371.jp2"/>
+
+        </surface>
+        <surface n="X5v" xml:id="i352">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4334px"
+                  url="MS-PETRARCH-MSS-01546-000-00372.jp2"/>
+
+        </surface>
+        <surface n="X6r" xml:id="i353">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4332px"
+                  url="MS-PETRARCH-MSS-01546-000-00373.jp2"/>
+
+        </surface>
+        <surface n="X6v" xml:id="i354">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4370px"
+                  url="MS-PETRARCH-MSS-01546-000-00374.jp2"/>
+
+        </surface>
+        <surface n="X7r" xml:id="i355">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4332px"
+                  url="MS-PETRARCH-MSS-01546-000-00375.jp2"/>
+
+        </surface>
+        <surface n="X7v" xml:id="i356">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4362px"
+                  url="MS-PETRARCH-MSS-01546-000-00376.jp2"/>
+
+        </surface>
+        <surface n="X8r" xml:id="i357">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4332px"
+                  url="MS-PETRARCH-MSS-01546-000-00377.jp2"/>
+
+        </surface>
+        <surface n="X8v" xml:id="i358">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4382px"
+                  url="MS-PETRARCH-MSS-01546-000-00378.jp2"/>
+
+        </surface>
+        <surface n="Y1r" xml:id="i359">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4332px"
+                  url="MS-PETRARCH-MSS-01546-000-00379.jp2"/>
+
+        </surface>
+        <surface n="Y1v" xml:id="i360">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4382px"
+                  url="MS-PETRARCH-MSS-01546-000-00380.jp2"/>
+
+        </surface>
+        <surface n="Y2r" xml:id="i361">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4332px"
+                  url="MS-PETRARCH-MSS-01546-000-00381.jp2"/>
+
+        </surface>
+        <surface n="Y2v" xml:id="i362">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4382px"
+                  url="MS-PETRARCH-MSS-01546-000-00382.jp2"/>
+
+        </surface>
+        <surface n="Y3r" xml:id="i363">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4332px"
+                  url="MS-PETRARCH-MSS-01546-000-00383.jp2"/>
+
+        </surface>
+        <surface n="Y3v" xml:id="i364">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4382px"
+                  url="MS-PETRARCH-MSS-01546-000-00384.jp2"/>
+
+        </surface>
+        <surface n="Y4r" xml:id="i365">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4332px"
+                  url="MS-PETRARCH-MSS-01546-000-00385.jp2"/>
+
+        </surface>
+        <surface n="Y4v" xml:id="i366">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4382px"
+                  url="MS-PETRARCH-MSS-01546-000-00386.jp2"/>
+
+        </surface>
+        <surface n="Y5r" xml:id="i367">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4332px"
+                  url="MS-PETRARCH-MSS-01546-000-00387.jp2"/>
+
+        </surface>
+        <surface n="Y5v" xml:id="i368">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4382px"
+                  url="MS-PETRARCH-MSS-01546-000-00388.jp2"/>
+
+        </surface>
+        <surface n="Y6r" xml:id="i369">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4332px"
+                  url="MS-PETRARCH-MSS-01546-000-00389.jp2"/>
+
+        </surface>
+        <surface n="Y6v" xml:id="i370">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4399px"
+                  url="MS-PETRARCH-MSS-01546-000-00390.jp2"/>
+
+        </surface>
+        <surface n="Y7r" xml:id="i371">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4332px"
+                  url="MS-PETRARCH-MSS-01546-000-00391.jp2"/>
+
+        </surface>
+        <surface n="Y7v" xml:id="i372">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4399px"
+                  url="MS-PETRARCH-MSS-01546-000-00392.jp2"/>
+
+        </surface>
+        <surface n="Y8r" xml:id="i373">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4332px"
+                  url="MS-PETRARCH-MSS-01546-000-00393.jp2"/>
+
+        </surface>
+        <surface n="Y8v" xml:id="i374">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4399px"
+                  url="MS-PETRARCH-MSS-01546-000-00394.jp2"/>
+
+        </surface>
+        <surface n="Z1r" xml:id="i375">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4332px"
+                  url="MS-PETRARCH-MSS-01546-000-00395.jp2"/>
+
+        </surface>
+        <surface n="Z1v" xml:id="i376">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4399px"
+                  url="MS-PETRARCH-MSS-01546-000-00396.jp2"/>
+
+        </surface>
+        <surface n="Z2r" xml:id="i377">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4332px"
+                  url="MS-PETRARCH-MSS-01546-000-00397.jp2"/>
+
+        </surface>
+        <surface n="Z2v" xml:id="i378">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4399px"
+                  url="MS-PETRARCH-MSS-01546-000-00398.jp2"/>
+
+        </surface>
+        <surface n="Z3r" xml:id="i379">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4332px"
+                  url="MS-PETRARCH-MSS-01546-000-00399.jp2"/>
+
+        </surface>
+        <surface n="Z3v" xml:id="i380">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4399px"
+                  url="MS-PETRARCH-MSS-01546-000-00400.jp2"/>
+
+        </surface>
+        <surface n="Z4r" xml:id="i381">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4332px"
+                  url="MS-PETRARCH-MSS-01546-000-00401.jp2"/>
+
+        </surface>
+        <surface n="Z4v" xml:id="i382">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4399px"
+                  url="MS-PETRARCH-MSS-01546-000-00402.jp2"/>
+
+        </surface>
+        <surface n="Z5r" xml:id="i383">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4332px"
+                  url="MS-PETRARCH-MSS-01546-000-00403.jp2"/>
+
+        </surface>
+        <surface n="Z5v" xml:id="i384">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4397px"
+                  url="MS-PETRARCH-MSS-01546-000-00404.jp2"/>
+
+        </surface>
+        <surface n="Z6r" xml:id="i385">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4317px"
+                  url="MS-PETRARCH-MSS-01546-000-00405.jp2"/>
+
+        </surface>
+        <surface n="Z6v" xml:id="i386">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4397px"
+                  url="MS-PETRARCH-MSS-01546-000-00406.jp2"/>
+
+        </surface>
+        <surface n="Z7r" xml:id="i387">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4311px"
+                  url="MS-PETRARCH-MSS-01546-000-00407.jp2"/>
+
+        </surface>
+        <surface n="Z7v" xml:id="i388">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4397px"
+                  url="MS-PETRARCH-MSS-01546-000-00408.jp2"/>
+
+        </surface>
+        <surface n="Z8r" xml:id="i389">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4332px"
+                  url="MS-PETRARCH-MSS-01546-000-00409.jp2"/>
+
+        </surface>
+        <surface n="Z8v" xml:id="i390">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4397px"
+                  url="MS-PETRARCH-MSS-01546-000-00410.jp2"/>
+
+        </surface>
+        <surface n="AA1r" xml:id="i391">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4332px"
+                  url="MS-PETRARCH-MSS-01546-000-00411.jp2"/>
+
+        </surface>
+        <surface n="AA1v" xml:id="i392">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4397px"
+                  url="MS-PETRARCH-MSS-01546-000-00412.jp2"/>
+
+        </surface>
+        <surface n="AA2r" xml:id="i393">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4332px"
+                  url="MS-PETRARCH-MSS-01546-000-00413.jp2"/>
+
+        </surface>
+        <surface n="AA2v" xml:id="i394">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4397px"
+                  url="MS-PETRARCH-MSS-01546-000-00414.jp2"/>
+
+        </surface>
+        <surface n="AA3r" xml:id="i395">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4332px"
+                  url="MS-PETRARCH-MSS-01546-000-00415.jp2"/>
+
+        </surface>
+        <surface n="AA3v" xml:id="i396">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4397px"
+                  url="MS-PETRARCH-MSS-01546-000-00416.jp2"/>
+
+        </surface>
+        <surface n="AA4r" xml:id="i397">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4328px"
+                  url="MS-PETRARCH-MSS-01546-000-00417.jp2"/>
+
+        </surface>
+        <surface n="AA4v" xml:id="i398">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4397px"
+                  url="MS-PETRARCH-MSS-01546-000-00418.jp2"/>
+
+        </surface>
+        <surface n="AA5r" xml:id="i399">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4328px"
+                  url="MS-PETRARCH-MSS-01546-000-00419.jp2"/>
+
+        </surface>
+        <surface n="AA5v" xml:id="i400">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4397px"
+                  url="MS-PETRARCH-MSS-01546-000-00420.jp2"/>
+
+        </surface>
+        <surface n="AA6r" xml:id="i401">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4328px"
+                  url="MS-PETRARCH-MSS-01546-000-00421.jp2"/>
+
+        </surface>
+        <surface n="AA6v" xml:id="i402">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4397px"
+                  url="MS-PETRARCH-MSS-01546-000-00422.jp2"/>
+
+        </surface>
+        <surface n="AA7r" xml:id="i403">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4328px"
+                  url="MS-PETRARCH-MSS-01546-000-00423.jp2"/>
+
+        </surface>
+        <surface n="AA7v" xml:id="i404">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4397px"
+                  url="MS-PETRARCH-MSS-01546-000-00424.jp2"/>
+
+        </surface>
+        <surface n="AA8r" xml:id="i405">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4328px"
+                  url="MS-PETRARCH-MSS-01546-000-00425.jp2"/>
+
+        </surface>
+        <surface n="AA8v" xml:id="i406">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4397px"
+                  url="MS-PETRARCH-MSS-01546-000-00426.jp2"/>
+
+        </surface>
+        <surface n="BB1r" xml:id="i407">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4312px"
+                  url="MS-PETRARCH-MSS-01546-000-00427.jp2"/>
+
+        </surface>
+        <surface n="BB1v" xml:id="i408">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4397px"
+                  url="MS-PETRARCH-MSS-01546-000-00428.jp2"/>
+
+        </surface>
+        <surface n="BB2r" xml:id="i409">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4324px"
+                  url="MS-PETRARCH-MSS-01546-000-00429.jp2"/>
+
+        </surface>
+        <surface n="BB2v" xml:id="i410">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4397px"
+                  url="MS-PETRARCH-MSS-01546-000-00430.jp2"/>
+
+        </surface>
+        <surface n="BB3r" xml:id="i411">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4437px"
+                  url="MS-PETRARCH-MSS-01546-000-00431.jp2"/>
+
+        </surface>
+        <surface n="BB3v" xml:id="i412">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4397px"
+                  url="MS-PETRARCH-MSS-01546-000-00432.jp2"/>
+
+        </surface>
+        <surface n="BB4r" xml:id="i413">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4437px"
+                  url="MS-PETRARCH-MSS-01546-000-00433.jp2"/>
+
+        </surface>
+        <surface n="BB4v" xml:id="i414">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4397px"
+                  url="MS-PETRARCH-MSS-01546-000-00434.jp2"/>
+
+        </surface>
+        <surface n="BB5r" xml:id="i415">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4437px"
+                  url="MS-PETRARCH-MSS-01546-000-00435.jp2"/>
+
+        </surface>
+        <surface n="BB5v" xml:id="i416">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4406px"
+                  url="MS-PETRARCH-MSS-01546-000-00436.jp2"/>
+
+        </surface>
+        <surface n="BB6r" xml:id="i417">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4437px"
+                  url="MS-PETRARCH-MSS-01546-000-00437.jp2"/>
+
+        </surface>
+        <surface n="BB6v" xml:id="i418">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4402px"
+                  url="MS-PETRARCH-MSS-01546-000-00438.jp2"/>
+
+        </surface>
+        <surface n="BB7r" xml:id="i419">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4437px"
+                  url="MS-PETRARCH-MSS-01546-000-00439.jp2"/>
+
+        </surface>
+        <surface n="BB7v" xml:id="i420">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4387px"
+                  url="MS-PETRARCH-MSS-01546-000-00440.jp2"/>
+
+        </surface>
+        <surface n="BB8r" xml:id="i421">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4437px"
+                  url="MS-PETRARCH-MSS-01546-000-00441.jp2"/>
+
+        </surface>
+        <surface n="BB8v" xml:id="i422">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4387px"
+                  url="MS-PETRARCH-MSS-01546-000-00442.jp2"/>
+
+        </surface>
+        <surface n="CC1r" xml:id="i423">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4445px"
+                  url="MS-PETRARCH-MSS-01546-000-00443.jp2"/>
+
+        </surface>
+        <surface n="CC1v" xml:id="i424">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4426px"
+                  url="MS-PETRARCH-MSS-01546-000-00444.jp2"/>
+
+        </surface>
+        <surface n="CC2r" xml:id="i425">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4445px"
+                  url="MS-PETRARCH-MSS-01546-000-00445.jp2"/>
+
+        </surface>
+        <surface n="CC2v" xml:id="i426">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4426px"
+                  url="MS-PETRARCH-MSS-01546-000-00446.jp2"/>
+
+        </surface>
+        <surface n="CC3r" xml:id="i427">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4445px"
+                  url="MS-PETRARCH-MSS-01546-000-00447.jp2"/>
+
+        </surface>
+        <surface n="CC3v" xml:id="i428">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4426px"
+                  url="MS-PETRARCH-MSS-01546-000-00448.jp2"/>
+
+        </surface>
+        <surface n="CC4r" xml:id="i429">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4445px"
+                  url="MS-PETRARCH-MSS-01546-000-00449.jp2"/>
+
+        </surface>
+        <surface n="CC4v" xml:id="i430">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4426px"
+                  url="MS-PETRARCH-MSS-01546-000-00450.jp2"/>
+
+        </surface>
+        <surface n="CC5r" xml:id="i431">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4445px"
+                  url="MS-PETRARCH-MSS-01546-000-00451.jp2"/>
+
+        </surface>
+        <surface n="CC5v" xml:id="i432">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4426px"
+                  url="MS-PETRARCH-MSS-01546-000-00452.jp2"/>
+
+        </surface>
+        <surface n="CC6r" xml:id="i433">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4445px"
+                  url="MS-PETRARCH-MSS-01546-000-00453.jp2"/>
+
+        </surface>
+        <surface n="CC6v" xml:id="i434">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4426px"
+                  url="MS-PETRARCH-MSS-01546-000-00454.jp2"/>
+
+        </surface>
+        <surface n="CC7r" xml:id="i435">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4445px"
+                  url="MS-PETRARCH-MSS-01546-000-00455.jp2"/>
+
+        </surface>
+        <surface n="CC7v" xml:id="i436">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4426px"
+                  url="MS-PETRARCH-MSS-01546-000-00456.jp2"/>
+
+        </surface>
+        <surface n="CC8r" xml:id="i437">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4445px"
+                  url="MS-PETRARCH-MSS-01546-000-00457.jp2"/>
+
+        </surface>
+        <surface n="CC8v" xml:id="i438">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4450px"
+                  url="MS-PETRARCH-MSS-01546-000-00458.jp2"/>
+
+        </surface>
+        <surface n="DD1r" xml:id="i439">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4445px"
+                  url="MS-PETRARCH-MSS-01546-000-00459.jp2"/>
+
+        </surface>
+        <surface n="DD1v" xml:id="i440">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4492px"
+                  url="MS-PETRARCH-MSS-01546-000-00460.jp2"/>
+
+        </surface>
+        <surface n="DD2r" xml:id="i441">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4466px"
+                  url="MS-PETRARCH-MSS-01546-000-00461.jp2"/>
+
+        </surface>
+        <surface n="DD2v" xml:id="i442">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4459px"
+                  url="MS-PETRARCH-MSS-01546-000-00462.jp2"/>
+
+        </surface>
+        <surface n="DD3r" xml:id="i443">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4466px"
+                  url="MS-PETRARCH-MSS-01546-000-00463.jp2"/>
+
+        </surface>
+        <surface n="DD3v" xml:id="i444">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4458px"
+                  url="MS-PETRARCH-MSS-01546-000-00464.jp2"/>
+
+        </surface>
+        <surface n="DD4r" xml:id="i445">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4466px"
+                  url="MS-PETRARCH-MSS-01546-000-00465.jp2"/>
+
+        </surface>
+        <surface n="DD4v" xml:id="i446">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4455px"
+                  url="MS-PETRARCH-MSS-01546-000-00466.jp2"/>
+
+        </surface>
+        <surface n="DD5r" xml:id="i447">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4485px"
+                  url="MS-PETRARCH-MSS-01546-000-00467.jp2"/>
+
+        </surface>
+        <surface n="DD5v" xml:id="i448">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4441px"
+                  url="MS-PETRARCH-MSS-01546-000-00468.jp2"/>
+
+        </surface>
+        <surface n="DD6r" xml:id="i449">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4485px"
+                  url="MS-PETRARCH-MSS-01546-000-00469.jp2"/>
+
+        </surface>
+        <surface n="DD6v" xml:id="i450">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4403px"
+                  url="MS-PETRARCH-MSS-01546-000-00470.jp2"/>
+
+        </surface>
+        <surface n="DD7r" xml:id="i451">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4468px"
+                  url="MS-PETRARCH-MSS-01546-000-00471.jp2"/>
+
+        </surface>
+        <surface n="DD7v" xml:id="i452">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4423px"
+                  url="MS-PETRARCH-MSS-01546-000-00472.jp2"/>
+
+        </surface>
+        <surface n="DD8r" xml:id="i453">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4410px"
+                  url="MS-PETRARCH-MSS-01546-000-00473.jp2"/>
+
+        </surface>
+        <surface n="DD8v" xml:id="i454">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4461px"
+                  url="MS-PETRARCH-MSS-01546-000-00474.jp2"/>
+
+        </surface>
+        <surface n="rear_flyleaf_[i]" xml:id="i455">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4468px"
+                  url="MS-PETRARCH-MSS-01546-000-00475.jp2"/>
+
+        </surface>
+        <surface n="rear_flyleaf_[ii]" xml:id="i456">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4483px"
+                  url="MS-PETRARCH-MSS-01546-000-00476.jp2"/>
+
+        </surface>
+        <surface n="rear_flyleaf_[iii]" xml:id="i457">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4468px"
+                  url="MS-PETRARCH-MSS-01546-000-00477.jp2"/>
+
+        </surface>
+        <surface n="rear_flyleaf_[iv]" xml:id="i458">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4498px"
+                  url="MS-PETRARCH-MSS-01546-000-00478.jp2"/>
+
+        </surface>
+        <surface n="inside_lower_cover" xml:id="i459">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4423px"
+                  url="MS-PETRARCH-MSS-01546-000-00479.jp2"/>
+
+        </surface>
+        <surface n="lower_cover" xml:id="i460">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="4648px"
+                  url="MS-PETRARCH-MSS-01546-000-00480.jp2"/>
+
+        </surface>
+        <surface n="spine" xml:id="i461">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="1060px"
+                  url="MS-PETRARCH-MSS-01546-000-00481.jp2"/>
+
+        </surface>
+        <surface n="head" xml:id="i462">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="1581px"
+                  url="MS-PETRARCH-MSS-01546-000-00482.jp2"/>
+
+        </surface>
+        <surface n="fore_edge" xml:id="i463">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="1877px"
+                  url="MS-PETRARCH-MSS-01546-000-00483.jp2"/>
+
+        </surface>
+        <surface n="tail" xml:id="i464">
+            <graphic decls="#downloadImageRights #download"
+                  rend="portrait"
+                  height="6500px"
+                  width="1922px"
+                  url="MS-PETRARCH-MSS-01546-000-00484.jp2"/>
+
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+            <div>
+                <pb n="upper_cover" xml:id="pb-upper_cover" facs="#i1"/>
+                <pb n="inside_upper_cover" xml:id="pb-inside_upper_cover" facs="#i2"/>
+                <pb n="front_flyleaf_[i]" xml:id="pb-front_flyleaf_i" facs="#i3"/>
+                <pb n="front_flyleaf_[ii]" xml:id="pb-front_flyleaf_ii" facs="#i4"/>
+                <pb n="front_flyleaf_[iii]" xml:id="pb-front_flyleaf_iii" facs="#i5"/>
+                <pb n="front_flyleaf_[iv]" xml:id="pb-front_flyleaf_iv" facs="#i6"/>
+                <pb n="*1r" xml:id="pb-1r" facs="#i7"/>
+                <pb n="*1v" xml:id="pb-1v" facs="#i8"/>
+                <pb n="*2r" xml:id="pb-2r" facs="#i9"/>
+                <pb n="*2v" xml:id="pb-2v" facs="#i10"/>
+                <pb n="*3r" xml:id="pb-3r" facs="#i11"/>
+                <pb n="*3v" xml:id="pb-3v" facs="#i12"/>
+                <pb n="*4r" xml:id="pb-4r" facs="#i13"/>
+                <pb n="*4v" xml:id="pb-4v" facs="#i14"/>
+                <pb n="*5r" xml:id="pb-5r" facs="#i15"/>
+                <pb n="*5v" xml:id="pb-5v" facs="#i16"/>
+                <pb n="*6r" xml:id="pb-6r" facs="#i17"/>
+                <pb n="*6v" xml:id="pb-6v" facs="#i18"/>
+                <pb n="*7r" xml:id="pb-7r" facs="#i19"/>
+                <pb n="*7v" xml:id="pb-7v" facs="#i20"/>
+                <pb n="*8r" xml:id="pb-8r" facs="#i21"/>
+                <pb n="*8v" xml:id="pb-8v" facs="#i22"/>
+                <pb n="A1r" xml:id="pb-A1r" facs="#i23"/>
+                <pb n="A1v" xml:id="pb-A1v" facs="#i24"/>
+                <pb n="A2r" xml:id="pb-A2r" facs="#i25"/>
+                <pb n="A2v" xml:id="pb-A2v" facs="#i26"/>
+                <pb n="A3r" xml:id="pb-A3r" facs="#i27"/>
+                <pb n="A3v" xml:id="pb-A3v" facs="#i28"/>
+                <pb n="A4r" xml:id="pb-A4r" facs="#i29"/>
+                <pb n="A4v" xml:id="pb-A4v" facs="#i30"/>
+                <pb n="A5r" xml:id="pb-A5r" facs="#i31"/>
+                <pb n="A5v" xml:id="pb-A5v" facs="#i32"/>
+                <pb n="A6r" xml:id="pb-A6r" facs="#i33"/>
+                <pb n="A6v" xml:id="pb-A6v" facs="#i34"/>
+                <pb n="A7r" xml:id="pb-A7r" facs="#i35"/>
+                <pb n="A7v" xml:id="pb-A7v" facs="#i36"/>
+                <pb n="A8r" xml:id="pb-A8r" facs="#i37"/>
+                <pb n="A8v" xml:id="pb-A8v" facs="#i38"/>
+                <pb n="B1r" xml:id="pb-B1r" facs="#i39"/>
+                <pb n="B1v" xml:id="pb-B1v" facs="#i40"/>
+                <pb n="B2r" xml:id="pb-B2r" facs="#i41"/>
+                <pb n="B2v" xml:id="pb-B2v" facs="#i42"/>
+                <pb n="B3r" xml:id="pb-B3r" facs="#i43"/>
+                <pb n="B3v" xml:id="pb-B3v" facs="#i44"/>
+                <pb n="B4r" xml:id="pb-B4r" facs="#i45"/>
+                <pb n="B4v" xml:id="pb-B4v" facs="#i46"/>
+                <pb n="B5r" xml:id="pb-B5r" facs="#i47"/>
+                <pb n="B5v" xml:id="pb-B5v" facs="#i48"/>
+                <pb n="B6r" xml:id="pb-B6r" facs="#i49"/>
+                <pb n="B6v" xml:id="pb-B6v" facs="#i50"/>
+                <pb n="B7r" xml:id="pb-B7r" facs="#i51"/>
+                <pb n="B7v" xml:id="pb-B7v" facs="#i52"/>
+                <pb n="B8r" xml:id="pb-B8r" facs="#i53"/>
+                <pb n="B8v" xml:id="pb-B8v" facs="#i54"/>
+                <pb n="C1r" xml:id="pb-C1r" facs="#i55"/>
+                <pb n="C1v" xml:id="pb-C1v" facs="#i56"/>
+                <pb n="C2r" xml:id="pb-C2r" facs="#i57"/>
+                <pb n="C2v" xml:id="pb-C2v" facs="#i58"/>
+                <pb n="C3r" xml:id="pb-C3r" facs="#i59"/>
+                <pb n="C3v" xml:id="pb-C3v" facs="#i60"/>
+                <pb n="C4r" xml:id="pb-C4r" facs="#i61"/>
+                <pb n="C4v" xml:id="pb-C4v" facs="#i62"/>
+                <pb n="C5r" xml:id="pb-C5r" facs="#i63"/>
+                <pb n="C5v" xml:id="pb-C5v" facs="#i64"/>
+                <pb n="C6r" xml:id="pb-C6r" facs="#i65"/>
+                <pb n="C6v" xml:id="pb-C6v" facs="#i66"/>
+                <pb n="C7r" xml:id="pb-C7r" facs="#i67"/>
+                <pb n="C7v" xml:id="pb-C7v" facs="#i68"/>
+                <pb n="C8r" xml:id="pb-C8r" facs="#i69"/>
+                <pb n="C8v" xml:id="pb-C8v" facs="#i70"/>
+                <pb n="D1r" xml:id="pb-D1r" facs="#i71"/>
+                <pb n="D1v" xml:id="pb-D1v" facs="#i72"/>
+                <pb n="D2r" xml:id="pb-D2r" facs="#i73"/>
+                <pb n="D2v" xml:id="pb-D2v" facs="#i74"/>
+                <pb n="D3r" xml:id="pb-D3r" facs="#i75"/>
+                <pb n="D3v" xml:id="pb-D3v" facs="#i76"/>
+                <pb n="D4r" xml:id="pb-D4r" facs="#i77"/>
+                <pb n="D4v" xml:id="pb-D4v" facs="#i78"/>
+                <pb n="D5r" xml:id="pb-D5r" facs="#i79"/>
+                <pb n="D5v" xml:id="pb-D5v" facs="#i80"/>
+                <pb n="D6r" xml:id="pb-D6r" facs="#i81"/>
+                <pb n="D6v" xml:id="pb-D6v" facs="#i82"/>
+                <pb n="D7r" xml:id="pb-D7r" facs="#i83"/>
+                <pb n="D7v" xml:id="pb-D7v" facs="#i84"/>
+                <pb n="D8r" xml:id="pb-D8r" facs="#i85"/>
+                <pb n="D8v" xml:id="pb-D8v" facs="#i86"/>
+                <pb n="E1r" xml:id="pb-E1r" facs="#i87"/>
+                <pb n="E1v" xml:id="pb-E1v" facs="#i88"/>
+                <pb n="E2r" xml:id="pb-E2r" facs="#i89"/>
+                <pb n="E2v" xml:id="pb-E2v" facs="#i90"/>
+                <pb n="E3r" xml:id="pb-E3r" facs="#i91"/>
+                <pb n="E3v" xml:id="pb-E3v" facs="#i92"/>
+                <pb n="E4r" xml:id="pb-E4r" facs="#i93"/>
+                <pb n="E4v" xml:id="pb-E4v" facs="#i94"/>
+                <pb n="E5r" xml:id="pb-E5r" facs="#i95"/>
+                <pb n="E5v" xml:id="pb-E5v" facs="#i96"/>
+                <pb n="E6r" xml:id="pb-E6r" facs="#i97"/>
+                <pb n="E6v" xml:id="pb-E6v" facs="#i98"/>
+                <pb n="E7r" xml:id="pb-E7r" facs="#i99"/>
+                <pb n="E7v" xml:id="pb-E7v" facs="#i100"/>
+                <pb n="E8r" xml:id="pb-E8r" facs="#i101"/>
+                <pb n="E8v" xml:id="pb-E8v" facs="#i102"/>
+                <pb n="F1r" xml:id="pb-F1r" facs="#i103"/>
+                <pb n="F1v" xml:id="pb-F1v" facs="#i104"/>
+                <pb n="F2r" xml:id="pb-F2r" facs="#i105"/>
+                <pb n="F2v" xml:id="pb-F2v" facs="#i106"/>
+                <pb n="F3r" xml:id="pb-F3r" facs="#i107"/>
+                <pb n="F3v" xml:id="pb-F3v" facs="#i108"/>
+                <pb n="F4r" xml:id="pb-F4r" facs="#i109"/>
+                <pb n="F4v" xml:id="pb-F4v" facs="#i110"/>
+                <pb n="F5r" xml:id="pb-F5r" facs="#i111"/>
+                <pb n="F5v" xml:id="pb-F5v" facs="#i112"/>
+                <pb n="F6r" xml:id="pb-F6r" facs="#i113"/>
+                <pb n="F6v" xml:id="pb-F6v" facs="#i114"/>
+                <pb n="F7r" xml:id="pb-F7r" facs="#i115"/>
+                <pb n="F7v" xml:id="pb-F7v" facs="#i116"/>
+                <pb n="F8r" xml:id="pb-F8r" facs="#i117"/>
+                <pb n="F8v" xml:id="pb-F8v" facs="#i118"/>
+                <pb n="G1r" xml:id="pb-G1r" facs="#i119"/>
+                <pb n="G1v" xml:id="pb-G1v" facs="#i120"/>
+                <pb n="G2r" xml:id="pb-G2r" facs="#i121"/>
+                <pb n="G2v" xml:id="pb-G2v" facs="#i122"/>
+                <pb n="G3r" xml:id="pb-G3r" facs="#i123"/>
+                <pb n="G3v" xml:id="pb-G3v" facs="#i124"/>
+                <pb n="G4r" xml:id="pb-G4r" facs="#i125"/>
+                <pb n="G4v" xml:id="pb-G4v" facs="#i126"/>
+                <pb n="G5r" xml:id="pb-G5r" facs="#i127"/>
+                <pb n="G5v" xml:id="pb-G5v" facs="#i128"/>
+                <pb n="G6r" xml:id="pb-G6r" facs="#i129"/>
+                <pb n="G6v" xml:id="pb-G6v" facs="#i130"/>
+                <pb n="G7r" xml:id="pb-G7r" facs="#i131"/>
+                <pb n="G7v" xml:id="pb-G7v" facs="#i132"/>
+                <pb n="G8r" xml:id="pb-G8r" facs="#i133"/>
+                <pb n="G8v" xml:id="pb-G8v" facs="#i134"/>
+                <pb n="H1r" xml:id="pb-H1r" facs="#i135"/>
+                <pb n="H1v" xml:id="pb-H1v" facs="#i136"/>
+                <pb n="H2r" xml:id="pb-H2r" facs="#i137"/>
+                <pb n="H2v" xml:id="pb-H2v" facs="#i138"/>
+                <pb n="H3r" xml:id="pb-H3r" facs="#i139"/>
+                <pb n="H3v" xml:id="pb-H3v" facs="#i140"/>
+                <pb n="H4r" xml:id="pb-H4r" facs="#i141"/>
+                <pb n="H4v" xml:id="pb-H4v" facs="#i142"/>
+                <pb n="H5r" xml:id="pb-H5r" facs="#i143"/>
+                <pb n="H5v" xml:id="pb-H5v" facs="#i144"/>
+                <pb n="H6r" xml:id="pb-H6r" facs="#i145"/>
+                <pb n="H6v" xml:id="pb-H6v" facs="#i146"/>
+                <pb n="H7r" xml:id="pb-H7r" facs="#i147"/>
+                <pb n="H7v" xml:id="pb-H7v" facs="#i148"/>
+                <pb n="H8r" xml:id="pb-H8r" facs="#i149"/>
+                <pb n="H8v" xml:id="pb-H8v" facs="#i150"/>
+                <pb n="I1r" xml:id="pb-I1r" facs="#i151"/>
+                <pb n="I1v" xml:id="pb-I1v" facs="#i152"/>
+                <pb n="I2r" xml:id="pb-I2r" facs="#i153"/>
+                <pb n="I2v" xml:id="pb-I2v" facs="#i154"/>
+                <pb n="I3r" xml:id="pb-I3r" facs="#i155"/>
+                <pb n="I3v" xml:id="pb-I3v" facs="#i156"/>
+                <pb n="I4r" xml:id="pb-I4r" facs="#i157"/>
+                <pb n="I4v" xml:id="pb-I4v" facs="#i158"/>
+                <pb n="I5r" xml:id="pb-I5r" facs="#i159"/>
+                <pb n="I5v" xml:id="pb-I5v" facs="#i160"/>
+                <pb n="I6r" xml:id="pb-I6r" facs="#i161"/>
+                <pb n="I6v" xml:id="pb-I6v" facs="#i162"/>
+                <pb n="I7r" xml:id="pb-I7r" facs="#i163"/>
+                <pb n="I7v" xml:id="pb-I7v" facs="#i164"/>
+                <pb n="I8r" xml:id="pb-I8r" facs="#i165"/>
+                <pb n="I8v" xml:id="pb-I8v" facs="#i166"/>
+                <pb n="K1r" xml:id="pb-K1r" facs="#i167"/>
+                <pb n="K1v" xml:id="pb-K1v" facs="#i168"/>
+                <pb n="K2r" xml:id="pb-K2r" facs="#i169"/>
+                <pb n="K2v" xml:id="pb-K2v" facs="#i170"/>
+                <pb n="K3r" xml:id="pb-K3r" facs="#i171"/>
+                <pb n="K3v" xml:id="pb-K3v" facs="#i172"/>
+                <pb n="K4r" xml:id="pb-K4r" facs="#i173"/>
+                <pb n="K4v" xml:id="pb-K4v" facs="#i174"/>
+                <pb n="K5r" xml:id="pb-K5r" facs="#i175"/>
+                <pb n="K5v" xml:id="pb-K5v" facs="#i176"/>
+                <pb n="K6r" xml:id="pb-K6r" facs="#i177"/>
+                <pb n="K6v" xml:id="pb-K6v" facs="#i178"/>
+                <pb n="K7r" xml:id="pb-K7r" facs="#i179"/>
+                <pb n="K7v" xml:id="pb-K7v" facs="#i180"/>
+                <pb n="K8r" xml:id="pb-K8r" facs="#i181"/>
+                <pb n="K8v" xml:id="pb-K8v" facs="#i182"/>
+                <pb n="L1r" xml:id="pb-L1r" facs="#i183"/>
+                <pb n="L1v" xml:id="pb-L1v" facs="#i184"/>
+                <pb n="L2r" xml:id="pb-L2r" facs="#i185"/>
+                <pb n="L2v" xml:id="pb-L2v" facs="#i186"/>
+                <pb n="L3r" xml:id="pb-L3r" facs="#i187"/>
+                <pb n="L3v" xml:id="pb-L3v" facs="#i188"/>
+                <pb n="L4r" xml:id="pb-L4r" facs="#i189"/>
+                <pb n="L4v" xml:id="pb-L4v" facs="#i190"/>
+                <pb n="L5r" xml:id="pb-L5r" facs="#i191"/>
+                <pb n="L5v" xml:id="pb-L5v" facs="#i192"/>
+                <pb n="L6r" xml:id="pb-L6r" facs="#i193"/>
+                <pb n="L6v" xml:id="pb-L6v" facs="#i194"/>
+                <pb n="L7r" xml:id="pb-L7r" facs="#i195"/>
+                <pb n="L7v" xml:id="pb-L7v" facs="#i196"/>
+                <pb n="L8r" xml:id="pb-L8r" facs="#i197"/>
+                <pb n="L8v" xml:id="pb-L8v" facs="#i198"/>
+                <pb n="M1r" xml:id="pb-M1r" facs="#i199"/>
+                <pb n="M1v" xml:id="pb-M1v" facs="#i200"/>
+                <pb n="M2r" xml:id="pb-M2r" facs="#i201"/>
+                <pb n="M2v" xml:id="pb-M2v" facs="#i202"/>
+                <pb n="M3r" xml:id="pb-M3r" facs="#i203"/>
+                <pb n="M3v" xml:id="pb-M3v" facs="#i204"/>
+                <pb n="M4r" xml:id="pb-M4r" facs="#i205"/>
+                <pb n="M4v" xml:id="pb-M4v" facs="#i206"/>
+                <pb n="M5r" xml:id="pb-M5r" facs="#i207"/>
+                <pb n="M5v" xml:id="pb-M5v" facs="#i208"/>
+                <pb n="M6r" xml:id="pb-M6r" facs="#i209"/>
+                <pb n="M6v" xml:id="pb-M6v" facs="#i210"/>
+                <pb n="M7r" xml:id="pb-M7r" facs="#i211"/>
+                <pb n="M7v" xml:id="pb-M7v" facs="#i212"/>
+                <pb n="M8r" xml:id="pb-M8r" facs="#i213"/>
+                <pb n="M8v" xml:id="pb-M8v" facs="#i214"/>
+                <pb n="N1r" xml:id="pb-N1r" facs="#i215"/>
+                <pb n="N1v" xml:id="pb-N1v" facs="#i216"/>
+                <pb n="N2r" xml:id="pb-N2r" facs="#i217"/>
+                <pb n="N2v" xml:id="pb-N2v" facs="#i218"/>
+                <pb n="N3r" xml:id="pb-N3r" facs="#i219"/>
+                <pb n="N3v" xml:id="pb-N3v" facs="#i220"/>
+                <pb n="N4r" xml:id="pb-N4r" facs="#i221"/>
+                <pb n="N4v" xml:id="pb-N4v" facs="#i222"/>
+                <pb n="N5r" xml:id="pb-N5r" facs="#i223"/>
+                <pb n="N5v" xml:id="pb-N5v" facs="#i224"/>
+                <pb n="N6r" xml:id="pb-N6r" facs="#i225"/>
+                <pb n="N6v" xml:id="pb-N6v" facs="#i226"/>
+                <pb n="N7r" xml:id="pb-N7r" facs="#i227"/>
+                <pb n="N7v" xml:id="pb-N7v" facs="#i228"/>
+                <pb n="N8r" xml:id="pb-N8r" facs="#i229"/>
+                <pb n="N8v" xml:id="pb-N8v" facs="#i230"/>
+                <pb n="O1r" xml:id="pb-O1r" facs="#i231"/>
+                <pb n="O1v" xml:id="pb-O1v" facs="#i232"/>
+                <pb n="O2r" xml:id="pb-O2r" facs="#i233"/>
+                <pb n="O2v" xml:id="pb-O2v" facs="#i234"/>
+                <pb n="O3r" xml:id="pb-O3r" facs="#i235"/>
+                <pb n="O3v" xml:id="pb-O3v" facs="#i236"/>
+                <pb n="O4r" xml:id="pb-O4r" facs="#i237"/>
+                <pb n="O4v" xml:id="pb-O4v" facs="#i238"/>
+                <pb n="O5r" xml:id="pb-O5r" facs="#i239"/>
+                <pb n="O5v" xml:id="pb-O5v" facs="#i240"/>
+                <pb n="O6r" xml:id="pb-O6r" facs="#i241"/>
+                <pb n="O6v" xml:id="pb-O6v" facs="#i242"/>
+                <pb n="O7r" xml:id="pb-O7r" facs="#i243"/>
+                <pb n="O7v" xml:id="pb-O7v" facs="#i244"/>
+                <pb n="O8r" xml:id="pb-O8r" facs="#i245"/>
+                <pb n="O8v" xml:id="pb-O8v" facs="#i246"/>
+                <pb n="P1r" xml:id="pb-P1r" facs="#i247"/>
+                <pb n="P1v" xml:id="pb-P1v" facs="#i248"/>
+                <pb n="P2r" xml:id="pb-P2r" facs="#i249"/>
+                <pb n="P2v" xml:id="pb-P2v" facs="#i250"/>
+                <pb n="P3r" xml:id="pb-P3r" facs="#i251"/>
+                <pb n="P3v" xml:id="pb-P3v" facs="#i252"/>
+                <pb n="P4r" xml:id="pb-P4r" facs="#i253"/>
+                <pb n="P4v" xml:id="pb-P4v" facs="#i254"/>
+                <pb n="P5r" xml:id="pb-P5r" facs="#i255"/>
+                <pb n="P5v" xml:id="pb-P5v" facs="#i256"/>
+                <pb n="P6r" xml:id="pb-P6r" facs="#i257"/>
+                <pb n="P6v" xml:id="pb-P6v" facs="#i258"/>
+                <pb n="P7r" xml:id="pb-P7r" facs="#i259"/>
+                <pb n="P7v" xml:id="pb-P7v" facs="#i260"/>
+                <pb n="P8r" xml:id="pb-P8r" facs="#i261"/>
+                <pb n="P8v" xml:id="pb-P8v" facs="#i262"/>
+                <pb n="Q1r" xml:id="pb-Q1r" facs="#i263"/>
+                <pb n="Q1v" xml:id="pb-Q1v" facs="#i264"/>
+                <pb n="Q2r" xml:id="pb-Q2r" facs="#i265"/>
+                <pb n="Q2v" xml:id="pb-Q2v" facs="#i266"/>
+                <pb n="Q3r" xml:id="pb-Q3r" facs="#i267"/>
+                <pb n="Q3v" xml:id="pb-Q3v" facs="#i268"/>
+                <pb n="Q4r" xml:id="pb-Q4r" facs="#i269"/>
+                <pb n="Q4v" xml:id="pb-Q4v" facs="#i270"/>
+                <pb n="Q5r" xml:id="pb-Q5r" facs="#i271"/>
+                <pb n="Q5v" xml:id="pb-Q5v" facs="#i272"/>
+                <pb n="Q6r" xml:id="pb-Q6r" facs="#i273"/>
+                <pb n="Q6v" xml:id="pb-Q6v" facs="#i274"/>
+                <pb n="Q7r" xml:id="pb-Q7r" facs="#i275"/>
+                <pb n="Q7v" xml:id="pb-Q7v" facs="#i276"/>
+                <pb n="Q8r" xml:id="pb-Q8r" facs="#i277"/>
+                <pb n="Q8v" xml:id="pb-Q8v" facs="#i278"/>
+                <pb n="R1r" xml:id="pb-R1r" facs="#i279"/>
+                <pb n="R1v" xml:id="pb-R1v" facs="#i280"/>
+                <pb n="R2r" xml:id="pb-R2r" facs="#i281"/>
+                <pb n="R2v" xml:id="pb-R2v" facs="#i282"/>
+                <pb n="R3r" xml:id="pb-R3r" facs="#i283"/>
+                <pb n="R3v" xml:id="pb-R3v" facs="#i284"/>
+                <pb n="R4r" xml:id="pb-R4r" facs="#i285"/>
+                <pb n="R4v" xml:id="pb-R4v" facs="#i286"/>
+                <pb n="R5r" xml:id="pb-R5r" facs="#i287"/>
+                <pb n="R5v" xml:id="pb-R5v" facs="#i288"/>
+                <pb n="R6r" xml:id="pb-R6r" facs="#i289"/>
+                <pb n="R6v" xml:id="pb-R6v" facs="#i290"/>
+                <pb n="R7r" xml:id="pb-R7r" facs="#i291"/>
+                <pb n="R7v" xml:id="pb-R7v" facs="#i292"/>
+                <pb n="R8r" xml:id="pb-R8r" facs="#i293"/>
+                <pb n="R8v" xml:id="pb-R8v" facs="#i294"/>
+                <pb n="S1r" xml:id="pb-S1r" facs="#i295"/>
+                <pb n="S1v" xml:id="pb-S1v" facs="#i296"/>
+                <pb n="S2r" xml:id="pb-S2r" facs="#i297"/>
+                <pb n="S2v" xml:id="pb-S2v" facs="#i298"/>
+                <pb n="S3r" xml:id="pb-S3r" facs="#i299"/>
+                <pb n="S3v" xml:id="pb-S3v" facs="#i300"/>
+                <pb n="S4r" xml:id="pb-S4r" facs="#i301"/>
+                <pb n="S4v" xml:id="pb-S4v" facs="#i302"/>
+                <pb n="S5r" xml:id="pb-S5r" facs="#i303"/>
+                <pb n="S5v" xml:id="pb-S5v" facs="#i304"/>
+                <pb n="S6r" xml:id="pb-S6r" facs="#i305"/>
+                <pb n="S6v" xml:id="pb-S6v" facs="#i306"/>
+                <pb n="S7r" xml:id="pb-S7r" facs="#i307"/>
+                <pb n="S7v" xml:id="pb-S7v" facs="#i308"/>
+                <pb n="S8r" xml:id="pb-S8r" facs="#i309"/>
+                <pb n="S8v" xml:id="pb-S8v" facs="#i310"/>
+                <pb n="T1r" xml:id="pb-T1r" facs="#i311"/>
+                <pb n="T1v" xml:id="pb-T1v" facs="#i312"/>
+                <pb n="T2r" xml:id="pb-T2r" facs="#i313"/>
+                <pb n="T2v" xml:id="pb-T2v" facs="#i314"/>
+                <pb n="T3r" xml:id="pb-T3r" facs="#i315"/>
+                <pb n="T3v" xml:id="pb-T3v" facs="#i316"/>
+                <pb n="T4r" xml:id="pb-T4r" facs="#i317"/>
+                <pb n="T4v" xml:id="pb-T4v" facs="#i318"/>
+                <pb n="T5r" xml:id="pb-T5r" facs="#i319"/>
+                <pb n="T5v" xml:id="pb-T5v" facs="#i320"/>
+                <pb n="T6r" xml:id="pb-T6r" facs="#i321"/>
+                <pb n="T6v" xml:id="pb-T6v" facs="#i322"/>
+                <pb n="T7r" xml:id="pb-T7r" facs="#i323"/>
+                <pb n="T7v" xml:id="pb-T7v" facs="#i324"/>
+                <pb n="T8r" xml:id="pb-T8r" facs="#i325"/>
+                <pb n="T8v" xml:id="pb-T8v" facs="#i326"/>
+                <pb n="V1r" xml:id="pb-V1r" facs="#i327"/>
+                <pb n="V1v" xml:id="pb-V1v" facs="#i328"/>
+                <pb n="V2r" xml:id="pb-V2r" facs="#i329"/>
+                <pb n="V2v" xml:id="pb-V2v" facs="#i330"/>
+                <pb n="V3r" xml:id="pb-V3r" facs="#i331"/>
+                <pb n="V3v" xml:id="pb-V3v" facs="#i332"/>
+                <pb n="V4r" xml:id="pb-V4r" facs="#i333"/>
+                <pb n="V4v" xml:id="pb-V4v" facs="#i334"/>
+                <pb n="V5r" xml:id="pb-V5r" facs="#i335"/>
+                <pb n="v5v" xml:id="pb-v5v" facs="#i336"/>
+                <pb n="V6r" xml:id="pb-V6r" facs="#i337"/>
+                <pb n="V6v" xml:id="pb-V6v" facs="#i338"/>
+                <pb n="V7r" xml:id="pb-V7r" facs="#i339"/>
+                <pb n="V7v" xml:id="pb-V7v" facs="#i340"/>
+                <pb n="V8r" xml:id="pb-V8r" facs="#i341"/>
+                <pb n="V8v" xml:id="pb-V8v" facs="#i342"/>
+                <pb n="X1r" xml:id="pb-X1r" facs="#i343"/>
+                <pb n="X1v" xml:id="pb-X1v" facs="#i344"/>
+                <pb n="X2r" xml:id="pb-X2r" facs="#i345"/>
+                <pb n="X2v" xml:id="pb-X2v" facs="#i346"/>
+                <pb n="X3r" xml:id="pb-X3r" facs="#i347"/>
+                <pb n="X3v" xml:id="pb-X3v" facs="#i348"/>
+                <pb n="X4r" xml:id="pb-X4r" facs="#i349"/>
+                <pb n="X4v" xml:id="pb-X4v" facs="#i350"/>
+                <pb n="X5r" xml:id="pb-X5r" facs="#i351"/>
+                <pb n="X5v" xml:id="pb-X5v" facs="#i352"/>
+                <pb n="X6r" xml:id="pb-X6r" facs="#i353"/>
+                <pb n="X6v" xml:id="pb-X6v" facs="#i354"/>
+                <pb n="X7r" xml:id="pb-X7r" facs="#i355"/>
+                <pb n="X7v" xml:id="pb-X7v" facs="#i356"/>
+                <pb n="X8r" xml:id="pb-X8r" facs="#i357"/>
+                <pb n="X8v" xml:id="pb-X8v" facs="#i358"/>
+                <pb n="Y1r" xml:id="pb-Y1r" facs="#i359"/>
+                <pb n="Y1v" xml:id="pb-Y1v" facs="#i360"/>
+                <pb n="Y2r" xml:id="pb-Y2r" facs="#i361"/>
+                <pb n="Y2v" xml:id="pb-Y2v" facs="#i362"/>
+                <pb n="Y3r" xml:id="pb-Y3r" facs="#i363"/>
+                <pb n="Y3v" xml:id="pb-Y3v" facs="#i364"/>
+                <pb n="Y4r" xml:id="pb-Y4r" facs="#i365"/>
+                <pb n="Y4v" xml:id="pb-Y4v" facs="#i366"/>
+                <pb n="Y5r" xml:id="pb-Y5r" facs="#i367"/>
+                <pb n="Y5v" xml:id="pb-Y5v" facs="#i368"/>
+                <pb n="Y6r" xml:id="pb-Y6r" facs="#i369"/>
+                <pb n="Y6v" xml:id="pb-Y6v" facs="#i370"/>
+                <pb n="Y7r" xml:id="pb-Y7r" facs="#i371"/>
+                <pb n="Y7v" xml:id="pb-Y7v" facs="#i372"/>
+                <pb n="Y8r" xml:id="pb-Y8r" facs="#i373"/>
+                <pb n="Y8v" xml:id="pb-Y8v" facs="#i374"/>
+                <pb n="Z1r" xml:id="pb-Z1r" facs="#i375"/>
+                <pb n="Z1v" xml:id="pb-Z1v" facs="#i376"/>
+                <pb n="Z2r" xml:id="pb-Z2r" facs="#i377"/>
+                <pb n="Z2v" xml:id="pb-Z2v" facs="#i378"/>
+                <pb n="Z3r" xml:id="pb-Z3r" facs="#i379"/>
+                <pb n="Z3v" xml:id="pb-Z3v" facs="#i380"/>
+                <pb n="Z4r" xml:id="pb-Z4r" facs="#i381"/>
+                <pb n="Z4v" xml:id="pb-Z4v" facs="#i382"/>
+                <pb n="Z5r" xml:id="pb-Z5r" facs="#i383"/>
+                <pb n="Z5v" xml:id="pb-Z5v" facs="#i384"/>
+                <pb n="Z6r" xml:id="pb-Z6r" facs="#i385"/>
+                <pb n="Z6v" xml:id="pb-Z6v" facs="#i386"/>
+                <pb n="Z7r" xml:id="pb-Z7r" facs="#i387"/>
+                <pb n="Z7v" xml:id="pb-Z7v" facs="#i388"/>
+                <pb n="Z8r" xml:id="pb-Z8r" facs="#i389"/>
+                <pb n="Z8v" xml:id="pb-Z8v" facs="#i390"/>
+                <pb n="AA1r" xml:id="pb-AA1r" facs="#i391"/>
+                <pb n="AA1v" xml:id="pb-AA1v" facs="#i392"/>
+                <pb n="AA2r" xml:id="pb-AA2r" facs="#i393"/>
+                <pb n="AA2v" xml:id="pb-AA2v" facs="#i394"/>
+                <pb n="AA3r" xml:id="pb-AA3r" facs="#i395"/>
+                <pb n="AA3v" xml:id="pb-AA3v" facs="#i396"/>
+                <pb n="AA4r" xml:id="pb-AA4r" facs="#i397"/>
+                <pb n="AA4v" xml:id="pb-AA4v" facs="#i398"/>
+                <pb n="AA5r" xml:id="pb-AA5r" facs="#i399"/>
+                <pb n="AA5v" xml:id="pb-AA5v" facs="#i400"/>
+                <pb n="AA6r" xml:id="pb-AA6r" facs="#i401"/>
+                <pb n="AA6v" xml:id="pb-AA6v" facs="#i402"/>
+                <pb n="AA7r" xml:id="pb-AA7r" facs="#i403"/>
+                <pb n="AA7v" xml:id="pb-AA7v" facs="#i404"/>
+                <pb n="AA8r" xml:id="pb-AA8r" facs="#i405"/>
+                <pb n="AA8v" xml:id="pb-AA8v" facs="#i406"/>
+                <pb n="BB1r" xml:id="pb-BB1r" facs="#i407"/>
+                <pb n="BB1v" xml:id="pb-BB1v" facs="#i408"/>
+                <pb n="BB2r" xml:id="pb-BB2r" facs="#i409"/>
+                <pb n="BB2v" xml:id="pb-BB2v" facs="#i410"/>
+                <pb n="BB3r" xml:id="pb-BB3r" facs="#i411"/>
+                <pb n="BB3v" xml:id="pb-BB3v" facs="#i412"/>
+                <pb n="BB4r" xml:id="pb-BB4r" facs="#i413"/>
+                <pb n="BB4v" xml:id="pb-BB4v" facs="#i414"/>
+                <pb n="BB5r" xml:id="pb-BB5r" facs="#i415"/>
+                <pb n="BB5v" xml:id="pb-BB5v" facs="#i416"/>
+                <pb n="BB6r" xml:id="pb-BB6r" facs="#i417"/>
+                <pb n="BB6v" xml:id="pb-BB6v" facs="#i418"/>
+                <pb n="BB7r" xml:id="pb-BB7r" facs="#i419"/>
+                <pb n="BB7v" xml:id="pb-BB7v" facs="#i420"/>
+                <pb n="BB8r" xml:id="pb-BB8r" facs="#i421"/>
+                <pb n="BB8v" xml:id="pb-BB8v" facs="#i422"/>
+                <pb n="CC1r" xml:id="pb-CC1r" facs="#i423"/>
+                <pb n="CC1v" xml:id="pb-CC1v" facs="#i424"/>
+                <pb n="CC2r" xml:id="pb-CC2r" facs="#i425"/>
+                <pb n="CC2v" xml:id="pb-CC2v" facs="#i426"/>
+                <pb n="CC3r" xml:id="pb-CC3r" facs="#i427"/>
+                <pb n="CC3v" xml:id="pb-CC3v" facs="#i428"/>
+                <pb n="CC4r" xml:id="pb-CC4r" facs="#i429"/>
+                <pb n="CC4v" xml:id="pb-CC4v" facs="#i430"/>
+                <pb n="CC5r" xml:id="pb-CC5r" facs="#i431"/>
+                <pb n="CC5v" xml:id="pb-CC5v" facs="#i432"/>
+                <pb n="CC6r" xml:id="pb-CC6r" facs="#i433"/>
+                <pb n="CC6v" xml:id="pb-CC6v" facs="#i434"/>
+                <pb n="CC7r" xml:id="pb-CC7r" facs="#i435"/>
+                <pb n="CC7v" xml:id="pb-CC7v" facs="#i436"/>
+                <pb n="CC8r" xml:id="pb-CC8r" facs="#i437"/>
+                <pb n="CC8v" xml:id="pb-CC8v" facs="#i438"/>
+                <pb n="DD1r" xml:id="pb-DD1r" facs="#i439"/>
+                <pb n="DD1v" xml:id="pb-DD1v" facs="#i440"/>
+                <pb n="DD2r" xml:id="pb-DD2r" facs="#i441"/>
+                <pb n="DD2v" xml:id="pb-DD2v" facs="#i442"/>
+                <pb n="DD3r" xml:id="pb-DD3r" facs="#i443"/>
+                <pb n="DD3v" xml:id="pb-DD3v" facs="#i444"/>
+                <pb n="DD4r" xml:id="pb-DD4r" facs="#i445"/>
+                <pb n="DD4v" xml:id="pb-DD4v" facs="#i446"/>
+                <pb n="DD5r" xml:id="pb-DD5r" facs="#i447"/>
+                <pb n="DD5v" xml:id="pb-DD5v" facs="#i448"/>
+                <pb n="DD6r" xml:id="pb-DD6r" facs="#i449"/>
+                <pb n="DD6v" xml:id="pb-DD6v" facs="#i450"/>
+                <pb n="DD7r" xml:id="pb-DD7r" facs="#i451"/>
+                <pb n="DD7v" xml:id="pb-DD7v" facs="#i452"/>
+                <pb n="DD8r" xml:id="pb-DD8r" facs="#i453"/>
+                <pb n="DD8v" xml:id="pb-DD8v" facs="#i454"/>
+                <pb n="rear_flyleaf_[i]" xml:id="pb-rear_flyleaf_i" facs="#i455"/>
+                <pb n="rear_flyleaf_[ii]" xml:id="pb-rear_flyleaf_ii" facs="#i456"/>
+                <pb n="rear_flyleaf_[iii]" xml:id="pb-rear_flyleaf_iii" facs="#i457"/>
+                <pb n="rear_flyleaf_[iv]" xml:id="pb-rear_flyleaf_iv" facs="#i458"/>
+                <pb n="inside_lower_cover" xml:id="pb-inside_lower_cover" facs="#i459"/>
+                <pb n="lower_cover" xml:id="pb-lower_cover" facs="#i460"/>
+                <pb n="spine" xml:id="pb-spine" facs="#i461"/>
+                <pb n="head" xml:id="pb-head" facs="#i462"/>
+                <pb n="fore_edge" xml:id="pb-fore_edge" facs="#i463"/>
+                <pb n="tail" xml:id="pb-tail" facs="#i464"/>
+            </div>
+        </body>
+    </text>
+</TEI>

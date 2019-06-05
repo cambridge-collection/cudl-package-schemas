@@ -1,0 +1,3384 @@
+
+         {
+            "descriptiveMetadata": 
+               [
+            
+         {
+            "abstract": 
+               {
+               "display": false, 
+                  "displayForm": "<p style='text-align: justify;'>Composite manuscript containing fifteen stories in Judeo-Spanish written by various hands (folios <a href='' onclick='store.loadPage(11);return false;'>1a-88b</a>; <a href='' onclick='store.loadPage(209);return false;'>97a-99b</a>) and some Hebrew liturgical poems (‘piyyutim’) for different occasions (folios <a href='' onclick='store.loadPage(193);return false;'>89a-96b</a>; <a href='' onclick='store.loadPage(215);return false;'>100a-114b</a>).</p>", 
+                  "label": "Abstract", 
+               "seq": 11
+               },
+            "formerOwners": 
+               {
+               "display": true, 
+               "seq": 130, 
+                  "label": "Former Owner(s)", 
+               "value": [
+            
+         {
+               "display": true, 
+                  "displayForm": "Gaster, Moses 1856-1939", 
+               "seq": 131, 
+                  "linktype": "keyword search", 
+            "fullForm": "Gaster, Moses 1856-1939",
+            "shortForm": "Moses Gaster",
+            "type": "person",
+            "role": "fmo"
+         }
+               ]
+               },
+            "subjects": 
+               {
+               "display": true, 
+               "seq": 22, 
+                  "listDisplay": "inline", 
+                  "label": "Subject(s)", 
+               "value": [
+            
+         {
+               "display": true, 
+                  "displayForm": "Tales", 
+               "seq": 23, 
+                  "linktype": "keyword search", 
+            "fullForm": "Tales",
+            "authority": "Library of Congress Subject Headings",
+            "authorityURI": "http://id.loc.gov/authorities/about.html#lcsh",
+            "valueURI": "http://id.loc.gov/authorities/sh85132085"
+         },
+         {
+               "display": true, 
+                  "displayForm": "Piyutim", 
+               "seq": 23, 
+                  "linktype": "keyword search", 
+            "fullForm": "Piyutim",
+            "authority": "Library of Congress Subject Headings",
+            "authorityURI": "http://id.loc.gov/authorities/about.html#lcsh",
+            "valueURI": "http://id.loc.gov/authorities/gf2014027181"
+         }
+               ]
+               },
+            "creations": 
+               {
+               "display": true, 
+               "seq": 65, 
+               "value": [
+            
+         {
+            "type": "creation",
+            "dateStart": "1701",
+            "dateEnd": "1701",
+            "dateDisplay": 
+               {
+               "display": true, 
+                  "displayForm": "eighteenth century", 
+                  "linktype": "keyword search", 
+                  "label": "Date of Creation", 
+               "seq": 79
+               }
+         }
+               ]
+               },
+            "acquisitions": 
+               {
+               "display": true, 
+               "seq": 202, 
+               "value": [
+            
+         {
+            "type": "acquisition",
+            "dateStart": "1954",
+            "dateEnd": "1954",
+            "dateDisplay": 
+               {
+               "display": true, 
+                  "displayForm": "1954", 
+                  "label": "Date of Acquisition", 
+               "seq": 207
+               }
+         }
+               ]
+               },
+            "physicalLocation": 
+               {
+               "display": true, 
+                  "displayForm": "The John Rylands Library", 
+                  "label": "Physical Location", 
+               "seq": 4
+               },
+            "shelfLocator": 
+               {
+               "display": true, 
+                  "displayForm": "Gaster Hebrew MS 274", 
+                  "label": "Classmark", 
+               "seq": 5
+               },
+            "altIdentifiers": 
+               {
+               "display": true, 
+               "seq": 6, 
+                  "label": "Alternative Identifier(s)", 
+               "value": [
+            
+               {
+               "display": true, 
+                  "displayForm": "Gaster 274", 
+               "seq": 7
+               }
+               ]
+               },
+            "thumbnailUrl": "MS-HEBREW-GASTER-00274-000-00415.jp2",
+            "thumbnailOrientation": "portrait",
+            "displayImageRights": "Zooming image © University of Manchester Library, All rights reserved.",
+            "downloadImageRights": "Images made available for download are licensed under a Creative Commons Attribution-NonCommercial 3.0 Unported License (CC BY-NC 3.0)",
+            "imageReproPageURL": "http://www.manchester-image-licensing-link",
+            "metadataRights": "This metadata is licensed under a Creative Commons Attribution-NonCommercial 3.0 Unported License.",
+            "docAuthority": "",
+            "fundings": 
+               {
+               "display": true, 
+               "seq": 208, 
+                  "label": "Funding", 
+               "value": [
+            
+               {
+               "display": true, 
+                  "displayForm": "", 
+               "seq": 209
+               }
+               ]
+               },
+            "form": 
+               {
+               "display": true, 
+                  "displayForm": "Codex", 
+                  "label": "Format", 
+               "seq": 178
+               },
+            "material": 
+               {
+               "display": true, 
+                  "displayForm": "Paper<div style='list-style-type: disc;'><div style='display: list-item; margin-left: 20px;'><b>Gaster Hebrew MS 274/1:</b> Paper</div><div style='display: list-item; margin-left: 20px;'><b>Gaster Hebrew MS 274/2:</b> Paper with visible laid lines.</div></div>", 
+                  "label": "Material", 
+               "seq": 177
+               },
+            "extent": 
+               {
+               "display": true, 
+                  "displayForm": "116 ff. (iv+116+i) Leaf height: 146 mm, width: 96 mm. <div style='list-style-type: disc;'><div style='display: list-item; margin-left: 20px;'><b>Gaster Hebrew MS 274/1:</b> 91 ff.</div><div style='display: list-item; margin-left: 20px;'><b>Gaster Hebrew MS 274/2:</b> 23 ff.</div></div>", 
+                  "label": "Extent", 
+               "seq": 173
+               },
+            "foliation": 
+               {
+               "display": true, 
+                  "displayForm": "<p><p>Modern pencil foliation in Arabic numerals at the top outer corner of side a of each folio. Unnumbered folio between folios <a href='' onclick='store.loadPage(111);return false;'>50</a> and <a href='' onclick='store.loadPage(115);return false;'>51</a>, 2 folios numbered 65. Secondary foliation from folio 67: 1737-1739 (<a href='' onclick='store.loadPage(149);return false;'>67-69</a>), 1740-1756 (<a href='' onclick='store.loadPage(157);return false;'>71-87</a>), [..]58 (<a href='' onclick='store.loadPage(191);return false;'>88</a>), 1759 (<a href='' onclick='store.loadPage(209);return false;'>97</a>), [..] (<a href='' onclick='store.loadPage(211);return false;'>98</a>), 162 (<a href='' onclick='store.loadPage(213);return false;'>99</a>), etc.</p></p><div style='list-style-type: disc;'></div>", 
+                  "label": "Foliation", 
+               "seq": 189
+               },
+            "collation": 
+               {
+               "display": true, 
+                  "displayForm": "<div style='list-style-type: disc;'><div style='display: list-item; margin-left: 20px;'><b>Gaster Hebrew MS 274/1:</b><br /><p>Catchwords at the bottom left corner of nearly each page.</p></div><div style='display: list-item; margin-left: 20px;'><b>Gaster Hebrew MS 274/2:</b><br /><p>Catchwords at the bottom left corner of nearly each page.</p></div></div>", 
+                  "label": "Collation", 
+               "seq": 174
+               },
+            "conditions": 
+               {
+               "display": true, 
+               "seq": 179, 
+                  "label": "Condition", 
+               "value": [
+            
+               {
+               "display": true, 
+                  "displayForm": "<p>Repairs in inner edge with transparent tape. Folios have uneven edges.</p><div style='list-style-type: disc;'><div style='display: list-item; margin-left: 20px;'><b>Gaster Hebrew MS 274/2:</b><br /><p>Repairs in inner edge with transparent tape. Folios have uneven edges.</p></div></div>", 
+               "seq": 180
+               }
+               ]
+               },
+            "layouts": 
+               {
+               "display": true, 
+               "seq": 190, 
+                  "label": "Layout", 
+               "value": [
+            
+               {
+               "display": true, 
+                  "displayForm": "<div style='list-style-type: disc;'><div style='display: list-item; margin-left: 20px;'><b>Gaster Hebrew MS 274/1:</b><br /><p>Long line with 21 written lines</p></div><div style='display: list-item; margin-left: 20px;'><b>Gaster Hebrew MS 274/2:</b><br /><p>Long line with 21 written lines</p></div></div>", 
+               "seq": 191
+               }
+               ]
+               },
+            "scripts": 
+               {
+               "display": true, 
+               "seq": 185, 
+                  "label": "Script", 
+               "value": [
+            
+               {
+               "display": true, 
+                  "displayForm": "<div style='list-style-type: disc;'><div style='display: list-item; margin-left: 20px;'><b>Gaster Hebrew MS 274/1:</b><br /><div style='list-style-type: disc;'><div style='display: list-item; margin-left: 20px;'>Sephardi semi-cursive script, different hands.</div><div style='display: list-item; margin-left: 20px;'>Sephardi square for the titles, different hands.</div></div></div><div style='display: list-item; margin-left: 20px;'><b>Gaster Hebrew MS 274/2:</b><br /><div style='list-style-type: disc;'><div style='display: list-item; margin-left: 20px;'>Sephardi semi-cursive script</div><div style='display: list-item; margin-left: 20px;'>Sephardi square script for the titles</div></div></div></div>", 
+               "seq": 186
+               }
+               ]
+               },
+            "bindings": 
+               {
+               "display": true, 
+               "seq": 181, 
+                  "label": "Binding", 
+               "value": [
+            
+               {
+               "display": true, 
+                  "displayForm": "<p>One quarter binding: brown leather spine and brown chequered paper boards. Remains of two paper lables on spine. English printed matter used as fourth front fly-leaf and back fly-leaf. The manuscript must have been bound or rebound incorrently given the misplacement of folios <a href='' onclick='store.loadPage(209);return false;'>97-99</a> that should follow folio <a href='' onclick='store.loadPage(191);return false;'>88</a> and folio <a href='' onclick='store.loadPage(235);return false;'>110</a> that should follow <a href='' onclick='store.loadPage(229);return false;'>107</a>. In view of the catchwords several more parts seem to be in disorder, see especially folios <a href='' onclick='store.loadPage(83);return false;'>37-38</a>, <a href='' onclick='store.loadPage(101);return false;'>45-46</a>, <a href='' onclick='store.loadPage(139);return false;'>63-64</a>, <a href='' onclick='store.loadPage(165);return false;'>75-76</a>, <a href='' onclick='store.loadPage(189);return false;'>87-88</a>, <a href='' onclick='store.loadPage(215);return false;'>100a-b</a>, <a href='' onclick='store.loadPage(217);return false;'>101a-b</a>, <a href='' onclick='store.loadPage(229);return false;'>107-108</a>, <a href='' onclick='store.loadPage(231);return false;'>108-109</a>.</p>", 
+               "seq": 182
+               }
+               ]
+               },
+            "accMats": 
+               {
+               "display": true, 
+               "seq": 183, 
+                  "label": "Accompanying Material", 
+               "value": [
+            
+               {
+               "display": true, 
+                  "displayForm": "Note by N.Shalem on the content of the manuscript in Hebrew and English, written in London on 4 September 1938.", 
+               "seq": 184
+               }
+               ]
+               },
+            "provenances": 
+               {
+               "display": true, 
+               "seq": 196, 
+                  "label": "Provenance", 
+               "value": [
+            
+               {
+               "display": true, 
+                  "displayForm": "<div>Front paste-down: Handwritten in pencil numeral 274 and several numbers and calculations.<br />Folio <a href='' onclick='store.loadPage(5);return false;'>iia</a>: Handwritten note reading \"S.ra / Freja Brudo / Sn. Brudo Raffaell [...] 444\".<br />Folio <a href='' onclick='store.loadPage(6);return false;'>iib</a>: Benj. Cohen.<br />Folio <a href='' onclick='store.loadPage(11);return false;'>1a</a>: Handwritten in blue ink \"No. 274 / M Gaster\".<br />Owner's signature at the top edge of folios <a href='' onclick='store.loadPage(16);return false;'>3b</a>, <a href='' onclick='store.loadPage(17);return false;'>4a</a>, <a href='' onclick='store.loadPage(22);return false;'>6b</a>: Salomon Bintata.<br />Folio <a href='' onclick='store.loadPage(37);return false;'>14a</a>: Owner's signature on the outer edge, Benjamin Arye Haim Cohen.<br />Folio <a href='' onclick='store.loadPage(67);return false;'>29a</a>: Owner's signature on the outer edge, Judah Go[..].<br />Folio <a href='' onclick='store.loadPage(166);return false;'>75b</a>: Ownership note reading \"Questo di Josiph Olsa[...] / 1790\".<br />Folio <a href='' onclick='store.loadPage(192);return false;'>88b</a>: Handwritten note in blue ink reading \"v. 8 fols. further on\".<br />Folio <a href='' onclick='store.loadPage(209);return false;'>97a</a>: Handwritten note in blue ink reading \"v. 8 fols. [...]\".<br />Folio <a href='' onclick='store.loadPage(238);return false;'>111b</a>: Handwritten note possibly indicating a debt reading \"Deve Sn Brudo Bentto Cohen Cohen\".<br />Folio <a href='' onclick='store.loadPage(244);return false;'>114b</a>: Moses Gaster's signature in blue ink and \"114 f.\" in pencil.<br />Folio <a href='' onclick='store.loadPage(246);return false;'>vb</a> (back fly-leaf): Owner's signature, Mr Alexander Cohen [...].<br /></div><br />", 
+               "seq": 197
+               }
+               ]
+               },
+            "origins": 
+               {
+               "display": true, 
+               "seq": 198, 
+                  "label": "Origin", 
+               "value": [
+            
+               {
+               "display": true, 
+                  "displayForm": "<p>Produced in the eighteenth century.</p>", 
+               "seq": 199
+               }
+               ]
+               },
+            "acquisitionTexts": 
+               {
+               "display": true, 
+               "seq": 200, 
+                  "label": "Acquisition", 
+               "value": [
+            
+               {
+               "display": true, 
+                  "displayForm": "<p>Acquired by The John Rylands Library from the heirs of Moses Gaster in 1954.</p>", 
+               "seq": 201
+               }
+               ]
+               },
+            "dataSources": 
+               {
+               "display": true, 
+               "seq": 210, 
+                  "label": "Data Source(s)", 
+               "value": [
+            
+               {
+               "display": true, 
+                  "displayForm": "Description based on Alexander Samely's unpublished draft catalogue and N. Shalem's note, revised and expanded by Stefania Silvestri and Renate Smithuis.", 
+               "seq": 211
+               }
+               ]
+               },
+            "ID": "ITEM-1",
+            "title": 
+               {
+               "display": false, 
+                  "displayForm": "Composite manuscript containing fifteen stories in Judeo-Spanish", 
+                  "label": "Title", 
+               "seq": 10
+               }
+         },
+         {
+            "ID": "ITEM-3",
+            "title": 
+               {
+               "display": true, 
+                  "displayForm": "Tales", 
+                  "label": "Title", 
+               "seq": 10
+               },
+            "alternativeTitles": 
+               {
+               "display": true, 
+               "seq": 16, 
+                  "label": "Alternative Title(s)", 
+               "value": [
+            
+               {
+               "display": true, 
+                  "displayForm": "מעשיות", 
+               "seq": 17
+               }
+               ]
+               },
+            "languageCodes": 
+               [
+            "heb"
+               ],
+            "languageStrings": 
+               {
+               "display": true, 
+               "seq": 119, 
+                  "label": "Language(s)", 
+               "value": [
+            
+               {
+               "display": true, 
+                  "displayForm": "Hebrew, Ladino", 
+               "seq": 120
+               }
+               ]
+               },
+            "notes": 
+               {
+               "display": true, 
+               "seq": 164, 
+                  "label": "Note(s)", 
+               "value": [
+            
+               {
+               "display": true, 
+                  "displayForm": "Each Judeo-Spanish story is preceded by the word ma‘aseh [מעשה], i.e. ‘story,’ in square script. These moral tales have been numbered in pencil in the manuscript and separately described in the accompanying note by N. Shalem. The stories are as follows:<div>Story 1 (<a href='' onclick='store.loadPage(11);return false;'>1a-2b</a>): Man deals with a thief.<br />Story 2 (<a href='' onclick='store.loadPage(14);return false;'>2b-5b</a>): Rabbi Meir saves Judah from the snake; on the importance of almsgiving. Cf. Gaster, Exempla, no. 394, 151–52.<br />Story 3 (<a href='' onclick='store.loadPage(21);return false;'>6a-8a</a>): Rabbi Joshua ben Levi and the butcher who will be his companion in paradise; on the importance of charity. Cf. Gaster, Exempla, no. 323, 117.<br />Story 4 (<a href='' onclick='store.loadPage(25);return false;'>8a-14a</a>) Rabbi Reuben ben Sabar and Matatiah ben Harash.<br />Story 5 (<a href='' onclick='store.loadPage(37);return false;'>14a-18a</a>) Rabbi Meir and the wife of Rabbi Judah the butcher. Cf. Gaster, Exempla, no. 384, 147.<br />Story 6 (<a href='' onclick='store.loadPage(45);return false;'>18a-20a</a>) Pious man saves fellow Jews from persecution in a town in Ashkenaz.<br />Story 7 (<a href='' onclick='store.loadPage(49);return false;'>20a-21a</a>) The daughter of Rabbi Akiva is saved from a snake on her wedding day; on the importance of almsgiving. Cf. Gaster, Exempla, no. 318, 116.<br />Story 8 (<a href='' onclick='store.loadPage(52);return false;'>21b-24b</a>) Diligent student recovers stolen money.<br />Story 9 (<a href='' onclick='store.loadPage(58);return false;'>24b-27b</a>) The weasel and the well; man does not keep his promise to marry a woman. Cf. Gaster, Exempla, no. 89, 74.<br />Story 10 (<a href='' onclick='store.loadPage(64);return false;'>27b-31a</a>) Jewish woman enters the camp of the enemy to kill its general during the Babylonian conquest of Jerusalem (i.e. the story of Judith and Holofernes). Cf. Gaster, Exempla, no. 251, 106.<br />Story 11 (<a href='' onclick='store.loadPage(71);return false;'>31a-34a</a>) Nachum Ish Gamzu. Cf. Gaster, Exempla, no. 25, 58.<br />Story 12 (<a href='' onclick='store.loadPage(77);return false;'>34a-39b</a>) Joshua ben Levi and the Angel of Death. Cf. Gaster, Exempla, no. 138, 85.<br />Story 13 (<a href='' onclick='store.loadPage(88);return false;'>39b-42a</a>) Solomon and a poor man in the time of King David.<br />Story 14 (<a href='' onclick='store.loadPage(93);return false;'>42a-44b</a>) Nakdimon (Nicodemus) ben Gurion and the twelve water cisterns in Jerusalem. Cf. Gaster, Exempla, no. 85, 72.<br />Story 15 (<a href='' onclick='store.loadPage(101);return false;'>45a-88b</a> and <a href='' onclick='store.loadPage(209);return false;'>97a-99b</a>) Joseph.<br /></div><br />", 
+               "seq": 165
+               }
+               ]
+               },
+            "bibliographies": 
+               {
+               "display": true, 
+               "seq": 214, 
+                  "label": "Bibliography", 
+               "value": [
+            
+               {
+               "display": true, 
+                  "displayForm": "<div style='list-style-type: disc;'><div style='display: list-item; margin-left: 20px;'><a target='_blank' class='externalLink' href='http://www.worldcat.org/oclc/924123194'>Moses Gaster, The Exempla of the Rabbis Being a Collection of Exempla, Apologues and Tales Culled from Hebrew Manuscripts and Rare Hebrew Books (London; Leipzig, 1924)</a></div></div><br />", 
+               "seq": 215
+               }
+               ]
+               }
+         },
+         {
+            "ID": "ITEM-5",
+            "title": 
+               {
+               "display": true, 
+                  "displayForm": "Liturgical poems and songs for the end of Shabbat", 
+                  "label": "Title", 
+               "seq": 10
+               },
+            "alternativeTitles": 
+               {
+               "display": true, 
+               "seq": 16, 
+                  "label": "Alternative Title(s)", 
+               "value": [
+            
+               {
+               "display": true, 
+                  "displayForm": "פיוטים וזמירות למוצאי שבת", 
+               "seq": 17
+               }
+               ]
+               },
+            "languageCodes": 
+               [
+            "heb"
+               ],
+            "languageStrings": 
+               {
+               "display": true, 
+               "seq": 119, 
+                  "label": "Language(s)", 
+               "value": [
+            
+               {
+               "display": true, 
+                  "displayForm": "Hebrew, Judeo-Arabic", 
+               "seq": 120
+               }
+               ]
+               },
+            "notes": 
+               {
+               "display": true, 
+               "seq": 164, 
+                  "label": "Note(s)", 
+               "value": [
+            
+               {
+               "display": true, 
+                  "displayForm": "<div>Liturgical poem 1 (<a href='' onclick='store.loadPage(193);return false;'>89a-b</a>). Incipit: שבוע טוב בא לקראתכם תתחדש בו ימי שמחתכם. Acrostic poem forming the name Isaac [יצחק]. Cf. ש 411.<br />Liturgical poem 2 (<a href='' onclick='store.loadPage(194);return false;'>89b-90a</a>). Incipit: אלי אליה יבא אלינו יהיה אב רחמן זה שבועינו. Acrostic poem forming the name Abraham Hazzak? [אברהם ?חזק].<br />Liturgical poem 3 (<a href='' onclick='store.loadPage(195);return false;'>90a-b</a>). Incipit: מלכי וצורי שלח אל עמך הבא אליהו הנביא אליהו התשבי.<br />Liturgical poem 4 (<a href='' onclick='store.loadPage(196);return false;'>90b-91a</a>). Incipit: אלי אליה הנביא הבא נא אלי אליה משיח ה[...]ה בו ירתום רכבו. Acrostic poem forming the name Abraham [אברהם] (= Ibn Ezra). Cf. א 4916.<br />Liturgical poem 5 (<a href='' onclick='store.loadPage(197);return false;'>91a-92a</a>). Incipit: איש אשר קנא לשם האל איש בושר שלום. Alphabetical acrostic poem, preceded by a few opening words: זכרו לטוב בסימן טוב אליהו הנביא וכו. Cf. א 3121.<br />Liturgical poem 6 (<a href='' onclick='store.loadPage(199);return false;'>92a</a>). Incipit: אשרהו אשרי מי שראה פניו אפילו בחלום.<br /></div><br />", 
+               "seq": 165
+               }
+               ]
+               }
+         },
+         {
+            "ID": "ITEM-6",
+            "title": 
+               {
+               "display": true, 
+                  "displayForm": "Liturgical poems for the rite of circumcision", 
+                  "label": "Title", 
+               "seq": 10
+               },
+            "alternativeTitles": 
+               {
+               "display": true, 
+               "seq": 16, 
+                  "label": "Alternative Title(s)", 
+               "value": [
+            
+               {
+               "display": true, 
+                  "displayForm": "פיוטים של מילה", 
+               "seq": 17
+               }
+               ]
+               },
+            "languageCodes": 
+               [
+            "heb"
+               ],
+            "languageStrings": 
+               {
+               "display": true, 
+               "seq": 119, 
+                  "label": "Language(s)", 
+               "value": [
+            
+               {
+               "display": true, 
+                  "displayForm": "Hebrew, Judeo-Arabic", 
+               "seq": 120
+               }
+               ]
+               },
+            "notes": 
+               {
+               "display": true, 
+               "seq": 164, 
+                  "label": "Note(s)", 
+               "value": [
+            
+               {
+               "display": true, 
+                  "displayForm": "<div>Liturgical poem 1 (<a href='' onclick='store.loadPage(227);return false;'>106a</a>). Incipit: יעקב בחר לו יה ישראל לסגולתו קראם מנת חלקו וחבל נחלתו. Acrostic poem forming the name Jacob ben Tsur [יעקב בן צור] (= Jacob ben Tsur). Cf. י 3258.<br />Liturgical poem 2 (<a href='' onclick='store.loadPage(227);return false;'>106a-107a</a>). Incipit: אל אדון ברצותו לטהרינו מסיג הערלה כי היא חרפה לנו . Acrostic poem forming forming the phrase “I, Moshe Hazzak [אני משה חזק].<br />Liturgical poem 3 (<a href='' onclick='store.loadPage(229);return false;'>107a-b</a>). Incipit: אפצחה בשירה בשמחה ובגילה לאל גדול נורא.<br />Liturgical poem 4 (<a href='' onclick='store.loadPage(230);return false;'>107b</a>). Incipit: מדם בשרי ארום תרומה אל יה תהלל כל הנשמה. Acrostic poem forming the name Moshe Zakut [משה זכות] (= Moshe Zakut). Cf. מ 260.<br />Liturgical poem 6 (<a href='' onclick='store.loadPage(231);return false;'>108a-b</a>). Incipit: אערוך זמר תוך מקהילות. This is poem is preceded by the end of another poem (starting from רץ במצות אל) of which the incipit is unknown, because the folios are no longer in the correct order.<br />Liturgical poem 7 (<a href='' onclick='store.loadPage(232);return false;'>108b</a>). Incipit: חותמך שדי חתמת בנו ישתבח שימך לעד מלכנו. Acrostic poem forming the name Jacob [יעקב] (= Jacob ben Tsur). Cf. ח 161.<br />Liturgical poem 9 (<a href='' onclick='store.loadPage(233);return false;'>109a-b</a>). Incipit: אערוך שיר תהילה לצור אשר אין בלתה. Acrostic poem forming the phrase “I, David Hazzak” [אני דוד חזק] (= David ben Aaron ibn Hassin). Cf. 7080 א. This poem is preceded by the end of another poem (starting from יום השמיני נבחר למולה) of which the incipit is unknown, because the folios are no longer in the correct order.<br />Liturgical poem 10 (<a href='' onclick='store.loadPage(234);return false;'>109b</a>). Incipit: עליון אהבת עולם אהבתנו. Uncertain whether the poem is complete due to the fact that the folios are no longer in the correct order.<br />Liturgical poem 11 (<a href='' onclick='store.loadPage(235);return false;'>110a</a>). Incipit: עלינו לשבח להדר ולנצח. Preceded by the note: עמנואל ?סי.<br />Liturgical poem 12 (<a href='' onclick='store.loadPage(235);return false;'>110a-b</a>). Incipit: שרידים נקראים עם סגולה קבלו עליהם המצות המילה. Acrostic poem forming the word Shaddai [שדי]. Cf. 2191 ש.<br />Liturgical poem 13 (<a href='' onclick='store.loadPage(236);return false;'>110b</a>). Incipit: אפצחה ברינה בגילה על מצות המילה.<br />Liturgical poem 14 (<a href='' onclick='store.loadPage(236);return false;'>110b</a>). Incipit: אמרו בחיבת עדת אמוני ברוך הבא בשם ה. It is unclear whether the manuscript contains the rest of the poem, because the folios are no longer in the correct order.<br />Liturgical poem 15 (<a href='' onclick='store.loadPage(237);return false;'>111a</a>). Incipit: קומי נא אל נורא. This folio might originally have followed folio 108 in view of the catchword קומי on <a href='' onclick='store.loadPage(232);return false;'>108b</a>.<br />Liturgical poem 16 (<a href='' onclick='store.loadPage(237);return false;'>111a</a>). Incipit: ציץ פרח בגנינו יברכנו אלהינו לתורתך תזכהו. Cf. צ 326.<br /></div><br />", 
+               "seq": 165
+               }
+               ]
+               }
+         },
+         {
+            "ID": "ITEM-7",
+            "title": 
+               {
+               "display": true, 
+                  "displayForm": "Liturgical poems for putting on phylacteries", 
+                  "label": "Title", 
+               "seq": 10
+               },
+            "alternativeTitles": 
+               {
+               "display": true, 
+               "seq": 16, 
+                  "label": "Alternative Title(s)", 
+               "value": [
+            
+               {
+               "display": true, 
+                  "displayForm": "פיוטים של תפילין בע\"ה", 
+               "seq": 17
+               }
+               ]
+               },
+            "languageCodes": 
+               [
+            "heb"
+               ],
+            "languageStrings": 
+               {
+               "display": true, 
+               "seq": 119, 
+                  "label": "Language(s)", 
+               "value": [
+            
+               {
+               "display": true, 
+                  "displayForm": "Hebrew, Judeo-Arabic", 
+               "seq": 120
+               }
+               ]
+               },
+            "notes": 
+               {
+               "display": true, 
+               "seq": 164, 
+                  "label": "Note(s)", 
+               "value": [
+            
+               {
+               "display": true, 
+                  "displayForm": "<div>Liturgical poem 1 (<a href='' onclick='store.loadPage(239);return false;'>112a</a>). Incipit: עם הקדוש [...] אדיר שוכן שמי?ם.<br />Liturgical poem 2 (<a href='' onclick='store.loadPage(239);return false;'>112a-b</a>). Incipit: יתרומם שם אלהינו יתברך לעד סלה.<br />Liturgical poem 3 (<a href='' onclick='store.loadPage(240);return false;'>112b-113a</a>). Incipit: אשירה בקול זמרה בשיר ומצלתים מצות ה' ברה מאירת עיניים. Acrostic poem forming the name Jacob [יעקב]. Cf. א 7996.<br />Liturgical poem 4 (<a href='' onclick='store.loadPage(241);return false;'>113a</a>). Incipit: אל גדול נורא נאזר בגבורה ברוב תפארת הוא עיטרנו. Acrostic poem forming the words ‘I, Jacob Hazzak [אני יעקב חזק]. Cf. א 3536.<br />Liturgical poem 5 (<a href='' onclick='store.loadPage(241);return false;'>113a-b</a>). Incipit: עמוד נא פטרה חמודה בסוד ישרים ועדה.<br />Liturgical poem 6 (<a href='' onclick='store.loadPage(242);return false;'>113b</a>). Incipit: תמה בתריג מצות התורה. Followed by a liturgical note: מה דין לעמך. For the latter poem cf. ד 312.<br />Liturgical poem 7 (<a href='' onclick='store.loadPage(242);return false;'>113b-114a</a>). Incipit: נעים ונחמד קום לפני עדה טהורה.<br />Liturgical poem 8 (<a href='' onclick='store.loadPage(243);return false;'>114a</a>). Incipit: אערוך שיר הילולים ברוב עם במקבלים.<br />Liturgical poem 9 (<a href='' onclick='store.loadPage(243);return false;'>114a-b</a>). Incipit: קול רינה וישועה תתן ?ליוצריך. The poem is preceded by an introductory note.<br /></div><br />", 
+               "seq": 165
+               }
+               ]
+               }
+         }
+               ],
+            "numberOfPages": 257,
+            "embeddable": true,
+            "textDirection": "R",
+            "sourceData": "/v1/metadata/tei/MS-HEBREW-GASTER-00274/",
+            "pages": 
+               [
+            
+         {
+            "label": "Front board",
+            "physID": "PHYS-1",
+            "sequence": 1,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00415.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 5687,
+            "imageHeight": 6500
+         },
+         {
+            "label": "Front paste-down",
+            "physID": "PHYS-2",
+            "sequence": 2,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00416.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4142,
+            "imageHeight": 6500
+         },
+         {
+            "label": "ia",
+            "physID": "PHYS-3",
+            "sequence": 3,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00417.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4126,
+            "imageHeight": 6500
+         },
+         {
+            "label": "ib",
+            "physID": "PHYS-4",
+            "sequence": 4,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00418.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4142,
+            "imageHeight": 6500
+         },
+         {
+            "label": "iia",
+            "physID": "PHYS-5",
+            "sequence": 5,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00419.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4215,
+            "imageHeight": 6500
+         },
+         {
+            "label": "iib",
+            "physID": "PHYS-6",
+            "sequence": 6,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00420.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4142,
+            "imageHeight": 6500
+         },
+         {
+            "label": "iiia",
+            "physID": "PHYS-7",
+            "sequence": 7,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00421.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4215,
+            "imageHeight": 6500
+         },
+         {
+            "label": "iiib",
+            "physID": "PHYS-8",
+            "sequence": 8,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00422.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4214,
+            "imageHeight": 6500
+         },
+         {
+            "label": "iva",
+            "physID": "PHYS-9",
+            "sequence": 9,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00423.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4324,
+            "imageHeight": 6500
+         },
+         {
+            "label": "ivb",
+            "physID": "PHYS-10",
+            "sequence": 10,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00424.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4217,
+            "imageHeight": 6500
+         },
+         {
+            "label": "1a",
+            "physID": "PHYS-11",
+            "sequence": 11,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00425.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4215,
+            "imageHeight": 6500
+         },
+         {
+            "label": "1b",
+            "physID": "PHYS-12",
+            "sequence": 12,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00426.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4420,
+            "imageHeight": 6500
+         },
+         {
+            "label": "2a",
+            "physID": "PHYS-13",
+            "sequence": 13,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00427.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4416,
+            "imageHeight": 6500
+         },
+         {
+            "label": "2b",
+            "physID": "PHYS-14",
+            "sequence": 14,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00428.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4274,
+            "imageHeight": 6500
+         },
+         {
+            "label": "3a",
+            "physID": "PHYS-15",
+            "sequence": 15,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00429.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4304,
+            "imageHeight": 6500
+         },
+         {
+            "label": "3b",
+            "physID": "PHYS-16",
+            "sequence": 16,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00430.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4223,
+            "imageHeight": 6500
+         },
+         {
+            "label": "4a",
+            "physID": "PHYS-17",
+            "sequence": 17,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00431.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4215,
+            "imageHeight": 6500
+         },
+         {
+            "label": "4b",
+            "physID": "PHYS-18",
+            "sequence": 18,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00432.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4206,
+            "imageHeight": 6500
+         },
+         {
+            "label": "5a",
+            "physID": "PHYS-19",
+            "sequence": 19,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00433.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4215,
+            "imageHeight": 6500
+         },
+         {
+            "label": "5b",
+            "physID": "PHYS-20",
+            "sequence": 20,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00434.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4206,
+            "imageHeight": 6500
+         },
+         {
+            "label": "6a",
+            "physID": "PHYS-21",
+            "sequence": 21,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00435.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4215,
+            "imageHeight": 6500
+         },
+         {
+            "label": "6b",
+            "physID": "PHYS-22",
+            "sequence": 22,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00436.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4247,
+            "imageHeight": 6500
+         },
+         {
+            "label": "7a",
+            "physID": "PHYS-23",
+            "sequence": 23,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00437.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4215,
+            "imageHeight": 6500
+         },
+         {
+            "label": "7b",
+            "physID": "PHYS-24",
+            "sequence": 24,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00438.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4247,
+            "imageHeight": 6500
+         },
+         {
+            "label": "8a",
+            "physID": "PHYS-25",
+            "sequence": 25,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00439.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4215,
+            "imageHeight": 6500
+         },
+         {
+            "label": "8b",
+            "physID": "PHYS-26",
+            "sequence": 26,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00440.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4247,
+            "imageHeight": 6500
+         },
+         {
+            "label": "9a",
+            "physID": "PHYS-27",
+            "sequence": 27,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00441.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4215,
+            "imageHeight": 6500
+         },
+         {
+            "label": "9b",
+            "physID": "PHYS-28",
+            "sequence": 28,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00442.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4344,
+            "imageHeight": 6500
+         },
+         {
+            "label": "10a",
+            "physID": "PHYS-29",
+            "sequence": 29,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00443.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4370,
+            "imageHeight": 6500
+         },
+         {
+            "label": "10b",
+            "physID": "PHYS-30",
+            "sequence": 30,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00444.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4344,
+            "imageHeight": 6500
+         },
+         {
+            "label": "11a",
+            "physID": "PHYS-31",
+            "sequence": 31,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00445.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4370,
+            "imageHeight": 6500
+         },
+         {
+            "label": "11b",
+            "physID": "PHYS-32",
+            "sequence": 32,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00446.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4344,
+            "imageHeight": 6500
+         },
+         {
+            "label": "12a",
+            "physID": "PHYS-33",
+            "sequence": 33,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00447.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4370,
+            "imageHeight": 6500
+         },
+         {
+            "label": "12b",
+            "physID": "PHYS-34",
+            "sequence": 34,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00448.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4344,
+            "imageHeight": 6500
+         },
+         {
+            "label": "13a",
+            "physID": "PHYS-35",
+            "sequence": 35,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00449.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4370,
+            "imageHeight": 6500
+         },
+         {
+            "label": "13b",
+            "physID": "PHYS-36",
+            "sequence": 36,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00450.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4344,
+            "imageHeight": 6500
+         },
+         {
+            "label": "14a",
+            "physID": "PHYS-37",
+            "sequence": 37,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00451.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4370,
+            "imageHeight": 6500
+         },
+         {
+            "label": "14b",
+            "physID": "PHYS-38",
+            "sequence": 38,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00452.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4344,
+            "imageHeight": 6500
+         },
+         {
+            "label": "15a",
+            "physID": "PHYS-39",
+            "sequence": 39,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00453.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4370,
+            "imageHeight": 6500
+         },
+         {
+            "label": "15b",
+            "physID": "PHYS-40",
+            "sequence": 40,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00454.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4344,
+            "imageHeight": 6500
+         },
+         {
+            "label": "16a",
+            "physID": "PHYS-41",
+            "sequence": 41,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00455.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4370,
+            "imageHeight": 6500
+         },
+         {
+            "label": "16b",
+            "physID": "PHYS-42",
+            "sequence": 42,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00456.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4344,
+            "imageHeight": 6500
+         },
+         {
+            "label": "17a",
+            "physID": "PHYS-43",
+            "sequence": 43,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00457.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4370,
+            "imageHeight": 6500
+         },
+         {
+            "label": "17b",
+            "physID": "PHYS-44",
+            "sequence": 44,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00458.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4344,
+            "imageHeight": 6500
+         },
+         {
+            "label": "18a",
+            "physID": "PHYS-45",
+            "sequence": 45,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00459.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4370,
+            "imageHeight": 6500
+         },
+         {
+            "label": "18b",
+            "physID": "PHYS-46",
+            "sequence": 46,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00460.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4344,
+            "imageHeight": 6500
+         },
+         {
+            "label": "19a",
+            "physID": "PHYS-47",
+            "sequence": 47,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00461.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4370,
+            "imageHeight": 6500
+         },
+         {
+            "label": "19b",
+            "physID": "PHYS-48",
+            "sequence": 48,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00462.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4292,
+            "imageHeight": 6500
+         },
+         {
+            "label": "20a",
+            "physID": "PHYS-49",
+            "sequence": 49,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00463.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4370,
+            "imageHeight": 6500
+         },
+         {
+            "label": "20b",
+            "physID": "PHYS-50",
+            "sequence": 50,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00464.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4292,
+            "imageHeight": 6500
+         },
+         {
+            "label": "21a",
+            "physID": "PHYS-51",
+            "sequence": 51,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00465.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4370,
+            "imageHeight": 6500
+         },
+         {
+            "label": "21b",
+            "physID": "PHYS-52",
+            "sequence": 52,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00466.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4341,
+            "imageHeight": 6500
+         },
+         {
+            "label": "22a",
+            "physID": "PHYS-53",
+            "sequence": 53,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00467.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4370,
+            "imageHeight": 6500
+         },
+         {
+            "label": "22b",
+            "physID": "PHYS-54",
+            "sequence": 54,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00468.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4245,
+            "imageHeight": 6500
+         },
+         {
+            "label": "23a",
+            "physID": "PHYS-55",
+            "sequence": 55,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00469.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4370,
+            "imageHeight": 6500
+         },
+         {
+            "label": "23b",
+            "physID": "PHYS-56",
+            "sequence": 56,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00470.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4245,
+            "imageHeight": 6500
+         },
+         {
+            "label": "24a",
+            "physID": "PHYS-57",
+            "sequence": 57,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00471.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4370,
+            "imageHeight": 6500
+         },
+         {
+            "label": "24b",
+            "physID": "PHYS-58",
+            "sequence": 58,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00472.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4291,
+            "imageHeight": 6500
+         },
+         {
+            "label": "25a",
+            "physID": "PHYS-59",
+            "sequence": 59,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00473.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4370,
+            "imageHeight": 6500
+         },
+         {
+            "label": "25b",
+            "physID": "PHYS-60",
+            "sequence": 60,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00474.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4291,
+            "imageHeight": 6500
+         },
+         {
+            "label": "26a",
+            "physID": "PHYS-61",
+            "sequence": 61,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00475.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4370,
+            "imageHeight": 6500
+         },
+         {
+            "label": "26b",
+            "physID": "PHYS-62",
+            "sequence": 62,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00476.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4292,
+            "imageHeight": 6500
+         },
+         {
+            "label": "27a",
+            "physID": "PHYS-63",
+            "sequence": 63,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00477.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4370,
+            "imageHeight": 6500
+         },
+         {
+            "label": "27b",
+            "physID": "PHYS-64",
+            "sequence": 64,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00478.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4324,
+            "imageHeight": 6500
+         },
+         {
+            "label": "28a",
+            "physID": "PHYS-65",
+            "sequence": 65,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00479.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4297,
+            "imageHeight": 6500
+         },
+         {
+            "label": "28b",
+            "physID": "PHYS-66",
+            "sequence": 66,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00480.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4324,
+            "imageHeight": 6500
+         },
+         {
+            "label": "29a",
+            "physID": "PHYS-67",
+            "sequence": 67,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00481.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4297,
+            "imageHeight": 6500
+         },
+         {
+            "label": "29b",
+            "physID": "PHYS-68",
+            "sequence": 68,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00482.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4364,
+            "imageHeight": 6500
+         },
+         {
+            "label": "30a",
+            "physID": "PHYS-69",
+            "sequence": 69,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00483.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4386,
+            "imageHeight": 6500
+         },
+         {
+            "label": "30b",
+            "physID": "PHYS-70",
+            "sequence": 70,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00484.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4364,
+            "imageHeight": 6500
+         },
+         {
+            "label": "31a",
+            "physID": "PHYS-71",
+            "sequence": 71,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00485.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4386,
+            "imageHeight": 6500
+         },
+         {
+            "label": "31b",
+            "physID": "PHYS-72",
+            "sequence": 72,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00486.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4364,
+            "imageHeight": 6500
+         },
+         {
+            "label": "32a",
+            "physID": "PHYS-73",
+            "sequence": 73,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00487.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4386,
+            "imageHeight": 6500
+         },
+         {
+            "label": "32b",
+            "physID": "PHYS-74",
+            "sequence": 74,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00488.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4364,
+            "imageHeight": 6500
+         },
+         {
+            "label": "33a",
+            "physID": "PHYS-75",
+            "sequence": 75,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00489.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4335,
+            "imageHeight": 6500
+         },
+         {
+            "label": "33b",
+            "physID": "PHYS-76",
+            "sequence": 76,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00490.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4364,
+            "imageHeight": 6500
+         },
+         {
+            "label": "34a",
+            "physID": "PHYS-77",
+            "sequence": 77,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00491.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4307,
+            "imageHeight": 6500
+         },
+         {
+            "label": "34b",
+            "physID": "PHYS-78",
+            "sequence": 78,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00492.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4364,
+            "imageHeight": 6500
+         },
+         {
+            "label": "35a",
+            "physID": "PHYS-79",
+            "sequence": 79,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00493.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4339,
+            "imageHeight": 6500
+         },
+         {
+            "label": "35b",
+            "physID": "PHYS-80",
+            "sequence": 80,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00494.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4364,
+            "imageHeight": 6500
+         },
+         {
+            "label": "36a",
+            "physID": "PHYS-81",
+            "sequence": 81,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00495.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4323,
+            "imageHeight": 6500
+         },
+         {
+            "label": "36b",
+            "physID": "PHYS-82",
+            "sequence": 82,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00496.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4364,
+            "imageHeight": 6500
+         },
+         {
+            "label": "37a",
+            "physID": "PHYS-83",
+            "sequence": 83,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00497.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4322,
+            "imageHeight": 6500
+         },
+         {
+            "label": "37b",
+            "physID": "PHYS-84",
+            "sequence": 84,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00498.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4319,
+            "imageHeight": 6500
+         },
+         {
+            "label": "38a",
+            "physID": "PHYS-85",
+            "sequence": 85,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00499.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4331,
+            "imageHeight": 6500
+         },
+         {
+            "label": "38b",
+            "physID": "PHYS-86",
+            "sequence": 86,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00500.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4319,
+            "imageHeight": 6500
+         },
+         {
+            "label": "39a",
+            "physID": "PHYS-87",
+            "sequence": 87,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00501.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4196,
+            "imageHeight": 6500
+         },
+         {
+            "label": "39b",
+            "physID": "PHYS-88",
+            "sequence": 88,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00502.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3906,
+            "imageHeight": 6500
+         },
+         {
+            "label": "40a",
+            "physID": "PHYS-89",
+            "sequence": 89,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00503.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4040,
+            "imageHeight": 6500
+         },
+         {
+            "label": "40b",
+            "physID": "PHYS-90",
+            "sequence": 90,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00504.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3906,
+            "imageHeight": 6500
+         },
+         {
+            "label": "41a",
+            "physID": "PHYS-91",
+            "sequence": 91,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00505.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3993,
+            "imageHeight": 6500
+         },
+         {
+            "label": "41b",
+            "physID": "PHYS-92",
+            "sequence": 92,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00506.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3957,
+            "imageHeight": 6500
+         },
+         {
+            "label": "42a",
+            "physID": "PHYS-93",
+            "sequence": 93,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00507.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3993,
+            "imageHeight": 6500
+         },
+         {
+            "label": "42b",
+            "physID": "PHYS-94",
+            "sequence": 94,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00508.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4248,
+            "imageHeight": 6500
+         },
+         {
+            "label": "42Aa",
+            "physID": "PHYS-95",
+            "sequence": 95,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00509.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3993,
+            "imageHeight": 6500
+         },
+         {
+            "label": "42Ab",
+            "physID": "PHYS-96",
+            "sequence": 96,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00510.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4480,
+            "imageHeight": 6500
+         },
+         {
+            "label": "43a",
+            "physID": "PHYS-97",
+            "sequence": 97,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00511.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4169,
+            "imageHeight": 6500
+         },
+         {
+            "label": "43b",
+            "physID": "PHYS-98",
+            "sequence": 98,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00512.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3789,
+            "imageHeight": 6500
+         },
+         {
+            "label": "44a",
+            "physID": "PHYS-99",
+            "sequence": 99,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00513.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3702,
+            "imageHeight": 6500
+         },
+         {
+            "label": "44b",
+            "physID": "PHYS-100",
+            "sequence": 100,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00514.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4031,
+            "imageHeight": 6500
+         },
+         {
+            "label": "45a",
+            "physID": "PHYS-101",
+            "sequence": 101,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00515.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4082,
+            "imageHeight": 6500
+         },
+         {
+            "label": "45b",
+            "physID": "PHYS-102",
+            "sequence": 102,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00516.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3982,
+            "imageHeight": 6500
+         },
+         {
+            "label": "46a",
+            "physID": "PHYS-103",
+            "sequence": 103,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00517.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4125,
+            "imageHeight": 6500
+         },
+         {
+            "label": "46b",
+            "physID": "PHYS-104",
+            "sequence": 104,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00518.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4144,
+            "imageHeight": 6500
+         },
+         {
+            "label": "47a",
+            "physID": "PHYS-105",
+            "sequence": 105,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00519.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4202,
+            "imageHeight": 6500
+         },
+         {
+            "label": "47b",
+            "physID": "PHYS-106",
+            "sequence": 106,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00520.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4224,
+            "imageHeight": 6500
+         },
+         {
+            "label": "48a",
+            "physID": "PHYS-107",
+            "sequence": 107,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00521.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4161,
+            "imageHeight": 6500
+         },
+         {
+            "label": "48b",
+            "physID": "PHYS-108",
+            "sequence": 108,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00522.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4192,
+            "imageHeight": 6500
+         },
+         {
+            "label": "49a",
+            "physID": "PHYS-109",
+            "sequence": 109,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00523.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4161,
+            "imageHeight": 6500
+         },
+         {
+            "label": "49b",
+            "physID": "PHYS-110",
+            "sequence": 110,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00524.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4161,
+            "imageHeight": 6500
+         },
+         {
+            "label": "50a",
+            "physID": "PHYS-111",
+            "sequence": 111,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00525.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4161,
+            "imageHeight": 6500
+         },
+         {
+            "label": "50b",
+            "physID": "PHYS-112",
+            "sequence": 112,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00526.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4204,
+            "imageHeight": 6500
+         },
+         {
+            "label": "50Aa",
+            "physID": "PHYS-113",
+            "sequence": 113,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00527.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4146,
+            "imageHeight": 6500
+         },
+         {
+            "label": "50Ab",
+            "physID": "PHYS-114",
+            "sequence": 114,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00528.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4204,
+            "imageHeight": 6500
+         },
+         {
+            "label": "51a",
+            "physID": "PHYS-115",
+            "sequence": 115,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00529.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4146,
+            "imageHeight": 6500
+         },
+         {
+            "label": "51b",
+            "physID": "PHYS-116",
+            "sequence": 116,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00530.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4271,
+            "imageHeight": 6500
+         },
+         {
+            "label": "52a",
+            "physID": "PHYS-117",
+            "sequence": 117,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00531.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4146,
+            "imageHeight": 6500
+         },
+         {
+            "label": "52b",
+            "physID": "PHYS-118",
+            "sequence": 118,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00532.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4224,
+            "imageHeight": 6500
+         },
+         {
+            "label": "53a",
+            "physID": "PHYS-119",
+            "sequence": 119,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00533.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4146,
+            "imageHeight": 6500
+         },
+         {
+            "label": "53b",
+            "physID": "PHYS-120",
+            "sequence": 120,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00534.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4276,
+            "imageHeight": 6500
+         },
+         {
+            "label": "54a",
+            "physID": "PHYS-121",
+            "sequence": 121,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00535.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4284,
+            "imageHeight": 6500
+         },
+         {
+            "label": "54b",
+            "physID": "PHYS-122",
+            "sequence": 122,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00536.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3946,
+            "imageHeight": 6500
+         },
+         {
+            "label": "55a",
+            "physID": "PHYS-123",
+            "sequence": 123,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00537.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3902,
+            "imageHeight": 6500
+         },
+         {
+            "label": "55b",
+            "physID": "PHYS-124",
+            "sequence": 124,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00538.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3980,
+            "imageHeight": 6500
+         },
+         {
+            "label": "56a",
+            "physID": "PHYS-125",
+            "sequence": 125,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00539.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3894,
+            "imageHeight": 6500
+         },
+         {
+            "label": "56b",
+            "physID": "PHYS-126",
+            "sequence": 126,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00540.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4049,
+            "imageHeight": 6500
+         },
+         {
+            "label": "57a",
+            "physID": "PHYS-127",
+            "sequence": 127,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00541.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3953,
+            "imageHeight": 6500
+         },
+         {
+            "label": "57b",
+            "physID": "PHYS-128",
+            "sequence": 128,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00542.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4227,
+            "imageHeight": 6500
+         },
+         {
+            "label": "58a",
+            "physID": "PHYS-129",
+            "sequence": 129,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00543.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3899,
+            "imageHeight": 6500
+         },
+         {
+            "label": "58b",
+            "physID": "PHYS-130",
+            "sequence": 130,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00544.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4289,
+            "imageHeight": 6500
+         },
+         {
+            "label": "59a",
+            "physID": "PHYS-131",
+            "sequence": 131,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00545.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4201,
+            "imageHeight": 6500
+         },
+         {
+            "label": "59b",
+            "physID": "PHYS-132",
+            "sequence": 132,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00546.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4145,
+            "imageHeight": 6500
+         },
+         {
+            "label": "60a",
+            "physID": "PHYS-133",
+            "sequence": 133,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00547.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4328,
+            "imageHeight": 6500
+         },
+         {
+            "label": "60b",
+            "physID": "PHYS-134",
+            "sequence": 134,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00548.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4272,
+            "imageHeight": 6500
+         },
+         {
+            "label": "61a",
+            "physID": "PHYS-135",
+            "sequence": 135,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00549.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4312,
+            "imageHeight": 6500
+         },
+         {
+            "label": "61b",
+            "physID": "PHYS-136",
+            "sequence": 136,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00550.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4200,
+            "imageHeight": 6500
+         },
+         {
+            "label": "62a",
+            "physID": "PHYS-137",
+            "sequence": 137,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00551.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4312,
+            "imageHeight": 6500
+         },
+         {
+            "label": "62b",
+            "physID": "PHYS-138",
+            "sequence": 138,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00552.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4255,
+            "imageHeight": 6500
+         },
+         {
+            "label": "63a",
+            "physID": "PHYS-139",
+            "sequence": 139,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00553.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4277,
+            "imageHeight": 6500
+         },
+         {
+            "label": "63b",
+            "physID": "PHYS-140",
+            "sequence": 140,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00554.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4190,
+            "imageHeight": 6500
+         },
+         {
+            "label": "64a",
+            "physID": "PHYS-141",
+            "sequence": 141,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00555.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4277,
+            "imageHeight": 6500
+         },
+         {
+            "label": "64b",
+            "physID": "PHYS-142",
+            "sequence": 142,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00556.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4087,
+            "imageHeight": 6500
+         },
+         {
+            "label": "65a",
+            "physID": "PHYS-143",
+            "sequence": 143,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00557.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4294,
+            "imageHeight": 6500
+         },
+         {
+            "label": "65b",
+            "physID": "PHYS-144",
+            "sequence": 144,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00558.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3972,
+            "imageHeight": 6500
+         },
+         {
+            "label": "65Aa",
+            "physID": "PHYS-145",
+            "sequence": 145,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00559.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4044,
+            "imageHeight": 6500
+         },
+         {
+            "label": "65Ab",
+            "physID": "PHYS-146",
+            "sequence": 146,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00560.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4262,
+            "imageHeight": 6500
+         },
+         {
+            "label": "66a",
+            "physID": "PHYS-147",
+            "sequence": 147,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00561.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4271,
+            "imageHeight": 6500
+         },
+         {
+            "label": "66b",
+            "physID": "PHYS-148",
+            "sequence": 148,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00562.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4309,
+            "imageHeight": 6500
+         },
+         {
+            "label": "67a",
+            "physID": "PHYS-149",
+            "sequence": 149,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00563.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4271,
+            "imageHeight": 6500
+         },
+         {
+            "label": "67b",
+            "physID": "PHYS-150",
+            "sequence": 150,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00564.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4309,
+            "imageHeight": 6500
+         },
+         {
+            "label": "68a",
+            "physID": "PHYS-151",
+            "sequence": 151,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00565.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4271,
+            "imageHeight": 6500
+         },
+         {
+            "label": "68b",
+            "physID": "PHYS-152",
+            "sequence": 152,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00566.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4309,
+            "imageHeight": 6500
+         },
+         {
+            "label": "69a",
+            "physID": "PHYS-153",
+            "sequence": 153,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00567.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4281,
+            "imageHeight": 6500
+         },
+         {
+            "label": "69b",
+            "physID": "PHYS-154",
+            "sequence": 154,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00568.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4188,
+            "imageHeight": 6500
+         },
+         {
+            "label": "70a",
+            "physID": "PHYS-155",
+            "sequence": 155,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00569.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4281,
+            "imageHeight": 6500
+         },
+         {
+            "label": "70b",
+            "physID": "PHYS-156",
+            "sequence": 156,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00570.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4188,
+            "imageHeight": 6500
+         },
+         {
+            "label": "71a",
+            "physID": "PHYS-157",
+            "sequence": 157,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00571.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4281,
+            "imageHeight": 6500
+         },
+         {
+            "label": "71b",
+            "physID": "PHYS-158",
+            "sequence": 158,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00572.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4253,
+            "imageHeight": 6500
+         },
+         {
+            "label": "72a",
+            "physID": "PHYS-159",
+            "sequence": 159,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00573.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4281,
+            "imageHeight": 6500
+         },
+         {
+            "label": "72b",
+            "physID": "PHYS-160",
+            "sequence": 160,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00574.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4253,
+            "imageHeight": 6500
+         },
+         {
+            "label": "73a",
+            "physID": "PHYS-161",
+            "sequence": 161,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00575.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4281,
+            "imageHeight": 6500
+         },
+         {
+            "label": "73b",
+            "physID": "PHYS-162",
+            "sequence": 162,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00576.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4253,
+            "imageHeight": 6500
+         },
+         {
+            "label": "74a",
+            "physID": "PHYS-163",
+            "sequence": 163,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00577.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4280,
+            "imageHeight": 6500
+         },
+         {
+            "label": "74b",
+            "physID": "PHYS-164",
+            "sequence": 164,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00578.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4042,
+            "imageHeight": 6500
+         },
+         {
+            "label": "75a",
+            "physID": "PHYS-165",
+            "sequence": 165,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00579.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4082,
+            "imageHeight": 6500
+         },
+         {
+            "label": "75b",
+            "physID": "PHYS-166",
+            "sequence": 166,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00580.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3987,
+            "imageHeight": 6500
+         },
+         {
+            "label": "76a",
+            "physID": "PHYS-167",
+            "sequence": 167,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00581.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4016,
+            "imageHeight": 6500
+         },
+         {
+            "label": "76b",
+            "physID": "PHYS-168",
+            "sequence": 168,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00582.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4227,
+            "imageHeight": 6500
+         },
+         {
+            "label": "77a",
+            "physID": "PHYS-169",
+            "sequence": 169,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00583.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4234,
+            "imageHeight": 6500
+         },
+         {
+            "label": "77b",
+            "physID": "PHYS-170",
+            "sequence": 170,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00584.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4352,
+            "imageHeight": 6500
+         },
+         {
+            "label": "78a",
+            "physID": "PHYS-171",
+            "sequence": 171,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00585.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4269,
+            "imageHeight": 6500
+         },
+         {
+            "label": "78b",
+            "physID": "PHYS-172",
+            "sequence": 172,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00586.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4307,
+            "imageHeight": 6500
+         },
+         {
+            "label": "79a",
+            "physID": "PHYS-173",
+            "sequence": 173,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00587.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4260,
+            "imageHeight": 6500
+         },
+         {
+            "label": "79b",
+            "physID": "PHYS-174",
+            "sequence": 174,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00588.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4307,
+            "imageHeight": 6500
+         },
+         {
+            "label": "80a",
+            "physID": "PHYS-175",
+            "sequence": 175,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00589.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4260,
+            "imageHeight": 6500
+         },
+         {
+            "label": "80b",
+            "physID": "PHYS-176",
+            "sequence": 176,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00590.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4230,
+            "imageHeight": 6500
+         },
+         {
+            "label": "81a",
+            "physID": "PHYS-177",
+            "sequence": 177,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00591.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4260,
+            "imageHeight": 6500
+         },
+         {
+            "label": "81b",
+            "physID": "PHYS-178",
+            "sequence": 178,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00592.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4230,
+            "imageHeight": 6500
+         },
+         {
+            "label": "82a",
+            "physID": "PHYS-179",
+            "sequence": 179,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00593.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4260,
+            "imageHeight": 6500
+         },
+         {
+            "label": "82b",
+            "physID": "PHYS-180",
+            "sequence": 180,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00594.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4230,
+            "imageHeight": 6500
+         },
+         {
+            "label": "83a",
+            "physID": "PHYS-181",
+            "sequence": 181,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00595.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4221,
+            "imageHeight": 6500
+         },
+         {
+            "label": "83b",
+            "physID": "PHYS-182",
+            "sequence": 182,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00596.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4230,
+            "imageHeight": 6500
+         },
+         {
+            "label": "84a",
+            "physID": "PHYS-183",
+            "sequence": 183,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00597.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4221,
+            "imageHeight": 6500
+         },
+         {
+            "label": "84b",
+            "physID": "PHYS-184",
+            "sequence": 184,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00598.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4230,
+            "imageHeight": 6500
+         },
+         {
+            "label": "85a",
+            "physID": "PHYS-185",
+            "sequence": 185,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00599.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4221,
+            "imageHeight": 6500
+         },
+         {
+            "label": "85b",
+            "physID": "PHYS-186",
+            "sequence": 186,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00600.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4230,
+            "imageHeight": 6500
+         },
+         {
+            "label": "86a",
+            "physID": "PHYS-187",
+            "sequence": 187,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00601.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4199,
+            "imageHeight": 6500
+         },
+         {
+            "label": "86b",
+            "physID": "PHYS-188",
+            "sequence": 188,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00602.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4230,
+            "imageHeight": 6500
+         },
+         {
+            "label": "87a",
+            "physID": "PHYS-189",
+            "sequence": 189,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00603.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4003,
+            "imageHeight": 6500
+         },
+         {
+            "label": "87b",
+            "physID": "PHYS-190",
+            "sequence": 190,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00604.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4183,
+            "imageHeight": 6500
+         },
+         {
+            "label": "88a",
+            "physID": "PHYS-191",
+            "sequence": 191,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00605.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4185,
+            "imageHeight": 6500
+         },
+         {
+            "label": "88b",
+            "physID": "PHYS-192",
+            "sequence": 192,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00606.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4183,
+            "imageHeight": 6500
+         },
+         {
+            "label": "89a",
+            "physID": "PHYS-193",
+            "sequence": 193,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00607.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4226,
+            "imageHeight": 6500
+         },
+         {
+            "label": "89b",
+            "physID": "PHYS-194",
+            "sequence": 194,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00608.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3958,
+            "imageHeight": 6500
+         },
+         {
+            "label": "90a",
+            "physID": "PHYS-195",
+            "sequence": 195,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00609.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4076,
+            "imageHeight": 6500
+         },
+         {
+            "label": "90b",
+            "physID": "PHYS-196",
+            "sequence": 196,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00610.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3882,
+            "imageHeight": 6500
+         },
+         {
+            "label": "91a",
+            "physID": "PHYS-197",
+            "sequence": 197,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00611.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3953,
+            "imageHeight": 6500
+         },
+         {
+            "label": "91b",
+            "physID": "PHYS-198",
+            "sequence": 198,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00612.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3919,
+            "imageHeight": 6500
+         },
+         {
+            "label": "92a",
+            "physID": "PHYS-199",
+            "sequence": 199,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00613.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3834,
+            "imageHeight": 6500
+         },
+         {
+            "label": "92b",
+            "physID": "PHYS-200",
+            "sequence": 200,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00614.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4245,
+            "imageHeight": 6500
+         },
+         {
+            "label": "93a",
+            "physID": "PHYS-201",
+            "sequence": 201,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00615.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4284,
+            "imageHeight": 6500
+         },
+         {
+            "label": "93b",
+            "physID": "PHYS-202",
+            "sequence": 202,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00616.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3705,
+            "imageHeight": 6500
+         },
+         {
+            "label": "94a",
+            "physID": "PHYS-203",
+            "sequence": 203,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00617.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3805,
+            "imageHeight": 6500
+         },
+         {
+            "label": "94b",
+            "physID": "PHYS-204",
+            "sequence": 204,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00618.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3752,
+            "imageHeight": 6500
+         },
+         {
+            "label": "95a",
+            "physID": "PHYS-205",
+            "sequence": 205,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00619.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3805,
+            "imageHeight": 6500
+         },
+         {
+            "label": "95b",
+            "physID": "PHYS-206",
+            "sequence": 206,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00620.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3899,
+            "imageHeight": 6500
+         },
+         {
+            "label": "96a",
+            "physID": "PHYS-207",
+            "sequence": 207,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00621.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3866,
+            "imageHeight": 6500
+         },
+         {
+            "label": "96b",
+            "physID": "PHYS-208",
+            "sequence": 208,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00622.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4252,
+            "imageHeight": 6500
+         },
+         {
+            "label": "97a",
+            "physID": "PHYS-209",
+            "sequence": 209,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00623.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4313,
+            "imageHeight": 6500
+         },
+         {
+            "label": "97b",
+            "physID": "PHYS-210",
+            "sequence": 210,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00624.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4249,
+            "imageHeight": 6500
+         },
+         {
+            "label": "98a",
+            "physID": "PHYS-211",
+            "sequence": 211,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00625.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4313,
+            "imageHeight": 6500
+         },
+         {
+            "label": "98b",
+            "physID": "PHYS-212",
+            "sequence": 212,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00626.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4249,
+            "imageHeight": 6500
+         },
+         {
+            "label": "99a",
+            "physID": "PHYS-213",
+            "sequence": 213,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00627.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4313,
+            "imageHeight": 6500
+         },
+         {
+            "label": "99b",
+            "physID": "PHYS-214",
+            "sequence": 214,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00628.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4249,
+            "imageHeight": 6500
+         },
+         {
+            "label": "100a",
+            "physID": "PHYS-215",
+            "sequence": 215,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00629.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4297,
+            "imageHeight": 6500
+         },
+         {
+            "label": "100b",
+            "physID": "PHYS-216",
+            "sequence": 216,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00630.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4014,
+            "imageHeight": 6500
+         },
+         {
+            "label": "101a",
+            "physID": "PHYS-217",
+            "sequence": 217,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00631.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3980,
+            "imageHeight": 6500
+         },
+         {
+            "label": "101b",
+            "physID": "PHYS-218",
+            "sequence": 218,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00632.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4039,
+            "imageHeight": 6500
+         },
+         {
+            "label": "102a",
+            "physID": "PHYS-219",
+            "sequence": 219,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00633.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3980,
+            "imageHeight": 6500
+         },
+         {
+            "label": "102b",
+            "physID": "PHYS-220",
+            "sequence": 220,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00634.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3782,
+            "imageHeight": 6500
+         },
+         {
+            "label": "103a",
+            "physID": "PHYS-221",
+            "sequence": 221,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00635.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3851,
+            "imageHeight": 6500
+         },
+         {
+            "label": "103b",
+            "physID": "PHYS-222",
+            "sequence": 222,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00636.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4229,
+            "imageHeight": 6500
+         },
+         {
+            "label": "104a",
+            "physID": "PHYS-223",
+            "sequence": 223,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00637.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4152,
+            "imageHeight": 6500
+         },
+         {
+            "label": "104b",
+            "physID": "PHYS-224",
+            "sequence": 224,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00638.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3816,
+            "imageHeight": 6500
+         },
+         {
+            "label": "105a",
+            "physID": "PHYS-225",
+            "sequence": 225,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00639.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3572,
+            "imageHeight": 6500
+         },
+         {
+            "label": "105b",
+            "physID": "PHYS-226",
+            "sequence": 226,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00640.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3853,
+            "imageHeight": 6500
+         },
+         {
+            "label": "106a",
+            "physID": "PHYS-227",
+            "sequence": 227,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00641.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3999,
+            "imageHeight": 6500
+         },
+         {
+            "label": "106b",
+            "physID": "PHYS-228",
+            "sequence": 228,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00642.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3945,
+            "imageHeight": 6500
+         },
+         {
+            "label": "107a",
+            "physID": "PHYS-229",
+            "sequence": 229,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00643.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4005,
+            "imageHeight": 6500
+         },
+         {
+            "label": "107b",
+            "physID": "PHYS-230",
+            "sequence": 230,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00644.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4339,
+            "imageHeight": 6500
+         },
+         {
+            "label": "108a",
+            "physID": "PHYS-231",
+            "sequence": 231,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00645.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4340,
+            "imageHeight": 6500
+         },
+         {
+            "label": "108b",
+            "physID": "PHYS-232",
+            "sequence": 232,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00646.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3720,
+            "imageHeight": 6500
+         },
+         {
+            "label": "109a",
+            "physID": "PHYS-233",
+            "sequence": 233,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00647.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3751,
+            "imageHeight": 6500
+         },
+         {
+            "label": "109b",
+            "physID": "PHYS-234",
+            "sequence": 234,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00648.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3757,
+            "imageHeight": 6500
+         },
+         {
+            "label": "110a",
+            "physID": "PHYS-235",
+            "sequence": 235,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00649.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3821,
+            "imageHeight": 6500
+         },
+         {
+            "label": "110b",
+            "physID": "PHYS-236",
+            "sequence": 236,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00650.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3757,
+            "imageHeight": 6500
+         },
+         {
+            "label": "111a",
+            "physID": "PHYS-237",
+            "sequence": 237,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00651.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3737,
+            "imageHeight": 6500
+         },
+         {
+            "label": "111b",
+            "physID": "PHYS-238",
+            "sequence": 238,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00652.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4292,
+            "imageHeight": 6500
+         },
+         {
+            "label": "112a",
+            "physID": "PHYS-239",
+            "sequence": 239,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00653.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4354,
+            "imageHeight": 6500
+         },
+         {
+            "label": "112b",
+            "physID": "PHYS-240",
+            "sequence": 240,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00654.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3816,
+            "imageHeight": 6500
+         },
+         {
+            "label": "113a",
+            "physID": "PHYS-241",
+            "sequence": 241,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00655.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3832,
+            "imageHeight": 6500
+         },
+         {
+            "label": "113b",
+            "physID": "PHYS-242",
+            "sequence": 242,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00656.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3885,
+            "imageHeight": 6500
+         },
+         {
+            "label": "114a",
+            "physID": "PHYS-243",
+            "sequence": 243,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00657.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 3832,
+            "imageHeight": 6500
+         },
+         {
+            "label": "114b",
+            "physID": "PHYS-244",
+            "sequence": 244,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00658.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4196,
+            "imageHeight": 6500
+         },
+         {
+            "label": "va",
+            "physID": "PHYS-245",
+            "sequence": 245,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00659.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4127,
+            "imageHeight": 6500
+         },
+         {
+            "label": "vb",
+            "physID": "PHYS-246",
+            "sequence": 246,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00660.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4638,
+            "imageHeight": 6500
+         },
+         {
+            "label": "Folded note 1",
+            "physID": "PHYS-247",
+            "sequence": 247,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00661.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4142,
+            "imageHeight": 6500
+         },
+         {
+            "label": "Folded note 2",
+            "physID": "PHYS-248",
+            "sequence": 248,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00662.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4638,
+            "imageHeight": 6500
+         },
+         {
+            "label": "Back paste-down",
+            "physID": "PHYS-249",
+            "sequence": 249,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00663.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 4142,
+            "imageHeight": 6500
+         },
+         {
+            "label": "Back board",
+            "physID": "PHYS-250",
+            "sequence": 250,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00664.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 5619,
+            "imageHeight": 6500
+         },
+         {
+            "label": "Head",
+            "physID": "PHYS-251",
+            "sequence": 251,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00665.jp2",
+            "thumbnailImageOrientation": "landscape",
+            "imageWidth": 6500,
+            "imageHeight": 2033
+         },
+         {
+            "label": "Tail",
+            "physID": "PHYS-252",
+            "sequence": 252,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00666.jp2",
+            "thumbnailImageOrientation": "landscape",
+            "imageWidth": 6500,
+            "imageHeight": 2048
+         },
+         {
+            "label": "Foredge",
+            "physID": "PHYS-253",
+            "sequence": 253,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00667.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 1643,
+            "imageHeight": 6500
+         },
+         {
+            "label": "Spine",
+            "physID": "PHYS-254",
+            "sequence": 254,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00668.jp2",
+            "thumbnailImageOrientation": "portrait",
+            "imageWidth": 1643,
+            "imageHeight": 6500
+         },
+         {
+            "label": "Inserted folded note 1",
+            "physID": "PHYS-255",
+            "sequence": 255,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00669.jp2",
+            "thumbnailImageOrientation": "landscape",
+            "imageWidth": 6500,
+            "imageHeight": 6365
+         },
+         {
+            "label": "Inserted folded note 2",
+            "physID": "PHYS-256",
+            "sequence": 256,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00670.jp2",
+            "thumbnailImageOrientation": "landscape",
+            "imageWidth": 6500,
+            "imageHeight": 6365
+         },
+         {
+            "label": "Inserted folded note 3",
+            "physID": "PHYS-257",
+            "sequence": 257,
+            "IIIFImageURL": "MS-HEBREW-GASTER-00274-000-00671.jp2",
+            "thumbnailImageOrientation": "landscape",
+            "imageWidth": 6500,
+            "imageHeight": 6397
+         }
+               ],
+            "logicalStructures": 
+               [
+            
+         {
+            "descriptiveMetadataID": "ITEM-1",
+            "label": "Composite manuscript containing fifteen stories in Judeo-Spanish",
+            "startPageLabel": "Front board",
+            "startPagePosition": 1,
+            "startPageID": "PHYS-1",
+            "endPageLabel": "Inserted folded note 3",
+            "endPagePosition": 257
+         },
+         {
+            "descriptiveMetadataID": "ITEM-3",
+            "label": "Tales",
+            "startPageLabel": "1a",
+            "startPagePosition": 11,
+            "startPageID": "PHYS-11",
+            "endPageLabel": "99b",
+            "endPagePosition": 214
+         },
+         {
+            "descriptiveMetadataID": "ITEM-5",
+            "label": "Liturgical poems and songs for the end of Shabbat",
+            "startPageLabel": "89a",
+            "startPagePosition": 193,
+            "startPageID": "PHYS-193",
+            "endPageLabel": "96b",
+            "endPagePosition": 208
+         },
+         {
+            "descriptiveMetadataID": "ITEM-6",
+            "label": "Liturgical poems for the rite of circumcision",
+            "startPageLabel": "106a",
+            "startPagePosition": 227,
+            "startPageID": "PHYS-227",
+            "endPageLabel": "111b",
+            "endPagePosition": 238
+         },
+         {
+            "descriptiveMetadataID": "ITEM-7",
+            "label": "Liturgical poems for putting on phylacteries",
+            "startPageLabel": "112a",
+            "startPagePosition": 239,
+            "startPageID": "PHYS-239",
+            "endPageLabel": "114b",
+            "endPagePosition": 244
+         }
+               ],
+            "listItemPages": 
+               [
+            
+         {
+            "fileID": "MS-HEBREW-GASTER-00274",
+            "dmdID": "ITEM-1",
+            "startPageLabel": "iia",
+            "startPage": 5,
+            "title": "iia",
+            "listItemText": "Folio iia: Handwritten note reading \"S.ra / Freja Brudo / Sn. Brudo Raffaell [...] 444\"."
+         },
+         {
+            "fileID": "MS-HEBREW-GASTER-00274",
+            "dmdID": "ITEM-1",
+            "startPageLabel": "iib",
+            "startPage": 6,
+            "title": "iib",
+            "listItemText": "Folio iib: Benj. Cohen."
+         },
+         {
+            "fileID": "MS-HEBREW-GASTER-00274",
+            "dmdID": "ITEM-1",
+            "startPageLabel": "1a",
+            "startPage": 11,
+            "title": "1a",
+            "listItemText": "Folio 1a: Handwritten in blue ink \"No. 274 / M Gaster\"."
+         },
+         {
+            "fileID": "MS-HEBREW-GASTER-00274",
+            "dmdID": "ITEM-1",
+            "startPageLabel": "3b",
+            "startPage": 16,
+            "title": "3b",
+            "listItemText": "Owner's signature at the top edge of folios 3b, 4a, 6b: Salomon Bintata."
+         },
+         {
+            "fileID": "MS-HEBREW-GASTER-00274",
+            "dmdID": "ITEM-1",
+            "startPageLabel": "14a",
+            "startPage": 37,
+            "title": "14a",
+            "listItemText": "Folio 14a: Owner's signature on the outer edge, Benjamin Arye Haim Cohen."
+         },
+         {
+            "fileID": "MS-HEBREW-GASTER-00274",
+            "dmdID": "ITEM-1",
+            "startPageLabel": "29a",
+            "startPage": 67,
+            "title": "29a",
+            "listItemText": "Folio 29a: Owner's signature on the outer edge, Judah Go[..]."
+         },
+         {
+            "fileID": "MS-HEBREW-GASTER-00274",
+            "dmdID": "ITEM-1",
+            "startPageLabel": "75b",
+            "startPage": 166,
+            "title": "75b",
+            "listItemText": "Folio 75b: Ownership note reading \"Questo di Josiph Olsa[...] / 1790\"."
+         },
+         {
+            "fileID": "MS-HEBREW-GASTER-00274",
+            "dmdID": "ITEM-1",
+            "startPageLabel": "88b",
+            "startPage": 192,
+            "title": "88b",
+            "listItemText": "Folio 88b: Handwritten note in blue ink reading \"v. 8 fols. further on\"."
+         },
+         {
+            "fileID": "MS-HEBREW-GASTER-00274",
+            "dmdID": "ITEM-1",
+            "startPageLabel": "97a",
+            "startPage": 209,
+            "title": "97a",
+            "listItemText": "Folio 97a: Handwritten note in blue ink reading \"v. 8 fols. [...]\"."
+         },
+         {
+            "fileID": "MS-HEBREW-GASTER-00274",
+            "dmdID": "ITEM-1",
+            "startPageLabel": "111b",
+            "startPage": 238,
+            "title": "111b",
+            "listItemText": "Folio 111b: Handwritten note possibly indicating a debt reading \"Deve Sn Brudo Bentto Cohen Cohen\"."
+         },
+         {
+            "fileID": "MS-HEBREW-GASTER-00274",
+            "dmdID": "ITEM-1",
+            "startPageLabel": "114b",
+            "startPage": 244,
+            "title": "114b",
+            "listItemText": "Folio 114b: Moses Gaster's signature in blue ink and \"114 f.\" in pencil."
+         },
+         {
+            "fileID": "MS-HEBREW-GASTER-00274",
+            "dmdID": "ITEM-1",
+            "startPageLabel": "vb",
+            "startPage": 246,
+            "title": "vb",
+            "listItemText": "Folio vb (back fly-leaf): Owner's signature, Mr Alexander Cohen [...]."
+         },
+         {
+            "fileID": "MS-HEBREW-GASTER-00274",
+            "dmdID": "ITEM-1",
+            "startPageLabel": "1a",
+            "startPage": 11,
+            "title": "1a",
+            "listItemText": "Story 1 (1a-2b): Man deals with a thief."
+         },
+         {
+            "fileID": "MS-HEBREW-GASTER-00274",
+            "dmdID": "ITEM-1",
+            "startPageLabel": "2b",
+            "startPage": 14,
+            "title": "2b",
+            "listItemText": "Story 2 (2b-5b): Rabbi Meir saves Judah from the snake; on the importance of almsgiving. Cf. Gaster, Exempla, no. 394, 151–52."
+         },
+         {
+            "fileID": "MS-HEBREW-GASTER-00274",
+            "dmdID": "ITEM-1",
+            "startPageLabel": "6a",
+            "startPage": 21,
+            "title": "6a",
+            "listItemText": "Story 3 (6a-8a): Rabbi Joshua ben Levi and the butcher who will be his companion in paradise; on the importance of charity. Cf. Gaster, Exempla, no. 323, 117."
+         },
+         {
+            "fileID": "MS-HEBREW-GASTER-00274",
+            "dmdID": "ITEM-1",
+            "startPageLabel": "8a",
+            "startPage": 25,
+            "title": "8a",
+            "listItemText": "Story 4 (8a-14a) Rabbi Reuben ben Sabar and Matatiah ben Harash."
+         },
+         {
+            "fileID": "MS-HEBREW-GASTER-00274",
+            "dmdID": "ITEM-1",
+            "startPageLabel": "14a",
+            "startPage": 37,
+            "title": "14a",
+            "listItemText": "Story 5 (14a-18a) Rabbi Meir and the wife of Rabbi Judah the butcher. Cf. Gaster, Exempla, no. 384, 147."
+         },
+         {
+            "fileID": "MS-HEBREW-GASTER-00274",
+            "dmdID": "ITEM-1",
+            "startPageLabel": "18a",
+            "startPage": 45,
+            "title": "18a",
+            "listItemText": "Story 6 (18a-20a) Pious man saves fellow Jews from persecution in a town in Ashkenaz."
+         },
+         {
+            "fileID": "MS-HEBREW-GASTER-00274",
+            "dmdID": "ITEM-1",
+            "startPageLabel": "20a",
+            "startPage": 49,
+            "title": "20a",
+            "listItemText": "Story 7 (20a-21a) The daughter of Rabbi Akiva is saved from a snake on her wedding day; on the importance of almsgiving. Cf. Gaster, Exempla, no. 318, 116."
+         },
+         {
+            "fileID": "MS-HEBREW-GASTER-00274",
+            "dmdID": "ITEM-1",
+            "startPageLabel": "21b",
+            "startPage": 52,
+            "title": "21b",
+            "listItemText": "Story 8 (21b-24b) Diligent student recovers stolen money."
+         },
+         {
+            "fileID": "MS-HEBREW-GASTER-00274",
+            "dmdID": "ITEM-1",
+            "startPageLabel": "24b",
+            "startPage": 58,
+            "title": "24b",
+            "listItemText": "Story 9 (24b-27b) The weasel and the well; man does not keep his promise to marry a woman. Cf. Gaster, Exempla, no. 89, 74."
+         },
+         {
+            "fileID": "MS-HEBREW-GASTER-00274",
+            "dmdID": "ITEM-1",
+            "startPageLabel": "27b",
+            "startPage": 64,
+            "title": "27b",
+            "listItemText": "Story 10 (27b-31a) Jewish woman enters the camp of the enemy to kill its general during the Babylonian conquest of Jerusalem (i.e. the story of Judith and Holofernes). Cf. Gaster, Exempla, no. 251, 106."
+         },
+         {
+            "fileID": "MS-HEBREW-GASTER-00274",
+            "dmdID": "ITEM-1",
+            "startPageLabel": "31a",
+            "startPage": 71,
+            "title": "31a",
+            "listItemText": "Story 11 (31a-34a) Nachum Ish Gamzu. Cf. Gaster, Exempla, no. 25, 58."
+         },
+         {
+            "fileID": "MS-HEBREW-GASTER-00274",
+            "dmdID": "ITEM-1",
+            "startPageLabel": "34a",
+            "startPage": 77,
+            "title": "34a",
+            "listItemText": "Story 12 (34a-39b) Joshua ben Levi and the Angel of Death. Cf. Gaster, Exempla, no. 138, 85."
+         },
+         {
+            "fileID": "MS-HEBREW-GASTER-00274",
+            "dmdID": "ITEM-1",
+            "startPageLabel": "39b",
+            "startPage": 88,
+            "title": "39b",
+            "listItemText": "Story 13 (39b-42a) Solomon and a poor man in the time of King David."
+         },
+         {
+            "fileID": "MS-HEBREW-GASTER-00274",
+            "dmdID": "ITEM-1",
+            "startPageLabel": "42a",
+            "startPage": 93,
+            "title": "42a",
+            "listItemText": "Story 14 (42a-44b) Nakdimon (Nicodemus) ben Gurion and the twelve water cisterns in Jerusalem. Cf. Gaster, Exempla, no. 85, 72."
+         },
+         {
+            "fileID": "MS-HEBREW-GASTER-00274",
+            "dmdID": "ITEM-1",
+            "startPageLabel": "45a",
+            "startPage": 101,
+            "title": "45a",
+            "listItemText": "Story 15 (45a-88b and 97a-99b) Joseph."
+         },
+         {
+            "fileID": "MS-HEBREW-GASTER-00274",
+            "dmdID": "ITEM-1",
+            "startPageLabel": "89a",
+            "startPage": 193,
+            "title": "89a",
+            "listItemText": "Liturgical poem 1 (89a-b). Incipit: שבוע טוב בא לקראתכם תתחדש בו ימי שמחתכם. Acrostic poem forming the name Isaac [יצחק]. Cf. ש 411."
+         },
+         {
+            "fileID": "MS-HEBREW-GASTER-00274",
+            "dmdID": "ITEM-1",
+            "startPageLabel": "89b",
+            "startPage": 194,
+            "title": "89b",
+            "listItemText": "Liturgical poem 2 (89b-90a). Incipit: אלי אליה יבא אלינו יהיה אב רחמן זה שבועינו. Acrostic poem forming the name Abraham Hazzak? [אברהם ?חזק]."
+         },
+         {
+            "fileID": "MS-HEBREW-GASTER-00274",
+            "dmdID": "ITEM-1",
+            "startPageLabel": "90a",
+            "startPage": 195,
+            "title": "90a",
+            "listItemText": "Liturgical poem 3 (90a-b). Incipit: מלכי וצורי שלח אל עמך הבא אליהו הנביא אליהו התשבי."
+         },
+         {
+            "fileID": "MS-HEBREW-GASTER-00274",
+            "dmdID": "ITEM-1",
+            "startPageLabel": "90b",
+            "startPage": 196,
+            "title": "90b",
+            "listItemText": "Liturgical poem 4 (90b-91a). Incipit: אלי אליה הנביא הבא נא אלי אליה משיח ה[...]ה בו ירתום רכבו. Acrostic poem forming the name Abraham [אברהם] (= Ibn Ezra, Abraham ben Meïr, 1089-1164אבן עזרא, אברהם בן מאיר, 1089-1164Ibn Ezra). Cf. א 4916."
+         },
+         {
+            "fileID": "MS-HEBREW-GASTER-00274",
+            "dmdID": "ITEM-1",
+            "startPageLabel": "91a",
+            "startPage": 197,
+            "title": "91a",
+            "listItemText": "Liturgical poem 5 (91a-92a). Incipit: איש אשר קנא לשם האל איש בושר שלום. Alphabetical acrostic poem, preceded by a few opening words: זכרו לטוב בסימן טוב אליהו הנביא וכו. Cf. א 3121."
+         },
+         {
+            "fileID": "MS-HEBREW-GASTER-00274",
+            "dmdID": "ITEM-1",
+            "startPageLabel": "92a",
+            "startPage": 199,
+            "title": "92a",
+            "listItemText": "Liturgical poem 6 (92a). Incipit: אשרהו אשרי מי שראה פניו אפילו בחלום."
+         },
+         {
+            "fileID": "MS-HEBREW-GASTER-00274",
+            "dmdID": "ITEM-1",
+            "startPageLabel": "106a",
+            "startPage": 227,
+            "title": "106a",
+            "listItemText": "Liturgical poem 1 (106a). Incipit: יעקב בחר לו יה ישראל לסגולתו קראם מנת חלקו וחבל נחלתו. Acrostic poem forming the name Jacob ben Tsur [יעקב בן צור] (= Ibn Ẓur, Jacob ben Reuben 1673-1752אבן צור, יעקב בן ראובן, 1673-1754Jacob ben Tsur). Cf. י 3258."
+         },
+         {
+            "fileID": "MS-HEBREW-GASTER-00274",
+            "dmdID": "ITEM-1",
+            "startPageLabel": "106a",
+            "startPage": 227,
+            "title": "106a",
+            "listItemText": "Liturgical poem 2 (106a-107a). Incipit: אל אדון ברצותו לטהרינו מסיג הערלה כי היא חרפה לנו . Acrostic poem forming forming the phrase “I, Moshe Hazzak [אני משה חזק]."
+         },
+         {
+            "fileID": "MS-HEBREW-GASTER-00274",
+            "dmdID": "ITEM-1",
+            "startPageLabel": "107a",
+            "startPage": 229,
+            "title": "107a",
+            "listItemText": "Liturgical poem 3 (107a-b). Incipit: אפצחה בשירה בשמחה ובגילה לאל גדול נורא."
+         },
+         {
+            "fileID": "MS-HEBREW-GASTER-00274",
+            "dmdID": "ITEM-1",
+            "startPageLabel": "107b",
+            "startPage": 230,
+            "title": "107b",
+            "listItemText": "Liturgical poem 4 (107b). Incipit: מדם בשרי ארום תרומה אל יה תהלל כל הנשמה. Acrostic poem forming the name Moshe Zakut [משה זכות] (= Zacuto, Moses ben Mordecai, approximately 1620-1697זכות, משה בן מרדכי, 1620?-1697Moshe Zakut). Cf. מ 260."
+         },
+         {
+            "fileID": "MS-HEBREW-GASTER-00274",
+            "dmdID": "ITEM-1",
+            "startPageLabel": "108a",
+            "startPage": 231,
+            "title": "108a",
+            "listItemText": "Liturgical poem 6 (108a-b). Incipit: אערוך זמר תוך מקהילות. This is poem is preceded by the end of another poem (starting from רץ במצות אל) of which the incipit is unknown, because the folios are no longer in the correct order."
+         },
+         {
+            "fileID": "MS-HEBREW-GASTER-00274",
+            "dmdID": "ITEM-1",
+            "startPageLabel": "108b",
+            "startPage": 232,
+            "title": "108b",
+            "listItemText": "Liturgical poem 7 (108b). Incipit: חותמך שדי חתמת בנו ישתבח שימך לעד מלכנו. Acrostic poem forming the name Jacob [יעקב] (= Ibn Ẓur, Jacob ben Reuben 1673-1752אבן צור, יעקב בן ראובן, 1673-1754Jacob ben Tsur). Cf. ח 161."
+         },
+         {
+            "fileID": "MS-HEBREW-GASTER-00274",
+            "dmdID": "ITEM-1",
+            "startPageLabel": "109a",
+            "startPage": 233,
+            "title": "109a",
+            "listItemText": "Liturgical poem 9 (109a-b). Incipit: אערוך שיר תהילה לצור אשר אין בלתה. Acrostic poem forming the phrase “I, David Hazzak” [אני דוד חזק] (= David ben Aaron ibn Ḥassin, approximately 1730-1792חסין, דוד בן אהרן אבן, 1727-1792David ben Aaron ibn Hassin). Cf. 7080 א. This poem is preceded by the end of another poem (starting from יום השמיני נבחר למולה) of which the incipit is unknown, because the folios are no longer in the correct order."
+         },
+         {
+            "fileID": "MS-HEBREW-GASTER-00274",
+            "dmdID": "ITEM-1",
+            "startPageLabel": "109b",
+            "startPage": 234,
+            "title": "109b",
+            "listItemText": "Liturgical poem 10 (109b). Incipit: עליון אהבת עולם אהבתנו. Uncertain whether the poem is complete due to the fact that the folios are no longer in the correct order."
+         },
+         {
+            "fileID": "MS-HEBREW-GASTER-00274",
+            "dmdID": "ITEM-1",
+            "startPageLabel": "110a",
+            "startPage": 235,
+            "title": "110a",
+            "listItemText": "Liturgical poem 11 (110a). Incipit: עלינו לשבח להדר ולנצח. Preceded by the note: עמנואל ?סי."
+         },
+         {
+            "fileID": "MS-HEBREW-GASTER-00274",
+            "dmdID": "ITEM-1",
+            "startPageLabel": "110a",
+            "startPage": 235,
+            "title": "110a",
+            "listItemText": "Liturgical poem 12 (110a-b). Incipit: שרידים נקראים עם סגולה קבלו עליהם המצות המילה. Acrostic poem forming the word Shaddai [שדי]. Cf. 2191 ש."
+         },
+         {
+            "fileID": "MS-HEBREW-GASTER-00274",
+            "dmdID": "ITEM-1",
+            "startPageLabel": "110b",
+            "startPage": 236,
+            "title": "110b",
+            "listItemText": "Liturgical poem 13 (110b). Incipit: אפצחה ברינה בגילה על מצות המילה."
+         },
+         {
+            "fileID": "MS-HEBREW-GASTER-00274",
+            "dmdID": "ITEM-1",
+            "startPageLabel": "110b",
+            "startPage": 236,
+            "title": "110b",
+            "listItemText": "Liturgical poem 14 (110b). Incipit: אמרו בחיבת עדת אמוני ברוך הבא בשם ה. It is unclear whether the manuscript contains the rest of the poem, because the folios are no longer in the correct order."
+         },
+         {
+            "fileID": "MS-HEBREW-GASTER-00274",
+            "dmdID": "ITEM-1",
+            "startPageLabel": "111a",
+            "startPage": 237,
+            "title": "111a",
+            "listItemText": "Liturgical poem 15 (111a). Incipit: קומי נא אל נורא. This folio might originally have followed folio 108 in view of the catchword קומי on 108b."
+         },
+         {
+            "fileID": "MS-HEBREW-GASTER-00274",
+            "dmdID": "ITEM-1",
+            "startPageLabel": "111a",
+            "startPage": 237,
+            "title": "111a",
+            "listItemText": "Liturgical poem 16 (111a). Incipit: ציץ פרח בגנינו יברכנו אלהינו לתורתך תזכהו. Cf. צ 326."
+         },
+         {
+            "fileID": "MS-HEBREW-GASTER-00274",
+            "dmdID": "ITEM-1",
+            "startPageLabel": "112a",
+            "startPage": 239,
+            "title": "112a",
+            "listItemText": "Liturgical poem 1 (112a). Incipit: עם הקדוש [...] אדיר שוכן שמי?ם."
+         },
+         {
+            "fileID": "MS-HEBREW-GASTER-00274",
+            "dmdID": "ITEM-1",
+            "startPageLabel": "112a",
+            "startPage": 239,
+            "title": "112a",
+            "listItemText": "Liturgical poem 2 (112a-b). Incipit: יתרומם שם אלהינו יתברך לעד סלה."
+         },
+         {
+            "fileID": "MS-HEBREW-GASTER-00274",
+            "dmdID": "ITEM-1",
+            "startPageLabel": "112b",
+            "startPage": 240,
+            "title": "112b",
+            "listItemText": "Liturgical poem 3 (112b-113a). Incipit: אשירה בקול זמרה בשיר ומצלתים מצות ה' ברה מאירת עיניים. Acrostic poem forming the name Jacob [יעקב]. Cf. א 7996."
+         },
+         {
+            "fileID": "MS-HEBREW-GASTER-00274",
+            "dmdID": "ITEM-1",
+            "startPageLabel": "113a",
+            "startPage": 241,
+            "title": "113a",
+            "listItemText": "Liturgical poem 4 (113a). Incipit: אל גדול נורא נאזר בגבורה ברוב תפארת הוא עיטרנו. Acrostic poem forming the words ‘I, Jacob Hazzak [אני יעקב חזק]. Cf. א 3536."
+         },
+         {
+            "fileID": "MS-HEBREW-GASTER-00274",
+            "dmdID": "ITEM-1",
+            "startPageLabel": "113a",
+            "startPage": 241,
+            "title": "113a",
+            "listItemText": "Liturgical poem 5 (113a-b). Incipit: עמוד נא פטרה חמודה בסוד ישרים ועדה."
+         },
+         {
+            "fileID": "MS-HEBREW-GASTER-00274",
+            "dmdID": "ITEM-1",
+            "startPageLabel": "113b",
+            "startPage": 242,
+            "title": "113b",
+            "listItemText": "Liturgical poem 6 (113b). Incipit: תמה בתריג מצות התורה. Followed by a liturgical note: מה דין לעמך. For the latter poem cf. ד 312."
+         },
+         {
+            "fileID": "MS-HEBREW-GASTER-00274",
+            "dmdID": "ITEM-1",
+            "startPageLabel": "113b",
+            "startPage": 242,
+            "title": "113b",
+            "listItemText": "Liturgical poem 7 (113b-114a). Incipit: נעים ונחמד קום לפני עדה טהורה."
+         },
+         {
+            "fileID": "MS-HEBREW-GASTER-00274",
+            "dmdID": "ITEM-1",
+            "startPageLabel": "114a",
+            "startPage": 243,
+            "title": "114a",
+            "listItemText": "Liturgical poem 8 (114a). Incipit: אערוך שיר הילולים ברוב עם במקבלים."
+         },
+         {
+            "fileID": "MS-HEBREW-GASTER-00274",
+            "dmdID": "ITEM-1",
+            "startPageLabel": "114a",
+            "startPage": 243,
+            "title": "114a",
+            "listItemText": "Liturgical poem 9 (114a-b). Incipit: קול רינה וישועה תתן ?ליוצריך. The poem is preceded by an introductory note."
+         }
+               ]
+         }
