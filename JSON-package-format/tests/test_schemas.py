@@ -20,7 +20,7 @@ class TestDlDataset(CUDLSchemaTest):
 
 class TestCollection(CUDLSchemaTest):
     data_type = 'collection'
-    expected_valid_count = 2
+    expected_valid_count = 3
     expected_invalid_count = 2
 
 

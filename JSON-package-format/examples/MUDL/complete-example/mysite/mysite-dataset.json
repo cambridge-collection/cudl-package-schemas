@@ -1,0 +1,15 @@
+// A dataset document defines a complete dataset by collecting the the top-level
+// references to everything contained in the dataset, either directly, or
+// indirectly.
+{
+  // As with items, we should have a format/version identifier
+  "type": "https://schemas.cudl.lib.cam.ac.uk/package/v1/dl-dataset.json",
+
+  // More for documentation purposes than anything else. The UI data will
+  // drive things like the name displayed on the website presenting the data.
+  "name": "Example Data",
+
+  "collections": [
+    { "@id": "collections/collection1" }
+  ]
+}

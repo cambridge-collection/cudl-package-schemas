@@ -1,0 +1,97 @@
+{
+  "type": "https://schemas.cudl.lib.cam.ac.uk/package/v1/dl-ui.json",
+
+  "theme-name": "mudl",
+
+  "theme-data": {
+    "default-page-title": "Example Digital Library",
+
+    "pages": {
+      "home": {
+        "description": "A home for the discovery of digitised material and research outputs from the Example Digital Library",
+
+        // Define the contents of the homepage carousel
+        "carousel": [
+          { "label": "collection1",
+            "image": { "@id": "./pages/images/index-collection1-banner.jpg" },
+            "href": "cudl://intent/view?data=cudl://data/collection/collection1" }
+        ],
+
+        // Specify which collections appear on the homepage (and their order)
+        "collections-list": [
+          { "@id": "~data/collections/collection1" }
+        ]
+      }
+    },
+
+    // Define static HTML pages. (These are references to local HTML files
+    //  which get bundled up, along with any images etc they reference.)
+    "static-pages": {
+      "help": { "@id": "./pages/help.html" },
+
+      "introduction": {
+        "html": { "@id": "./pages/about-main.html" },
+        "url-slug": "about"
+      },
+
+      "news": { "@id": "./pages/news.html" },
+      "contributors": { "@id": "./pages/contributors.html" },
+      "terms-conditions": { "@id": "./pages/terms.html" }
+    },
+
+    // Define the contents of the navigation menus used by the cudl theme.
+    "navigation": {
+      // The nav menu at the top of (most) pages
+      "main": [
+        { "label": "Home", "href": "cudl:///page/home" },
+        { "label": "Browse", "href": "cudl:///page/browse" },
+        {
+          "label": "Search",
+          "children": [
+            { "label": "Simple Search",
+              "href": "cudl:///page/search" },
+            { "label": "Advanced Search",
+              "href": "cudl:///page/advanced-search" }
+          ]
+        },
+        { "label": "My Library", "href": "cudl:///page/my-library" },
+        {
+          "label": "About",
+          "children": [
+            { "label": "Introducing the Example Library",
+              "href": "cudl:///page/static/introduction" },
+            { "label": "News",
+              "href": "cudl:///page/static/news" },
+            { "label": "Contributors",
+              "href": "cudl:///page/static/contributors" },
+            { "label": "Terms and Conditions",
+              "href": "cudl:///page/static/terms-conditions" }
+          ]
+        },
+        { "label": "Help", "href": "cudl:///page/static/help" }
+
+      ],
+      // The footer links above the black uni global links
+      "footer": [
+        {
+          "label": "Website information",
+          "children": [
+            { "label": "Contributors",
+              "href": "cudl:///page/static/contributors" },
+            { "label": "Terms & Conditions",
+              "href": "cudl:///page/static/terms-conditions" }
+          ]
+        },
+        {
+          "label": "Keep in touch",
+          "children": [
+            { "label": "Let us know your feedback",
+              "href": "cudl:///page/feedback" },
+            { "label": "Keep me informed",
+              "href": "cudl:///page/static/Keep me informed" }
+          ]
+        }
+      ]
+    }
+  }
+}

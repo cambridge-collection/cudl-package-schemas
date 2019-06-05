@@ -1,0 +1,24 @@
+{
+  "@type": "https://schemas.cudl.lib.cam.ac.uk/package/v1/collection.json",
+
+  "name": {
+    "url-slug": "collection1",
+    "sort": "First Collection, The",
+    "short": "The First Collection",
+    "full": "This is the very first collection"
+  },
+
+  "description": {
+    "short": "This collection contains some items that are very important.",
+    "medium": "This collection contains some items that are very important.  They are very interesting for lots of reasons.",
+
+    "full": { "@id": "./description/summary.html" }
+  },
+
+  "items": [
+    { "item": { "@id": "./item1/item1.tei.xml" },
+      "visible": false },
+    { "@id": "./item1/item1.json" }
+  ]
+
+}
