@@ -96,23 +96,39 @@
       }
     },
 
-    "cudlPage": {
-      "additionalProperties": false,
+    "pageResources": {
+      "$strict:isNamespace": true,
 
+      "types": {
+        "$strict:isNamespace": true,
+        "essay-content": {"enum": ["cudl-page:essay-content", "https://schemas.cudl.lib.cam.ac.uk/package/v1/cudl-item.json#/definitions/pageResources/essay-content"]}
+      },
+
+      "essay-content": {
+        "type": "object",
+        "description": "Used in itemType: essay to hold the text of the essay constituting the item.",
+        "properties": {
+          "@type": {"$ref": "#/definitions/pageResources/types/essay-content"},
+          "html": {"$ref": "common.json#/definitions/moduleReference"}
+        },
+        "required": ["@type", "html"],
+        "additionalProperties": false
+      },
+
+      "optional": {
+        "$strict:isNamespace": true,
+
+        "essay-content": {
+          "if": {"properties": {"@type": {"$ref": "#/definitions/pageResources/types/essay-content"}}},
+          "then": {"$ref": "#/definitions/pageResources/essay-content"}
+        }
+      }
+    },
+
+    "cudlPage": {
       "properties": {
-        "label": true,
-        "order": true,
-        "image": {
-          "type": "object",
-          "description": "An object representing the image for this page.",
-          "additionalProperties": false,
-          "properties": {
-            "type": {
-              "description": "The image format.",
-              "enum": ["iiif", "tiff"]
-            },
-            "href": true
-          }
+        "resources": {
+          "items": {"$ref": "#/definitions/pageResources/optional/essay-content"}
         }
       }
     },

@@ -33,7 +33,7 @@ class TestItem(CUDLSchemaTest):
 class TestCUDLItem(CUDLSchemaTest):
     data_type = 'cudl-item'
     expected_valid_count = 2
-    expected_invalid_count = 1
+    expected_invalid_count = 3
 
 
 class TestMUDLItem(CUDLSchemaTest):

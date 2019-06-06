@@ -1,0 +1,8 @@
+{
+  base: "../valid/example.json5",
+  patch: [
+    {op: "test", path: "/pages/4/resources/3/@type", value: "cudl-page:essay-content"},
+    {op: "remove", path: "/pages/4/resources/3/html"}
+  ],
+  "expectedErrors": "'html' is a required property"
+}

@@ -71,48 +71,6 @@
       }
     },
 
-    "mudlPage": {
-      "additionalProperties": false,
-
-      "properties": {
-        "label": true,
-        "order": true,
-
-        "image": {
-          "description": "An object representing the image for this page.",
-          "additionalProperties": false,
-          "properties": {
-            "type": {
-              "description": "The image format.",
-              "enum": ["iiif", "tiff"]
-            },
-            "href": true
-          }
-        },
-
-        "transcription": {
-          "type": "object",
-          "description": "An object representing the transcription data for this page.",
-          "additionalProperties": false,
-          "properties": {
-            "diplomatic": {
-              "description": "A path to the diplomatic transcription data in html for this page.",
-              "$ref": "common.json#/definitions/htmlReference"
-            },
-            "normalised": {
-              "description": "A path to the normalised transcription data in html for this page.",
-              "$ref": "common.json#/definitions/htmlReference"
-            }
-          }
-        },
-
-        "translation": {
-          "description": "The translation data in html for this page.",
-          "$ref": "common.json#/definitions/htmlReference"
-        }
-      }
-    },
-
     "mudlItemConstraints": {
       "properties": {
         "properties": {
@@ -123,10 +81,6 @@
           "additionalProperties": {
             "$ref": "#/definitions/mudlDescriptionSection"
           }
-        },
-
-        "pages": {
-          "additionalProperties": {"$ref": "#/definitions/mudlPage"}
         }
       }
     }
