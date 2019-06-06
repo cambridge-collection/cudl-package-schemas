@@ -86,9 +86,10 @@
     },
 
     "page": {
-      "description": "Each page has an object that contains the label, order and image attributes.",
+      "description": "A page represents a single aspect of an item, typically with an image, possibly transcriptions or other information.",
       "type": "object",
-      "required": ["label", "order", "image"],
+      "required": ["label"],
+      "additionalProperties": false,
       "properties": {
         "label": {
           "description": "The label for this page, e.g. 2v",
@@ -96,26 +97,90 @@
         },
 
         "order": {
-          "description": "This is used to determine the order for display.",
+          "description": "Determines the order of pages with respect to each other. See \"pages\" for information on order.",
           "type": "string"
         },
 
-        "image": {
-          "type": "object",
-          "description": "An object representing the image for this page.",
-          "properties": {
-            "type": {
-              "description": "The image format.",
-              "type": "string"
-            },
+        "resources": {
+          "description": "Associates content with a page, e.g. a photo of the page (via a cdl:image resource) or a transcription (cdl:transcription).",
+          "type": "array",
+          "items": {
+            "allOf": [
+              {"$ref": "common.json#/definitions/typedResource"},
+              {"$ref": "#/definitions/pageResources/optional/image"},
+              {"$ref": "#/definitions/pageResources/optional/transcription"},
+              {"$ref": "#/definitions/pageResources/optional/translation"}
+            ]
+          }
+        }
+      }
+    },
 
-            "href": {
-              "description": "The local path to the image for this page relative to the image storage location, e.g. images/mypicture.tiff",
-              "format": "uri-reference",
-              "type": "string"
-            }
+    "pageResources": {
+      "$strict:isNamespace": true,
+
+      "types": {
+        "$strict:isNamespace": true,
+
+        "$comment": "The cdl-image CURIE prefix is \"https://schemas.cudl.lib.cam.ac.uk/package/v1/item.json#/definitions/pageResources/\". The intention is that the @type value is the URI of the JSON schema that validates the type, as with the top-level @type values for the collection, item etc. types.",
+        "image": {"enum": ["cdl-page:image", "https://schemas.cudl.lib.cam.ac.uk/package/v1/item.json#/definitions/pageResources/image"]},
+        "transcription": {"enum": ["cdl-page:transcription", "https://schemas.cudl.lib.cam.ac.uk/package/v1/item.json#/definitions/pageResources/transcription"]},
+        "translation": {"enum": ["cdl-page:translation", "https://schemas.cudl.lib.cam.ac.uk/package/v1/item.json#/definitions/pageResources/translation"]}
+      },
+
+      "image": {
+        "type": "object",
+        "description": "A reference to an image. 3 types of references are expected. 1. iiif: image is the URL of the image on a IIIF image server. 2. dzi: image is the URL of a .dzi metadata file describing an image pyramid. 3. file: image is the URL of a file containing the entire image (e.g. a TIFF, JP2, etc).",
+        "properties": {
+          "@type": {"$ref": "#/definitions/pageResources/types/image"},
+          "image-type": {"type": "string"},
+          "image": {"$ref": "common.json#/definitions/moduleReference"}
+        },
+        "required": ["@type", "image-type", "image"],
+        "additionalProperties": false
+      },
+
+      "transcription": {
+        "type": "object",
+        "description": "A reference to a transcription of a page, in HTML format. ",
+        "properties": {
+          "@type": {"$ref": "#/definitions/pageResources/types/transcription"},
+          "transcription-type": {
+            "description": "The type of the transcription, e.g. \"diplomatic\" or \"normalised\"",
+            "type": "string"
           },
-          "required": ["type", "href"]
+          "html": {"$ref": "common.json#/definitions/moduleReference"}
+        },
+        "required": ["@type", "transcription-type", "html"],
+        "additionalProperties": false
+      },
+
+      "translation": {
+        "type": "object",
+        "description": "A reference to a translation of a page, in HTML format.",
+        "$comment": "TODO: support multiple languages?",
+        "properties": {
+          "@type": {"$ref": "#/definitions/pageResources/types/translation"},
+          "html": {"$ref": "common.json#/definitions/moduleReference"}
+        },
+        "required": ["@type", "html"],
+        "additionalProperties": false
+      },
+
+      "optional": {
+        "$strict:isNamespace": true,
+
+        "image": {
+          "if": {"properties": {"@type": {"$ref": "#/definitions/pageResources/types/image"}}},
+          "then": {"$ref": "#/definitions/pageResources/image"}
+        },
+        "transcription": {
+          "if": {"properties": {"@type": {"$ref": "#/definitions/pageResources/types/transcription"}}},
+          "then": {"$ref": "#/definitions/pageResources/transcription"}
+        },
+        "translation": {
+          "if": {"properties": {"@type": {"$ref": "#/definitions/pageResources/types/translation"}}},
+          "then": {"$ref": "#/definitions/pageResources/translation"}
         }
       }
     }
@@ -142,7 +207,7 @@
 
     "pages": {
       "type": "object",
-      "description": "Pages is a list of objects that represent each page in the item.",
+      "description": "Pages is an ordered sequence of objects that represent each page in the item. The order of pages is determined by their order (if specified) and their id (key in the pages object)",
       "additionalProperties": {"$ref": "#/definitions/page"}
     }
   },

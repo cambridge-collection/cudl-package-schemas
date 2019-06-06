@@ -332,26 +332,29 @@
     "pages": {
         "1": {
             "label": "Front board",
-            "image": {
-                "type": "iiif",
-                "href": "MS-HEBREW-GASTER-00086-000-00268.jp2"
-            },
+            "resources": [
+                { "@type": "cdl-page:image",
+                  "image-type": "iiif",
+                  "image": {"@id": "https://images.example.manchester.ac.uk/iiif/MS-HEBREW-GASTER-00086-000-00268"} }
+            ],
             "order": "1"
         },
         "2": {
             "label": "Front paste-down",
-            "image": {
-                "type": "iiif",
-                "href": "MS-HEBREW-GASTER-00086-000-00269.jp2"
-            },
+            "resources": [
+                { "@type": "cdl-page:image",
+                  "image-type": "file",
+                  "image": {"@id": "images/MS-HEBREW-GASTER-00086-000-00269.jp2"} }
+            ],
             "order": "2"
         },
         "3": {
             "label": "ia",
-            "image": {
-                "type": "iiif",
-                "href": "MS-HEBREW-GASTER-00086-000-00270.jp2"
-            },
+            "resources": [
+                { "@type": "cdl-page:image",
+                  "image-type": "file",
+                  "image": {"@id": "images/MS-HEBREW-GASTER-00086-000-00270.jp2"} }
+            ],
             "order": "3"
         }
     }

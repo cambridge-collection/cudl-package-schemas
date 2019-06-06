@@ -103,24 +103,53 @@
     "pages": {
         "1": {
             "label": "cover",
-            "image": {
-                "type": "iiif",
-                "href": "images/cover.jp2"
-            },
+            "resources": [
+                { "@type": "cdl-page:image", "image-type": "iiif",
+                  "image": {"@id": "https://images.lib.cam.ac.uk/iiif/fskdl"} },
+                { "@type": "cdl-page:image", "image-type": "iiif",
+                  "image": {"@id": "https://images.lib.cam.ac.uk/iiif/fskdl"} }
+            ],
             "order": "a.cover"
         },
         // [...]
         "4": {
             "label": "2r",
-            "image": {
-                "type": "dzi",
-                "href": "images/2r.jp2"
-            },
-            "transcription": {
-                "diplomatic": "transcriptions/diplomatic/4.xml",
-                "normalised": "transcriptions/normalised.xml#4"
-            },
-            "order": "b.main.4",
+            "resources": [
+                { "@type": "cdl-page:image",
+                  "image-type": "dzi",
+                  "image": {"@id": "https://images.lib.cam.ac.uk/dzi/fskdl"} },
+                { "@type": "cdl-page:transcription",
+                  "transcription-type": "normalised",
+                  "html": {"@id": "transcriptions/diplomatic/4.xml"} },
+                { "@type": "cdl-page:transcription",
+                  "transcription-type": "diplomatic",
+                  "html": {"@id": "transcriptions/normalised.xml#4s"} }
+            ],
+            "order": "b.main.4"
+        },
+        "5": {
+            "label": "3r",
+            "resources": [
+              { "@type": "cdl-page:image",
+                "image-type": "iiif",
+                "image": {"@id": "https://images.lib.cam.ac.uk/iiif/fskdl"} },
+              { "@type": "cdl-page:image",
+                "image-type": "dzi",
+                "image": {"@id": "https://images.lib.cam.ac.uk/dzi/fskdl"} },
+              { "@type": "cdl-page:image",
+                "image-type": "file",
+                "image": {"@id": "~images/ms-foo-1-p5.tif"} },
+              { "@type": "cdl-page:transcription",
+                "transcription-type": "normalised",
+                "html": {"@id": "./ms-foo-1-p5.xml"} },
+              { "@type": "cdl-page:transcription",
+                "transcription-type": "diplomatic",
+                "html": {"@id": "./ms-foo-1-p5.xml"} },
+              { "@type": "cdl-page:translation",
+                "html": {"@id": "./ms-foo-1-p5.xml"} },
+              { "@type": "cudl-page:essay-content",
+                "html": {"@id": "./ms-foo-1-p5-essay.xml"} }
+            ]
         }
     }
 }

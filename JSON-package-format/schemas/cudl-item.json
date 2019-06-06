@@ -113,32 +113,6 @@
             },
             "href": true
           }
-        },
-
-        "transcription": {
-          "type": "object",
-          "description": "An object representing the transcription data for this page.",
-          "additionalProperties": false,
-          "properties": {
-            "diplomatic": {
-              "description": "A path to the diplomatic transcription data in html for this page.",
-              "$ref": "common.json#/definitions/htmlReference"
-            },
-            "normalised": {
-              "description": "A path to the normalised transcription data in html for this page.",
-              "$ref": "common.json#/definitions/htmlReference"
-            }
-          }
-        },
-
-        "translation": {
-          "description": "The translation data in html for this page.",
-          "$ref": "common.json#/definitions/htmlReference"
-        },
-
-        "content": {
-          "description": "Used in itemType: essay to hold the text of the essay constituting the item.",
-          "$ref": "common.json#/definitions/htmlReference"
         }
       }
     },

@@ -1,7 +1,0 @@
-{
-  base: "../valid/item-example.json5",
-  patch: [
-    {op:  "remove", path: "/pages/1/image/href"}
-  ],
-  expectedErrors: "'href' is a required property"
-}
