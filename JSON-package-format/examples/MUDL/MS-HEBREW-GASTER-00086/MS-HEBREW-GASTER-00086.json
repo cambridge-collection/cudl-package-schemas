@@ -1,6 +1,7 @@
 {
     "@type": "https://schemas.cudl.lib.cam.ac.uk/package/v1/item.json",
-    "properties": {
+    "data": [{
+        "@type": "cdl-data:properties",
         "textDirection": "R",
         "sourceData": "/v1/metadata/tei/MS-HEBREW-GASTER-00086/",
         "embeddable": true,
@@ -17,7 +18,7 @@
         "acquisition-dateStart": "1954",
         "acquisition-dateEnd": "1954",
         "people-scribe": "Ya'aqov ben 'Ovadiah ben Yosef ben 'Ezrah"
-    },
+    }],
     "descriptions": {
         "main": {
             "coverage": {

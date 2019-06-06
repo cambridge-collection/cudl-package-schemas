@@ -1,8 +1,6 @@
 {
   "@type": "https://schemas.cudl.lib.cam.ac.uk/package/v1/item.json",
 
-  "properties": {},
-
   "descriptions": {
     "main": {
       "coverage": {"firstPage": true, "lastPage": true}

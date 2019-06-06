@@ -2,6 +2,73 @@
   "$id": "https://schemas.cudl.lib.cam.ac.uk/package/v1/item.json",
   "$schema": "http://json-schema.org/draft-07/schema#",
   "definitions": {
+    "itemData": {
+      "description": "An extensible container allowing data of a specified type to be associated with an item. Data can be assigned roles to describe its relationship with the item - how it should be used by processors/consumers, and to influence its validation by data/role specific validators.",
+      "allOf": [
+        {"$ref": "common.json#/definitions/typeBearer"},
+        {"$ref": "common.json#/definitions/roleBearer"},
+        {"$ref": "#/definitions/data/conditional/link"},
+        {"$ref": "#/definitions/data/conditional/properties"}
+      ],
+      "additionalProperties": true
+    },
+
+    "data": {
+      "$strict:isNamespace": true,
+
+      "types": {
+        "$strict:isNamespace": true,
+
+        "link": {"enum": ["cdl-data:link", "https://schemas.cudl.lib.cam.ac.uk/package/v1/item.json#/definitions/data/link"]},
+        "properties": {"enum": ["cdl-data:properties", "https://schemas.cudl.lib.cam.ac.uk/package/v1/item.json#/definitions/data/properties"]}
+      },
+
+      "link": {
+        "allOf": [
+          {"$ref": "common.json#/definitions/typeBearer"},
+          {"$ref": "common.json#/definitions/roleBearer"},
+          {
+            "type": "object",
+            "properties": {
+              "@type": {"$ref": "#/definitions/data/types/link"},
+              "@role": true,
+              "href": {"$ref": "common.json#/definitions/moduleReference"}
+            },
+            "required": ["@type", "href"],
+            "additionalProperties": false
+          }
+        ]
+      },
+
+      "_properties": {
+        "allOf": [
+          {"$ref": "common.json#/definitions/typeBearer"},
+          {"$ref": "common.json#/definitions/roleBearer"},
+          {
+            "type": "object",
+            "properties": {
+              "@type": {"$ref": "#/definitions/data/types/properties"},
+              "@role": {"default": ["cdl:item-properties"]}
+            },
+            "additionalProperties": {"$ref": "#/definitions/propertyValue"}
+          }
+        ]
+      },
+
+      "conditional": {
+        "$strict:isNamespace": true,
+
+        "link": {
+          "if": {"properties": {"@type": {"$ref": "#/definitions/data/types/link"}}},
+          "then": {"$ref": "#/definitions/data/link"}
+        },
+        "properties": {
+          "if": {"properties": {"@type": {"$ref": "#/definitions/data/types/properties"}}},
+          "then": {"$ref": "#/definitions/data/_properties"}
+        }
+      }
+    },
+
     "simplePropertyValue": {
       "type": ["string", "boolean", "number"]
     },
@@ -106,7 +173,7 @@
           "type": "array",
           "items": {
             "allOf": [
-              {"$ref": "common.json#/definitions/typedResource"},
+              {"$ref": "common.json#/definitions/typeBearer"},
               {"$ref": "#/definitions/pageResources/optional/image"},
               {"$ref": "#/definitions/pageResources/optional/transcription"},
               {"$ref": "#/definitions/pageResources/optional/translation"}
@@ -193,10 +260,10 @@
   "properties": {
     "@type": { "const": "https://schemas.cudl.lib.cam.ac.uk/package/v1/item.json" },
 
-    "properties": {
-      "description": "An open set of key-value properties with string, boolean and number values, or arrays of the same. ",
-      "type": "object",
-      "additionalProperties": {"$ref": "#/definitions/propertyValue"}
+    "data": {
+      "description": "An extensible set of arbitrary typed data associated with the item.",
+      "type": "array",
+      "items": {"$ref": "#/definitions/itemData"}
     },
 
     "descriptions": {
@@ -212,6 +279,6 @@
     }
   },
 
-  "required": ["descriptions", "pages", "properties", "@type"],
+  "required": ["descriptions", "pages", "@type"],
   "additionalProperties": false
 }

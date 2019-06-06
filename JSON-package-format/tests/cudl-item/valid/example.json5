@@ -1,12 +1,20 @@
 {
   "@type": "https://schemas.cudl.lib.cam.ac.uk/package/v1/item.json",
-  "properties": {
-    "embeddable": true,
-    "useTranscriptions": true,
-    "sourceData": "tei/foo.xml",
-    "displayImageRights": "All rights reserved",
-    "linkToImageReproductionRequestPage": "https://example.com/"
-  },
+  "data": [
+    {
+      "@type": "cdl-data:properties",
+      "@role": ["cdl-role:item-properties", "cudl-role:item-properties"],
+      "embeddable": true,
+      "useTranscriptions": true,
+      "displayImageRights": "All rights reserved",
+      "linkToImageReproductionRequestPage": "https://example.com/"
+    },
+    {
+      "@type": "cdl-data:link",
+      "@role": ["cdl-role:descriptive-metadata", "cdl-role:item-source"],
+      "href": {"@id": "tei/foo.xml"}
+    }
+  ],
   "descriptions": {
     "main": {
       "coverage": { "firstPage": true, "lastPage": true },

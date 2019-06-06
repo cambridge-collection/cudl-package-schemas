@@ -3,7 +3,7 @@
 
   "data": [{
     "@type": "cdl-data:properties",
-    "@role": ["cdl-role:item-properties", "cudl-role:item-properties"],
+    "@role": ["cdl-role:item-properties", "mudl-role:item-properties"],
     "displayImageRights": "All rights reserved",
     "linkToImageReproductionRequestPage": "https://example.com/"
   }],

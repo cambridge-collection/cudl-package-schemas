@@ -1,7 +1,8 @@
 {
-  base: "../valid/minimal.json",
+  base: "../valid/item-example.json5",
   patch: [
-    {op:  "add", path: "/properties/foo", value: {
+    {op: "test", path: "/data/0/@type", value: "cdl-data:properties"},
+    {op:  "add", path: "/data/0/foo", value: {
       thisIsAnObject: "which is not allowed here"
     }}
   ]

@@ -38,8 +38,8 @@ class TestCUDLItem(CUDLSchemaTest):
 
 class TestMUDLItem(CUDLSchemaTest):
     data_type = 'mudl-item'
-    expected_valid_count = 1
-    expected_invalid_count = 0
+    expected_valid_count = 2
+    expected_invalid_count = 1
 
 
 @pytest.fixture(scope='module')

@@ -3,24 +3,49 @@
     // format safe.
     "@type": "https://schemas.cudl.lib.cam.ac.uk/package/v1/item.json",
 
-    // Items have a bunch of properties at the top level which are mostly about
-    // how CUDL should handle the item, not about the object being described.
-    // i.e. things that we don't directly show the user. e.g. "embeddable",
-    // "sourceData", "itemType", "allTranscriptionDiplomaticURL"
-    //
-    // I propose "properties" be an open set of key-value pairs. e.g. values
-    // can be bool/number/string or arrays of the same, but not nested objects.
-    // We can define/document how specific properties are interpreted above the
-    // syntactic level of the schema.
-    "properties": {
-        "embeddable": true,
-        "useTranscriptions": true,
+  // First-class support for linking additional data to item (rather than just
+  // referencing in an ad-hoc way with in the above "properties" section.)
+  // Additional data related to the item.
+  // Provides a means for attaching non-display oriented data, e.g:
+  // - data for search indexes
+  // - source data in an existing format, e.g TEI
+  // Loaders can automatically generate item data from data referenced here, and
+  // merge it with item data in this file. E.g. most of an item could be derived
+  // from a TEI file, with a few overrides here.
+  "data": [
+    // I think best to have @type as only required attr. Can apply default role
+    // based on @type value.
+    // Validators can perform specialised validation of data entries based on
+    // a role value. e.g CUDL items might use cudl-role:item-properties in
+    // addition to cdl-role:item-properties, and we can apply more restrictive
+    // validation to properties when cudl-role:item-properties is present.
+    {
+      // Items have a bunch of properties at the top level which are mostly about
+      // how CUDL should handle the item, not about the object being described.
+      // i.e. things that we don't directly show the user. e.g. "embeddable",
+      // "sourceData", "itemType", "allTranscriptionDiplomaticURL"
+      //
+      // I propose this properties data be an open set of key-value pairs. e.g.
+      // values can be bool/number/string or arrays of the same, but not nested
+      // objects. We can define/document how specific properties are interpreted
+      // above the syntactic level of the schema.
+      "@type": "cdl-data:properties",
+      // cdl being the general platform, cudl just for cudl.lib.cam.ac.uk
+      "@role": ["cdl-role:item-properties", "cudl-role:item-properties"],
 
-        // Items which are fully described by existing metadata (TEI, EAD etc)
-        // would point to that metadata here, and not use any of the stuff
-        // below.
-        "sourceData": "tei/foo.xml"
+      "embeddable": true,
+      "useTranscriptions": true,
     },
+
+    // Link to a TEI description of this item. The cdl:item-source role
+    // indicates that this item JSON file should be augmented with item data
+    // extracted from this TEI file.
+    {
+      "@type": "cdl-data:link",
+      "@role": ["cdl-role:descriptive-metadata", "cdl-role:item-source"],
+      "href": {"@id": "./item-example.tei"}
+    }
+  ],
 
     // Simplified form of "descriptiveMetadata" which also includes range
     // information from "logicalStructures", avoiding the need for that.
@@ -127,6 +152,8 @@
             ],
             "order": "b.main.4"
         },
+
+        // TODO: also use this pattern for properties
         "5": {
             "label": "3r",
             "resources": [

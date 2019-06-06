@@ -49,10 +49,39 @@
         },
         "linkToImageReproductionRequestPage": {
           "type": "string",
-          "format": "uri-reference",
+          "format": "uri",
+          "pattern": "^https?:",
           "description": "This is a link to request reproduction rights to these images."
         }
       }
+    },
+
+    "conditionalMudlProperties": {
+      "if": {"$ref": "#/definitions/mudlPropertiesDataEntry"},
+      "then": {"$ref": "#/definitions/mudlProperties"}
+    },
+
+    "mudlRoleItemProperties": {
+      "enum": ["mudl-role:item-properties", "https://schemas.cudl.lib.cam.ac.uk/package/v1/mudl-item.json#data-role-item-properties"]
+    },
+
+    "mudlPropertiesDataEntry": {
+      "$comment": "Either no @role or a role with: mudl-role:item-properties",
+      "oneOf": [
+        {"not": {"required": ["@role"]}},
+        {
+          "properties": {
+            "@role": {
+              "contains": {"$ref": "#/definitions/mudlRoleItemProperties"}
+            }
+          },
+          "required": ["@role"]
+        }
+      ],
+      "properties": {
+        "@type": {"$ref": "item.json#/definitions/data/types/properties"}
+      },
+      "required": ["@type"]
     },
 
     "mudlDescriptionSection": {
@@ -73,8 +102,9 @@
 
     "mudlItemConstraints": {
       "properties": {
-        "properties": {
-          "$ref": "#/definitions/mudlProperties"
+        "data": {
+          "items": {"$ref": "#/definitions/conditionalMudlProperties"},
+          "contains": {"$ref": "#/definitions/mudlPropertiesDataEntry"}
         },
 
         "descriptions": {

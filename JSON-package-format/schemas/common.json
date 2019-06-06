@@ -49,11 +49,22 @@
       ]
     },
 
-    "typedResource": {
+    "typeBearer": {
       "description": "An object which is tagged with an @type property to identify its type. Used in locations where extensibility is required.",
       "type": "object",
       "properties": {"@type": {"$ref": "#/definitions/uriOrCURIE"}},
       "required": ["@type"]
+    },
+
+    "roleBearer": {
+      "type": "object",
+      "properties": {
+        "@role": {
+          "type": "array",
+          "items": {"$ref": "#/definitions/uriOrCURIE"}
+        }
+      },
+      "required": []
     }
   }
 }

@@ -6,6 +6,34 @@
 
   "definitions": {
 
+    "conditionalCudlProperties": {
+      "if": {"$ref": "#/definitions/cudlPropertiesDataEntry"},
+      "then": {"$ref": "#/definitions/cudlProperties"}
+    },
+
+    "cudlRoleItemProperties": {
+      "enum": ["cudl-role:item-properties", "https://schemas.cudl.lib.cam.ac.uk/package/v1/cudl-item.json#data-role-item-properties"]
+    },
+
+    "cudlPropertiesDataEntry": {
+      "$comment": "Either no @role or a role with: cudl-role:item-properties",
+      "oneOf": [
+        {"not": {"required": ["@role"]}},
+        {
+          "properties": {
+            "@role": {
+              "contains": {"$ref": "#/definitions/cudlRoleItemProperties"}
+            }
+          },
+          "required": ["@role"]
+        }
+      ],
+      "properties": {
+        "@type": {"$ref": "item.json#/definitions/data/types/properties"}
+      },
+      "required": ["@type"]
+    },
+
     "cudlProperties": {
       "description": "CUDL-specific constraints on the properties section.",
       "required": ["displayImageRights", "linkToImageReproductionRequestPage"],
@@ -135,8 +163,9 @@
 
     "cudlItemConstraints": {
       "properties": {
-        "properties": {
-          "$ref": "#/definitions/cudlProperties"
+        "data": {
+          "items": {"$ref": "#/definitions/conditionalCudlProperties"},
+          "contains": {"$ref": "#/definitions/cudlPropertiesDataEntry"}
         },
 
         "descriptions": {
@@ -149,7 +178,8 @@
           "description": "Pages is a list of objects that represent each page in the item.",
           "additionalProperties": {"$ref": "#/definitions/cudlPage"}
         }
-      }
+      },
+      "required": ["data", "descriptions", "pages"]
     }
   },
 
