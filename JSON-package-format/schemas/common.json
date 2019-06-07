@@ -36,8 +36,7 @@
 
     "CURIE": {
       "type": "string",
-      "$comment": "This is a CURIE (compact URI), but the regex here is an approximation, as the real thing is massive. Also the \"format\": \"curie\" is custom, so validators will ignore it by default, hence the approximation regex. See: https://www.w3.org/TR/2010/NOTE-curie-20101216/#P_curie",
-      "format": "curie",
+      "$comment": "This is a CURIE (compact URI), but the regex here is an approximation, as the real thing is massive. See: https://www.w3.org/TR/2010/NOTE-curie-20101216/#P_curie",
       "pattern": "^[^\\s]+$"
     },
 
