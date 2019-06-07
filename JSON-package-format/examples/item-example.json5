@@ -153,7 +153,6 @@
             "order": "b.main.4"
         },
 
-        // TODO: also use this pattern for properties
         "5": {
             "label": "3r",
             "resources": [
