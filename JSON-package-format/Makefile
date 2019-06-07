@@ -12,7 +12,7 @@ packageFile = $(packageName)-$(packageVersion).tgz
 default: package
 
 package: export npm_config_color = always
-package: build
+package: clean build
 # Refuse to build a package with local modifications, as the package may end up
 # containing the modifications rather than the committed state.
 	@DIRTY_FILES="$$(git status --porcelain)" ; \
