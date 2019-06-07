@@ -2,15 +2,15 @@
 // references to everything contained in the dataset, either directly, or
 // indirectly.
 {
-    // As with items, we should have a format/version identifier
-    "type": "https://schemas.cudl.lib.cam.ac.uk/cudl/dataset/v1/json",
+  // As with items, we should have a format/version identifier
+  "type": "https://schemas.cudl.lib.cam.ac.uk/cudl/dataset/v1/json",
 
-    // More for documentation purposes than anything else. The UI data will
-    // drive things like the name displayed on the website presenting the data.
-    "name": "Cambridge Digital Library Data",
+  // More for documentation purposes than anything else. The UI data will
+  // drive things like the name displayed on the website presenting the data.
+  "name": "Cambridge Digital Library Data",
 
-    "collections": [
-        { "@id": "collections/hebrew" },
-        { "@id": "collections/hebrew" }
-    ]
+  "collections": [
+    { "@id": "collections/hebrew" },
+    { "@id": "collections/hebrew" }
+  ]
 }

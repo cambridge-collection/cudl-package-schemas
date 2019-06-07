@@ -1,7 +1,7 @@
 {
-    // We should require a format/version identifier to help make evolving the
-    // format safe.
-    "@type": "https://schemas.cudl.lib.cam.ac.uk/package/v1/item.json",
+  // We should require a format/version identifier to help make evolving the
+  // format safe.
+  "@type": "https://schemas.cudl.lib.cam.ac.uk/package/v1/item.json",
 
   // First-class support for linking additional data to item (rather than just
   // referencing in an ad-hoc way with in the above "properties" section.)
@@ -47,135 +47,135 @@
     }
   ],
 
-    // Simplified form of "descriptiveMetadata" which also includes range
-    // information from "logicalStructures", avoiding the need for that.
-    // - Don't allow arbitrary nesting of objects, just one level with lists of
-    //   values.
-    // - Don't allow arbitrary objects, only "label"/"value" description objects
-    // - Identifying description sections (the first level) and descriptions
-    //   (second) with object keys (rather than say "name": "foo") is to
-    //   facilitate merging, and for a more terse syntax. It also disallows
-    //   repeated identifiers, which avoids a class of errors.
-    // - order values replace "seq" integers to specify the order to display
-    //   descriptions in. They're strings rather than integers, to allow human
-    //   editors to create a somewhat understandable ordering scheme, with named
-    //   subsections. e.g. "0.head" comes before "1.body". Also facilitates
-    //   merging, as infinite ordering space exists between each key, unlike int
-    //   values which you'd have to space apart to allow a merged desc to merge
-    //   in between two existing descs.
-    "descriptions": {
-        // I'm thinking we can have a convention that the "main" description
-        // describes the item as a whole, at least by default. We need something
-        // like this as we no longer have an explicit hierarchy to know which is
-        // the root.
-        "main": {
-            // coverage defines the range of pages the description applies to.
-            // In JSON form I'm thinking integers can refer to actual
-            // order-based page index of pages, with negative numbers counting
-            // back from the end (-1 is the final page).
-            // Strings for page references refer to page names. In the XML form
-            // we can do something like
-            //      <coverage firstPageIndex="0" lastPageIndex="-1"/>
-            //      <coverage firstPage="3r" lastPage="4v"/>
-            "coverage": { "firstPage": true, "lastPage": true },
+  // Simplified form of "descriptiveMetadata" which also includes range
+  // information from "logicalStructures", avoiding the need for that.
+  // - Don't allow arbitrary nesting of objects, just one level with lists of
+  //   values.
+  // - Don't allow arbitrary objects, only "label"/"value" description objects
+  // - Identifying description sections (the first level) and descriptions
+  //   (second) with object keys (rather than say "name": "foo") is to
+  //   facilitate merging, and for a more terse syntax. It also disallows
+  //   repeated identifiers, which avoids a class of errors.
+  // - order values replace "seq" integers to specify the order to display
+  //   descriptions in. They're strings rather than integers, to allow human
+  //   editors to create a somewhat understandable ordering scheme, with named
+  //   subsections. e.g. "0.head" comes before "1.body". Also facilitates
+  //   merging, as infinite ordering space exists between each key, unlike int
+  //   values which you'd have to space apart to allow a merged desc to merge
+  //   in between two existing descs.
+  "descriptions": {
+    // I'm thinking we can have a convention that the "main" description
+    // describes the item as a whole, at least by default. We need something
+    // like this as we no longer have an explicit hierarchy to know which is
+    // the root.
+    "main": {
+      // coverage defines the range of pages the description applies to.
+      // In JSON form I'm thinking integers can refer to actual
+      // order-based page index of pages, with negative numbers counting
+      // back from the end (-1 is the final page).
+      // Strings for page references refer to page names. In the XML form
+      // we can do something like
+      //      <coverage firstPageIndex="0" lastPageIndex="-1"/>
+      //      <coverage firstPage="3r" lastPage="4v"/>
+      "coverage": { "firstPage": true, "lastPage": true },
 
-            "attributes": {
-                "title": {
-                    // We don't need "display": true/false as the viewer knows to
-                    // handle titles/abstracts etc specially and display them out
-                    // of the normal list of attributes.
-                    "label": "Title",
-                    "value": "Book of Foo",
-                    "order": "1"
-                },
-                "formerOwners": {
-                    "label": "Former Owners",
-                    "value": [
-                        // Rather than "linktype": "keyword search" (which doesn't)
-                        // work well because it searches for the entire value, often
-                        // with dates, punctuation etc) I suggest we use a simple
-                        // URI scheme to represent search queries, page references,
-                        // etc (no more onclick="store.loadPage(blah)")
-                        "<a href='cudl:///search?keyword=Joe%20Bloggs'>Bloggs, Joe, ca. 1082-1153</a>"
-                    ],
-                    "order": "2.{label}"
-                }
-            }
+      "attributes": {
+        "title": {
+          // We don't need "display": true/false as the viewer knows to
+          // handle titles/abstracts etc specially and display them out
+          // of the normal list of attributes.
+          "label": "Title",
+          "value": "Book of Foo",
+          "order": "1"
         },
-        "3-4": {
-            "coverage": { "firstPage": "1", "lastPage": "4" },
-
-            "attributes": {
-                "title": {
-                    "label": "Title",
-                    "value": "Excerpts from the Gospel of FooBar",
-                    "order": "1"
-                }
-            }
-        },
-
-
-        "chapter1": {
-            "coverage": { "firstPage": "10", "lastPage": "35" }
-
-            // [...]
+        "formerOwners": {
+          "label": "Former Owners",
+          "value": [
+            // Rather than "linktype": "keyword search" (which doesn't)
+            // work well because it searches for the entire value, often
+            // with dates, punctuation etc) I suggest we use a simple
+            // URI scheme to represent search queries, page references,
+            // etc (no more onclick="store.loadPage(blah)")
+            "<a href='cudl:///search?keyword=Joe%20Bloggs'>Bloggs, Joe, ca. 1082-1153</a>"
+          ],
+          "order": "2.{label}"
         }
+      }
+    },
+    "3-4": {
+      "coverage": { "firstPage": "1", "lastPage": "4" },
+
+      "attributes": {
+        "title": {
+          "label": "Title",
+          "value": "Excerpts from the Gospel of FooBar",
+          "order": "1"
+        }
+      }
     },
 
-    // Simplified form of "pages"
-    // As with "descriptions" keys are used to identify pages.
-    // "order" can default to key.
-    "pages": {
-        "1": {
-            "label": "cover",
-            "resources": [
-                { "@type": "cdl-page:image", "image-type": "iiif",
-                  "image": {"@id": "https://images.lib.cam.ac.uk/iiif/fskdl"} },
-                { "@type": "cdl-page:image", "image-type": "iiif",
-                  "image": {"@id": "https://images.lib.cam.ac.uk/iiif/fskdl"} }
-            ],
-            "order": "a.cover"
-        },
-        // [...]
-        "4": {
-            "label": "2r",
-            "resources": [
-                { "@type": "cdl-page:image",
-                  "image-type": "dzi",
-                  "image": {"@id": "https://images.lib.cam.ac.uk/dzi/fskdl"} },
-                { "@type": "cdl-page:transcription",
-                  "transcription-type": "normalised",
-                  "html": {"@id": "transcriptions/diplomatic/4.xml"} },
-                { "@type": "cdl-page:transcription",
-                  "transcription-type": "diplomatic",
-                  "html": {"@id": "transcriptions/normalised.xml#4s"} }
-            ],
-            "order": "b.main.4"
-        },
 
-        "5": {
-            "label": "3r",
-            "resources": [
-              { "@type": "cdl-page:image",
-                "image-type": "iiif",
-                "image": {"@id": "https://images.lib.cam.ac.uk/iiif/fskdl"} },
-              { "@type": "cdl-page:image",
-                "image-type": "dzi",
-                "image": {"@id": "https://images.lib.cam.ac.uk/dzi/fskdl"} },
-              { "@type": "cdl-page:image",
-                "image-type": "file",
-                "image": {"@id": "~images/ms-foo-1-p5.tif"} },
-              { "@type": "cdl-page:transcription",
-                "transcription-type": "normalised",
-                "html": {"@id": "./ms-foo-1-p5.xml"} },
-              { "@type": "cdl-page:transcription",
-                "transcription-type": "diplomatic",
-                "html": {"@id": "./ms-foo-1-p5.xml"} },
-              { "@type": "cdl-page:translation",
-                "html": {"@id": "./ms-foo-1-p5.xml"} },
-              { "@type": "cudl-page:essay-content",
-                "html": {"@id": "./ms-foo-1-p5-essay.xml"} }
-            ]
-        }
+    "chapter1": {
+      "coverage": { "firstPage": "10", "lastPage": "35" }
+
+      // [...]
     }
+  },
+
+  // Simplified form of "pages"
+  // As with "descriptions" keys are used to identify pages.
+  // "order" can default to key.
+  "pages": {
+    "1": {
+      "label": "cover",
+      "resources": [
+        { "@type": "cdl-page:image", "image-type": "iiif",
+          "image": {"@id": "https://images.lib.cam.ac.uk/iiif/fskdl"} },
+        { "@type": "cdl-page:image", "image-type": "iiif",
+          "image": {"@id": "https://images.lib.cam.ac.uk/iiif/fskdl"} }
+      ],
+      "order": "a.cover"
+    },
+    // [...]
+    "4": {
+      "label": "2r",
+      "resources": [
+        { "@type": "cdl-page:image",
+          "image-type": "dzi",
+          "image": {"@id": "https://images.lib.cam.ac.uk/dzi/fskdl"} },
+        { "@type": "cdl-page:transcription",
+          "transcription-type": "normalised",
+          "html": {"@id": "transcriptions/diplomatic/4.xml"} },
+        { "@type": "cdl-page:transcription",
+          "transcription-type": "diplomatic",
+          "html": {"@id": "transcriptions/normalised.xml#4s"} }
+      ],
+      "order": "b.main.4"
+    },
+
+    "5": {
+      "label": "3r",
+      "resources": [
+        { "@type": "cdl-page:image",
+        "image-type": "iiif",
+        "image": {"@id": "https://images.lib.cam.ac.uk/iiif/fskdl"} },
+        { "@type": "cdl-page:image",
+        "image-type": "dzi",
+        "image": {"@id": "https://images.lib.cam.ac.uk/dzi/fskdl"} },
+        { "@type": "cdl-page:image",
+        "image-type": "file",
+        "image": {"@id": "~images/ms-foo-1-p5.tif"} },
+        { "@type": "cdl-page:transcription",
+        "transcription-type": "normalised",
+        "html": {"@id": "./ms-foo-1-p5.xml"} },
+        { "@type": "cdl-page:transcription",
+        "transcription-type": "diplomatic",
+        "html": {"@id": "./ms-foo-1-p5.xml"} },
+        { "@type": "cdl-page:translation",
+        "html": {"@id": "./ms-foo-1-p5.xml"} },
+        { "@type": "cudl-page:essay-content",
+        "html": {"@id": "./ms-foo-1-p5-essay.xml"} }
+      ]
+    }
+  }
 }

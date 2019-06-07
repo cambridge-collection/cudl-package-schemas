@@ -16,65 +16,65 @@
 // about the collections, they're facts about how CUDL displays the
 // collections.
 {
-    // As with items, we should have a format/version identifier
-    "type": "https://schemas.cudl.lib.cam.ac.uk/cudl/collection/v1/json",
+  // As with items, we should have a format/version identifier
+  "type": "https://schemas.cudl.lib.cam.ac.uk/cudl/collection/v1/json",
 
-    // TODO: images? Or keep them as theme-specific?
-    //  - would be nice to use IIIF images for this purpose.
+  // TODO: images? Or keep them as theme-specific?
+  //  - would be nice to use IIIF images for this purpose.
 
-    // Various forms of name for this collection. The idea is to provide various
-    // forms of name which can be used in different contexts. But the forms are
-    // general in nature. E.g. the "short" name might be used for an HTML page
-    // title, but we don't call it
-    "name": {
-        "url-slug": "rcs150",
-        // form used for ordering by name e.g. without "The"
-        "sort": "Royal Commonwealth Society 150, The",
-        "short": "The Royal Commonwealth Society 150",
-        "full": "Celebrating 150 years of the Royal Commonwealth Society (1868-2018)"
-    },
+  // Various forms of name for this collection. The idea is to provide various
+  // forms of name which can be used in different contexts. But the forms are
+  // general in nature. E.g. the "short" name might be used for an HTML page
+  // title, but we don't call it
+  "name": {
+    "url-slug": "rcs150",
+    // form used for ordering by name e.g. without "The"
+    "sort": "Royal Commonwealth Society 150, The",
+    "short": "The Royal Commonwealth Society 150",
+    "full": "Celebrating 150 years of the Royal Commonwealth Society (1868-2018)"
+  },
 
-    // Various forms of description: As with "name", the idea is to provide
-    // values that can be used in different contexts, without expecting to know
-    // ahead of time every possible usage. Possible use cases:
-    //   - short: The HTML's meta description property
-    //   - medium: The summary text on the browse collections page
-    //   - full: The long text about the collection on the collection's page
-    "description": {
-        "short": "The great treasures from the collections of Cambridge University Library",
-        "medium": "In this special collection we draw together books, manuscripts and other items of particular significance. Many of them have been displayed in Library exhibitions in the past – now they can be accessed at any time, from anywhere in the world, and browsed cover to cover.",
+  // Various forms of description: As with "name", the idea is to provide
+  // values that can be used in different contexts, without expecting to know
+  // ahead of time every possible usage. Possible use cases:
+  //   - short: The HTML's meta description property
+  //   - medium: The summary text on the browse collections page
+  //   - full: The long text about the collection on the collection's page
+  "description": {
+    "short": "The great treasures from the collections of Cambridge University Library",
+    "medium": "In this special collection we draw together books, manuscripts and other items of particular significance. Many of them have been displayed in Library exhibitions in the past – now they can be accessed at any time, from anywhere in the world, and browsed cover to cover.",
 
-        // Note: When loading, represent HTML something like:
-        // { "type": "html", "html": "<div>This is the content</div>" }
-        "full": { "@id": "./rcs150-summary.html" }
-    },
+    // Note: When loading, represent HTML something like:
+    // { "type": "html", "html": "<div>This is the content</div>" }
+    "full": { "@id": "./rcs150-summary.html" }
+  },
 
-    "credit": {
-        "parties": [
-            // I'm thinking these should be basically schema.org Person or
-            // Organisation instances.
-            { "@id": "~funders/wellcome-trust.json" },
-            { "type": "organization", "name": "Isaac Newton Trust", "url": "https://www.newtontrust.cam.ac.uk/" },
-            { "type": "person", "name": "Joe Bloggs" },
-        ],
-        // An HTML textual version of the above list of credited parties. A UI
-        // could choose to display this to users, but use the above data for
-        // more automated purposes, e.g. to allow searching for
-        // items/collections funded by some organisation.
-        "prose": { "@id": "./rcs150-funders.html" }
-    },
-
-    // References to all the items in this collection.
-    "items": [
-        { "item": { "@id": "~data/tei/MS-FOO-1" },
-          "visible": false },
-        { "@id": "~/items/ms-bar-baz.json" }
-        // [...]
+  "credit": {
+    "parties": [
+      // I'm thinking these should be basically schema.org Person or
+      // Organisation instances.
+      { "@id": "~funders/wellcome-trust.json" },
+      { "type": "organization", "name": "Isaac Newton Trust", "url": "https://www.newtontrust.cam.ac.uk/" },
+      { "type": "person", "name": "Joe Bloggs" },
     ],
+    // An HTML textual version of the above list of credited parties. A UI
+    // could choose to display this to users, but use the above data for
+    // more automated purposes, e.g. to allow searching for
+    // items/collections funded by some organisation.
+    "prose": { "@id": "./rcs150-funders.html" }
+  },
 
-    // Subcollections of this collection
-    "collections": [
-        { "@id": "~data/collections/example-sub-collection-1.json" },
-        { "@id": "~data/collections/example-sub-collection-2.json" }
-    ]
+  // References to all the items in this collection.
+  "items": [
+    { "item": { "@id": "~data/tei/MS-FOO-1" },
+      "visible": false },
+    { "@id": "~/items/ms-bar-baz.json" }
+    // [...]
+  ],
+
+  // Subcollections of this collection
+  "collections": [
+    { "@id": "~data/collections/example-sub-collection-1.json" },
+    { "@id": "~data/collections/example-sub-collection-2.json" }
+  ]
 }

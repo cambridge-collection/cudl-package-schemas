@@ -1,362 +1,362 @@
 {
-    "@type": "https://schemas.cudl.lib.cam.ac.uk/package/v1/item.json",
-    "data": [{
-        "@type": "cdl-data:properties",
-        "textDirection": "R",
-        "sourceData": "/v1/metadata/tei/MS-HEBREW-GASTER-00086/",
-        "embeddable": true,
-        "displayImageRights": "Zooming image © University of Manchester Library, All rights reserved.",
-        "metadataRights": "This metadata is licensed under a Creative Commons Attribution-NonCommercial 3.0 Unported License.",
-        "numberOfPages": 602,
-        "thumbnailUrl": "MS-HEBREW-GASTER-00086-000-00268.jp2",
-        "thumbnailOrientation": "portrait",
-        "creation-dateStart": "1495-07-02",
-        "creation-dateEnd": "1495-07-02",
-        "downloadImageRights": "Images made available for download are licensed under a Creative Commons Attribution-NonCommercial 3.0 Unported License (CC BY-NC 3.0)",
-        "linkToImageReproductionRequestPage": "http://www.manchester-image-licensing-link",
-        "languageCodes": ["heb"],
-        "acquisition-dateStart": "1954",
-        "acquisition-dateEnd": "1954",
-        "people-scribe": "Ya'aqov ben 'Ovadiah ben Yosef ben 'Ezrah"
-    }],
-    "descriptions": {
-        "main": {
-            "coverage": {
-                "firstPage": "1a",
-                "lastPage": true
-            },
-            "attributes": {
-                "extent": {
-                    "label": "Extent",
-                    "value": "293 ff. (ii+293+ii) Leaf height: 256 mm, width: 182 mm. Written height: 170-180 mm, width: 116-120 mm. Ruled height: 170 mm, width: 115 mm.",
-                    "order": "173"
-                },
-                "notes": {
-                    "label": "Note(s)",
-                    "value": "With Tiberian vocalisation and masorah parva and magna (see for example folios <a href='cudl:///itempage/view?index=69'>32a-37b</a>, <a href='cudl:///itempage/view?index=84'>39b</a>). On folio <a href='cudl:///itempage/view?index=7'>1a</a> the same main hand added a note which includes (1) the order of the prophets and writings according to Maimonides, which curiously is then not followed in the manuscript, and (2) a list of biblical accents introduced by the Persian heading (\"these are the names of the accents\"). Folio <a href='cudl:///itempage/view?index=170'>82b</a>: The unvocalised text in the box (Proverbs 12.24-13.3) represents a copying mistake, as Proverbs 11.28 precedes and Proverbs 11.29 follows.",
-                    "order": "164"
-                },
-                "formerOwners": {
-                    "label": "Former Owner(s)",
-                    "value": "<a href='cudl:///search?keyword=Moses%20Gaster'>Gaster, Moses 1856-1939</a>",
-                    "order": "130"
-                },
-                "altIdentifiers": {
-                    "label": "Alternative Identifier(s)",
-                    "value": "Gaster 86",
-                    "order": "6"
-                },
-                "bindings": {
-                    "label": "Binding",
-                    "value": "<p>Modern three-quarter brown leather binding with gold tooling on the spine reading \"HAGIOGRAPHA / SAEC. XV. / WITH / PERSIAN GLOSSAR. / COD. HEBR. / GASTER 86\".<\/p>",
-                    "order": "181"
-                },
-                "decorations": {
-                    "label": "Decoration",
-                    "value": "<div>Folio <a href='cudl:///itempage/view?index=39'>17a</a>: Marginal indication of parashah decorated in ink.<br />Folios <a href='cudl:///itempage/view?index=228'>111b</a>, <a href='cudl:///itempage/view?index=465'>230a</a>, <a href='cudl:///itempage/view?index=484'>239b</a>, <a href='cudl:///itempage/view?index=497'>246a</a>, <a href='cudl:///itempage/view?index=504'>249b</a>, <a href='cudl:///itempage/view?index=510'>252b</a>, <a href='cudl:///itempage/view?index=516'>255b</a>, <a href='cudl:///itempage/view?index=522'>258b</a>, <a href='cudl:///itempage/view?index=540'>267b</a>, <a href='cudl:///itempage/view?index=545'>270a</a>, <a href='cudl:///itempage/view?index=560'>277b</a>, <a href='cudl:///itempage/view?index=567'>281a</a>: Marginal indication of sedarim decorated in ink. <br />Folio <a href='cudl:///itempage/view?index=88'>41b</a>: Red ink geometric design.<br />Folios <a href='cudl:///itempage/view?index=183'>89a</a>, <a href='cudl:///itempage/view?index=213'>104a</a>, <a href='cudl:///itempage/view?index=220'>107b</a>, <a href='cudl:///itempage/view?index=258'>126b</a>, <a href='cudl:///itempage/view?index=393'>194a</a>: Black ink decoration that indicates the middle of the book.<br /><\/div><br />",
-                    "order": "192"
-                },
-                "acquisitionTexts": {
-                    "label": "Acquisition",
-                    "value": "Acquired by The John Rylands Library from the heirs of Moses Gaster in 1954.",
-                    "order": "200"
-                },
-                "title": {
-                    "label": "Title",
-                    "value": "Ketuvim",
-                    "order": "10"
-                },
-                "layouts": {
-                    "label": "Layout",
-                    "value": "<p>Long line of between 15 and 19 written lines. There is ruling, but it is unclear whether this was created with a mistara or by hand. Unruled marginal glosses.<\/p>",
-                    "order": "190"
-                },
-                "fundings": {
-                    "label": "Funding",
-                    "value": "",
-                    "order": "208"
-                },
-                "originPlace": {
-                    "label": "Origin Place",
-                    "value": [
-                        "<a href='cudl:///search?keyword=Kashan'>Kashan</a>",
-                        "<a href='cudl:///search?keyword=Iran'>Iran</a>"
-                    ],
-                    "order": "70"
-                },
-                "dateOfCreation": {
-                    "label": "Date of Creation",
-                    "value": "Tuesday 1 Tammuz 1806 of the Seleucid era [= 02-07-1495]",
-                    "order": "79"
-                },
-                "origins": {
-                    "label": "Origin",
-                    "value": "<p>Produced in Kashan, in modern Iran on Tuesday 1 Tammuz 1806 of the Seleucid era [= 02-07-1495].<\/p>",
-                    "order": "198"
-                },
-                "collation": {
-                    "label": "Collation",
-                    "value": "Decorated diagonal catchwords placed at the bottom left of side b of each folio.",
-                    "order": "174"
-                },
-                "scripts": {
-                    "label": "Script",
-                    "value": "<div style='list-style-type: disc;'><div style='display: list-item; margin-left: 20px;'>Persian semi-cursive script.<\/div><div style='display: list-item; margin-left: 20px;'>The Judeo-Persian glosses are in the same hand, in Persian cursive script.<\/div><\/div>",
-                    "order": "185"
-                },
-                "dataSources": {
-                    "label": "Data Source(s)",
-                    "value": "Description based on Alexander Samely's unpublished draft catalogue, revised and expanded by Stefania Silvestri and Renate Smithuis.",
-                    "order": "210"
-                },
-                "alternativeTitles": {
-                    "label": "Alternative Title(s)",
-                    "value": [
-                        "כתובים",
-                        "Writings (Hebrew Bible)"
-                    ],
-                    "order": "16"
-                },
-                "languageStrings": {
-                    "label": "Language(s)",
-                    "value": "Hebrew with marginal glosses in Hebrew and Judeo-Persian",
-                    "order": "119"
-                },
-                "physicalLocation": {
-                    "label": "Physical Location",
-                    "value": "The John Rylands Library",
-                    "order": "4"
-                },
-                "additions": {
-                    "label": "Additions",
-                    "value": "In later hands: <div style='list-style-type: disc;'><div style='display: list-item; margin-left: 20px;'>Folios <a href='cudl:///itempage/view?index=136'>65b-66a</a>: Pen trial.<\/div><div style='display: list-item; margin-left: 20px;'>Folio <a href='cudl:///itempage/view?index=145'>70a</a>: Erased addition.<\/div><div style='display: list-item; margin-left: 20px;'>Folios <a href='cudl:///itempage/view?index=253'>124a-126b</a>: Small additions in the margins.<\/div><div style='display: list-item; margin-left: 20px;'>Folios <a href='cudl:///itempage/view?index=586'>290b-293a</a>: Several texts in different hands and languages. According to Gaster they contain abstracts from Rashi\u2019s commentary to certain Psalms and folio 293a some aggadic matter referring to the kings of Judah.<\/div><div style='display: list-item; margin-left: 20px;'>Folio <a href='cudl:///itempage/view?index=592'>293b</a>: list of zodiacal signs and of planets in Hebrew and Judeo-Persian.<\/div><\/div>",
-                    "order": "194"
-                },
-                "excerpts": {
-                    "label": "Excerpts",
-                    "value": "<div><b>Colophon:<\/b> Folio <a href='cudl:///itempage/view?index=587'>291a</a>:נשלם זה ספר א\"י כתובים בעזרת שדי שוכן / בין כרובים בתלאתה בשבא דהוא יום חד / לירח תמוז בשנת אתת\"ו לשטרות במאתא / דכאשאן שבח לאל אחרון וראשון בבית מדרשו / של הרב הגדול המעוז המגדול הדיין הדרשן זרע / אברהם נין יצחק נכד יעקב מרדכי הזמן ישראל / בימיו לא אלמן אור מזרח שם אוהביו יפרח ושם / איביו ימח אור מערב שמש זרעו אל יערב הההה\"ה / הרב ר׳ הש\"ם הלוי זלה\"ה במשרת של החכם / הנבון מלא מצוה כרמון עמו בימיו לא / אלמן בזכותו יבנה בית ארמון מנה בר / מנה נזריז בתורה המהיר בהלכה הרב / המתיר כל קשה סופר מהיר בתורת משה / הרב ר׳ שמואל הלוי יש\"ל על יד הצעיר / העני עפר רגלי כל זרע ישורון <i class='delim' style='font-style:normal; color:red'>〚<\/i><i class='del' style='font-style:normal; text-decoration:line-through;' title='This text deleted'>יעקב<\/i><i class='delim' style='font-style:normal; color:red'>〛<\/i> / מתלמידיו יעקב בן החסיד עובדיה / בן הצדיק המרוחם מר' העניו יוסף / בן עזרה נעג\"א הרחמן ישים / אחריתי טוב מראשיתי לקיים / והיה ראשיתך מצער ואחריתך / ישגה מאד אוי\"ר / מאנכ\"ח<\/div>",
-                    "order": "213"
-                },
-                "shelfLocator": {
-                    "label": "Classmark",
-                    "value": "Gaster Hebrew MS 86",
-                    "order": "5"
-                },
-                "subjects": {
-                    "label": "Subject(s)",
-                    "value": [
-                        "<a href='cudl:///search?keyword=Bible.%20Old%20Testament--Versions%2C%20Jewish'>Bible. Old Testament--Versions, Jewish</a>",
-                        "<a href='cudl:///search?keyword=Astrology'>Astrology</a>",
-                        "<a href='cudl:///search?keyword=Astronomy'>Astronomy</a>",
-                        "<a href='cudl:///search?keyword=Bible%20Commentaries'>Bible Commentaries</a>"
-                    ],
-                    "order":"23"
-                },
-                "abstract": {
-                    "label": "Abstract",
-                    "value": "<p style='text-align: justify;'>This manuscript contains the third part of the Hebrew Bible known as Writings (Ketuvim) with numerous marginal glosses in Hebrew and Judeo-Persian. It was copied by Jacob ben Obadiah ben Joseph ben Ezra in the school of Rabbi Mordechai in Kashan in Iran at the request of Rav Samuel ha-Levi. He completed his copy on Tuesday 2 July 1495. The order in which the Bible books appear is as follows: Psalms (folios <a href='cudl:///itempage/view?index=8'>1b-72b</a>), Proverbs (folios <a href='cudl:///itempage/view?index=151'>73a-101b</a>), Ruth (folios <a href='cudl:///itempage/view?index=210'>102b-105b</a>), Song of Songs (folios <a href='cudl:///itempage/view?index=216'>105b-109b</a>), Ecclesiastes (folios <a href='cudl:///itempage/view?index=224'>109b-117a</a>), Lamentations (folios <a href='cudl:///itempage/view?index=240'>117b-121b</a>), Esther (folios <a href='cudl:///itempage/view?index=250'>122b-131a</a>), Daniel (folios <a href='cudl:///itempage/view?index=268'>131b-150a</a>), Ezra (folios <a href='cudl:///itempage/view?index=306'>150b-161b</a>), Nehemiah (folios <a href='cudl:///itempage/view?index=327'>161b-179a</a>), Job (folios <a href='cudl:///itempage/view?index=363'>179a-209b</a>), 1 and 2 Chronicles (folios <a href='cudl:///itempage/view?index=224'>209b-290b</a>). The biblical text is vocalised and accompanied by masorah. According to Moses Gaster, this is a unique manuscript showing the vocalisation and accentuation tradition of Ben Naphtali.<\/p>",
-                    "order": "11"
-                },
-                "bibliographies": {
-                    "label": "Bibliography",
-                    "value": "<div style='list-style-type: disc;'><div style='display: list-item; margin-left: 20px;'><a target='_blank' class='externalLink' href='http://www.worldcat.org/oclc/7907984'>Catalogue of an Exhibition of Hebrew Manuscripts and Printed Books together with Other Items of Jewish Interest, Manchester: The John Rylands Library, 1958: 10, case 2, item 6.</a><\/div><div style='display: list-item; margin-left: 20px;'><a target='_blank' class='externalLink' href='http://www.worldcat.org/oclc/18071891'>The Jewish Heritage: Catalogue of an Exhibition held in the John Rylands University Library of Manchester, January-April 1988: 5, case three, item 1.</a><\/div><div style='display: list-item; margin-left: 20px;'><a target='_blank' class='externalLink' href='http://www.worldcat.org/oclc/85069649'>M. Beit-Arié et al., Specimens of Mediaeval Hebrew Scripts, Vol. 1: Oriental and Yemenite Scripts, Jerusalem: The Israel Academy of Sciences and Humanities, 1987: no. 110.</a><\/div><div style='display: list-item; margin-left: 20px;'><a target='_blank' class='externalLink' href='http://www.worldcat.org/oclc/800855402'>M. Gaster, Studies and Texts in Folklore, Magic, Mediaeval Romance, Hebrew Apocrypha and Samaritan Archaeology with 14 Plates and 5 Illustrations, London: Maggs Bros, 1925-1928, vol. II: 1295-1329, esp. 1322-1329.</a><\/div><\/div><br />",
-                    "order": "214"
-                },
-                "foliation": {
-                    "label": "Foliation",
-                    "value": "<p><p>Modern pencil foliation in Arabic numerals at the top outer corner of side a of each folio.<\/p><\/p>",
-                    "order": "189"
-                },
-                "form": {
-                    "label": "Format",
-                    "value": "Codex",
-                    "order": "178"
-                },
-                "material": {
-                    "label": "Material",
-                    "value": "Paper",
-                    "order": "177"
-                },
-                "conditions": {
-                    "label": "Condition",
-                    "value": "<p>The codex was conserved (possibly at the beginning of the 20th century); reinforcing strips of paper were added both in the gutter and at the outer edges of several folios. The remaining folios have irregular edges. Folio <a href='cudl:///itempage/view?index=381'>188</a> is torn at the bottom, with some text loss.<\/p>",
-                    "order": "179"
-                },
-                "provenances": {
-                    "label": "Provenance",
-                    "value": "<div>Folio <a href='cudl:///itempage/view?index=7'></a>1a: Several ownership marks in Hebrew, mentioning such names as Judah, Isaac, Ezra.<br />Folios <a href='cudl:///itempage/view?index=7'>1a</a>, <a href='cudl:///itempage/view?index=586'>290b</a> and <a href='cudl:///itempage/view?index=587'>291a</a>: Owner's stamp in Hebrew.<br /><\/div><br />",
-                    "order": "196"
-                },
-                "scribes": {
-                    "label": "Scribe(s)",
-                    "value": "<a href='cudl:///search?keyword=Ya%27aqov%20ben%20%27Ovadiah%20ben%20Yosef%20ben%20%27Ezrah'>Ya'aqov ben 'Ovadiah ben Yosef ben 'Ezrah</a>",
-                    "order": "47"
-                },
-                "acquisitions": {
-                    "label": "Date of Acquisition",
-                    "value": "1954",
-                    "order": "202"
-                }
-            }
+  "@type": "https://schemas.cudl.lib.cam.ac.uk/package/v1/item.json",
+  "data": [{
+    "@type": "cdl-data:properties",
+    "textDirection": "R",
+    "sourceData": "/v1/metadata/tei/MS-HEBREW-GASTER-00086/",
+    "embeddable": true,
+    "displayImageRights": "Zooming image © University of Manchester Library, All rights reserved.",
+    "metadataRights": "This metadata is licensed under a Creative Commons Attribution-NonCommercial 3.0 Unported License.",
+    "numberOfPages": 602,
+    "thumbnailUrl": "MS-HEBREW-GASTER-00086-000-00268.jp2",
+    "thumbnailOrientation": "portrait",
+    "creation-dateStart": "1495-07-02",
+    "creation-dateEnd": "1495-07-02",
+    "downloadImageRights": "Images made available for download are licensed under a Creative Commons Attribution-NonCommercial 3.0 Unported License (CC BY-NC 3.0)",
+    "linkToImageReproductionRequestPage": "http://www.manchester-image-licensing-link",
+    "languageCodes": ["heb"],
+    "acquisition-dateStart": "1954",
+    "acquisition-dateEnd": "1954",
+    "people-scribe": "Ya'aqov ben 'Ovadiah ben Yosef ben 'Ezrah"
+  }],
+  "descriptions": {
+    "main": {
+      "coverage": {
+        "firstPage": "1a",
+        "lastPage": true
+      },
+      "attributes": {
+        "extent": {
+          "label": "Extent",
+          "value": "293 ff. (ii+293+ii) Leaf height: 256 mm, width: 182 mm. Written height: 170-180 mm, width: 116-120 mm. Ruled height: 170 mm, width: 115 mm.",
+          "order": "173"
         },
-        "Folio 17a: Marginal indication of parashah decorated in ink": {
-            "coverage": {
-                "firstPage": "17a",
-                "lastPage": true
-            },
-            "attributes": {
-                "title": {
-                    "label": "Title",
-                    "value": "Folio 17a: Marginal indication of parashah decorated in ink.",
-                    "order": "1"
-                }
-            }
+        "notes": {
+          "label": "Note(s)",
+          "value": "With Tiberian vocalisation and masorah parva and magna (see for example folios <a href='cudl:///itempage/view?index=69'>32a-37b</a>, <a href='cudl:///itempage/view?index=84'>39b</a>). On folio <a href='cudl:///itempage/view?index=7'>1a</a> the same main hand added a note which includes (1) the order of the prophets and writings according to Maimonides, which curiously is then not followed in the manuscript, and (2) a list of biblical accents introduced by the Persian heading (\"these are the names of the accents\"). Folio <a href='cudl:///itempage/view?index=170'>82b</a>: The unvocalised text in the box (Proverbs 12.24-13.3) represents a copying mistake, as Proverbs 11.28 precedes and Proverbs 11.29 follows.",
+          "order": "164"
         },
-        "Folios 111b, 230a, 239b, 246a, 249b, 252b, 255b, 258b, 267b, 270a, 277b, 281a: Marginal indication of sedarim decorated in ink.": {
-            "coverage": {
-                "firstPage": "111b",
-                "lastPage": true
-            },
-            "attributes": {
-                "title": {
-                    "label": "Title",
-                    "value": "Folios 111b, 230a, 239b, 246a, 249b, 252b, 255b, 258b, 267b, 270a, 277b, 281a: Marginal indication of sedarim decorated in ink.",
-                    "order": "1"
-                }
-            }
+        "formerOwners": {
+          "label": "Former Owner(s)",
+          "value": "<a href='cudl:///search?keyword=Moses%20Gaster'>Gaster, Moses 1856-1939</a>",
+          "order": "130"
         },
-        "Folio 41b: Red ink geometric design.": {
-            "coverage": {
-                "firstPage": "41b",
-                "lastPage": true
-            },
-            "attributes": {
-                "title": {
-                    "label": "Title",
-                    "value": "Folio 41b: Red ink geometric design.",
-                    "order": "1"
-                }
-            }
+        "altIdentifiers": {
+          "label": "Alternative Identifier(s)",
+          "value": "Gaster 86",
+          "order": "6"
         },
-        "Folios 89a, 104a, 107b, 126b, 194a: Black ink decoration that indicates the middle of the book.": {
-            "coverage": {
-                "firstPage": "89a",
-                "lastPage": true
-            },
-            "attributes": {
-                "title": {
-                    "label": "Title",
-                    "value": "Folios 89a, 104a, 107b, 126b, 194a: Black ink decoration that indicates the middle of the book.",
-                    "order": "1"
-                }
-            }
+        "bindings": {
+          "label": "Binding",
+          "value": "<p>Modern three-quarter brown leather binding with gold tooling on the spine reading \"HAGIOGRAPHA / SAEC. XV. / WITH / PERSIAN GLOSSAR. / COD. HEBR. / GASTER 86\".<\/p>",
+          "order": "181"
         },
-        "Folios 65b-66a: Pen trial.": {
-            "coverage": {
-                "firstPage": "65b",
-                "lastPage": true
-            },
-            "attributes": {
-                "title": {
-                    "label": "Title",
-                    "value": "Folios 65b-66a: Pen trial.",
-                    "order": "1"
-                }
-            }
+        "decorations": {
+          "label": "Decoration",
+          "value": "<div>Folio <a href='cudl:///itempage/view?index=39'>17a</a>: Marginal indication of parashah decorated in ink.<br />Folios <a href='cudl:///itempage/view?index=228'>111b</a>, <a href='cudl:///itempage/view?index=465'>230a</a>, <a href='cudl:///itempage/view?index=484'>239b</a>, <a href='cudl:///itempage/view?index=497'>246a</a>, <a href='cudl:///itempage/view?index=504'>249b</a>, <a href='cudl:///itempage/view?index=510'>252b</a>, <a href='cudl:///itempage/view?index=516'>255b</a>, <a href='cudl:///itempage/view?index=522'>258b</a>, <a href='cudl:///itempage/view?index=540'>267b</a>, <a href='cudl:///itempage/view?index=545'>270a</a>, <a href='cudl:///itempage/view?index=560'>277b</a>, <a href='cudl:///itempage/view?index=567'>281a</a>: Marginal indication of sedarim decorated in ink. <br />Folio <a href='cudl:///itempage/view?index=88'>41b</a>: Red ink geometric design.<br />Folios <a href='cudl:///itempage/view?index=183'>89a</a>, <a href='cudl:///itempage/view?index=213'>104a</a>, <a href='cudl:///itempage/view?index=220'>107b</a>, <a href='cudl:///itempage/view?index=258'>126b</a>, <a href='cudl:///itempage/view?index=393'>194a</a>: Black ink decoration that indicates the middle of the book.<br /><\/div><br />",
+          "order": "192"
         },
-        "Folios 124a-126b: Small additions in the margins.": {
-            "coverage": {
-                "firstPage": "124a",
-                "lastPage": true
-            },
-            "attributes": {
-                "title": {
-                    "label": "Title",
-                    "value": "Folios 124a-126b: Small additions in the margins.",
-                    "order": "1"
-                }
-            }
+        "acquisitionTexts": {
+          "label": "Acquisition",
+          "value": "Acquired by The John Rylands Library from the heirs of Moses Gaster in 1954.",
+          "order": "200"
         },
-        "Folios 290b-293a: Several texts in different hands and languages. According to Gaster they contain abstracts from Rashi\u2019s commentary to certain Psalms and folio 293a some aggadic matter referring to the kings of Judah.": {
-            "coverage": {
-                "firstPage": "290b",
-                "lastPage": true
-            },
-            "attributes": {
-                "title": {
-                    "label": "Title",
-                    "value": "Folios 290b-293a: Several texts in different hands and languages. According to Gaster they contain abstracts from Rashi\u2019s commentary to certain Psalms and folio 293a some aggadic matter referring to the kings of Judah.",
-                    "order": "1"
-                }
-            }
+        "title": {
+          "label": "Title",
+          "value": "Ketuvim",
+          "order": "10"
         },
-        "Folio 293b: list of zodiacal signs and of planets in Hebrew and Judeo-Persian.": {
-            "coverage": {
-                "firstPage": "293b",
-                "lastPage": true
-            },
-            "attributes": {
-                "title": {
-                    "label": "Title",
-                    "value": "Folio 293b: list of zodiacal signs and of planets in Hebrew and Judeo-Persian.",
-                    "order": "1"
-                }
-            }
+        "layouts": {
+          "label": "Layout",
+          "value": "<p>Long line of between 15 and 19 written lines. There is ruling, but it is unclear whether this was created with a mistara or by hand. Unruled marginal glosses.<\/p>",
+          "order": "190"
         },
-        "Folio 1a": {
-            "coverage": {
-                "firstPage": "1a",
-                "lastPage": true
-            },
-            "attributes": {
-                "title": {
-                    "label": "Title",
-                    "value": "Folio 1a: Several ownership marks in Hebrew, mentioning such names as Judah, Isaac, Ezra.",
-                    "order": "1"
-                }
-            }
+        "fundings": {
+          "label": "Funding",
+          "value": "",
+          "order": "208"
         },
-        "Folios 1a, 290b and 291a": {
-            "coverage": {
-                "firstPage": "1a",
-                "lastPage": true
-            },
-            "attributes": {
-                "title": {
-                    "label": "Title",
-                    "value": "Folios 1a, 290b and 291a: Owner's stamp in Hebrew.",
-                    "order": "1"
-                }
-            }
+        "originPlace": {
+          "label": "Origin Place",
+          "value": [
+            "<a href='cudl:///search?keyword=Kashan'>Kashan</a>",
+            "<a href='cudl:///search?keyword=Iran'>Iran</a>"
+          ],
+          "order": "70"
+        },
+        "dateOfCreation": {
+          "label": "Date of Creation",
+          "value": "Tuesday 1 Tammuz 1806 of the Seleucid era [= 02-07-1495]",
+          "order": "79"
+        },
+        "origins": {
+          "label": "Origin",
+          "value": "<p>Produced in Kashan, in modern Iran on Tuesday 1 Tammuz 1806 of the Seleucid era [= 02-07-1495].<\/p>",
+          "order": "198"
+        },
+        "collation": {
+          "label": "Collation",
+          "value": "Decorated diagonal catchwords placed at the bottom left of side b of each folio.",
+          "order": "174"
+        },
+        "scripts": {
+          "label": "Script",
+          "value": "<div style='list-style-type: disc;'><div style='display: list-item; margin-left: 20px;'>Persian semi-cursive script.<\/div><div style='display: list-item; margin-left: 20px;'>The Judeo-Persian glosses are in the same hand, in Persian cursive script.<\/div><\/div>",
+          "order": "185"
+        },
+        "dataSources": {
+          "label": "Data Source(s)",
+          "value": "Description based on Alexander Samely's unpublished draft catalogue, revised and expanded by Stefania Silvestri and Renate Smithuis.",
+          "order": "210"
+        },
+        "alternativeTitles": {
+          "label": "Alternative Title(s)",
+          "value": [
+            "כתובים",
+            "Writings (Hebrew Bible)"
+          ],
+          "order": "16"
+        },
+        "languageStrings": {
+          "label": "Language(s)",
+          "value": "Hebrew with marginal glosses in Hebrew and Judeo-Persian",
+          "order": "119"
+        },
+        "physicalLocation": {
+          "label": "Physical Location",
+          "value": "The John Rylands Library",
+          "order": "4"
+        },
+        "additions": {
+          "label": "Additions",
+          "value": "In later hands: <div style='list-style-type: disc;'><div style='display: list-item; margin-left: 20px;'>Folios <a href='cudl:///itempage/view?index=136'>65b-66a</a>: Pen trial.<\/div><div style='display: list-item; margin-left: 20px;'>Folio <a href='cudl:///itempage/view?index=145'>70a</a>: Erased addition.<\/div><div style='display: list-item; margin-left: 20px;'>Folios <a href='cudl:///itempage/view?index=253'>124a-126b</a>: Small additions in the margins.<\/div><div style='display: list-item; margin-left: 20px;'>Folios <a href='cudl:///itempage/view?index=586'>290b-293a</a>: Several texts in different hands and languages. According to Gaster they contain abstracts from Rashi\u2019s commentary to certain Psalms and folio 293a some aggadic matter referring to the kings of Judah.<\/div><div style='display: list-item; margin-left: 20px;'>Folio <a href='cudl:///itempage/view?index=592'>293b</a>: list of zodiacal signs and of planets in Hebrew and Judeo-Persian.<\/div><\/div>",
+          "order": "194"
+        },
+        "excerpts": {
+          "label": "Excerpts",
+          "value": "<div><b>Colophon:<\/b> Folio <a href='cudl:///itempage/view?index=587'>291a</a>:נשלם זה ספר א\"י כתובים בעזרת שדי שוכן / בין כרובים בתלאתה בשבא דהוא יום חד / לירח תמוז בשנת אתת\"ו לשטרות במאתא / דכאשאן שבח לאל אחרון וראשון בבית מדרשו / של הרב הגדול המעוז המגדול הדיין הדרשן זרע / אברהם נין יצחק נכד יעקב מרדכי הזמן ישראל / בימיו לא אלמן אור מזרח שם אוהביו יפרח ושם / איביו ימח אור מערב שמש זרעו אל יערב הההה\"ה / הרב ר׳ הש\"ם הלוי זלה\"ה במשרת של החכם / הנבון מלא מצוה כרמון עמו בימיו לא / אלמן בזכותו יבנה בית ארמון מנה בר / מנה נזריז בתורה המהיר בהלכה הרב / המתיר כל קשה סופר מהיר בתורת משה / הרב ר׳ שמואל הלוי יש\"ל על יד הצעיר / העני עפר רגלי כל זרע ישורון <i class='delim' style='font-style:normal; color:red'>〚<\/i><i class='del' style='font-style:normal; text-decoration:line-through;' title='This text deleted'>יעקב<\/i><i class='delim' style='font-style:normal; color:red'>〛<\/i> / מתלמידיו יעקב בן החסיד עובדיה / בן הצדיק המרוחם מר' העניו יוסף / בן עזרה נעג\"א הרחמן ישים / אחריתי טוב מראשיתי לקיים / והיה ראשיתך מצער ואחריתך / ישגה מאד אוי\"ר / מאנכ\"ח<\/div>",
+          "order": "213"
+        },
+        "shelfLocator": {
+          "label": "Classmark",
+          "value": "Gaster Hebrew MS 86",
+          "order": "5"
+        },
+        "subjects": {
+          "label": "Subject(s)",
+          "value": [
+            "<a href='cudl:///search?keyword=Bible.%20Old%20Testament--Versions%2C%20Jewish'>Bible. Old Testament--Versions, Jewish</a>",
+            "<a href='cudl:///search?keyword=Astrology'>Astrology</a>",
+            "<a href='cudl:///search?keyword=Astronomy'>Astronomy</a>",
+            "<a href='cudl:///search?keyword=Bible%20Commentaries'>Bible Commentaries</a>"
+          ],
+          "order":"23"
+        },
+        "abstract": {
+          "label": "Abstract",
+          "value": "<p style='text-align: justify;'>This manuscript contains the third part of the Hebrew Bible known as Writings (Ketuvim) with numerous marginal glosses in Hebrew and Judeo-Persian. It was copied by Jacob ben Obadiah ben Joseph ben Ezra in the school of Rabbi Mordechai in Kashan in Iran at the request of Rav Samuel ha-Levi. He completed his copy on Tuesday 2 July 1495. The order in which the Bible books appear is as follows: Psalms (folios <a href='cudl:///itempage/view?index=8'>1b-72b</a>), Proverbs (folios <a href='cudl:///itempage/view?index=151'>73a-101b</a>), Ruth (folios <a href='cudl:///itempage/view?index=210'>102b-105b</a>), Song of Songs (folios <a href='cudl:///itempage/view?index=216'>105b-109b</a>), Ecclesiastes (folios <a href='cudl:///itempage/view?index=224'>109b-117a</a>), Lamentations (folios <a href='cudl:///itempage/view?index=240'>117b-121b</a>), Esther (folios <a href='cudl:///itempage/view?index=250'>122b-131a</a>), Daniel (folios <a href='cudl:///itempage/view?index=268'>131b-150a</a>), Ezra (folios <a href='cudl:///itempage/view?index=306'>150b-161b</a>), Nehemiah (folios <a href='cudl:///itempage/view?index=327'>161b-179a</a>), Job (folios <a href='cudl:///itempage/view?index=363'>179a-209b</a>), 1 and 2 Chronicles (folios <a href='cudl:///itempage/view?index=224'>209b-290b</a>). The biblical text is vocalised and accompanied by masorah. According to Moses Gaster, this is a unique manuscript showing the vocalisation and accentuation tradition of Ben Naphtali.<\/p>",
+          "order": "11"
+        },
+        "bibliographies": {
+          "label": "Bibliography",
+          "value": "<div style='list-style-type: disc;'><div style='display: list-item; margin-left: 20px;'><a target='_blank' class='externalLink' href='http://www.worldcat.org/oclc/7907984'>Catalogue of an Exhibition of Hebrew Manuscripts and Printed Books together with Other Items of Jewish Interest, Manchester: The John Rylands Library, 1958: 10, case 2, item 6.</a><\/div><div style='display: list-item; margin-left: 20px;'><a target='_blank' class='externalLink' href='http://www.worldcat.org/oclc/18071891'>The Jewish Heritage: Catalogue of an Exhibition held in the John Rylands University Library of Manchester, January-April 1988: 5, case three, item 1.</a><\/div><div style='display: list-item; margin-left: 20px;'><a target='_blank' class='externalLink' href='http://www.worldcat.org/oclc/85069649'>M. Beit-Arié et al., Specimens of Mediaeval Hebrew Scripts, Vol. 1: Oriental and Yemenite Scripts, Jerusalem: The Israel Academy of Sciences and Humanities, 1987: no. 110.</a><\/div><div style='display: list-item; margin-left: 20px;'><a target='_blank' class='externalLink' href='http://www.worldcat.org/oclc/800855402'>M. Gaster, Studies and Texts in Folklore, Magic, Mediaeval Romance, Hebrew Apocrypha and Samaritan Archaeology with 14 Plates and 5 Illustrations, London: Maggs Bros, 1925-1928, vol. II: 1295-1329, esp. 1322-1329.</a><\/div><\/div><br />",
+          "order": "214"
+        },
+        "foliation": {
+          "label": "Foliation",
+          "value": "<p><p>Modern pencil foliation in Arabic numerals at the top outer corner of side a of each folio.<\/p><\/p>",
+          "order": "189"
+        },
+        "form": {
+          "label": "Format",
+          "value": "Codex",
+          "order": "178"
+        },
+        "material": {
+          "label": "Material",
+          "value": "Paper",
+          "order": "177"
+        },
+        "conditions": {
+          "label": "Condition",
+          "value": "<p>The codex was conserved (possibly at the beginning of the 20th century); reinforcing strips of paper were added both in the gutter and at the outer edges of several folios. The remaining folios have irregular edges. Folio <a href='cudl:///itempage/view?index=381'>188</a> is torn at the bottom, with some text loss.<\/p>",
+          "order": "179"
+        },
+        "provenances": {
+          "label": "Provenance",
+          "value": "<div>Folio <a href='cudl:///itempage/view?index=7'></a>1a: Several ownership marks in Hebrew, mentioning such names as Judah, Isaac, Ezra.<br />Folios <a href='cudl:///itempage/view?index=7'>1a</a>, <a href='cudl:///itempage/view?index=586'>290b</a> and <a href='cudl:///itempage/view?index=587'>291a</a>: Owner's stamp in Hebrew.<br /><\/div><br />",
+          "order": "196"
+        },
+        "scribes": {
+          "label": "Scribe(s)",
+          "value": "<a href='cudl:///search?keyword=Ya%27aqov%20ben%20%27Ovadiah%20ben%20Yosef%20ben%20%27Ezrah'>Ya'aqov ben 'Ovadiah ben Yosef ben 'Ezrah</a>",
+          "order": "47"
+        },
+        "acquisitions": {
+          "label": "Date of Acquisition",
+          "value": "1954",
+          "order": "202"
         }
+      }
     },
-    "pages": {
-        "1": {
-            "label": "Front board",
-            "resources": [
-                { "@type": "cdl-page:image",
-                  "image-type": "iiif",
-                  "image": {"@id": "https://images.example.manchester.ac.uk/iiif/MS-HEBREW-GASTER-00086-000-00268"} }
-            ],
-            "order": "1"
-        },
-        "2": {
-            "label": "Front paste-down",
-            "resources": [
-                { "@type": "cdl-page:image",
-                  "image-type": "file",
-                  "image": {"@id": "images/MS-HEBREW-GASTER-00086-000-00269.jp2"} }
-            ],
-            "order": "2"
-        },
-        "3": {
-            "label": "ia",
-            "resources": [
-                { "@type": "cdl-page:image",
-                  "image-type": "file",
-                  "image": {"@id": "images/MS-HEBREW-GASTER-00086-000-00270.jp2"} }
-            ],
-            "order": "3"
+    "Folio 17a: Marginal indication of parashah decorated in ink": {
+      "coverage": {
+        "firstPage": "17a",
+        "lastPage": true
+      },
+      "attributes": {
+        "title": {
+          "label": "Title",
+          "value": "Folio 17a: Marginal indication of parashah decorated in ink.",
+          "order": "1"
         }
+      }
+    },
+    "Folios 111b, 230a, 239b, 246a, 249b, 252b, 255b, 258b, 267b, 270a, 277b, 281a: Marginal indication of sedarim decorated in ink.": {
+      "coverage": {
+        "firstPage": "111b",
+        "lastPage": true
+      },
+      "attributes": {
+        "title": {
+          "label": "Title",
+          "value": "Folios 111b, 230a, 239b, 246a, 249b, 252b, 255b, 258b, 267b, 270a, 277b, 281a: Marginal indication of sedarim decorated in ink.",
+          "order": "1"
+        }
+      }
+    },
+    "Folio 41b: Red ink geometric design.": {
+      "coverage": {
+        "firstPage": "41b",
+        "lastPage": true
+      },
+      "attributes": {
+        "title": {
+          "label": "Title",
+          "value": "Folio 41b: Red ink geometric design.",
+          "order": "1"
+        }
+      }
+    },
+    "Folios 89a, 104a, 107b, 126b, 194a: Black ink decoration that indicates the middle of the book.": {
+      "coverage": {
+        "firstPage": "89a",
+        "lastPage": true
+      },
+      "attributes": {
+        "title": {
+          "label": "Title",
+          "value": "Folios 89a, 104a, 107b, 126b, 194a: Black ink decoration that indicates the middle of the book.",
+          "order": "1"
+        }
+      }
+    },
+    "Folios 65b-66a: Pen trial.": {
+      "coverage": {
+        "firstPage": "65b",
+        "lastPage": true
+      },
+      "attributes": {
+        "title": {
+          "label": "Title",
+          "value": "Folios 65b-66a: Pen trial.",
+          "order": "1"
+        }
+      }
+    },
+    "Folios 124a-126b: Small additions in the margins.": {
+      "coverage": {
+        "firstPage": "124a",
+        "lastPage": true
+      },
+      "attributes": {
+        "title": {
+          "label": "Title",
+          "value": "Folios 124a-126b: Small additions in the margins.",
+          "order": "1"
+        }
+      }
+    },
+    "Folios 290b-293a: Several texts in different hands and languages. According to Gaster they contain abstracts from Rashi\u2019s commentary to certain Psalms and folio 293a some aggadic matter referring to the kings of Judah.": {
+      "coverage": {
+        "firstPage": "290b",
+        "lastPage": true
+      },
+      "attributes": {
+        "title": {
+          "label": "Title",
+          "value": "Folios 290b-293a: Several texts in different hands and languages. According to Gaster they contain abstracts from Rashi\u2019s commentary to certain Psalms and folio 293a some aggadic matter referring to the kings of Judah.",
+          "order": "1"
+        }
+      }
+    },
+    "Folio 293b: list of zodiacal signs and of planets in Hebrew and Judeo-Persian.": {
+      "coverage": {
+        "firstPage": "293b",
+        "lastPage": true
+      },
+      "attributes": {
+        "title": {
+          "label": "Title",
+          "value": "Folio 293b: list of zodiacal signs and of planets in Hebrew and Judeo-Persian.",
+          "order": "1"
+        }
+      }
+    },
+    "Folio 1a": {
+      "coverage": {
+        "firstPage": "1a",
+        "lastPage": true
+      },
+      "attributes": {
+        "title": {
+          "label": "Title",
+          "value": "Folio 1a: Several ownership marks in Hebrew, mentioning such names as Judah, Isaac, Ezra.",
+          "order": "1"
+        }
+      }
+    },
+    "Folios 1a, 290b and 291a": {
+      "coverage": {
+        "firstPage": "1a",
+        "lastPage": true
+      },
+      "attributes": {
+        "title": {
+          "label": "Title",
+          "value": "Folios 1a, 290b and 291a: Owner's stamp in Hebrew.",
+          "order": "1"
+        }
+      }
     }
+  },
+  "pages": {
+    "1": {
+      "label": "Front board",
+      "resources": [
+        { "@type": "cdl-page:image",
+          "image-type": "iiif",
+          "image": {"@id": "https://images.example.manchester.ac.uk/iiif/MS-HEBREW-GASTER-00086-000-00268"} }
+      ],
+      "order": "1"
+    },
+    "2": {
+      "label": "Front paste-down",
+      "resources": [
+        { "@type": "cdl-page:image",
+          "image-type": "file",
+          "image": {"@id": "images/MS-HEBREW-GASTER-00086-000-00269.jp2"} }
+      ],
+      "order": "2"
+    },
+    "3": {
+      "label": "ia",
+      "resources": [
+        { "@type": "cdl-page:image",
+          "image-type": "file",
+          "image": {"@id": "images/MS-HEBREW-GASTER-00086-000-00270.jp2"} }
+      ],
+      "order": "3"
+    }
+  }
 }
