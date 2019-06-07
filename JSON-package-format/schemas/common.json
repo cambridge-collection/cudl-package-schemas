@@ -65,6 +65,33 @@
         }
       },
       "required": []
+    },
+
+    "namespace": {
+      "description": "Object keys are CURIE prefixes, values are URI base values which are (later) concatenated with the part of the CURIE following the colon.",
+      "type": "object",
+      "patternProperties": {
+        "^[a-zA-Z_][a-zA-Z_0-9.-]*$": {
+          "type": "string",
+          "format": "uri-reference"
+        }
+      },
+      "additionalProperties": false
+    },
+
+    "namespaceBearer": {
+      "description": "Definitions for short URI prefixes which can be used in @type, @role properties, etc. The value is either the namespace directly, or the URL of an external namespace document.",
+      "$comment": "Note that this is very much like JSONLD @context. This is intentional, with the aim of keeping close to JSONLD to facilitate using it instead of this later. I didn't use @context to avoid looking too much like JSONLD.",
+      "type": "object",
+      "properties": {
+        "@namespace": {
+          "oneOf": [
+            {"type": "string", "format": "uri-reference"},
+            {"$ref": "#/definitions/namespace"}
+          ]
+        }
+      },
+      "required": []
     }
   }
 }

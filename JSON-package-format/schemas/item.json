@@ -257,8 +257,11 @@
   "description": "This contains the information to describe an item (book, manuscript, etc) in the digital library.",
   "type": "object",
 
+  "allOf": [{"$ref": "common.json#/definitions/namespaceBearer"}],
+
   "properties": {
     "@type": { "const": "https://schemas.cudl.lib.cam.ac.uk/package/v1/item.json" },
+    "@namespace": true,
 
     "data": {
       "description": "An extensible set of arbitrary typed data associated with the item.",

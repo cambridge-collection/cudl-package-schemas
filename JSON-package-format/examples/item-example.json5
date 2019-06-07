@@ -3,6 +3,11 @@
   // format safe.
   "@type": "https://schemas.cudl.lib.cam.ac.uk/package/v1/item.json",
 
+  "@namespace": {
+    "cudl-role": "https://schemas.cudl.lib.cam.ac.uk/package/v1/cudl-item.json#data-role-",
+    "cudl-page": "https://schemas.cudl.lib.cam.ac.uk/package/v1/cudl-item.json#/definitions/pageResources/",
+  },
+
   // First-class support for linking additional data to item (rather than just
   // referencing in an ad-hoc way with in the above "properties" section.)
   // Additional data related to the item.
