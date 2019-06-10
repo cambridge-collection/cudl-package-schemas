@@ -48,7 +48,7 @@
             "type": "object",
             "properties": {
               "@type": {"$ref": "#/definitions/data/types/properties"},
-              "@role": {"default": ["cdl:item-properties"]}
+              "@role": {"default": ["cdl-role:item-properties"]}
             },
             "additionalProperties": {"$ref": "#/definitions/propertyValue"}
           }
