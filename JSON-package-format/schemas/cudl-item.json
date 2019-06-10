@@ -153,10 +153,25 @@
       }
     },
 
+    "permittedPageResourceType": {
+      "type": "object",
+      "properties": {
+        "@type": {"oneOf": [
+          {"$ref": "item.json#/definitions/pageResources/types/image"},
+          {"$ref": "item.json#/definitions/pageResources/types/transcription"},
+          {"$ref": "item.json#/definitions/pageResources/types/translation"},
+          {"$ref": "#/definitions/pageResources/types/essay-content"}
+        ]}
+      }
+    },
+
     "cudlPage": {
       "properties": {
         "resources": {
-          "items": {"$ref": "#/definitions/pageResources/optional/essay-content"}
+          "items": {"allOf": [
+            {"$ref": "#/definitions/permittedPageResourceType"},
+            {"$ref": "#/definitions/pageResources/optional/essay-content"}
+          ]}
         }
       }
     },
@@ -175,7 +190,6 @@
         },
 
         "pages": {
-          "description": "Pages is a list of objects that represent each page in the item.",
           "additionalProperties": {"$ref": "#/definitions/cudlPage"}
         }
       },

@@ -100,6 +100,25 @@
       }
     },
 
+    "permittedPageResourceType": {
+      "type": "object",
+      "properties": {
+        "@type": {"oneOf": [
+          {"$ref": "item.json#/definitions/pageResources/types/image"},
+          {"$ref": "item.json#/definitions/pageResources/types/transcription"},
+          {"$ref": "item.json#/definitions/pageResources/types/translation"}
+        ]}
+      }
+    },
+
+    "mudlPage": {
+      "properties": {
+        "resources": {
+          "items": {"$ref": "#/definitions/permittedPageResourceType"}
+        }
+      }
+    },
+
     "mudlItemConstraints": {
       "properties": {
         "data": {
@@ -111,6 +130,10 @@
           "additionalProperties": {
             "$ref": "#/definitions/mudlDescriptionSection"
           }
+        },
+
+        "pages": {
+          "additionalProperties": {"$ref": "#/definitions/mudlPage"}
         }
       }
     }

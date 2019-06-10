@@ -1,0 +1,9 @@
+{
+  base: "../valid/example.json5",
+  patch: [
+    {op: "add", path: "/pages/1/resources/-", "value": {
+      "@type": "foo:bar"
+    }}
+  ],
+  "expectedErrors": "'foo:bar' is not valid under any of the given schemas"
+}
