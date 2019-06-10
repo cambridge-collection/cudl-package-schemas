@@ -208,10 +208,10 @@
         "description": "A reference to an image. 3 types of references are expected. 1. iiif: image is the URL of the image on a IIIF image server. 2. dzi: image is the URL of a .dzi metadata file describing an image pyramid. 3. file: image is the URL of a file containing the entire image (e.g. a TIFF, JP2, etc).",
         "properties": {
           "@type": {"$ref": "#/definitions/pageResources/types/image"},
-          "image-type": {"type": "string"},
+          "imageType": {"type": "string"},
           "image": {"$ref": "common.json#/definitions/moduleReference"}
         },
-        "required": ["@type", "image-type", "image"],
+        "required": ["@type", "imageType", "image"],
         "additionalProperties": false
       },
 
@@ -220,13 +220,13 @@
         "description": "A reference to a transcription of a page, in HTML format. ",
         "properties": {
           "@type": {"$ref": "#/definitions/pageResources/types/transcription"},
-          "transcription-type": {
+          "transcriptionType": {
             "description": "The type of the transcription, e.g. \"diplomatic\" or \"normalised\"",
             "type": "string"
           },
           "html": {"$ref": "common.json#/definitions/moduleReference"}
         },
-        "required": ["@type", "transcription-type", "html"],
+        "required": ["@type", "transcriptionType", "html"],
         "additionalProperties": false
       },
 

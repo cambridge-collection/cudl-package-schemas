@@ -1,7 +1,7 @@
 {
   base: "../valid/item-example.json5",
   patch: [
-    {op:  "remove", path: "/pages/1/resources/0/image-type"}
+    {op:  "remove", path: "/pages/1/resources/0/imageType"}
   ],
-  expectedErrors: "'image-type' is a required property"
+  expectedErrors: "'imageType' is a required property"
 }

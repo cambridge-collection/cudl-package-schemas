@@ -134,9 +134,9 @@
     "1": {
       "label": "cover",
       "resources": [
-        { "@type": "cdl-page:image", "image-type": "iiif",
+        { "@type": "cdl-page:image", "imageType": "iiif",
           "image": {"@id": "https://images.lib.cam.ac.uk/iiif/fskdl"} },
-        { "@type": "cdl-page:image", "image-type": "iiif",
+        { "@type": "cdl-page:image", "imageType": "iiif",
           "image": {"@id": "https://images.lib.cam.ac.uk/iiif/fskdl"} }
       ],
       "order": "a.cover"
@@ -146,13 +146,13 @@
       "label": "2r",
       "resources": [
         { "@type": "cdl-page:image",
-          "image-type": "dzi",
+          "imageType": "dzi",
           "image": {"@id": "https://images.lib.cam.ac.uk/dzi/fskdl"} },
         { "@type": "cdl-page:transcription",
-          "transcription-type": "normalised",
+          "transcriptionType": "normalised",
           "html": {"@id": "transcriptions/diplomatic/4.xml"} },
         { "@type": "cdl-page:transcription",
-          "transcription-type": "diplomatic",
+          "transcriptionType": "diplomatic",
           "html": {"@id": "transcriptions/normalised.xml#4s"} }
       ],
       "order": "b.main.4"
@@ -162,19 +162,19 @@
       "label": "3r",
       "resources": [
         { "@type": "cdl-page:image",
-        "image-type": "iiif",
+        "imageType": "iiif",
         "image": {"@id": "https://images.lib.cam.ac.uk/iiif/fskdl"} },
         { "@type": "cdl-page:image",
-        "image-type": "dzi",
+        "imageType": "dzi",
         "image": {"@id": "https://images.lib.cam.ac.uk/dzi/fskdl"} },
         { "@type": "cdl-page:image",
-        "image-type": "file",
+        "imageType": "file",
         "image": {"@id": "~images/ms-foo-1-p5.tif"} },
         { "@type": "cdl-page:transcription",
-        "transcription-type": "normalised",
+        "transcriptionType": "normalised",
         "html": {"@id": "./ms-foo-1-p5.xml"} },
         { "@type": "cdl-page:transcription",
-        "transcription-type": "diplomatic",
+        "transcriptionType": "diplomatic",
         "html": {"@id": "./ms-foo-1-p5.xml"} },
         { "@type": "cdl-page:translation",
         "html": {"@id": "./ms-foo-1-p5.xml"} },
