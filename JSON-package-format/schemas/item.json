@@ -23,6 +23,14 @@
         "properties": {"enum": ["cdl-data:properties", "https://schemas.cudl.lib.cam.ac.uk/package/v1/item.json#/definitions/data/properties"]}
       },
 
+      "roles": {
+        "$strict:isNamespace": true,
+
+        "itemProperties": {
+          "enum": ["cdl-role:item-properties", "https://schemas.cudl.lib.cam.ac.uk/package/v1/item.json#data-role-item-properties"]
+        }
+      },
+
       "link": {
         "allOf": [
           {"$ref": "common.json#/definitions/typeBearer"},
